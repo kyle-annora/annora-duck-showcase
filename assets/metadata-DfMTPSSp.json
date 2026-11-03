@@ -1,0 +1,4463 @@
+{
+  "schemaVersion": 1,
+  "root": {
+    "id": "dropbear-arm",
+    "title": "Dropbear left arm",
+    "description": "The source left-arm shoulder subtree and its internal tendon relationships."
+  },
+  "source": {
+    "author": "Pointblank LLC / Hyperspawn; display adaptation by Annora",
+    "url": "https://github.com/Hyperspawn/dropbear_urdf",
+    "license": "MIT",
+    "attribution": "Dropbear · Pointblank LLC / Hyperspawn · MIT. Display adaptation and illustrative motion: Annora, 2026.",
+    "description": "The source left-arm shoulder subtree and its internal tendon relationships.",
+    "note": "Source joint frames and component identity retained. Simplified display geometry, curated finishes and illustrative separation. Only a rigid whole-arm swivel is animated; internal closed-linkage joints remain fixed. Not a solved linkage, walking simulation or manufacturing release.",
+    "file": "model.glb",
+    "preserved": [
+      "geometry",
+      "source hierarchy",
+      "materials",
+      "pivots",
+      "authored animation channels"
+    ],
+    "sha256": "0935ee426eb2bb198d50ca008a8478fcd7548b4f3f7290ccd6e86ef2c682b9c1"
+  },
+  "bounds": [
+    [
+      -0.11092999999999999,
+      6.661338147750939e-16,
+      -0.21783454578667982
+    ],
+    [
+      0.02739120895385743,
+      0.6209015199748414,
+      -0.07852402256675299
+    ]
+  ],
+  "orientation": {
+    "up": "+Y",
+    "sourceUnits": "unverified",
+    "defaultDirection": [
+      1,
+      0.5,
+      1.5
+    ]
+  },
+  "groups": [
+    {
+      "id": "dropbear-arm-shoulder",
+      "title": "Shoulder drive",
+      "description": "Source yaw rotor and shoulder interfaces; the complete arm turns as one rigid subtree.",
+      "meshNames": [
+        "Db_torso-rmd-x10-1-rotor-1_1",
+        "Db_lh-shoulder-roll-al-mot-mir1-1-1_1",
+        "Db_lh-shoulder-roll-al-mot-mir1-2-1_1",
+        "Db_lh-yaw-cap-1_1",
+        "Db_lh-yaw-waist-adapter-motor-exal-mir1-1_1",
+        "Db_lh-front-bearing-adapter-shoulder-1_1",
+        "Db_lh-shoulder-ex-al-interface-2-1_1",
+        "Db_lh-shoulder-motor-bicep-rotor-bracket-1_1",
+        "Db_lh-bicep-shoulder-bracket-exal-1-1_1",
+        "Db_lh-bicep-shoulder-bracket-exal-2-1_1",
+        "Db_lh-yaw-waist-adapter-motor-exal-mir1-5-1_1",
+        "Db_lh-bicep-shoulder-bracket-exal-1_1",
+        "Db_lh-shoulder-front-1_1",
+        "Db_lh-bicep-shoulder-bracket-exal-3-1_1",
+        "Db_lh-shoulder-cap-1_1",
+        "Db_lh-shoulder-front-bearing-adapter-1_1",
+        "Db_lh-shoulder-ex-al-interface-1-1_1",
+        "Db_lh-shoulder-ex-al-interface-1_1",
+        "Db_lh-shoulder-roll-al-mot-mir1-3-1_1",
+        "Db_lh-shoulder-roll-al-mot-mir1-1_1"
+      ],
+      "children": [
+        {
+          "id": "dropbear-arm-shoulder-main",
+          "title": "Structure & drives",
+          "description": "Source structural and drive components.",
+          "meshNames": [
+            "Db_torso-rmd-x10-1-rotor-1_1",
+            "Db_lh-shoulder-roll-al-mot-mir1-1-1_1",
+            "Db_lh-shoulder-roll-al-mot-mir1-2-1_1",
+            "Db_lh-yaw-cap-1_1",
+            "Db_lh-yaw-waist-adapter-motor-exal-mir1-1_1",
+            "Db_lh-shoulder-ex-al-interface-2-1_1",
+            "Db_lh-shoulder-motor-bicep-rotor-bracket-1_1",
+            "Db_lh-bicep-shoulder-bracket-exal-1-1_1",
+            "Db_lh-bicep-shoulder-bracket-exal-2-1_1",
+            "Db_lh-yaw-waist-adapter-motor-exal-mir1-5-1_1",
+            "Db_lh-bicep-shoulder-bracket-exal-1_1",
+            "Db_lh-shoulder-front-1_1",
+            "Db_lh-bicep-shoulder-bracket-exal-3-1_1",
+            "Db_lh-shoulder-cap-1_1",
+            "Db_lh-shoulder-ex-al-interface-1-1_1",
+            "Db_lh-shoulder-ex-al-interface-1_1",
+            "Db_lh-shoulder-roll-al-mot-mir1-3-1_1",
+            "Db_lh-shoulder-roll-al-mot-mir1-1_1"
+          ]
+        },
+        {
+          "id": "dropbear-arm-shoulder-hardware",
+          "title": "Connections",
+          "description": "Source bearings, pins and fastening components.",
+          "meshNames": [
+            "Db_lh-front-bearing-adapter-shoulder-1_1",
+            "Db_lh-shoulder-front-bearing-adapter-1_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dropbear-arm-structure",
+      "title": "Arm structure",
+      "description": "Source extrusions, brackets and motor supports.",
+      "meshNames": [
+        "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1_surface2",
+        "Db_lh-bicep-rear-motor-adapter-1_1",
+        "Db_lh-2020-100mm-8-1-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1_surface2",
+        "Db_lh-bicep-rotational-cuff-second-motor-bracket-1_1",
+        "Db_lh-arm-cuff-bicep-bracket-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1_surface2",
+        "Db_lh-power-mount-arm-1_1",
+        "Db_lh-power-mount-arm-1_1_surface2",
+        "Db_lh-fan-mount-1_1",
+        "Db_lh-fan-mount-1_1_surface2",
+        "Db_lh-bicep-motor-mate-1_1",
+        "Db_lh-bicep-1_1",
+        "Db_lh-second-forearm-motor-strap-1_1",
+        "Db_lh-second-forearm-motor-strap-1_1_surface2",
+        "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1_surface2",
+        "Db_lh-fore-arm-bicep-motor-attatch-1_1",
+        "Db_lh-2020-100mm-10-1_1",
+        "Db_lh-top-bracket-servo-strap-1_1",
+        "Db_lh-top-bracket-servo-strap-1_1_surface2",
+        "Db_lh-mg995-1_1",
+        "Db_lh-mg995-1_1_surface2",
+        "Db_lh-mg995-4-1_1",
+        "Db_lh-mg995-4-1_1_surface2",
+        "Db_lh-mg995-3-1_1",
+        "Db_lh-mg995-3-1_1_surface2",
+        "Db_lh-mg995-5-1_1",
+        "Db_lh-mg995-5-1_1_surface2",
+        "Db_lh-2020-100mm-11-1_1",
+        "Db_lh-top-bracket-servo-strap-1-1_1",
+        "Db_lh-top-bracket-servo-strap-1-1_1_surface2",
+        "Db_lh-mg995-2-1_1",
+        "Db_lh-mg995-2-1_1_surface2",
+        "Db_lh-mg995-6-1_1",
+        "Db_lh-mg995-6-1_1_surface2",
+        "Db_lh-mg995-1-1_1",
+        "Db_lh-mg995-1-1_1_surface2",
+        "Db_lh-mg995-7-1_1",
+        "Db_lh-mg995-7-1_1_surface2",
+        "Db_lh-multiplex-stack-flat-1_1",
+        "Db_lh-multiplex-stack-flat-1_1_surface2",
+        "Db_lh-2020-100mm-9-1_1"
+      ],
+      "children": [
+        {
+          "id": "dropbear-arm-structure-main",
+          "title": "Structure & drives",
+          "description": "Source structural and drive components.",
+          "meshNames": [
+            "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1_surface2",
+            "Db_lh-bicep-rear-motor-adapter-1_1",
+            "Db_lh-2020-100mm-8-1-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1_surface2",
+            "Db_lh-bicep-rotational-cuff-second-motor-bracket-1_1",
+            "Db_lh-arm-cuff-bicep-bracket-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1_surface2",
+            "Db_lh-power-mount-arm-1_1",
+            "Db_lh-power-mount-arm-1_1_surface2",
+            "Db_lh-fan-mount-1_1",
+            "Db_lh-fan-mount-1_1_surface2",
+            "Db_lh-bicep-motor-mate-1_1",
+            "Db_lh-bicep-1_1",
+            "Db_lh-second-forearm-motor-strap-1_1",
+            "Db_lh-second-forearm-motor-strap-1_1_surface2",
+            "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1_surface2",
+            "Db_lh-fore-arm-bicep-motor-attatch-1_1",
+            "Db_lh-2020-100mm-10-1_1",
+            "Db_lh-top-bracket-servo-strap-1_1",
+            "Db_lh-top-bracket-servo-strap-1_1_surface2",
+            "Db_lh-mg995-1_1",
+            "Db_lh-mg995-1_1_surface2",
+            "Db_lh-mg995-4-1_1",
+            "Db_lh-mg995-4-1_1_surface2",
+            "Db_lh-mg995-3-1_1",
+            "Db_lh-mg995-3-1_1_surface2",
+            "Db_lh-mg995-5-1_1",
+            "Db_lh-mg995-5-1_1_surface2",
+            "Db_lh-2020-100mm-11-1_1",
+            "Db_lh-top-bracket-servo-strap-1-1_1",
+            "Db_lh-top-bracket-servo-strap-1-1_1_surface2",
+            "Db_lh-mg995-2-1_1",
+            "Db_lh-mg995-2-1_1_surface2",
+            "Db_lh-mg995-6-1_1",
+            "Db_lh-mg995-6-1_1_surface2",
+            "Db_lh-mg995-1-1_1",
+            "Db_lh-mg995-1-1_1_surface2",
+            "Db_lh-mg995-7-1_1",
+            "Db_lh-mg995-7-1_1_surface2",
+            "Db_lh-multiplex-stack-flat-1_1",
+            "Db_lh-multiplex-stack-flat-1_1_surface2",
+            "Db_lh-2020-100mm-9-1_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dropbear-arm-linkages",
+      "title": "Tendons & bearings",
+      "description": "Source elbow and tendon chains. Their internal transforms stay fixed during the swivel.",
+      "meshNames": [
+        "Db_lh-skateboard-bearing-7-1_1",
+        "Db_lh-elbow-hangar-1_1",
+        "Db_lh-elbow-hangar1-1_1",
+        "Db_lh-6mm-bearing-1_1",
+        "Db_lh-6mm-bearing-9-1_1",
+        "Db_lh-straight-tendon-1_1",
+        "Db_lh-6mm-bearing-1-1_1",
+        "Db_lh-6mm-bearing-5-1_1",
+        "Db_lh-6mm-bearing-2-1_1",
+        "Db_lh-elbow-bridge-rear-1-1_1",
+        "Db_lh-6mm-bearing-6-1_1",
+        "Db_lh-elbow-rear-hanger-1-1_1",
+        "Db_lh-elbow-rear-hanger-1_1",
+        "Db_lh-6mm-bearing-7-1_1",
+        "Db_lh-6mm-bearing-4-1_1",
+        "Db_lh-forearm-elbow-motor-bracket-inner2-1_1",
+        "Db_lh-6mm-bearing-3-1_1",
+        "Db_lh-elbow-bridge-rear-1_1",
+        "Db_lh-forearm-elbow-motor-bracket-inner-1_1",
+        "Db_lh-6mm-bearing-8-1_1"
+      ],
+      "children": [
+        {
+          "id": "dropbear-arm-linkages-main",
+          "title": "Structure & drives",
+          "description": "Source structural and drive components.",
+          "meshNames": [
+            "Db_lh-elbow-hangar-1_1",
+            "Db_lh-elbow-hangar1-1_1",
+            "Db_lh-straight-tendon-1_1",
+            "Db_lh-elbow-bridge-rear-1-1_1",
+            "Db_lh-elbow-rear-hanger-1-1_1",
+            "Db_lh-elbow-rear-hanger-1_1",
+            "Db_lh-forearm-elbow-motor-bracket-inner2-1_1",
+            "Db_lh-elbow-bridge-rear-1_1",
+            "Db_lh-forearm-elbow-motor-bracket-inner-1_1"
+          ]
+        },
+        {
+          "id": "dropbear-arm-linkages-hardware",
+          "title": "Connections",
+          "description": "Source bearings, pins and fastening components.",
+          "meshNames": [
+            "Db_lh-skateboard-bearing-7-1_1",
+            "Db_lh-6mm-bearing-1_1",
+            "Db_lh-6mm-bearing-9-1_1",
+            "Db_lh-6mm-bearing-1-1_1",
+            "Db_lh-6mm-bearing-5-1_1",
+            "Db_lh-6mm-bearing-2-1_1",
+            "Db_lh-6mm-bearing-6-1_1",
+            "Db_lh-6mm-bearing-7-1_1",
+            "Db_lh-6mm-bearing-4-1_1",
+            "Db_lh-6mm-bearing-3-1_1",
+            "Db_lh-6mm-bearing-8-1_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "db-torso-rmd-x10-1-rotor-1-1",
+      "meshName": "Db_torso-rmd-x10-1-rotor-1_1",
+      "sourceName": "Db_torso-rmd-x10-1-rotor-1_1",
+      "sourceNodeIndex": 2,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_torso-rmd-x10-1-rotor-1_1",
+      "title": "RMD X10  1 Rotor",
+      "description": "RMD X10  1 Rotor. Source link torso_RMD-X10__1_Rotor_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03488575983047483,
+        0.5719454970041733,
+        -0.09338284487853658
+      ],
+      "bounds": [
+        [
+          -0.059476337432861306,
+          0.5473643214874353,
+          -0.10824166719032018
+        ],
+        [
+          -0.010295182228088359,
+          0.5965266725209112,
+          -0.07852402256675299
+        ]
+      ],
+      "triangles": 1600,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.02828460128250121,
+        0.11913445672978801,
+        0.04706380297021669
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06265079798700307,
+          0.5441878919446996,
+          -0.1082416677404942
+        ],
+        [
+          -0.007106194353947295,
+          0.5997164922085797,
+          -0.07852402201425972
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-roll-al-mot-mir1-1-1-1",
+      "meshName": "Db_lh-shoulder-roll-al-mot-mir1-1-1_1",
+      "sourceName": "Db_lh-shoulder-roll-al-mot-mir1-1-1_1",
+      "sourceNodeIndex": 3,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-roll-al-mot-mir1-1-1_1",
+      "title": "Shoulder Roll Al Mot MIR1",
+      "description": "Shoulder Roll Al Mot MIR1. Source link LH_shoulder-roll-al-mot_MIR1__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.05081583111762998,
+        0.5720059061111958,
+        -0.12027327463186777
+      ],
+      "bounds": [
+        [
+          -0.06053267639160154,
+          0.5522902299810164,
+          -0.13576661186325112
+        ],
+        [
+          -0.041098985843658425,
+          0.5917215822413753,
+          -0.10477993740048443
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.042940266866683945,
+        0.11916707764758017,
+        0.023669129084818556
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06302811676219884,
+          0.5489188479180204,
+          -0.13576661244719185
+        ],
+        [
+          -0.03829577081220337,
+          0.5917215822413755,
+          -0.10477993740048432
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-roll-al-mot-mir1-2-1-1",
+      "meshName": "Db_lh-shoulder-roll-al-mot-mir1-2-1_1",
+      "sourceName": "Db_lh-shoulder-roll-al-mot-mir1-2-1_1",
+      "sourceNodeIndex": 4,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-roll-al-mot-mir1-2-1_1",
+      "title": "Shoulder Roll Al Mot MIR1",
+      "description": "Shoulder Roll Al Mot MIR1. Source link LH_shoulder-roll-al-mot_MIR1__2__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.019044168882369976,
+        0.5719956674637349,
+        -0.12027327463364115
+      ],
+      "bounds": [
+        [
+          -0.028761014156341535,
+          0.5522799913335554,
+          -0.13576661186502448
+        ],
+        [
+          -0.00932732360839842,
+          0.5917113435939143,
+          -0.10477993740225781
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.013710337610244743,
+        0.11916154877795124,
+        0.023669129083275696
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0315642291877966,
+          0.5522799913335554,
+          -0.1357666118650246
+        ],
+        [
+          -0.0068318832378011195,
+          0.5950827256569106,
+          -0.10477993681831706
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-yaw-cap-1-1",
+      "meshName": "Db_lh-yaw-cap-1_1",
+      "sourceName": "Db_lh-yaw-cap-1_1",
+      "sourceNodeIndex": 5,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-yaw-cap-1_1",
+      "title": "Yaw Cap",
+      "description": "Yaw Cap. Source link LH_yaw-cap_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.034919387035369856,
+        0.5720002302644804,
+        -0.19429292986051308
+      ],
+      "bounds": [
+        [
+          -0.04506959407806395,
+          0.5519681593904409,
+          -0.21493407331429992
+        ],
+        [
+          -0.024769179992675763,
+          0.5920323011385201,
+          -0.17365178640672624
+        ]
+      ],
+      "triangles": 400,
+      "sourceMaterial": "coatedWhite",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.028315538311004633,
+        0.11916401269035384,
+        -0.04072797096410288
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0477587618926146,
+          0.5507519568902184,
+          -0.21493407352495258
+        ],
+        [
+          -0.022080060272774364,
+          0.593251468798712,
+          -0.17365178619556
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-yaw-waist-adapter-motor-exal-mir1-1-1",
+      "meshName": "Db_lh-yaw-waist-adapter-motor-exal-mir1-1_1",
+      "sourceName": "Db_lh-yaw-waist-adapter-motor-exal-mir1-1_1",
+      "sourceNodeIndex": 6,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-yaw-waist-adapter-motor-exal-mir1-1_1",
+      "title": "Yaw Waist Adapter Motor Exal MIR1",
+      "description": "Yaw Waist Adapter Motor Exal MIR1. Source link LH_yaw-waist-adapter-motor-exal_MIR1_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.029932069473266584,
+        0.572000792764203,
+        -0.1547799808705469
+      ],
+      "bounds": [
+        [
+          -0.044934138946533184,
+          0.5464123323654668,
+          -0.17378169237962432
+        ],
+        [
+          -0.014929999999999981,
+          0.5975892531629392,
+          -0.13577826936146947
+        ]
+      ],
+      "triangles": 1600,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.023727206153869623,
+        0.11916431644020403,
+        -0.006351705342832298
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0483980042245112,
+          0.5452690504336167,
+          -0.1737816925776468
+        ],
+        [
+          -0.01156341374595134,
+          0.6001236900498919,
+          -0.13577826892249184
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-front-bearing-adapter-shoulder-1-1",
+      "meshName": "Db_lh-front-bearing-adapter-shoulder-1_1",
+      "sourceName": "Db_lh-front-bearing-adapter-shoulder-1_1",
+      "sourceNodeIndex": 7,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-front-bearing-adapter-shoulder-1_1",
+      "title": "Front Bearing Adapter Shoulder",
+      "description": "Front Bearing Adapter Shoulder. Source link LH_front-bearing-adapter-shoulder_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.004929946594238262,
+        0.5720071432814756,
+        -0.15477997896209833
+      ],
+      "bounds": [
+        [
+          -0.014929999999999981,
+          0.546425033400308,
+          -0.17377998339304945
+        ],
+        [
+          0.005070106811523457,
+          0.5975892531626432,
+          -0.1357799745311472
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        -0.000725253105163564,
+        0.11916774571953126,
+        -0.006351703682482047
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.018685863469524364,
+          0.5464250334003082,
+          -0.17377998339304956
+        ],
+        [
+          0.008240285776019846,
+          0.6029071668851173,
+          -0.13577997361005717
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-ex-al-interface-2-1-1",
+      "meshName": "Db_lh-shoulder-ex-al-interface-2-1_1",
+      "sourceName": "Db_lh-shoulder-ex-al-interface-2-1_1",
+      "sourceNodeIndex": 8,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-ex-al-interface-2-1_1",
+      "title": "Shoulder Ex Al Interface",
+      "description": "Shoulder Ex Al Interface. Source link LH_shoulder-ex-al-interface__2__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.053429999999999984,
+        0.5720077221617856,
+        -0.15477997896199808
+      ],
+      "bounds": [
+        [
+          -0.061929999999999985,
+          0.5464261491992582,
+          -0.1737799833928562
+        ],
+        [
+          -0.044929999999999984,
+          0.5975892951243131,
+          -0.13577997453113994
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04534530223846435,
+        0.11916805831489866,
+        -0.006351703682394802
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06522846858127596,
+          0.5429173661582639,
+          -0.17377998400059552
+        ],
+        [
+          -0.04127337876587378,
+          0.5975892951243135,
+          -0.1357799745311398
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-1-1-1",
+      "meshName": "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1",
+      "sourceName": "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1",
+      "sourceNodeIndex": 9,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-rmd-x8-pro-mir8-mir1-1-1_1",
+      "title": "RMD X8 Pro MIR8 MIR1",
+      "description": "RMD X8 Pro MIR8 MIR1. Source link LH_RMD-X8-Pro_MIR8_MIR1__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.0866943880844116,
+        0.5720385182254044,
+        -0.1548526866097097
+      ],
+      "bounds": [
+        [
+          -0.11092999999999999,
+          0.5231755164759673,
+          -0.2039798928154909
+        ],
+        [
+          -0.06245877616882323,
+          0.6209015199748414,
+          -0.10572548040392847
+        ]
+      ],
+      "triangles": 1454,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0763309931564331,
+        0.14125738944851104,
+        -0.0002921096371811733
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11699603782998039,
+          0.5130735250963613,
+          -0.20397989456520776
+        ],
+        [
+          -0.05539570423127859,
+          0.620901519974842,
+          -0.10572548040392821
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-1-1-1-surface2",
+      "meshName": "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1_surface2",
+      "sourceName": "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1_surface2",
+      "sourceNodeIndex": 10,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-rmd-x8-pro-mir8-mir1-1-1_1_surface2",
+      "title": "RMD X8 Pro MIR8 MIR1 · surface 2",
+      "description": "RMD X8 Pro MIR8 MIR1 · surface 2. Source link LH_RMD-X8-Pro_MIR8_MIR1__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.08734927719116209,
+        0.5720385182766774,
+        -0.15514871140905662
+      ],
+      "bounds": [
+        [
+          -0.11092999999999999,
+          0.523175516631954,
+          -0.20367135247125262
+        ],
+        [
+          -0.0637685543823242,
+          0.6209015199214007,
+          -0.10662607034686059
+        ]
+      ],
+      "triangles": 119,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0763309931564331,
+        0.14125738944851104,
+        -0.0002921096371811733
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11699603782998039,
+          0.5130735252523481,
+          -0.2036713542209695
+        ],
+        [
+          -0.05669273577438351,
+          0.6209015199214013,
+          -0.10662607034686032
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-motor-bicep-rotor-bracket-1-1",
+      "meshName": "Db_lh-shoulder-motor-bicep-rotor-bracket-1_1",
+      "sourceName": "Db_lh-shoulder-motor-bicep-rotor-bracket-1_1",
+      "sourceNodeIndex": 11,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-motor-bicep-rotor-bracket-1_1",
+      "title": "Shoulder Motor Bicep Rotor Bracket",
+      "description": "Shoulder Motor Bicep Rotor Bracket. Source link LH_shoulder-motor-bicep-rotor-bracket_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.10493,
+        0.5200114314185283,
+        -0.1571894165645176
+      ],
+      "bounds": [
+        [
+          -0.11042999999999999,
+          0.4960007874500733,
+          -0.1902799921267856
+        ],
+        [
+          -0.09942999999999999,
+          0.5440220753869833,
+          -0.1240988410022496
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.09272530223846437,
+        0.09109006131353972,
+        -0.00844791439658681
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.11042999999999999,
+          0.48623284522185634,
+          -0.1902799938186437
+        ],
+        [
+          -0.08822513500316831,
+          0.5440220753869838,
+          -0.12409884100224976
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-bicep-rear-motor-adapter-1-1",
+      "meshName": "Db_lh-bicep-rear-motor-adapter-1_1",
+      "sourceName": "Db_lh-bicep-rear-motor-adapter-1_1",
+      "sourceNodeIndex": 12,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-bicep-rear-motor-adapter-1_1",
+      "title": "Bicep Rear Motor Adapter",
+      "description": "Bicep Rear Motor Adapter. Source link LH_bicep-rear-motor-adapter_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.07668,
+        0.5070007951890751,
+        -0.16877999022152976
+      ],
+      "bounds": [
+        [
+          -0.09942999999999999,
+          0.4920007915517682,
+          -0.189779992819606
+        ],
+        [
+          -0.05392999999999999,
+          0.5220007988263821,
+          -0.1477799876234535
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.06711775611877442,
+        0.10613701900889325,
+        -0.012408863779464657
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.09942999999999999,
+          0.48380268112872593,
+          -0.18977999423956127
+        ],
+        [
+          -0.04261124544172585,
+          0.5220007988263826,
+          -0.1477799876234538
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-bicep-shoulder-bracket-exal-1-1-1",
+      "meshName": "Db_lh-bicep-shoulder-bracket-exal-1-1_1",
+      "sourceName": "Db_lh-bicep-shoulder-bracket-exal-1-1_1",
+      "sourceNodeIndex": 13,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-bicep-shoulder-bracket-exal-1-1_1",
+      "title": "Bicep Shoulder Bracket Exal",
+      "description": "Bicep Shoulder Bracket Exal. Source link LH_bicep-shoulder-bracket-exal__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.06942999999999999,
+        0.5020007978737542,
+        -0.18427999108755505
+      ],
+      "bounds": [
+        [
+          -0.08492999999999999,
+          0.4820007969211264,
+          -0.18977999455165703
+        ],
+        [
+          -0.05392999999999999,
+          0.522000798826382,
+          -0.17877998762345304
+        ]
+      ],
+      "triangles": 1356,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.06006530223846436,
+        0.08136431919936168,
+        -0.03201671423162939
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08492999999999999,
+          0.4759180157303706,
+          -0.18977999560522657
+        ],
+        [
+          -0.04121951445661044,
+          0.5220007988263824,
+          -0.17877998762345332
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-bicep-shoulder-bracket-exal-2-1-1",
+      "meshName": "Db_lh-bicep-shoulder-bracket-exal-2-1_1",
+      "sourceName": "Db_lh-bicep-shoulder-bracket-exal-2-1_1",
+      "sourceNodeIndex": 14,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-bicep-shoulder-bracket-exal-2-1_1",
+      "title": "Bicep Shoulder Bracket Exal",
+      "description": "Bicep Shoulder Bracket Exal. Source link LH_bicep-shoulder-bracket-exal__2__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.06942999999999999,
+        0.5020007925043961,
+        -0.15327999108755555
+      ],
+      "bounds": [
+        [
+          -0.08492999999999999,
+          0.48200079155176834,
+          -0.15877999455165753
+        ],
+        [
+          -0.05392999999999999,
+          0.5220007934570239,
+          -0.14777998762345357
+        ]
+      ],
+      "triangles": 1356,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.06006530223846436,
+        0.08136431629990831,
+        -0.005046714231629828
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08492999999999999,
+          0.4759180103610123,
+          -0.15877999560522704
+        ],
+        [
+          -0.04121951445661047,
+          0.5220007934570242,
+          -0.14777998762345382
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-2020-100mm-8-1-1-1",
+      "meshName": "Db_lh-2020-100mm-8-1-1_1",
+      "sourceName": "Db_lh-2020-100mm-8-1-1_1",
+      "sourceNodeIndex": 15,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-2020-100mm-8-1-1_1",
+      "title": "2020 100mm  8 ",
+      "description": "2020 100mm  8 . Source link LH_2020_100mm__8___1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03493,
+        0.49200079518907536,
+        -0.16877999281960632
+      ],
+      "bounds": [
+        [
+          -0.08493,
+          0.48200079345702446,
+          -0.17877999455165722
+        ],
+        [
+          0.015070000000000007,
+          0.5020007969211262,
+          -0.15877999108755542
+        ]
+      ],
+      "triangles": 2562,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.02870775611877443,
+        0.09803701900889335,
+        -0.012408866039791265
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08493,
+          0.4759180122662685,
+          -0.17877999560522673
+        ],
+        [
+          0.027108982346693816,
+          0.5096406869737863,
+          -0.15877998976428806
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-yaw-waist-adapter-motor-exal-mir1-5-1-1",
+      "meshName": "Db_lh-yaw-waist-adapter-motor-exal-mir1-5-1_1",
+      "sourceName": "Db_lh-yaw-waist-adapter-motor-exal-mir1-5-1_1",
+      "sourceNodeIndex": 16,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-yaw-waist-adapter-motor-exal-mir1-5-1_1",
+      "title": "Yaw Waist Adapter Motor Exal MIR1",
+      "description": "Yaw Waist Adapter Motor Exal MIR1. Source link LH_yaw-waist-adapter-motor-exal_MIR1__5__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03493,
+        0.4969987238084597,
+        -0.16877999004659097
+      ],
+      "bounds": [
+        [
+          -0.05393170516967774,
+          0.48199664799579334,
+          -0.19436844975256984
+        ],
+        [
+          -0.01592829483032227,
+          0.5120007996211261,
+          -0.1431915303406121
+        ]
+      ],
+      "triangles": 1600,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028325302238464366,
+        0.07866319920410267,
+        -0.018531713325990642
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05393170516967774,
+          0.48022803586221124,
+          -0.1943684500589033
+        ],
+        [
+          -0.003587062675310476,
+          0.5152292416298072,
+          -0.14319152978142996
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-bicep-shoulder-bracket-exal-1-1",
+      "meshName": "Db_lh-bicep-shoulder-bracket-exal-1_1",
+      "sourceName": "Db_lh-bicep-shoulder-bracket-exal-1_1",
+      "sourceNodeIndex": 17,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-bicep-shoulder-bracket-exal-1_1",
+      "title": "Bicep Shoulder Bracket Exal",
+      "description": "Bicep Shoulder Bracket Exal. Source link LH_bicep-shoulder-bracket-exal_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.00043000000000000156,
+        0.5020007925043961,
+        -0.15327999108755552
+      ],
+      "bounds": [
+        [
+          -0.015930000000000003,
+          0.48200079155176834,
+          -0.1587799945516575
+        ],
+        [
+          0.01507,
+          0.5220007934570239,
+          -0.1477799876234535
+        ]
+      ],
+      "triangles": 1356,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.0034146977615356344,
+        0.08136431629990831,
+        -0.00504671423162978
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.015930000000000003,
+          0.48200079155176856,
+          -0.15877999455165798
+        ],
+        [
+          0.02710898234669381,
+          0.5294460449019458,
+          -0.14777998633389838
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-front-1-1",
+      "meshName": "Db_lh-shoulder-front-1_1",
+      "sourceName": "Db_lh-shoulder-front-1_1",
+      "sourceNodeIndex": 18,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-front-1_1",
+      "title": "Shoulder Front",
+      "description": "Shoulder Front. Source link LH_shoulder-front_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.00043000000000000156,
+        0.5195007951890749,
+        -0.16877998805646596
+      ],
+      "bounds": [
+        [
+          -0.015930000000000003,
+          0.502000791551768,
+          -0.18977999108755494
+        ],
+        [
+          0.01507,
+          0.5370007988263819,
+          -0.14777998502537698
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.0034146977615356344,
+        0.09081431774963485,
+        -0.018531711594581887
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.015930000000000003,
+          0.5020007915517682,
+          -0.18977999108755533
+        ],
+        [
+          0.02432552037646305,
+          0.5443000713155006,
+          -0.14777998376110602
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-bicep-shoulder-bracket-exal-3-1-1",
+      "meshName": "Db_lh-bicep-shoulder-bracket-exal-3-1_1",
+      "sourceName": "Db_lh-bicep-shoulder-bracket-exal-3-1_1",
+      "sourceNodeIndex": 19,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-bicep-shoulder-bracket-exal-3-1_1",
+      "title": "Bicep Shoulder Bracket Exal",
+      "description": "Bicep Shoulder Bracket Exal. Source link LH_bicep-shoulder-bracket-exal__3__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.00043000000000000156,
+        0.5020007978737543,
+        -0.18427999108755502
+      ],
+      "bounds": [
+        [
+          -0.015930000000000003,
+          0.4820007969211265,
+          -0.189779994551657
+        ],
+        [
+          0.01507,
+          0.5220007988263821,
+          -0.17877998762345304
+        ]
+      ],
+      "triangles": 1356,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.0034146977615356344,
+        0.08136431919936174,
+        -0.03201671423162937
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.015930000000000003,
+          0.48200079692112696,
+          -0.18977999455165748
+        ],
+        [
+          0.027108982346693823,
+          0.5294460502713043,
+          -0.1787799863338979
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-cap-1-1",
+      "meshName": "Db_lh-shoulder-cap-1_1",
+      "sourceName": "Db_lh-shoulder-cap-1_1",
+      "sourceNodeIndex": 20,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-cap-1_1",
+      "title": "Shoulder Cap",
+      "description": "Shoulder Cap. Source link LH_shoulder-cap_1; display finish and separated positions are illustrative.",
+      "center": [
+        0.01856997329711914,
+        0.5645006687866277,
+        -0.15478047712657683
+      ],
+      "bounds": [
+        [
+          0.012069946594238282,
+          0.522000786702197,
+          -0.18977998762345288
+        ],
+        [
+          0.025069999999999995,
+          0.6070005508710585,
+          -0.11978096662970078
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "coatedWhite",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.020894673194885242,
+        0.1151142494923134,
+        -0.006352137085578319
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.00674152244660204,
+          0.5220007867021971,
+          -0.18977998762345313
+        ],
+        [
+          0.03144473910236334,
+          0.6150103216312941,
+          -0.11978096524236728
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-front-bearing-adapter-1-1",
+      "meshName": "Db_lh-shoulder-front-bearing-adapter-1_1",
+      "sourceName": "Db_lh-shoulder-front-bearing-adapter-1_1",
+      "sourceNodeIndex": 21,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-front-bearing-adapter-1_1",
+      "title": "Shoulder Front Bearing Adapter",
+      "description": "Shoulder Front Bearing Adapter. Source link LH_shoulder-front-bearing-adapter_1; display finish and separated positions are illustrative.",
+      "center": [
+        0.00732,
+        0.5719887211555834,
+        -0.1547850477442808
+      ],
+      "bounds": [
+        [
+          -0.0004299999999999998,
+          0.5369695328866926,
+          -0.18979378660549667
+        ],
+        [
+          0.01507,
+          0.6070079094244742,
+          -0.11977630888306492
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.010544697761535635,
+        0.11915779777154946,
+        -0.006356113522980806
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.005637799649887962,
+          0.5369695328866927,
+          -0.18979378660549687
+        ],
+        [
+          0.01945881161879092,
+          0.6136258775866882,
+          -0.11977630773679876
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-skateboard-bearing-7-1-1",
+      "meshName": "Db_lh-skateboard-bearing-7-1_1",
+      "sourceName": "Db_lh-skateboard-bearing-7-1_1",
+      "sourceNodeIndex": 22,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-skateboard-bearing-7-1_1",
+      "title": "Skateboard Bearing",
+      "description": "Skateboard Bearing. Source link LH_skateboard-bearing__7__1; display finish and separated positions are illustrative.",
+      "center": [
+        0.007741573638916022,
+        0.5720007927642026,
+        -0.15477997896319823
+      ],
+      "bounds": [
+        [
+          0.004241573638916023,
+          0.5610007908589466,
+          -0.1657799808684542
+        ],
+        [
+          0.011241573638916022,
+          0.5830007946694585,
+          -0.14377997705794227
+        ]
+      ],
+      "triangles": 668,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.11286997833251952,
+        0.10314991315647609,
+        0.005882024676981439
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.002329454527490088,
+          0.5610007908589468,
+          -0.16577998086845427
+        ],
+        [
+          0.012323139182035703,
+          0.5893195844016847,
+          -0.14377997596349554
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-ex-al-interface-1-1-1",
+      "meshName": "Db_lh-shoulder-ex-al-interface-1-1_1",
+      "sourceName": "Db_lh-shoulder-ex-al-interface-1-1_1",
+      "sourceNodeIndex": 23,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-ex-al-interface-1-1_1",
+      "title": "Shoulder Ex Al Interface",
+      "description": "Shoulder Ex Al Interface. Source link LH_shoulder-ex-al-interface__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.034929999999999996,
+        0.4735007951902758,
+        -0.16878692542148374
+      ],
+      "bounds": [
+        [
+          -0.05392999999999999,
+          0.4650007907594172,
+          -0.1943684984727062
+        ],
+        [
+          -0.015929999999999996,
+          0.48200079962113446,
+          -0.14320535237026127
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028325302238464363,
+        0.06597431775028334,
+        -0.018537747102147353
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05392999999999999,
+          0.463397818439096,
+          -0.19436849875035012
+        ],
+        [
+          -0.0012233851366162812,
+          0.4855209622276749,
+          -0.1432053517605519
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-3-1-1",
+      "meshName": "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1",
+      "sourceName": "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1",
+      "sourceNodeIndex": 24,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-rmd-x8-pro-mir8-mir1-3-1_1",
+      "title": "RMD X8 Pro MIR8 MIR1",
+      "description": "RMD X8 Pro MIR8 MIR1. Source link LH_RMD-X8-Pro_MIR8_MIR1__3__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.0348922745513916,
+        0.44023640613839876,
+        -0.1687073050996717
+      ],
+      "bounds": [
+        [
+          -0.08375526779174805,
+          0.41600078666740575,
+          -0.21783449511893566
+        ],
+        [
+          0.01397071868896485,
+          0.46447202560939177,
+          -0.11958011508040775
+        ]
+      ],
+      "triangles": 1454,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028673048706054697,
+        0.07008424892152795,
+        -0.012345627723448164
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08375526779174805,
+          0.41072380400352826,
+          -0.21783449603293734
+        ],
+        [
+          0.03520582366661487,
+          0.47232415273160205,
+          -0.11958011372038016
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-3-1-1-surface2",
+      "meshName": "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1_surface2",
+      "sourceName": "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1_surface2",
+      "sourceNodeIndex": 25,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-rmd-x8-pro-mir8-mir1-3-1_1_surface2",
+      "title": "RMD X8 Pro MIR8 MIR1 · surface 2",
+      "description": "RMD X8 Pro MIR8 MIR1 · surface 2. Source link LH_RMD-X8-Pro_MIR8_MIR1__3__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.0348922745513916,
+        0.43958151793404737,
+        -0.16841126753915148
+      ],
+      "bounds": [
+        [
+          -0.08375526779174805,
+          0.4160007867208419,
+          -0.21693390612967786
+        ],
+        [
+          0.01397071868896485,
+          0.46316224914725285,
+          -0.1198886289486251
+        ]
+      ],
+      "triangles": 119,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028673048706054697,
+        0.07008424892152795,
+        -0.012345627723448164
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08375526779174805,
+          0.41072380405696435,
+          -0.21693390704367954
+        ],
+        [
+          0.03520582366661487,
+          0.471027122921297,
+          -0.11988862758638974
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-bicep-rotational-cuff-second-motor-bracket-1-1",
+      "meshName": "Db_lh-bicep-rotational-cuff-second-motor-bracket-1_1",
+      "sourceName": "Db_lh-bicep-rotational-cuff-second-motor-bracket-1_1",
+      "sourceNodeIndex": 26,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-bicep-rotational-cuff-second-motor-bracket-1_1",
+      "title": "Bicep Rotational Cuff Second Motor Bracket",
+      "description": "Bicep Rotational Cuff Second Motor Bracket. Source link LH_bicep-rotational-cuff-second-motor-bracket_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03494808166503906,
+        0.40898584707126306,
+        -0.15645977671421007
+      ],
+      "bounds": [
+        [
+          -0.08396614807128906,
+          0.3904708824784946,
+          -0.17580154818586605
+        ],
+        [
+          0.01406998474121094,
+          0.4275008116640316,
+          -0.13711800524255408
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028724391250610357,
+        0.05320894702527471,
+        -0.001690278028096509
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08396614807128906,
+          0.3854130062326113,
+          -0.17580154906191758
+        ],
+        [
+          0.03885719996198354,
+          0.4357265551598932,
+          -0.13711800381781453
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-arm-cuff-bicep-bracket-1-1",
+      "meshName": "Db_lh-arm-cuff-bicep-bracket-1_1",
+      "sourceName": "Db_lh-arm-cuff-bicep-bracket-1_1",
+      "sourceNodeIndex": 27,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-arm-cuff-bicep-bracket-1_1",
+      "title": "Arm Cuff Bicep Bracket",
+      "description": "Arm Cuff Bicep Bracket. Source link LH_arm-cuff-bicep-bracket_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.034931211166381836,
+        0.4094831084041922,
+        -0.20215681527859522
+      ],
+      "bounds": [
+        [
+          -0.07591055267333985,
+          0.39146539787223333,
+          -0.21778714371673674
+        ],
+        [
+          0.006048130340576177,
+          0.42750081893615105,
+          -0.1865264868404537
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.02870887039184571,
+        0.0534774681450564,
+        -0.041446701579111636
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.07591055267333985,
+          0.38751896532694163,
+          -0.21778714440028057
+        ],
+        [
+          0.030775005092101237,
+          0.43461013609926835,
+          -0.1865264856090849
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-2-1-1",
+      "meshName": "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1",
+      "sourceName": "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1",
+      "sourceNodeIndex": 28,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-rmd-x8-pro-mir8-mir1-2-1_1",
+      "title": "RMD X8 Pro MIR8 MIR1",
+      "description": "RMD X8 Pro MIR8 MIR1. Source link LH_RMD-X8-Pro_MIR8_MIR1__2__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03500268714904785,
+        0.36346306284759583,
+        -0.18404440412108375
+      ],
+      "bounds": [
+        [
+          -0.08412986343383788,
+          0.31460006731685725,
+          -0.20828002354631692
+        ],
+        [
+          0.014124489135742192,
+          0.4123260583783344,
+          -0.15980878469585058
+        ]
+      ],
+      "triangles": 1454,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028774628295898445,
+        0.02862664354449438,
+        -0.02568890387207663
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08412986343383788,
+          0.3102577758264923,
+          -0.20828002429842618
+        ],
+        [
+          0.04947035090315524,
+          0.4207070671170268,
+          -0.15980878324421843
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-2-1-1-surface2",
+      "meshName": "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1_surface2",
+      "sourceName": "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1_surface2",
+      "sourceNodeIndex": 29,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-rmd-x8-pro-mir8-mir1-2-1_1_surface2",
+      "title": "RMD X8 Pro MIR8 MIR1 · surface 2",
+      "description": "RMD X8 Pro MIR8 MIR1 · surface 2. Source link LH_RMD-X8-Pro_MIR8_MIR1__2__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03529873435974121,
+        0.3634630629610258,
+        -0.1846992922741599
+      ],
+      "bounds": [
+        [
+          -0.08382136886596679,
+          0.3146000675437172,
+          -0.20828002354631692
+        ],
+        [
+          0.013223900146484377,
+          0.4123260583783344,
+          -0.1611185610020029
+        ]
+      ],
+      "triangles": 120,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028774628295898445,
+        0.02862664354449438,
+        -0.02568890387207663
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08382136886596679,
+          0.31030071019823685,
+          -0.20828002429098974
+        ],
+        [
+          0.04857852638324808,
+          0.4205817293569064,
+          -0.1611185595720799
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-elbow-hangar-1-1",
+      "meshName": "Db_lh-elbow-hangar-1_1",
+      "sourceName": "Db_lh-elbow-hangar-1_1",
+      "sourceNodeIndex": 30,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-elbow-hangar-1_1",
+      "title": "Elbow Hangar",
+      "description": "Elbow Hangar. Source link LH_elbow-hangar_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03148001163482665,
+        0.3068356627168505,
+        -0.2021069940378813
+      ],
+      "bounds": [
+        [
+          -0.06561598365783691,
+          0.278119208155344,
+          -0.20793396815844603
+        ],
+        [
+          0.002655960388183602,
+          0.3355521172783569,
+          -0.19628001991731656
+        ]
+      ],
+      "triangles": 400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.07678611988067627,
+        -0.04003925706909411,
+        -0.035292478437992804
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06561598365783691,
+          0.27652156362567964,
+          -0.20793396843516462
+        ],
+        [
+          0.04319058816403565,
+          0.3430841739856121,
+          -0.19628001861272792
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-elbow-hangar1-1-1",
+      "meshName": "Db_lh-elbow-hangar1-1_1",
+      "sourceName": "Db_lh-elbow-hangar1-1_1",
+      "sourceNodeIndex": 31,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-elbow-hangar1-1_1",
+      "title": "Elbow Hangar1",
+      "description": "Elbow Hangar1. Source link LH_elbow-hangar1_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03136425273895263,
+        0.3069325023321005,
+        -0.15638703857677155
+      ],
+      "bounds": [
+        [
+          -0.0655049225616455,
+          0.278138273711308,
+          -0.16228002986168605
+        ],
+        [
+          0.00277641708374024,
+          0.335726730952893,
+          -0.15049404729185706
+        ]
+      ],
+      "triangles": 400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.07689261806488037,
+        -0.039986963676859055,
+        0.004483882813172671
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0655049225616455,
+          0.27655213373963144,
+          -0.162280030136412
+        ],
+        [
+          0.043307218067224776,
+          0.3432738525866245,
+          -0.1504940459846591
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-power-mount-arm-1-1",
+      "meshName": "Db_lh-power-mount-arm-1_1",
+      "sourceName": "Db_lh-power-mount-arm-1_1",
+      "sourceNodeIndex": 32,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-power-mount-arm-1_1",
+      "title": "Power Mount Arm",
+      "description": "Power Mount Arm. Source link LH_power-mount-arm_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.07387314575195311,
+        0.3497772668628176,
+        -0.15535498960615707
+      ],
+      "bounds": [
+        [
+          -0.08395890014648437,
+          0.31526733221952596,
+          -0.16211930260554827
+        ],
+        [
+          -0.06378739135742187,
+          0.3842872015061093,
+          -0.14859067660676584
+        ]
+      ],
+      "triangles": 395,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.06453545021057129,
+        0.021236313712714148,
+        -0.0007291132440903928
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08395890014648437,
+          0.3109423404251017,
+          -0.16211930335466113
+        ],
+        [
+          -0.02777616218718786,
+          0.3842872015061096,
+          -0.14859067660676684
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-power-mount-arm-1-1-surface2",
+      "meshName": "Db_lh-power-mount-arm-1_1_surface2",
+      "sourceName": "Db_lh-power-mount-arm-1_1_surface2",
+      "sourceNodeIndex": 33,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-power-mount-arm-1_1_surface2",
+      "title": "Power Mount Arm · surface 2",
+      "description": "Power Mount Arm · surface 2. Source link LH_power-mount-arm_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.07818414466857909,
+        0.35241797611958203,
+        -0.1572800169960628
+      ],
+      "bounds": [
+        [
+          -0.08363552825927734,
+          0.34875625506428026,
+          -0.16178001763029137
+        ],
+        [
+          -0.07273276107788085,
+          0.35607969717488386,
+          -0.15278001636183425
+        ]
+      ],
+      "triangles": 3,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.06453545021057129,
+        0.021236313712714148,
+        -0.0007291132440903928
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08363552825927734,
+          0.3441503560785746,
+          -0.1617800184280585
+        ],
+        [
+          -0.04129523324937473,
+          0.35607969717488425,
+          -0.15278001636183539
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-fan-mount-1-1",
+      "meshName": "Db_lh-fan-mount-1_1",
+      "sourceName": "Db_lh-fan-mount-1_1",
+      "sourceNodeIndex": 34,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-fan-mount-1_1",
+      "title": "Fan Mount",
+      "description": "Fan Mount. Source link LH_fan-mount_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.07972897689819336,
+        0.3634161474367038,
+        -0.1709736605684185
+      ],
+      "bounds": [
+        [
+          -0.08914766281127931,
+          0.3278240188506715,
+          -0.19203002125586097
+        ],
+        [
+          -0.07031029098510742,
+          0.39900827602273614,
+          -0.14991729988097607
+        ]
+      ],
+      "triangles": 649,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.06992281486511231,
+        0.028601309222612684,
+        -0.014317356981257892
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08914766281127931,
+          0.3226546900807985,
+          -0.1920300221512172
+        ],
+        [
+          -0.03598313436329206,
+          0.3990082760227367,
+          -0.14991729988097702
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-fan-mount-1-1-surface2",
+      "meshName": "Db_lh-fan-mount-1_1_surface2",
+      "sourceName": "Db_lh-fan-mount-1_1_surface2",
+      "sourceNodeIndex": 35,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-fan-mount-1_1_surface2",
+      "title": "Fan Mount · surface 2",
+      "description": "Fan Mount · surface 2. Source link LH_fan-mount_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.07963403671264649,
+        0.36313705645679184,
+        -0.17040459933746163
+      ],
+      "bounds": [
+        [
+          -0.08895778244018555,
+          0.3278240188506715,
+          -0.19089189869726725
+        ],
+        [
+          -0.07031029098510742,
+          0.3984500940629122,
+          -0.14991729997765602
+        ]
+      ],
+      "triangles": 16,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.06992281486511231,
+        0.028601309222612684,
+        -0.014317356981257892
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08895778244018555,
+          0.3226811163203902,
+          -0.1908918995880463
+        ],
+        [
+          -0.03598313436329206,
+          0.39845009406291276,
+          -0.14991729997765693
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-bicep-motor-mate-1-1",
+      "meshName": "Db_lh-bicep-motor-mate-1_1",
+      "sourceName": "Db_lh-bicep-motor-mate-1_1",
+      "sourceNodeIndex": 36,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-bicep-motor-mate-1_1",
+      "title": "Bicep Motor Mate",
+      "description": "Bicep Motor Mate. Source link LH_bicep-motor-mate_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.01427537029266357,
+        0.3543503183886289,
+        -0.15577746272155188
+      ],
+      "bounds": [
+        [
+          -0.05592300193786621,
+          0.32422138812417023,
+          -0.1622800218798554
+        ],
+        [
+          0.02737226135253907,
+          0.3844792486530876,
+          -0.14927490356324835
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.009705496788024908,
+        0.023705761536652267,
+        -0.0010966648544839031
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05592300193786621,
+          0.32333385570997186,
+          -0.16228002203357894
+        ],
+        [
+          0.061250167440505,
+          0.39497499403577097,
+          -0.14927490174533328
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-1-1",
+      "meshName": "Db_lh-6mm-bearing-1_1",
+      "sourceName": "Db_lh-6mm-bearing-1_1",
+      "sourceNodeIndex": 37,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing_1; display finish and separated positions are illustrative.",
+      "center": [
+        0.017416300125122075,
+        0.3341773386857105,
+        -0.1647800201554344
+      ],
+      "bounds": [
+        [
+          0.009916923828125007,
+          0.32667796386304937,
+          -0.16728002145436427
+        ],
+        [
+          0.024915676422119143,
+          0.3416767135083716,
+          -0.1622800188565045
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.1217707266998291,
+        -0.025274752045909673,
+        -0.002818011160264018
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.009916923828125007,
+          0.32667796386304976,
+          -0.1672800214543656
+        ],
+        [
+          0.05847560087980384,
+          0.3522471196553707,
+          -0.1622800170256582
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-bicep-1-1",
+      "meshName": "Db_lh-bicep-1_1",
+      "sourceName": "Db_lh-bicep-1_1",
+      "sourceNodeIndex": 38,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-bicep-1_1",
+      "title": "Bicep",
+      "description": "Bicep. Source link LH_bicep_1; display finish and separated positions are illustrative.",
+      "center": [
+        0.014231226272583015,
+        0.3093801203629569,
+        -0.16478002445043918
+      ],
+      "bounds": [
+        [
+          0.0010712435913085988,
+          0.27459207179300715,
+          -0.16928003047590653
+        ],
+        [
+          0.02739120895385743,
+          0.3441681689329067,
+          -0.16028001842497183
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.016520572052001945,
+        -0.000578145397210601,
+        -0.008928893558615857
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.0010712435913085988,
+          0.27459207179300754,
+          -0.16928003047590812
+        ],
+        [
+          0.06817599664118726,
+          0.35505885594543163,
+          -0.1602800165386512
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-9-1-1",
+      "meshName": "Db_lh-6mm-bearing-9-1_1",
+      "sourceName": "Db_lh-6mm-bearing-9-1_1",
+      "sourceNodeIndex": 39,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-9-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__9__1; display finish and separated positions are illustrative.",
+      "center": [
+        0.011063070602416993,
+        0.2845826273820003,
+        -0.1647800287454915
+      ],
+      "bounds": [
+        [
+          0.00356323272705078,
+          0.27708279479566733,
+          -0.16728003004450065
+        ],
+        [
+          0.018562908477783205,
+          0.29208245996833326,
+          -0.16228002744648234
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.11592575553894043,
+        -0.05205589614991317,
+        -0.002818018633613681
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          0.00356323272705078,
+          0.27708279479566766,
+          -0.16728003004450223
+        ],
+        [
+          0.059086970981177586,
+          0.30225137953943604,
+          -0.16228002568517594
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-straight-tendon-1-1",
+      "meshName": "Db_lh-straight-tendon-1_1",
+      "sourceName": "Db_lh-straight-tendon-1_1",
+      "sourceNodeIndex": 40,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-straight-tendon-1_1",
+      "title": "Straight Tendon",
+      "description": "Straight Tendon. Source link LH_straight-tendon_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.02152807682037354,
+        0.27730942127531033,
+        -0.17928003000524814
+      ],
+      "bounds": [
+        [
+          -0.06412025611877442,
+          0.24282815612379288,
+          -0.19628003597757848
+        ],
+        [
+          0.02106410247802734,
+          0.31179068642682783,
+          -0.1622800240329178
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "machined",
+      "finishFamily": "machined",
+      "explode": [
+        0.08594189990997314,
+        -0.05598342744752573,
+        -0.015433019729601961
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06412025611877442,
+          0.24153643219580123,
+          -0.19628003620131046
+        ],
+        [
+          0.06633114773788527,
+          0.3221159058778631,
+          -0.1622800222445393
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-1-1-1",
+      "meshName": "Db_lh-6mm-bearing-1-1_1",
+      "sourceName": "Db_lh-6mm-bearing-1-1_1",
+      "sourceNodeIndex": 41,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-1-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.006921849899291987,
+        0.30192508540787777,
+        -0.19378002574168968
+      ],
+      "bounds": [
+        [
+          -0.014421752624511713,
+          0.2944251765275995,
+          -0.19628002704071207
+        ],
+        [
+          0.0005780528259277384,
+          0.309424994288156,
+          -0.1912800244426673
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.09937962867736816,
+        -0.04269096881593937,
+        -0.02804801602030612
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.014421752624511713,
+          0.2944251765276,
+          -0.19628002704071357
+        ],
+        [
+          0.038863550390400625,
+          0.31692212948405774,
+          -0.19128002314412745
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-5-1-1",
+      "meshName": "Db_lh-6mm-bearing-5-1_1",
+      "sourceName": "Db_lh-6mm-bearing-5-1_1",
+      "sourceNodeIndex": 42,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-5-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__5__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.006833035163879389,
+        0.3019251719376641,
+        -0.16478002574167427
+      ],
+      "bounds": [
+        [
+          -0.014332936935424801,
+          0.29442526305738587,
+          -0.16728002704069667
+        ],
+        [
+          0.0006668666076660237,
+          0.3094250808179424,
+          -0.1622800244426519
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.09946133823394776,
+        -0.04269092208985471,
+        -0.002818016020292721
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.014332936935424801,
+          0.2944252630573862,
+          -0.16728002704069816
+        ],
+        [
+          0.03895148710091989,
+          0.3169345756120541,
+          -0.16228002314197132
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-2-1-1",
+      "meshName": "Db_lh-6mm-bearing-2-1_1",
+      "sourceName": "Db_lh-6mm-bearing-2-1_1",
+      "sourceNodeIndex": 43,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-2-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__2__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03358185022354126,
+        0.28814777217545606,
+        -0.19378002812799067
+      ],
+      "bounds": [
+        [
+          -0.041081752471923826,
+          0.2806478632951778,
+          -0.19628002942701306
+        ],
+        [
+          -0.026081947975158688,
+          0.29564768105573436,
+          -0.19128002682896827
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.07485242837905884,
+        -0.05013071796144706,
+        -0.028048018096387982
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.041081752471923826,
+          0.280582928159541,
+          -0.19628002943826073
+        ],
+        [
+          0.014380434232945084,
+          0.29956854118712517,
+          -0.19128002614985767
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-elbow-bridge-rear-1-1-1",
+      "meshName": "Db_lh-elbow-bridge-rear-1-1_1",
+      "sourceName": "Db_lh-elbow-bridge-rear-1-1_1",
+      "sourceNodeIndex": 44,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-elbow-bridge-rear-1-1_1",
+      "title": "Elbow Bridge Rear",
+      "description": "Elbow Bridge Rear. Source link LH_elbow-bridge-rear__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.033653027229309074,
+        0.2881479527694508,
+        -0.17928002812795918
+      ],
+      "bounds": [
+        [
+          -0.0410781065750122,
+          0.28065912012458344,
+          -0.19128002942506267
+        ],
+        [
+          -0.026227947883605954,
+          0.2956367854143182,
+          -0.1672800268308557
+        ]
+      ],
+      "triangles": 400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.07478694553375244,
+        -0.05013062044068989,
+        -0.015433018096360588
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0410781065750122,
+          0.28059425895328277,
+          -0.19128002943629757
+        ],
+        [
+          0.014234287959083741,
+          0.2995374323132637,
+          -0.16728002615524612
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-6-1-1",
+      "meshName": "Db_lh-6mm-bearing-6-1_1",
+      "sourceName": "Db_lh-6mm-bearing-6-1_1",
+      "sourceNodeIndex": 45,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-6-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__6__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03349303453445434,
+        0.28814785870524245,
+        -0.16478002812797526
+      ],
+      "bounds": [
+        [
+          -0.04099293678283691,
+          0.28064794982496416,
+          -0.16728002942699763
+        ],
+        [
+          -0.025993132286071773,
+          0.29564776758552075,
+          -0.16228002682895287
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.0749341388130188,
+        -0.050130671235362405,
+        -0.0028180180963745336
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.04099293678283691,
+          0.28058487677200084,
+          -0.1672800294379228
+        ],
+        [
+          0.014468372832250817,
+          0.29958098758057317,
+          -0.16228002614770146
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-elbow-rear-hanger-1-1-1",
+      "meshName": "Db_lh-elbow-rear-hanger-1-1_1",
+      "sourceName": "Db_lh-elbow-rear-hanger-1-1_1",
+      "sourceNodeIndex": 46,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-elbow-rear-hanger-1-1_1",
+      "title": "Elbow Rear Hanger",
+      "description": "Elbow Rear Hanger. Source link LH_elbow-rear-hanger__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.030149331264495843,
+        0.258701162420459,
+        -0.19229088985671172
+      ],
+      "bounds": [
+        [
+          -0.04839910381317138,
+          0.21929120384001527,
+          -0.19630176094052998
+        ],
+        [
+          -0.011899558715820307,
+          0.2981111210009027,
+          -0.18828001877289344
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.07801034582138063,
+        -0.06603188722914548,
+        -0.02675246780037528
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.04839910381317138,
+          0.21903420817589425,
+          -0.1963017609850447
+        ],
+        [
+          0.03696399780566753,
+          0.30398181416379044,
+          -0.18828001775606176
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-elbow-rear-hanger-1-1",
+      "meshName": "Db_lh-elbow-rear-hanger-1_1",
+      "sourceName": "Db_lh-elbow-rear-hanger-1_1",
+      "sourceNodeIndex": 47,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-elbow-rear-hanger-1_1",
+      "title": "Elbow Rear Hanger",
+      "description": "Elbow Rear Hanger. Source link LH_elbow-rear-hanger_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.0300798007774353,
+        0.2587030500032092,
+        -0.16626917659954843
+      ],
+      "bounds": [
+        [
+          -0.0483148066329956,
+          0.21929501403018736,
+          -0.1702800476830337
+        ],
+        [
+          -0.011844794921874995,
+          0.29811108597623104,
+          -0.16225830551606318
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.07807431386947632,
+        -0.06603086793446036,
+        -0.004113577266643211
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.0483148066329956,
+          0.21904117348101276,
+          -0.17028004772700195
+        ],
+        [
+          0.037017697738944075,
+          0.30398940108300304,
+          -0.16225830449791134
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-7-1-1",
+      "meshName": "Db_lh-6mm-bearing-7-1_1",
+      "sourceName": "Db_lh-6mm-bearing-7-1_1",
+      "sourceNodeIndex": 48,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-7-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__7__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.05411912982940674,
+        0.2529553995987977,
+        -0.16478003422348877
+      ],
+      "bounds": [
+        [
+          -0.061618924789428715,
+          0.24545559753004287,
+          -0.16728003552249265
+        ],
+        [
+          -0.04661933486938477,
+          0.26045520166755254,
+          -0.1622800329244849
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.05595813114166259,
+        -0.0691345991528426,
+        -0.002818023399471288
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.061618924789428715,
+          0.24436705055262165,
+          -0.16728003571103278
+        ],
+        [
+          -0.0010592682705814482,
+          0.26186030074020844,
+          -0.16228003268111724
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-4-1-1",
+      "meshName": "Db_lh-6mm-bearing-4-1_1",
+      "sourceName": "Db_lh-6mm-bearing-4-1_1",
+      "sourceNodeIndex": 49,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-4-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__4__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.05411912982940674,
+        0.2529554046217457,
+        -0.19378003422348833
+      ],
+      "bounds": [
+        [
+          -0.061618924789428715,
+          0.24545560255299087,
+          -0.1962800355224922
+        ],
+        [
+          -0.04661933486938477,
+          0.26045520669050054,
+          -0.19128003292448445
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.05595813114166259,
+        -0.06913459644045068,
+        -0.028048023399470923
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.061618924789428715,
+          0.24436705557556954,
+          -0.19628003571103236
+        ],
+        [
+          -0.0010592682705814413,
+          0.26186030576315666,
+          -0.1912800326811168
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-forearm-elbow-motor-bracket-inner2-1-1",
+      "meshName": "Db_lh-forearm-elbow-motor-bracket-inner2-1_1",
+      "sourceName": "Db_lh-forearm-elbow-motor-bracket-inner2-1_1",
+      "sourceNodeIndex": 50,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-forearm-elbow-motor-bracket-inner2-1_1",
+      "title": "Forearm Elbow Motor Bracket Inner2",
+      "description": "Forearm Elbow Motor Bracket Inner2. Source link LH_forearm-elbow-motor-bracket-inner2_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03690685432434082,
+        0.2411056440877088,
+        -0.20202952510649386
+      ],
+      "bounds": [
+        [
+          -0.07188249938964844,
+          0.21926788979579281,
+          -0.20778004005833767
+        ],
+        [
+          -0.0019312092590332078,
+          0.26294339837962477,
+          -0.19627901015465002
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07179342460632322,
+        -0.07553346712883058,
+        -0.03522508046768573
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.07188249938964844,
+          0.21733760970299604,
+          -0.20778004039267012
+        ],
+        [
+          0.04683858086006168,
+          0.27054366747122327,
+          -0.19627900883824728
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-3-1-1",
+      "meshName": "Db_lh-6mm-bearing-3-1_1",
+      "sourceName": "Db_lh-6mm-bearing-3-1_1",
+      "sourceNodeIndex": 51,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-3-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__3__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.021881998710632324,
+        0.2292748778883476,
+        -0.1937800383250764
+      ],
+      "bounds": [
+        [
+          -0.02937875717163086,
+          0.22177811231861622,
+          -0.19628003962355434
+        ],
+        [
+          -0.01438524024963379,
+          0.236771643458079,
+          -0.19128003702659846
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.08561629177093505,
+        -0.08192208087648564,
+        -0.028048026967852566
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.02937875717163086,
+          0.22177811231861672,
+          -0.19628003962355622
+        ],
+        [
+          0.034156396065140246,
+          0.2428933481453715,
+          -0.19128003596629084
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-elbow-bridge-rear-1-1",
+      "meshName": "Db_lh-elbow-bridge-rear-1_1",
+      "sourceName": "Db_lh-elbow-bridge-rear-1_1",
+      "sourceNodeIndex": 52,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-elbow-bridge-rear-1_1",
+      "title": "Elbow Bridge Rear",
+      "description": "Elbow Bridge Rear. Source link LH_elbow-bridge-rear_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.02188465636253357,
+        0.2292541692001158,
+        -0.17928003832866307
+      ],
+      "bounds": [
+        [
+          -0.029340916805267337,
+          0.22174237207770936,
+          -0.1912800396297441
+        ],
+        [
+          -0.014428395919799806,
+          0.23676596632252223,
+          -0.167280037027582
+        ]
+      ],
+      "triangles": 400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        0.0856138467311859,
+        -0.0819332635681308,
+        -0.01543302697097295
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.029340916805267337,
+          0.22174237207770975,
+          -0.191280039629746
+        ],
+        [
+          0.03411863388448885,
+          0.24288172014253928,
+          -0.1672800359683051
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-second-forearm-motor-strap-1-1",
+      "meshName": "Db_lh-second-forearm-motor-strap-1_1",
+      "sourceName": "Db_lh-second-forearm-motor-strap-1_1",
+      "sourceNodeIndex": 53,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-second-forearm-motor-strap-1_1",
+      "title": "Second Forearm Motor Strap",
+      "description": "Second Forearm Motor Strap. Source link LH_second-forearm-motor-strap_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03691188781738282,
+        0.22189435679514896,
+        -0.20872441368789324
+      ],
+      "bounds": [
+        [
+          -0.07192043273925781,
+          0.20448166654693423,
+          -0.21472441670385978
+        ],
+        [
+          -0.001903342895507816,
+          0.2393070470433637,
+          -0.20272441067192667
+        ]
+      ],
+      "triangles": 1360,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.030531092910766618,
+        -0.04782045772382696,
+        -0.047160512195200864
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.07192043273925781,
+          0.20262494259471026,
+          -0.21472441702545447
+        ],
+        [
+          0.04892402069027359,
+          0.24714122172062858,
+          -0.20272440931501046
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-second-forearm-motor-strap-1-1-surface2",
+      "meshName": "Db_lh-second-forearm-motor-strap-1_1_surface2",
+      "sourceName": "Db_lh-second-forearm-motor-strap-1_1_surface2",
+      "sourceNodeIndex": 54,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-second-forearm-motor-strap-1_1_surface2",
+      "title": "Second Forearm Motor Strap · surface 2",
+      "description": "Second Forearm Motor Strap · surface 2. Source link LH_second-forearm-motor-strap_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03223458116531372,
+        0.20448772532542264,
+        -0.20872441670281064
+      ],
+      "bounds": [
+        [
+          -0.04842512577056885,
+          0.20448166654693423,
+          -0.21472441670385978
+        ],
+        [
+          -0.016044036560058594,
+          0.20449378410391106,
+          -0.2027244167017615
+        ]
+      ],
+      "triangles": 40,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.030531092910766618,
+        -0.04782045772382696,
+        -0.047160512195200864
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.04842512577056885,
+          0.20423409062628162,
+          -0.21472441674674303
+        ],
+        [
+          0.03492094327208861,
+          0.21069875488024542,
+          -0.20272441562703203
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-4-1-1",
+      "meshName": "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1",
+      "sourceName": "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1",
+      "sourceNodeIndex": 55,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-rmd-x8-pro-mir8-mir1-4-1_1",
+      "title": "RMD X8 Pro MIR8 MIR1",
+      "description": "RMD X8 Pro MIR8 MIR1. Source link LH_RMD-X8-Pro_MIR8_MIR1__4__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.035018150024414066,
+        0.19175872974680178,
+        -0.16870735195197065
+      ],
+      "bounds": [
+        [
+          -0.08385865753173828,
+          0.1675187920385034,
+          -0.21783454578667982
+        ],
+        [
+          0.013822357482910157,
+          0.21599866745510016,
+          -0.11958015811726148
+        ]
+      ],
+      "triangles": 1457,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028788854141235366,
+        -0.0640936963299344,
+        -0.012345668484948231
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08385865753173828,
+          0.16457020328127442,
+          -0.21783454629739185
+        ],
+        [
+          0.06964091541832207,
+          0.22624827211312037,
+          -0.11958015634198069
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-4-1-1-surface2",
+      "meshName": "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1_surface2",
+      "sourceName": "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1_surface2",
+      "sourceNodeIndex": 56,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-rmd-x8-pro-mir8-mir1-4-1_1_surface2",
+      "title": "RMD X8 Pro MIR8 MIR1 · surface 2",
+      "description": "RMD X8 Pro MIR8 MIR1 · surface 2. Source link LH_RMD-X8-Pro_MIR8_MIR1__4__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.035018150024414066,
+        0.1924091050617373,
+        -0.1684113132116978
+      ],
+      "bounds": [
+        [
+          -0.08385865753173828,
+          0.16883776181850169,
+          -0.21693395656896972
+        ],
+        [
+          0.013822357482910157,
+          0.21598044830497293,
+          -0.1198886698544259
+        ]
+      ],
+      "triangles": 118,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028788854141235366,
+        -0.0640936963299344,
+        -0.012345668484948231
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.08385865753173828,
+          0.1658795762629084,
+          -0.21693395708134397
+        ],
+        [
+          0.06945735031463346,
+          0.22623023026897576,
+          -0.11988866807911439
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-fore-arm-bicep-motor-attatch-1-1",
+      "meshName": "Db_lh-fore-arm-bicep-motor-attatch-1_1",
+      "sourceName": "Db_lh-fore-arm-bicep-motor-attatch-1_1",
+      "sourceNodeIndex": 57,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-fore-arm-bicep-motor-attatch-1_1",
+      "title": "Fore Arm Bicep Motor Attatch",
+      "description": "Fore Arm Bicep Motor Attatch. Source link LH_fore-arm-bicep-motor-attatch_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.034944953613281246,
+        0.22188584651471874,
+        -0.14443691712259385
+      ],
+      "bounds": [
+        [
+          -0.07497612350463867,
+          0.20447375129971934,
+          -0.15078077885732938
+        ],
+        [
+          0.005086216278076171,
+          0.23929794172971813,
+          -0.13809305538785832
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.02872151344299317,
+        -0.047825053275259266,
+        0.008769609816609583
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.07497612350463867,
+          0.20229868882214314,
+          -0.15078077923405875
+        ],
+        [
+          0.05584665799205497,
+          0.24810496351889372,
+          -0.13809305386244003
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-forearm-elbow-motor-bracket-inner-1-1",
+      "meshName": "Db_lh-forearm-elbow-motor-bracket-inner-1_1",
+      "sourceName": "Db_lh-forearm-elbow-motor-bracket-inner-1_1",
+      "sourceNodeIndex": 58,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-forearm-elbow-motor-bracket-inner-1_1",
+      "title": "Forearm Elbow Motor Bracket Inner",
+      "description": "Forearm Elbow Motor Bracket Inner. Source link LH_forearm-elbow-motor-bracket-inner_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.036903411560058594,
+        0.24112277182712988,
+        -0.15653031093116332
+      ],
+      "bounds": [
+        [
+          -0.07187429779052734,
+          0.21927660994248144,
+          -0.16228058937323292
+        ],
+        [
+          -0.001932525329589846,
+          0.2629689337117783,
+          -0.15078003248909372
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07179659194946289,
+        -0.07552421814954319,
+        0.0043592358648518355
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.07187429779052734,
+          0.21734713933711003,
+          -0.16228058970742515
+        ],
+        [
+          0.046836062890802735,
+          0.2705687710569895,
+          -0.15078003117276575
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-6mm-bearing-8-1-1",
+      "meshName": "Db_lh-6mm-bearing-8-1_1",
+      "sourceName": "Db_lh-6mm-bearing-8-1_1",
+      "sourceNodeIndex": 59,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-6mm-bearing-8-1_1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__8__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.02188276713371277,
+        0.2292809000870794,
+        -0.16478003832403293
+      ],
+      "bounds": [
+        [
+          -0.02937939184188843,
+          0.22178427184644955,
+          -0.16728003962248708
+        ],
+        [
+          -0.01438614242553711,
+          0.23677752832770926,
+          -0.16228003702557875
+        ]
+      ],
+      "triangles": 680,
+      "sourceMaterial": "polished",
+      "finishFamily": "polished",
+      "explode": [
+        0.08561558482170104,
+        -0.08191882888917047,
+        -0.002818026966944727
+      ],
+      "group": "dropbear-arm-linkages",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.02937939184188843,
+          0.2217842718464499,
+          -0.16728003962248894
+        ],
+        [
+          0.03415464472951681,
+          0.2428990501363611,
+          -0.16228003596530283
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-ex-al-interface-1-1",
+      "meshName": "Db_lh-shoulder-ex-al-interface-1_1",
+      "sourceName": "Db_lh-shoulder-ex-al-interface-1_1",
+      "sourceNodeIndex": 60,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-ex-al-interface-1_1",
+      "title": "Shoulder Ex Al Interface",
+      "description": "Shoulder Ex Al Interface. Source link LH_shoulder-ex-al-interface_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.034962187461853034,
+        0.15848874074452068,
+        -0.16877311928066469
+      ],
+      "bounds": [
+        [
+          -0.05396536987304688,
+          0.14998162571795925,
+          -0.19435469042577014
+        ],
+        [
+          -0.015959005050659184,
+          0.1669958557710821,
+          -0.14319154813555923
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028354914703369156,
+        -0.10413219165042448,
+        -0.018525735759634752
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05396536987304688,
+          0.1495525786093081,
+          -0.1943546905000864
+        ],
+        [
+          0.04259008537686262,
+          0.17357758783990263,
+          -0.14319154699557313
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-roll-al-mot-mir1-3-1-1",
+      "meshName": "Db_lh-shoulder-roll-al-mot-mir1-3-1_1",
+      "sourceName": "Db_lh-shoulder-roll-al-mot-mir1-3-1_1",
+      "sourceNodeIndex": 61,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-roll-al-mot-mir1-3-1_1",
+      "title": "Shoulder Roll Al Mot MIR1",
+      "description": "Shoulder Roll Al Mot MIR1. Source link LH_shoulder-roll-al-mot_MIR1__3__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03500261085510254,
+        0.13449932759247646,
+        -0.1528864447400745
+      ],
+      "bounds": [
+        [
+          -0.05474558418273926,
+          0.11900249973151328,
+          -0.1626384024565524
+        ],
+        [
+          -0.015259637527465824,
+          0.14999615545343964,
+          -0.14313448702359666
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028392104225158706,
+        -0.11708647475252833,
+        -0.004704328909321348
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05474558418273926,
+          0.1185695156765531,
+          -0.16263840253154754
+        ],
+        [
+          0.047594107655342915,
+          0.1568406605140888,
+          -0.14313448583809707
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-shoulder-roll-al-mot-mir1-1-1",
+      "meshName": "Db_lh-shoulder-roll-al-mot-mir1-1_1",
+      "sourceName": "Db_lh-shoulder-roll-al-mot-mir1-1_1",
+      "sourceNodeIndex": 62,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-shoulder-roll-al-mot-mir1-1_1",
+      "title": "Shoulder Roll Al Mot MIR1",
+      "description": "Shoulder Roll Al Mot MIR1. Source link LH_shoulder-roll-al-mot_MIR1_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.0349368416595459,
+        0.1344989211132502,
+        -0.18468734615310928
+      ],
+      "bounds": [
+        [
+          -0.054688522033691414,
+          0.11900171178493085,
+          -0.19442561864321278
+        ],
+        [
+          -0.015185161285400393,
+          0.14999613044156956,
+          -0.17494907366300577
+        ]
+      ],
+      "triangles": 1400,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028331596565246593,
+        -0.11708669425131052,
+        -0.03237111313866155
+      ],
+      "group": "dropbear-arm-shoulder",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.054688522033691414,
+          0.1185711676595883,
+          -0.1944256187177853
+        ],
+        [
+          0.04766796952767868,
+          0.15685100088858772,
+          -0.17494907247571082
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-2020-100mm-10-1-1",
+      "meshName": "Db_lh-2020-100mm-10-1_1",
+      "sourceName": "Db_lh-2020-100mm-10-1_1",
+      "sourceNodeIndex": 63,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-2020-100mm-10-1_1",
+      "title": "2020 100mm",
+      "description": "2020 100mm. Source link LH_2020_100mm__10__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03498410432815552,
+        0.09998874074572206,
+        -0.1687800607180949
+      ],
+      "bounds": [
+        [
+          -0.04500283592224121,
+          0.04998498535156237,
+          -0.1787800693790001
+        ],
+        [
+          -0.024965372734069825,
+          0.14999249613988175,
+          -0.1587800520571897
+        ]
+      ],
+      "triangles": 3930,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028757532100677503,
+        -0.11364949039051749,
+        -0.01240892511147633
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.04500283592224121,
+          0.04988784763584131,
+          -0.17878006939582264
+        ],
+        [
+          0.04758820969308985,
+          0.15548625959788898,
+          -0.15878005110564547
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-top-bracket-servo-strap-1-1",
+      "meshName": "Db_lh-top-bracket-servo-strap-1_1",
+      "sourceName": "Db_lh-top-bracket-servo-strap-1_1",
+      "sourceNodeIndex": 64,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-top-bracket-servo-strap-1_1",
+      "title": "Top Bracket Servo Strap",
+      "description": "Top Bracket Servo Strap. Source link LH_top-bracket-servo-strap_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.034976084403991706,
+        0.11412875543558387,
+        -0.1690192226213892
+      ],
+      "bounds": [
+        [
+          -0.06498600357055664,
+          0.10899349629112931,
+          -0.19926200801096297
+        ],
+        [
+          -0.00496616523742676,
+          0.11926401458003844,
+          -0.13877643723181537
+        ]
+      ],
+      "triangles": 1098,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028750153770446794,
+        -0.10601388245799209,
+        -0.012616995967342361
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06498600357055664,
+          0.10801906794548805,
+          -0.19926200817974013
+        ],
+        [
+          0.05918038850637377,
+          0.12784017719108892,
+          -0.13877643574638412
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-top-bracket-servo-strap-1-1-surface2",
+      "meshName": "Db_lh-top-bracket-servo-strap-1_1_surface2",
+      "sourceName": "Db_lh-top-bracket-servo-strap-1_1_surface2",
+      "sourceNodeIndex": 65,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-top-bracket-servo-strap-1_1_surface2",
+      "title": "Top Bracket Servo Strap · surface 2",
+      "description": "Top Bracket Servo Strap · surface 2. Source link LH_top-bracket-servo-strap_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03331586807250977,
+        0.11412919794046669,
+        -0.16901922262131253
+      ],
+      "bounds": [
+        [
+          -0.05931376808166504,
+          0.10899438130089495,
+          -0.19926200801080968
+        ],
+        [
+          -0.007317968063354493,
+          0.11926401458003844,
+          -0.13877643723181537
+        ]
+      ],
+      "triangles": 13,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028750153770446794,
+        -0.10601388245799209,
+        -0.012616995967342361
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05931376808166504,
+          0.10835311819270421,
+          -0.1992620081218759
+        ],
+        [
+          0.056851350092280366,
+          0.12751286950471635,
+          -0.13877643580307547
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-1-1",
+      "meshName": "Db_lh-mg995-1_1",
+      "sourceName": "Db_lh-mg995-1_1",
+      "sourceNodeIndex": 66,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-1_1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.02160317295074463,
+        0.08969679086666599,
+        -0.14875800019907712
+      ],
+      "bounds": [
+        [
+          -0.04499496238708496,
+          0.06218755752061744,
+          -0.159027137577952
+        ],
+        [
+          0.0017886164855957024,
+          0.11720602421271453,
+          -0.13848886282020223
+        ]
+      ],
+      "triangles": 384,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.01644707523345948,
+        -0.11920714332520777,
+        0.0050102675400691635
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.04499496238708496,
+          0.062088384423482856,
+          -0.15902713759512715
+        ],
+        [
+          0.07238356068439059,
+          0.12674229887709781,
+          -0.13848886116847464
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-1-1-surface2",
+      "meshName": "Db_lh-mg995-1_1_surface2",
+      "sourceName": "Db_lh-mg995-1_1_surface2",
+      "sourceNodeIndex": 67,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-1_1_surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.009885142021179202,
+        0.09116638010388572,
+        -0.1487800622461725
+      ],
+      "bounds": [
+        [
+          -0.015379665069580082,
+          0.06899425923121005,
+          -0.15878006608649653
+        ],
+        [
+          -0.004390618972778322,
+          0.1133385009765614,
+          -0.13878005840584845
+        ]
+      ],
+      "triangles": 11,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.01644707523345948,
+        -0.11920714332520777,
+        0.0050102675400691635
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.015379665069580082,
+          0.06899425923121028,
+          -0.1587800660864992
+        ],
+        [
+          0.06531715135465412,
+          0.12205243076225791,
+          -0.13878005689655526
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-4-1-1",
+      "meshName": "Db_lh-mg995-4-1_1",
+      "sourceName": "Db_lh-mg995-4-1_1",
+      "sourceNodeIndex": 68,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-4-1_1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__4__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.055006303482055666,
+        0.08970568788995792,
+        -0.15539330369485066
+      ],
+      "bounds": [
+        [
+          -0.06527516334533692,
+          0.062198725831439816,
+          -0.17878006726351708
+        ],
+        [
+          -0.044737443618774415,
+          0.11721264994847602,
+          -0.1320065401261842
+        ]
+      ],
+      "triangles": 386,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04717795532226564,
+        -0.11920233893263012,
+        -0.0007624465012538179
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06527516334533692,
+          0.061296407085708826,
+          -0.17878006741980412
+        ],
+        [
+          0.026308734473450786,
+          0.120273684218697,
+          -0.13200653959600134
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-4-1-1-surface2",
+      "meshName": "Db_lh-mg995-4-1_1_surface2",
+      "sourceName": "Db_lh-mg995-4-1_1_surface2",
+      "sourceNodeIndex": 69,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-4-1_1_surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__4__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.05498821800231934,
+        0.09111616254573499,
+        -0.14368006187340063
+      ],
+      "bounds": [
+        [
+          -0.06499571006774903,
+          0.06901598764291228,
+          -0.14918006379391482
+        ],
+        [
+          -0.04498072593688965,
+          0.11321633744855769,
+          -0.13818005995288643
+        ]
+      ],
+      "triangles": 10,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04717795532226564,
+        -0.11920233893263012,
+        -0.0007624465012538179
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06499571006774903,
+          0.06811820817455017,
+          -0.1491800639494156
+        ],
+        [
+          0.02511904046106849,
+          0.11628240514991245,
+          -0.13818005942183179
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-3-1-1",
+      "meshName": "Db_lh-mg995-3-1_1",
+      "sourceName": "Db_lh-mg995-3-1_1",
+      "sourceNodeIndex": 70,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-3-1_1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__3__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.0483699380683899,
+        0.08970302338844985,
+        -0.18880212289392106
+      ],
+      "bounds": [
+        [
+          -0.07175839965820313,
+          0.062202243411542235,
+          -0.19907125836398315
+        ],
+        [
+          -0.024981476478576663,
+          0.11720380336535746,
+          -0.17853298742385898
+        ]
+      ],
+      "triangles": 384,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04107249914169313,
+        -0.11920377776344447,
+        -0.029828119204445072
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.07175839965820313,
+          0.06087389335689408,
+          -0.19907125859406108
+        ],
+        [
+          0.04587194948573513,
+          0.12301442292510645,
+          -0.17853298641743387
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-3-1-1-surface2",
+      "meshName": "Db_lh-mg995-3-1_1_surface2",
+      "sourceName": "Db_lh-mg995-3-1_1_surface2",
+      "sourceNodeIndex": 71,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-3-1_1_surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__3__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.060085462265014655,
+        0.09118468232017576,
+        -0.18878006224300306
+      ],
+      "bounds": [
+        [
+          -0.06559177558898927,
+          0.06901523173558599,
+          -0.19878006608286458
+        ],
+        [
+          -0.054579148941040045,
+          0.11335413290476554,
+          -0.17878005840314154
+        ]
+      ],
+      "triangles": 11,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04107249914169313,
+        -0.11920377776344447,
+        -0.029828119204445072
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06559177558898927,
+          0.06808194042993698,
+          -0.1987800662445162
+        ],
+        [
+          0.015614134822066153,
+          0.11508301740362797,
+          -0.17878005810369385
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-5-1-1",
+      "meshName": "Db_lh-mg995-5-1_1",
+      "sourceName": "Db_lh-mg995-5-1_1",
+      "sourceNodeIndex": 72,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-5-1_1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__5__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.014962184600830082,
+        0.08969438576457156,
+        -0.1821668155834053
+      ],
+      "bounds": [
+        [
+          -0.02523158424377442,
+          0.062191070556640415,
+          -0.20555357342939418
+        ],
+        [
+          -0.004692784957885745,
+          0.1171977009725027,
+          -0.1587800577374164
+        ]
+      ],
+      "triangles": 384,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.010337365951538101,
+        -0.11920844208033875,
+        -0.024055401844296387
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.02523158424377442,
+          0.06219107055664075,
+          -0.2055535734293969
+        ],
+        [
+          0.06596474735758734,
+          0.1258320199949201,
+          -0.15878005624191216
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-5-1-1-surface2",
+      "meshName": "Db_lh-mg995-5-1_1_surface2",
+      "sourceName": "Db_lh-mg995-5-1_1_surface2",
+      "sourceNodeIndex": 73,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-5-1_1_surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__5__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.014980727367401126,
+        0.09116481626016226,
+        -0.1938800607205651
+      ],
+      "bounds": [
+        [
+          -0.024980726890563968,
+          0.06899350488272982,
+          -0.19938006456074914
+        ],
+        [
+          -0.004980727844238284,
+          0.11333612763759471,
+          -0.18838005688038106
+        ]
+      ],
+      "triangles": 11,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.010337365951538101,
+        -0.11920844208033875,
+        -0.024055401844296387
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.024980726890563968,
+          0.06899350488273037,
+          -0.1993800645607518
+        ],
+        [
+          0.06473289156229953,
+          0.12196795330879706,
+          -0.18838005538530872
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-2020-100mm-11-1-1",
+      "meshName": "Db_lh-2020-100mm-11-1_1",
+      "sourceName": "Db_lh-2020-100mm-11-1_1",
+      "sourceNodeIndex": 74,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-2020-100mm-11-1_1",
+      "title": "2020 100mm",
+      "description": "2020 100mm. Source link LH_2020_100mm__11__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03500283067703248,
+        0.05000374013537129,
+        -0.1687800693757521
+      ],
+      "bounds": [
+        [
+          -0.04502156227111817,
+          6.661338147750939e-16,
+          -0.17878007803665463
+        ],
+        [
+          -0.02498409908294678,
+          0.10000748027074191,
+          -0.15878006071484957
+        ]
+      ],
+      "triangles": 3934,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028774760341644307,
+        -0.1406413907201069,
+        -0.012408932643638095
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.04502156227111817,
+          -0.00008888296774778315,
+          -0.178780078052046
+        ],
+        [
+          0.0545262308781674,
+          0.10598508821957842,
+          -0.1587800596795014
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-top-bracket-servo-strap-1-1-1",
+      "meshName": "Db_lh-top-bracket-servo-strap-1-1_1",
+      "sourceName": "Db_lh-top-bracket-servo-strap-1-1_1",
+      "sourceNodeIndex": 75,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-top-bracket-servo-strap-1-1_1",
+      "title": "Top Bracket Servo Strap",
+      "description": "Top Bracket Servo Strap. Source link LH_top-bracket-servo-strap__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03501476638793946,
+        0.009877076885939529,
+        -0.16854091197347798
+      ],
+      "bounds": [
+        [
+          -0.06502491729736329,
+          0.004739193229766903,
+          -0.19878369354880907
+        ],
+        [
+          -0.005004615478515627,
+          0.015014960542112155,
+          -0.13829813039814687
+        ]
+      ],
+      "triangles": 1098,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028785741195678727,
+        -0.16230978887480002,
+        -0.012200865703659587
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06502491729736329,
+          0.003941655680196332,
+          -0.19878369368694193
+        ],
+        [
+          0.07365170683903535,
+          0.02460031644996219,
+          -0.13829812873791905
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-top-bracket-servo-strap-1-1-1-surface2",
+      "meshName": "Db_lh-top-bracket-servo-strap-1-1_1_surface2",
+      "sourceName": "Db_lh-top-bracket-servo-strap-1-1_1_surface2",
+      "sourceNodeIndex": 76,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-top-bracket-servo-strap-1-1_1_surface2",
+      "title": "Top Bracket Servo Strap · surface 2",
+      "description": "Top Bracket Servo Strap · surface 2. Source link LH_top-bracket-servo-strap__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03213137882232666,
+        0.00987301804804891,
+        -0.16854091197418097
+      ],
+      "bounds": [
+        [
+          -0.05690957229614258,
+          0.004739193229766903,
+          -0.19878369354880907
+        ],
+        [
+          -0.007353185348510743,
+          0.015006842866330916,
+          -0.13829813039955288
+        ]
+      ],
+      "triangles": 10,
+      "sourceMaterial": "polymer",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028785741195678727,
+        -0.16230978887480002,
+        -0.012200865703659587
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.05690957229614258,
+          0.004313983368994578,
+          -0.1987836936224604
+        ],
+        [
+          0.07132599308752377,
+          0.024265420028958484,
+          -0.13829812879592482
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-2-1-1",
+      "meshName": "Db_lh-mg995-2-1_1",
+      "sourceName": "Db_lh-mg995-2-1_1",
+      "sourceNodeIndex": 77,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-2-1_1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__2__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.01499036996841431,
+        0.034302764308906386,
+        -0.15541024101003595
+      ],
+      "bounds": [
+        [
+          -0.02525922458648682,
+          0.006795771735742195,
+          -0.17878007685959146
+        ],
+        [
+          -0.0047215153503418,
+          0.06180975688207058,
+          -0.13204040516048043
+        ]
+      ],
+      "triangles": 388,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.01036329648971559,
+        -0.14911991766639793,
+        -0.0007771819654650435
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.02525922458648682,
+          0.0067957717357424174,
+          -0.17878007685959446
+        ],
+        [
+          0.0736458313026151,
+          0.07097910897777948,
+          -0.1320404035723062
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-2-1-1-surface2",
+      "meshName": "Db_lh-mg995-2-1_1_surface2",
+      "sourceName": "Db_lh-mg995-2-1_1_surface2",
+      "sourceNodeIndex": 78,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-2-1_1_surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__2__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.015008451633453372,
+        0.032892300851399936,
+        -0.1436800719580706
+      ],
+      "bounds": [
+        [
+          -0.025015944175720218,
+          0.010792110689788137,
+          -0.14918007387858745
+        ],
+        [
+          -0.005000959091186526,
+          0.054992491013011735,
+          -0.13818007003755375
+        ]
+      ],
+      "triangles": 9,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.01036329648971559,
+        -0.14911991766639793,
+        -0.0007771819654650435
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.025015944175720218,
+          0.010792110689788359,
+          -0.14918007387859045
+        ],
+        [
+          0.07281292436186595,
+          0.06418929716441968,
+          -0.1381800684446244
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-6-1-1",
+      "meshName": "Db_lh-mg995-6-1_1",
+      "sourceName": "Db_lh-mg995-6-1_1",
+      "sourceNodeIndex": 79,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-6-1_1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__6__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.04837651556015014,
+        0.03431170480709733,
+        -0.14875801360675392
+      ],
+      "bounds": [
+        [
+          -0.07175132339477538,
+          0.006802486719837186,
+          -0.15902715480032342
+        ],
+        [
+          -0.025001707725524906,
+          0.06182092289435748,
+          -0.13848887241318442
+        ]
+      ],
+      "triangles": 388,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04107855043411256,
+        -0.14911508979737484,
+        0.005010255875390322
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.07175132339477538,
+          0.0056043854636557144,
+          -0.15902715500784215
+        ],
+        [
+          0.05356206995816062,
+          0.06816770907865177,
+          -0.138488871313893
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-6-1-1-surface2",
+      "meshName": "Db_lh-mg995-6-1_1_surface2",
+      "sourceName": "Db_lh-mg995-6-1_1_surface2",
+      "sourceNodeIndex": 80,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-6-1_1_surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__6__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.060111239128112795,
+        0.03290923899060544,
+        -0.14878007233660664
+      ],
+      "bounds": [
+        [
+          -0.06560496299743653,
+          0.01080425678980479,
+          -0.15878007616530193
+        ],
+        [
+          -0.054617515258789065,
+          0.05501422119140609,
+          -0.13878006850791136
+        ]
+      ],
+      "triangles": 9,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04107855043411256,
+        -0.14911508979737484,
+        0.005010255875390322
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06560496299743653,
+          0.009966687928076756,
+          -0.1587800763103685
+        ],
+        [
+          0.023677542669013084,
+          0.0573055260230958,
+          -0.1387800681110501
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-1-1-1",
+      "meshName": "Db_lh-mg995-1-1_1",
+      "sourceName": "Db_lh-mg995-1-1_1",
+      "sourceNodeIndex": 81,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-1-1_1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.05503448169708253,
+        0.03431410622355735,
+        -0.1821668289902496
+      ],
+      "bounds": [
+        [
+          -0.06530388038635254,
+          0.006810791015625539,
+          -0.20555359065093576
+        ],
+        [
+          -0.044765083007812505,
+          0.06181742143148916,
+          -0.15878006732956346
+        ]
+      ],
+      "triangles": 384,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04720387928009035,
+        -0.14911379303248642,
+        -0.024055413508250904
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06530388038635254,
+          0.005995227364929301,
+          -0.20555359079219088
+        ],
+        [
+          0.03398987522288369,
+          0.06541371159512044,
+          -0.158780066706672
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-1-1-1-surface2",
+      "meshName": "Db_lh-mg995-1-1_1_surface2",
+      "sourceName": "Db_lh-mg995-1-1_1_surface2",
+      "sourceNodeIndex": 82,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-1-1_1_surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__1__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.05501594179153442,
+        0.03284366452676474,
+        -0.1938800708220862
+      ],
+      "bounds": [
+        [
+          -0.06501594131469726,
+          0.010672368408121358,
+          -0.1993800746622676
+        ],
+        [
+          -0.045015942268371585,
+          0.05501496064540812,
+          -0.1883800669819048
+        ]
+      ],
+      "triangles": 11,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04720387928009035,
+        -0.14911379303248642,
+        -0.024055413508250904
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.06501594131469726,
+          0.00986670689291691,
+          -0.19938007480180764
+        ],
+        [
+          0.03320403032985201,
+          0.058642539012880524,
+          -0.18838006635359417
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-7-1-1",
+      "meshName": "Db_lh-mg995-7-1_1",
+      "sourceName": "Db_lh-mg995-7-1_1",
+      "sourceNodeIndex": 83,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-7-1_1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__7__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.021626729183197024,
+        0.03430544038063771,
+        -0.18880212867436788
+      ],
+      "bounds": [
+        [
+          -0.04501519268035889,
+          0.006804629886152602,
+          -0.199071260329738
+        ],
+        [
+          0.0017617343139648411,
+          0.061806250875122815,
+          -0.17853299701899777
+        ]
+      ],
+      "triangles": 386,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.016468746967315685,
+        -0.14911847258766303,
+        -0.029828124233433825
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.04501519268035889,
+          0.006714875778314977,
+          -0.19907126034528022
+        ],
+        [
+          0.0800647547369949,
+          0.07187793106945617,
+          -0.1785329952745357
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-mg995-7-1-1-surface2",
+      "meshName": "Db_lh-mg995-7-1_1_surface2",
+      "sourceName": "Db_lh-mg995-7-1_1_surface2",
+      "sourceNodeIndex": 84,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-mg995-7-1_1_surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__7__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.009911206893920901,
+        0.03289139313560652,
+        -0.18878007233969823
+      ],
+      "bounds": [
+        [
+          -0.015417520217895511,
+          0.010789554245352662,
+          -0.19878007616784907
+        ],
+        [
+          -0.0044048935699462916,
+          0.05499323202586037,
+          -0.17878006851154737
+        ]
+      ],
+      "triangles": 10,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.016468746967315685,
+        -0.14911847258766303,
+        -0.029828124233433825
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.015417520217895511,
+          0.010789554245353106,
+          -0.19878007616785207
+        ],
+        [
+          0.07340354578192365,
+          0.06427298733489695,
+          -0.17878006690425083
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-multiplex-stack-flat-1-1",
+      "meshName": "Db_lh-multiplex-stack-flat-1_1",
+      "sourceName": "Db_lh-multiplex-stack-flat-1_1",
+      "sourceNodeIndex": 85,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-multiplex-stack-flat-1_1",
+      "title": "Multiplex Stack Flat",
+      "description": "Multiplex Stack Flat. Source link LH_multiplex-stack-flat_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03630263107299804,
+        0.5020008001786638,
+        -0.1975873908373107
+      ],
+      "bounds": [
+        [
+          -0.09611373107910155,
+          0.48500079882630454,
+          -0.20539524366583053
+        ],
+        [
+          0.02350846893310548,
+          0.5190008015310229,
+          -0.18977953800879083
+        ]
+      ],
+      "triangles": 600,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.02997057670593262,
+        0.1034370217032711,
+        -0.03747130231519407
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.09611373107910155,
+          0.4773323473371899,
+          -0.20539524499404624
+        ],
+        [
+          0.035047809392035764,
+          0.5276496566352197,
+          -0.18977953651076546
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-multiplex-stack-flat-1-1-surface2",
+      "meshName": "Db_lh-multiplex-stack-flat-1_1_surface2",
+      "sourceName": "Db_lh-multiplex-stack-flat-1_1_surface2",
+      "sourceNodeIndex": 86,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-multiplex-stack-flat-1_1_surface2",
+      "title": "Multiplex Stack Flat · surface 2",
+      "description": "Multiplex Stack Flat · surface 2. Source link LH_multiplex-stack-flat_1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03686045234680174,
+        0.5015126047593912,
+        -0.19758761598900731
+      ],
+      "bounds": [
+        [
+          -0.09611373107910155,
+          0.486810376768277,
+          -0.2053952433524024
+        ],
+        [
+          0.02239282638549806,
+          0.5162148327505054,
+          -0.1897799886256122
+        ]
+      ],
+      "triangles": 14,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.02997057670593262,
+        0.1034370217032711,
+        -0.03747130231519407
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.09611373107910155,
+          0.47912431459260213,
+          -0.20539524468366835
+        ],
+        [
+          0.03369117963086672,
+          0.5247355332787523,
+          -0.18977998714978384
+        ]
+      ]
+    },
+    {
+      "id": "db-lh-2020-100mm-9-1-1",
+      "meshName": "Db_lh-2020-100mm-9-1_1",
+      "sourceName": "Db_lh-2020-100mm-9-1_1",
+      "sourceNodeIndex": 87,
+      "sourcePath": "/DropbearArm/DropbearShoulderPivot/Db_lh-2020-100mm-9-1_1",
+      "title": "2020 100mm",
+      "description": "2020 100mm. Source link LH_2020_100mm__9__1; display finish and separated positions are illustrative.",
+      "center": [
+        -0.03492999999999998,
+        0.5720007927642026,
+        -0.15477997896319826
+      ],
+      "bounds": [
+        [
+          -0.044929999999999984,
+          0.5620007841039476,
+          -0.20477998069524853
+        ],
+        [
+          -0.02492999999999998,
+          0.5820008014244576,
+          -0.104779977231148
+        ]
+      ],
+      "triangles": 2704,
+      "sourceMaterial": "structure",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028707756118774404,
+        0.14123701769946204,
+        -0.00022885398471625103
+      ],
+      "group": "dropbear-arm-structure",
+      "finishBasis": "Curated illustrative engineering finish; not a verified material specification.",
+      "cycleBounds": [
+        [
+          -0.046224411681246434,
+          0.5607063724227012,
+          -0.20477998091944732
+        ],
+        [
+          -0.023635588318753502,
+          0.583295213105705,
+          -0.1047799770069492
+        ]
+      ]
+    }
+  ],
+  "operation": {
+    "clipName": "DropbearArmSwivel",
+    "duration": 2.5,
+    "stages": [
+      {
+        "at": 0,
+        "title": "Arm at rest",
+        "description": "All internal source joints are held at their imported pose.",
+        "nodeId": "dropbear-arm"
+      },
+      {
+        "at": 0.4,
+        "title": "Shoulder swivel",
+        "description": "The whole shoulder subtree turns together; internal tendon relationships stay fixed.",
+        "nodeId": "dropbear-arm"
+      },
+      {
+        "at": 0.99,
+        "title": "Back at rest",
+        "description": "The original rigid transforms are restored.",
+        "nodeId": "dropbear-arm"
+      }
+    ],
+    "kind": "authored-source-animation"
+  },
+  "cycleBounds": [
+    [
+      -0.11699603782998039,
+      -0.00008888296774778315,
+      -0.21783454629739185
+    ],
+    [
+      0.0800647547369949,
+      0.620901519974842,
+      -0.07852402201425972
+    ]
+  ],
+  "cycleBoundsSampling": {
+    "coordinates": "source-world",
+    "samples": 151,
+    "purpose": "Sampled framing envelope; not an exact collision or mechanical validation."
+  },
+  "stats": {
+    "meshCount": 86,
+    "nodeCount": 88,
+    "triangles": 79779,
+    "vertices": 239337,
+    "animationClips": 1,
+    "bytes": 5817680,
+    "gzipBytes": 1222767
+  }
+}

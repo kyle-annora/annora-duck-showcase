@@ -6,12 +6,13 @@
   <meta name="theme-color" content="#f3f3f1">
   <title>Open Duck Mini · Annora Showcase</title>
   <meta name="description" content="Meet Open Duck Mini. Explore its mechanical layers, follow a short presentation and take control of the same 3D assembly.">
-  <script type="module" crossorigin src="../assets/showcase-p5w8Ikcl.js"></script>
+  <script type="module" crossorigin src="../assets/showcase-B2cjJ6GK.js"></script>
   <link rel="modulepreload" crossorigin href="../assets/modulepreload-polyfill-B5Qt9EMX.js">
   <link rel="modulepreload" crossorigin href="../assets/embed-bridge-BuKhgJh_.js">
   <link rel="modulepreload" crossorigin href="../assets/embed-client-GE4iyqML.js">
   <link rel="modulepreload" crossorigin href="../assets/themes-0M8-gGXw.js">
-  <link rel="stylesheet" crossorigin href="../assets/showcase-Cn5_VKWR.css">
+  <link rel="modulepreload" crossorigin href="../assets/registry-CfqpKDj9.js">
+  <link rel="stylesheet" crossorigin href="../assets/showcase-D1xih4v4.css">
 </head>
 <body>
   <svg class="icon-library" aria-hidden="true"><defs>
@@ -35,7 +36,7 @@
         <span class="annora-mark" aria-hidden="true"><i></i><i></i><i></i></span>
         <span class="identity-brand">ANNORA</span>
         <span class="identity-rule" aria-hidden="true"></span>
-        <div class="product-identity"><span class="micro-label">ASSEMBLY STUDY / 01</span><h1>Open Duck Mini <span>v2</span></h1></div>
+        <div class="product-identity"><span class="micro-label" id="study-label">ASSEMBLY STUDY / 01</span><div class="identity-selector"><h1><span id="showcase-title">Open Duck Mini</span> <span id="showcase-version">v2</span></h1><svg aria-hidden="true"><use href="#i-chevron"/></svg><label class="sr-only" for="showcase-select">Choose robot</label><select id="showcase-select" aria-label="Choose robot"><option value="" disabled hidden>Choose a robot</option></select></div></div>
       </div>
       <div class="header-context"><span class="live-dot" aria-hidden="true"></span><span id="view-status">Preparing the assembly</span></div>
       <div class="header-controls">
@@ -64,7 +65,7 @@
       </div>
     </header>
 
-    <section class="model-stage" aria-label="Interactive Open Duck assembly">
+    <section class="model-stage" id="model-stage" aria-label="Interactive Open Duck assembly">
       <div id="explorer-mount"></div>
       <div class="connection-screen" id="connection-screen"><span class="micro-label">OPENING THE ASSEMBLY</span><p id="connection-message">Preparing Open Duck Mini…</p><span class="loading-line" aria-hidden="true"></span><button type="button" id="retry" hidden>Try again</button></div>
     </section>
@@ -108,7 +109,7 @@
     <div class="stage-corner" aria-hidden="true"><span>Y</span><i></i><span>X</span></div>
 
     <footer class="transport instrument-panel" aria-label="Showcase playback">
-      <div class="transport-heading"><div><span class="micro-label">OPEN DUCK / SHOWCASE</span><p id="transport-state">Ready when you are</p></div><span class="timecode"><span id="elapsed-time">00:00</span><span>/</span><span id="duration-time">00:20</span></span></div>
+      <div class="transport-heading"><div><span class="micro-label" id="transport-label">OPEN DUCK / SHOWCASE</span><p id="transport-state">Ready when you are</p></div><span class="timecode"><span id="elapsed-time">00:00</span><span>/</span><span id="duration-time">00:20</span></span></div>
       <div class="transport-main">
         <button type="button" id="play-showcase" class="primary-button" disabled><svg aria-hidden="true"><use href="#i-play"/></svg><span>Play showcase</span></button>
         <button type="button" id="replay-showcase" class="icon-button" aria-label="Replay showcase" disabled><svg aria-hidden="true"><use href="#i-replay"/></svg></button>
@@ -118,7 +119,7 @@
       <p class="action-message" id="action-message" role="status" aria-live="polite" hidden></p>
     </footer>
 
-    <div class="page-footnote"><span id="interaction-hint">Drag to orbit · Scroll to zoom · Click a part</span><a href="./media/">Film &amp; keyframes</a><a href="https://github.com/apirrone/Open_Duck_Mini" target="_blank" rel="noopener">Open-hardware source <span aria-hidden="true">↗</span></a></div>
+    <div class="page-footnote"><span id="interaction-hint">Drag to orbit · Scroll to zoom · Click a part</span><a id="media-link" href="./media/">Film &amp; keyframes</a><a id="source-link" href="https://github.com/apirrone/Open_Duck_Mini" target="_blank" rel="noopener">Open-hardware source <span aria-hidden="true">↗</span></a></div>
   </main>
 </body>
 </html>
