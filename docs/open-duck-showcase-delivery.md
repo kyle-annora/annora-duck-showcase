@@ -139,8 +139,13 @@ for repeatable publication. The pinned workflow is retained in
 `scripts/deployment/pages.workflow.yml` for later owner activation. A fresh source
 snapshot separates this experiment from the main repository history.
 The deployed `release.json` records its exact source revision.
-Check the exact repository subpath, iframe
-asset resolution, media playback and mobile layout after deployment. No backend,
+Published runtime source: `e0417e776e7ee8c3221b61dc36b37d25e1d7175e`.
+The GitHub Pages build succeeded and `release.json` matches that revision.
+Hosted checks passed for the repository subpath, embedded model assets, complete
+20-second tour, error-free console, video metadata/playback readiness and mobile
+layout. At 390 px the document width remained exactly 390 px with no horizontal
+overflow. This delivery record was updated after publication; the subsequent
+source commit changes documentation only. No backend,
 customer records, production telemetry, physics engine or account integration
 was added. The gesture follows source joint axes and limits; it is not balanced
 walking.
