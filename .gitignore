@@ -5,3 +5,5 @@ work/
 .env
 .env.*
 !.env.example
+
+.vite/

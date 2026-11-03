@@ -70,3 +70,11 @@ A server or agent tool can wrap this API in its own browser integration. This
 repository does not ship a remote MCP endpoint, backend, account system or
 cross-device persistence. Camera bookmarks are JSON and can be stored by the
 host; they restore only to the exact compatible model revision.
+
+## Independent presentation hosts
+
+Use `embed=1&chrome=none&parentOrigin=https://YOUR-HOST` when the host owns the
+floating controls. `chrome=none` is honored only in embedded mode. It hides the
+Explorer shell while retaining the canvas, hover feedback and tour annotations.
+Provide controls through `embed-client.js`, and reserve usable stage space in the
+host layout. The normal Explorer shell and default embedding behavior are unchanged.

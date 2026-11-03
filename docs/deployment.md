@@ -1,5 +1,19 @@
 # Deployment
 
+## This independent showcase
+
+This repository currently publishes the verified `dist/` to a `gh-pages` branch.
+Use `npm run deploy:preview -- --repo https://github.com/OWNER/REPOSITORY.git`.
+The command validates, tests and builds before publishing; it requires the GitHub
+CLI to be signed in with repository write access. Set Pages to deploy from the
+root of `gh-pages`. Each build exposes `release.json` with its source revision.
+
+The Actions workflow is preserved at `scripts/deployment/pages.workflow.yml`,
+outside the active workflow path because the current CLI authorization lacks
+workflow scope. An authorized owner can move it into `.github/workflows/pages.yml`
+and switch Pages to GitHub Actions. The general template instructions below apply
+when that workflow has been activated; the main Explorer template is unchanged.
+
 ## GitHub Pages
 
 1. Create your own repository from the template. Public repositories support
