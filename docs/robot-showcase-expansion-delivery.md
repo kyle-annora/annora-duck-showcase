@@ -90,7 +90,7 @@ Measurements are local browser observations on the development Apple workstation
 not ordinary-PC or physical-phone certification. Raw JSON is included beside each
 robot's media. Browser viewport tests verify layout and interaction only.
 
-The 1440 × 900 Balanced / Light checks recorded median intervals of 16.7 ms
+The 1280 × 720 Balanced / Light checks recorded median intervals of 16.7 ms
 for both models and modes. Hexapod p95: 17.6 ms Engineering / 18.3 ms Linework;
 Dropbear p95: 18.5 ms Engineering / 18.4 ms Linework. No frame interval exceeded
 50 ms in these four runs. Dropbear Engineering still reports 2,191 draw calls per

@@ -94,6 +94,10 @@ Run `node scripts/check-showcases.mjs --release` to require matching media befor
 publication. [Expansion plan](docs/robot-showcase-expansion-plan.md) ·
 [Expansion delivery and checks](docs/robot-showcase-expansion-delivery.md).
 
+[Model capability inventory and main Explorer integration](docs/model-capability-integration-plan.md)
+records the reusable additions, product-workflow gaps and proposed consolidation
+sequence. It is a plan; the main application has not been migrated by that audit.
+
 Hexapod performs one illustrative leg reach and return. Dropbear only swivels the
 whole left-shoulder subtree, holding internal joints fixed; recorded loop closures
 are preserved as source evidence, not solved dynamically. No walking, balance,
