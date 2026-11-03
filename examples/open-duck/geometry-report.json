@@ -1,0 +1,1784 @@
+{
+  "kind": "derived-display-geometry",
+  "toolchain": {
+    "trimesh": "4.12.2",
+    "numpy": "2.0.2",
+    "fastSimplification": "0.1.12",
+    "method": "quadric edge collapse; aggression 4; full-resolution source head"
+  },
+  "note": "Source files are unmodified. Display geometry is simplified. Conflicting edge uses are partitioned into coincident display surfaces without removing facets. Not manufacturing geometry.",
+  "referencedSourceTriangles": 2423386,
+  "referencedDisplayTriangles": 356153,
+  "files": [
+    {
+      "file": "antenna.stl",
+      "sourceTriangles": 576,
+      "displayTriangles": 576,
+      "displaySurfaces": [
+        {
+          "file": "antenna.stl",
+          "triangles": 576,
+          "sha256": "d58bce0afc829848bf6bf0958165387268e1777c16052f47f2a3377aa33ed040"
+        }
+      ],
+      "sourceSha256": "40ac46ff9047d20cdf1154fba8125512f3ddad12e8ad4ebe0d6517b62754c4e0",
+      "sourceBounds": [
+        [
+          -0.05830564722418785,
+          -0.06985686719417572,
+          0.11038240045309067
+        ],
+        [
+          -0.05450564622879028,
+          -0.03041619248688221,
+          0.25650250911712646
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.05830564722418785,
+          -0.06985686719417572,
+          0.11038240045309067
+        ],
+        [
+          -0.05450564622879028,
+          -0.03041619248688221,
+          0.25650250911712646
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "battery_pack_lid.stl",
+      "sourceTriangles": 2390,
+      "displayTriangles": 2390,
+      "displaySurfaces": [
+        {
+          "file": "battery_pack_lid.stl",
+          "triangles": 2390,
+          "sha256": "cae0beb66e67771d60144329b3fad9d17e29bf27b17c63d25277734be82980cb"
+        }
+      ],
+      "sourceSha256": "d9a37ff5558c7fea666a43312483a0bf57eb1fa14003a0dd79459712f0dbe817",
+      "sourceBounds": [
+        [
+          -0.10249999910593033,
+          -0.025699999183416367,
+          -0.07523304969072342
+        ],
+        [
+          -0.0949999988079071,
+          0.025699999183416367,
+          0.011166946962475777
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.10249999910593033,
+          -0.025699999183416367,
+          -0.07523304969072342
+        ],
+        [
+          -0.0949999988079071,
+          0.025699999183416367,
+          0.011166946962475777
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "bms.stl",
+      "sourceTriangles": 12,
+      "displayTriangles": 12,
+      "displaySurfaces": [
+        {
+          "file": "bms.stl",
+          "triangles": 12,
+          "sha256": "3e7f9b2308bc061c96cf79ebf8d35a8c911232b5f251d560dab75c7461358623"
+        }
+      ],
+      "sourceSha256": "bab502befa20892f36900d118c4b72b0df1720abe4f5406dc53078d22fd5037a",
+      "sourceBounds": [
+        [
+          -0.009667939506471157,
+          -0.059022240340709686,
+          0.0
+        ],
+        [
+          0.03093206137418747,
+          -0.043172240257263184,
+          0.003599999938160181
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.009667939506471157,
+          -0.059022240340709686,
+          0.0
+        ],
+        [
+          0.03093206137418747,
+          -0.043172240257263184,
+          0.003599999938160181
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "bno055.stl",
+      "sourceTriangles": 1468,
+      "displayTriangles": 1468,
+      "displaySurfaces": [
+        {
+          "file": "bno055.stl",
+          "triangles": 1468,
+          "sha256": "bb7a573f87819a3d6f910f98ebda5d41a00ec72e2e7b2257e5b3fccaa488e526"
+        }
+      ],
+      "sourceSha256": "266027fa9c82ff00741b76ab6b97acf0788bf59574df671be7ee7e8926a5a268",
+      "sourceBounds": [
+        [
+          -0.009999999776482582,
+          -0.013500000350177288,
+          0.0
+        ],
+        [
+          0.009999999776482582,
+          0.013500000350177288,
+          0.003000000026077032
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.009999999776482582,
+          -0.013500000350177288,
+          0.0
+        ],
+        [
+          0.009999999776482582,
+          0.013500000350177288,
+          0.003000000026077032
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "board.stl",
+      "sourceTriangles": 9916,
+      "displayTriangles": 7152,
+      "displaySurfaces": [
+        {
+          "file": "board.stl",
+          "triangles": 7152,
+          "sha256": "9ade90eb260afc40e89f742713e701f17e5b2703302bcb901cf70c810c6d5b18"
+        }
+      ],
+      "sourceSha256": "697efdf8c7144ef4b56610e82ef334cb099f60a181d1b912f040e0afc91a9a77",
+      "sourceBounds": [
+        [
+          -1.2095480087737087e-05,
+          -1.2095480087737087e-05,
+          -0.0015999993775039911
+        ],
+        [
+          0.042012084275484085,
+          0.03301208093762398,
+          0.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -7.097226898622466e-06,
+          -1.128140684159007e-05,
+          -0.0015999993775039911
+        ],
+        [
+          0.04200226441025734,
+          0.0330103263258934,
+          0.0
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "body_back.stl",
+      "sourceTriangles": 9894,
+      "displayTriangles": 2731,
+      "displaySurfaces": [
+        {
+          "file": "body_back.stl",
+          "triangles": 2723,
+          "sha256": "44bb801d443cd7d9aee4d0ff0c1d4ab55bf0df9c51f57697c706df1984e1a1b4"
+        },
+        {
+          "file": "body_back__surface2.stl",
+          "triangles": 8,
+          "sha256": "8944446b32afa0a4dc3934c756d181c9a81462cfaf6547ee2b2c05b8518abdf8"
+        }
+      ],
+      "sourceSha256": "037383e5e5ba81a84cb6776edf253cfc6a5256b33133429e8efbd84387b486db",
+      "sourceBounds": [
+        [
+          -0.13500000536441803,
+          -0.054999999701976776,
+          -0.0820000022649765
+        ],
+        [
+          -0.0949999988079071,
+          0.054999999701976776,
+          0.0430000014603138
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.14866700768470764,
+          -0.04781116172671318,
+          -0.08605548739433289
+        ],
+        [
+          -0.0949999988079071,
+          0.046067528426647186,
+          0.0430000014603138
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "body_front.stl",
+      "sourceTriangles": 4802,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "body_front.stl",
+          "triangles": 2488,
+          "sha256": "7b3285edadbf1f1bdadff1e9f4e575d3fe3157f97ea4f9460961664b29310d46"
+        },
+        {
+          "file": "body_front__surface2.stl",
+          "triangles": 12,
+          "sha256": "3c032e2fe9855daf93b9456694e6892d865481dbd3ec1534863f15ec3c2ac508"
+        }
+      ],
+      "sourceSha256": "b209dec3a53c0004a2ec173b227d4513f43eabd75887cfd5e916470a8d5bf6d4",
+      "sourceBounds": [
+        [
+          0.054999999701976776,
+          -0.054999999701976776,
+          -0.10000000149011612
+        ],
+        [
+          0.06499999761581421,
+          0.054999999701976776,
+          0.0430000014603138
+        ]
+      ],
+      "displayBounds": [
+        [
+          0.054999999701976776,
+          -0.056246962398290634,
+          -0.10000000149011612
+        ],
+        [
+          0.06499999761581421,
+          0.05634399875998497,
+          0.044655006378889084
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "body_middle_bottom.stl",
+      "sourceTriangles": 8364,
+      "displayTriangles": 4841,
+      "displaySurfaces": [
+        {
+          "file": "body_middle_bottom.stl",
+          "triangles": 4837,
+          "sha256": "34bd20d6f715befb5d1f20635841606e57f87b09a13c8bd472e1dc2b392cb0b3"
+        },
+        {
+          "file": "body_middle_bottom__surface2.stl",
+          "triangles": 4,
+          "sha256": "a58d50bd348ef8e1a4c2391b71901b240827db52e54225763226d189121d83d0"
+        }
+      ],
+      "sourceSha256": "217315c97f20b5810cf662e7a38f91af10b5ab548a6fc38f6681c144c074db3b",
+      "sourceBounds": [
+        [
+          -0.0949999988079071,
+          -0.054999999701976776,
+          -0.10000000149011612
+        ],
+        [
+          0.054999999701976776,
+          0.054999999701976776,
+          -0.013775000348687172
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.0949999988079071,
+          -0.05673280730843544,
+          -0.10000000149011612
+        ],
+        [
+          0.054999999701976776,
+          0.054999999701976776,
+          -0.013775000348687172
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "body_middle_top.stl",
+      "sourceTriangles": 6012,
+      "displayTriangles": 2522,
+      "displaySurfaces": [
+        {
+          "file": "body_middle_top.stl",
+          "triangles": 2522,
+          "sha256": "65386e4aa83eb77ab84cf42f18b9961d81d3d9afecb578c725f51caeb53bc98b"
+        }
+      ],
+      "sourceSha256": "8145b0046d9e8cb624b3e1c7b1f2f9cf714ff9aa3b5b896f230b1460ca0e76db",
+      "sourceBounds": [
+        [
+          -0.0949999988079071,
+          -0.054999999701976776,
+          -0.013775000348687172
+        ],
+        [
+          0.054999999701976776,
+          0.054999999701976776,
+          0.0430000014603138
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.0949999988079071,
+          -0.054999999701976776,
+          -0.013775000348687172
+        ],
+        [
+          0.054999999701976776,
+          0.054999999701976776,
+          0.0430000014603138
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "cell.stl",
+      "sourceTriangles": 5472,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "cell.stl",
+          "triangles": 2500,
+          "sha256": "4f5a2acab6d781bcefee0c006f1ec2ce583c2e82236a222fe25910e6d023a966"
+        }
+      ],
+      "sourceSha256": "897b4ab0a3852aebd905009159345dacead2b1850a4f3a8e4c5d3095c108bc0f",
+      "sourceBounds": [
+        [
+          -0.008999999612569809,
+          -0.008999999612569809,
+          0.0
+        ],
+        [
+          0.008999999612569809,
+          0.008999999612569809,
+          0.06499999761581421
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.008999999612569809,
+          -0.008999999612569809,
+          -1.5648258244738145e-09
+        ],
+        [
+          0.008999999612569809,
+          0.009025299921631813,
+          0.06499999761581421
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "drive_palonier.stl",
+      "sourceTriangles": 2050,
+      "displayTriangles": 2050,
+      "displaySurfaces": [
+        {
+          "file": "drive_palonier.stl",
+          "triangles": 2050,
+          "sha256": "8728e5e90267d67991767653b2989b4c2aeb4a4b063ed18213427f4586c63a67"
+        }
+      ],
+      "sourceSha256": "70ba3a79ca51aa6c39739cba934d0cf91ad3a6115da3d995cadff1811080c217",
+      "sourceBounds": [
+        [
+          -0.035475000739097595,
+          0.004399999976158142,
+          -0.009975000284612179
+        ],
+        [
+          -0.015525000169873238,
+          0.009449999779462814,
+          0.009975000284612179
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.035475000739097595,
+          0.004399999976158142,
+          -0.009975000284612179
+        ],
+        [
+          -0.015525000169873238,
+          0.009449999779462814,
+          0.009975000284612179
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "foot_bottom_pla.stl",
+      "sourceTriangles": 1184,
+      "displayTriangles": 1184,
+      "displaySurfaces": [
+        {
+          "file": "foot_bottom_pla.stl",
+          "triangles": 1184,
+          "sha256": "310dbb8779019ca302410a34a31345d5e3e83eec9dd036ca929838d402aaaaf7"
+        }
+      ],
+      "sourceSha256": "da7190dbcdcc013cece385afad9558436983d4ecd73bc62b1ec7484092795da3",
+      "sourceBounds": [
+        [
+          -0.05324999988079071,
+          0.07615000009536743,
+          -0.2536250054836273
+        ],
+        [
+          0.03972499817609787,
+          0.10384999960660934,
+          -0.24562500417232513
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.05324999988079071,
+          0.07615000009536743,
+          -0.2536250054836273
+        ],
+        [
+          0.03972499817609787,
+          0.10384999960660934,
+          -0.24562500417232513
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "foot_bottom_tpu.stl",
+      "sourceTriangles": 2054,
+      "displayTriangles": 2054,
+      "displaySurfaces": [
+        {
+          "file": "foot_bottom_tpu.stl",
+          "triangles": 2054,
+          "sha256": "bbc184d1b06e8df8b66c577478f397f19d9483b19cf0e4d7e8bf7ebfce8bc0fc"
+        }
+      ],
+      "sourceSha256": "3d0329511c6a4d8796f9ad425dfa3019c6e2d7a7c50ae057e44eaaee636fc31a",
+      "sourceBounds": [
+        [
+          -0.05415403097867966,
+          0.07008842378854752,
+          -0.2616249918937683
+        ],
+        [
+          0.04777850955724716,
+          0.11082229763269424,
+          -0.2536250054836273
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.05415403097867966,
+          0.07008842378854752,
+          -0.2616249918937683
+        ],
+        [
+          0.04777850955724716,
+          0.11082229763269424,
+          -0.2536250054836273
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "foot_side.stl",
+      "sourceTriangles": 4894,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "foot_side.stl",
+          "triangles": 2500,
+          "sha256": "1e7ac4ae714d435333eacc31c008fa32984c0ef554b1b577ab2023b62c0611b2"
+        }
+      ],
+      "sourceSha256": "8724b025390917bb3a251b8541f934b5a3160c11257895a0b76bbdf486681ad9",
+      "sourceBounds": [
+        [
+          -0.05565035343170166,
+          0.06714999675750732,
+          -0.2536250054836273
+        ],
+        [
+          0.04781433194875717,
+          0.0791499987244606,
+          -0.20762987434864044
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.05566000938415527,
+          0.06714984774589539,
+          -0.2536257207393646
+        ],
+        [
+          0.04781433194875717,
+          0.0791500136256218,
+          -0.20762987434864044
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "foot_top.stl",
+      "sourceTriangles": 4932,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "foot_top.stl",
+          "triangles": 2500,
+          "sha256": "75cc0cc7eb881c1e7249579354d4996e7db3a754f897407db8601d589c14ca09"
+        }
+      ],
+      "sourceSha256": "f55a1a1b2376e248cf3db91e5bc9e7b525d63827d3b9b3da46205f3c33976752",
+      "sourceBounds": [
+        [
+          -0.05565235763788223,
+          0.0791499987244606,
+          -0.2536250054836273
+        ],
+        [
+          0.047814298421144485,
+          0.1140500009059906,
+          -0.20762987434864044
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.05565299093723297,
+          0.0791499987244606,
+          -0.25362733006477356
+        ],
+        [
+          0.047814298421144485,
+          0.11405274271965027,
+          -0.2075616866350174
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "head.stl",
+      "sourceTriangles": 54992,
+      "displayTriangles": 54934,
+      "displaySurfaces": [
+        {
+          "file": "head.stl",
+          "triangles": 53388,
+          "sha256": "26c33a1640c2616fb524c4fdcd6acfc3a9c7a592f67fafccf51a6b0e85cc440a"
+        },
+        {
+          "file": "head__surface2.stl",
+          "triangles": 1546,
+          "sha256": "1c1cc946592fe88c012d8842867918f928e3acce9d9f14ff9ab67b9fa3a870d8"
+        }
+      ],
+      "sourceSha256": "f9497872d339ae28920a66a628c9d0da012a4a8d5d5af57059481d827895579f",
+      "sourceBounds": [
+        [
+          -0.07884570956230164,
+          -0.09858417510986328,
+          0.10936099290847778
+        ],
+        [
+          0.12939999997615814,
+          0.11220883578062057,
+          0.1690099835395813
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.07884570956230164,
+          -0.09858417510986328,
+          0.10936099290847778
+        ],
+        [
+          0.12939999997615814,
+          0.11220883578062057,
+          0.1690099835395813
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "head_bot_sheet.stl",
+      "sourceTriangles": 5840,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "head_bot_sheet.stl",
+          "triangles": 2500,
+          "sha256": "5b5d8b6a0b4da4a865fc499f2742271fb5086ee2d813095fc585c58ce3d35f09"
+        }
+      ],
+      "sourceSha256": "56f62e32612154c33f42d0c1550fc5b4348cd65bb0df03d7c3552ba3a6400f90",
+      "sourceBounds": [
+        [
+          -0.07689999788999557,
+          -0.09580747038125992,
+          0.10971000045537949
+        ],
+        [
+          0.1168999969959259,
+          0.09580747038125992,
+          0.11270999908447266
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.07689999788999557,
+          -0.09580747038125992,
+          0.10965760052204132
+        ],
+        [
+          0.1168999969959259,
+          0.09580747038125992,
+          0.11288592219352722
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "head_pitch_to_yaw.stl",
+      "sourceTriangles": 13460,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "head_pitch_to_yaw.stl",
+          "triangles": 2500,
+          "sha256": "6e460a67c6ca4f00abbb683947aa656cc4ad0c34f85fb3385fc40cce86e3bb3a"
+        }
+      ],
+      "sourceSha256": "8d6cb940bdcf84d40160939a4bdd29a27a8da1650eec6aa3e2d1dd5eefa07f39",
+      "sourceBounds": [
+        [
+          -0.0010000000474974513,
+          -0.021849999204277992,
+          0.08010999858379364
+        ],
+        [
+          0.03099375031888485,
+          0.02305000089108944,
+          0.1521099954843521
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.0010055762249976397,
+          -0.021869808435440063,
+          0.07995457947254181
+        ],
+        [
+          0.030985312536358833,
+          0.02308453619480133,
+          0.15215490758419037
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "head_roll_mount.stl",
+      "sourceTriangles": 5628,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "head_roll_mount.stl",
+          "triangles": 2500,
+          "sha256": "7da789b8c70ca5929a0e0c4224798a4b673f67b5798606beafa657a965cc0ff2"
+        }
+      ],
+      "sourceSha256": "edd133c532498b48b505c02231c140a8ea38f64b38db48b8d17977fbee97e1c4",
+      "sourceBounds": [
+        [
+          0.05999999865889549,
+          -0.03236975148320198,
+          0.1520099937915802
+        ],
+        [
+          0.10000000149011612,
+          0.03236975148320198,
+          0.16710999608039856
+        ]
+      ],
+      "displayBounds": [
+        [
+          0.05999999865889549,
+          -0.03236975148320198,
+          0.1520099639892578
+        ],
+        [
+          0.10000000149011612,
+          0.03236975148320198,
+          0.16710999608039856
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "head_yaw_to_roll.stl",
+      "sourceTriangles": 6964,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "head_yaw_to_roll.stl",
+          "triangles": 2500,
+          "sha256": "9a4a2d3a81f6c5369a310e251db13f2e3b04617bb93416628ba0ddabb7c27e40"
+        }
+      ],
+      "sourceSha256": "fb3e4d4b2b9e575a8364ddb0f82b2909c1cfe5c7e3321e5c3e9683d3ae261482",
+      "sourceBounds": [
+        [
+          -0.027000000700354576,
+          -0.039991289377212524,
+          0.1069599986076355
+        ],
+        [
+          0.06094999983906746,
+          0.039991289377212524,
+          0.1491599977016449
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.02700086683034897,
+          -0.04008841514587402,
+          0.10695749521255493
+        ],
+        [
+          0.060951896011829376,
+          0.04008841514587402,
+          0.1491599977016449
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "holder.stl",
+      "sourceTriangles": 28,
+      "displayTriangles": 28,
+      "displaySurfaces": [
+        {
+          "file": "holder.stl",
+          "triangles": 28,
+          "sha256": "b86b878b5cf48be6d0663855b8a85bbd7c54868b8b1b20df919bcbd42ecea315"
+        }
+      ],
+      "sourceSha256": "a17ce27cfdfc489e18e7e2d1eaddb4b4d63612a48ae7fe8b20ffadadb618b076",
+      "sourceBounds": [
+        [
+          -0.03905847668647766,
+          0.0430244579911232,
+          0.0
+        ],
+        [
+          0.0369415208697319,
+          0.08402445912361145,
+          0.019999999552965164
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.03905847668647766,
+          0.0430244579911232,
+          0.0
+        ],
+        [
+          0.0369415208697319,
+          0.08402445912361145,
+          0.019999999552965164
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "left_antenna_holder.stl",
+      "sourceTriangles": 2168,
+      "displayTriangles": 2168,
+      "displaySurfaces": [
+        {
+          "file": "left_antenna_holder.stl",
+          "triangles": 2168,
+          "sha256": "0fae00f3ea6defb945f3541805dcdca2277d98eb891d6c20a46d0af2a215ba33"
+        }
+      ],
+      "sourceSha256": "0fae00f3ea6defb945f3541805dcdca2277d98eb891d6c20a46d0af2a215ba33",
+      "sourceBounds": [
+        [
+          -0.07721574604511261,
+          0.05337448790669441,
+          0.10974389314651489
+        ],
+        [
+          -0.05031254515051842,
+          0.07338286936283112,
+          0.15144936740398407
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.07721574604511261,
+          0.05337448790669441,
+          0.10974389314651489
+        ],
+        [
+          -0.05031254515051842,
+          0.07338286936283112,
+          0.15144936740398407
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "left_cache.stl",
+      "sourceTriangles": 2144,
+      "displayTriangles": 2144,
+      "displaySurfaces": [
+        {
+          "file": "left_cache.stl",
+          "triangles": 2144,
+          "sha256": "49f35a5a7b61a8232ff4b583097a8ce7f897b4a20d1ee461b2fa3cae112045a8"
+        }
+      ],
+      "sourceSha256": "8ba1ec39e643b0ba932eb7de9e6327c8bf7d2991cd8642068a99f8038963faf4",
+      "sourceBounds": [
+        [
+          -0.04744923114776611,
+          0.08304999768733978,
+          -0.17005378007888794
+        ],
+        [
+          0.04251914843916893,
+          0.12304999679327011,
+          -0.017439087852835655
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.04744923114776611,
+          0.08304999768733978,
+          -0.17005378007888794
+        ],
+        [
+          0.04251914843916893,
+          0.12304999679327011,
+          -0.017439087852835655
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "left_knee_to_ankle_left_sheet.stl",
+      "sourceTriangles": 5686,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "left_knee_to_ankle_left_sheet.stl",
+          "triangles": 2500,
+          "sha256": "8df6d9b26a44a081fd100100320c1cc1acc5c8f39fb7572cbbef366a39c30680"
+        }
+      ],
+      "sourceSha256": "c49d18abcd227c01132ffbf1825c4c2e8f46b27f90cb08936d4a955b09532dec",
+      "sourceBounds": [
+        [
+          -0.03141000121831894,
+          0.10459999740123749,
+          -0.20329999923706055
+        ],
+        [
+          -0.0007099999929778278,
+          0.11304999887943268,
+          -0.1326500028371811
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.03141000121831894,
+          0.10459999740123749,
+          -0.20329999923706055
+        ],
+        [
+          -0.0007099999929778278,
+          0.11306215077638626,
+          -0.1326252669095993
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "left_knee_to_ankle_right_sheet.stl",
+      "sourceTriangles": 5798,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "left_knee_to_ankle_right_sheet.stl",
+          "triangles": 2500,
+          "sha256": "6a3f70ed36932efdd751a118d9c3e62960761f91a0e48af5afaab2902556e0b8"
+        }
+      ],
+      "sourceSha256": "831703441094337352fec9adef68c79b660c25e643e68b19aefb2f088b6fb673",
+      "sourceBounds": [
+        [
+          -0.03141000121831894,
+          0.0681999996304512,
+          -0.20329999923706055
+        ],
+        [
+          -0.0007099999929778278,
+          0.07540000230073929,
+          -0.1326500028371811
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.03141000121831894,
+          0.06819703429937363,
+          -0.20329999923706055
+        ],
+        [
+          -0.0007099999929778278,
+          0.07540000230073929,
+          -0.1326475888490677
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "left_roll_to_pitch.stl",
+      "sourceTriangles": 10094,
+      "displayTriangles": 2499,
+      "displaySurfaces": [
+        {
+          "file": "left_roll_to_pitch.stl",
+          "triangles": 2497,
+          "sha256": "f3908d9d854ac377e1c0b211050cb6eef018e4690cfb233a412eeb66110b1e47"
+        },
+        {
+          "file": "left_roll_to_pitch__surface2.stl",
+          "triangles": 2,
+          "sha256": "415c947a2f3df01565bc23fbc4d4f678b19f0da0d61b34d32e99bb68c3802405"
+        }
+      ],
+      "sourceSha256": "6f876a11c3c2076ddc9d437948aba94217dad5de75dba9e1f5fab663e8598379",
+      "sourceBounds": [
+        [
+          -0.022849999368190765,
+          0.024034874513745308,
+          -0.08036000281572342
+        ],
+        [
+          0.024049999192357063,
+          0.11010000109672546,
+          -0.049639999866485596
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.022961536422371864,
+          0.023703493177890778,
+          -0.08059327304363251
+        ],
+        [
+          0.0240947138518095,
+          0.11010000109672546,
+          -0.04950918257236481
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "leg_spacer.stl",
+      "sourceTriangles": 3180,
+      "displayTriangles": 2614,
+      "displaySurfaces": [
+        {
+          "file": "leg_spacer.stl",
+          "triangles": 2614,
+          "sha256": "0faf686d315d09aa4e088f370bb65e4fb90fa02789d575cb7e285d02263edb9c"
+        }
+      ],
+      "sourceSha256": "f7e2d0c4ca470032ce6c5cce07447a4c321b6f217a14d1e467cbee972344c14d",
+      "sourceBounds": [
+        [
+          -0.030094288289546967,
+          0.07214999943971634,
+          -0.16897499561309814
+        ],
+        [
+          -0.0020257122814655304,
+          0.10904999822378159,
+          -0.1589779257774353
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.030094288289546967,
+          0.07214999943971634,
+          -0.16897499561309814
+        ],
+        [
+          -0.0020257122814655304,
+          0.10904999822378159,
+          -0.1589779257774353
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "neck_left_sheet.stl",
+      "sourceTriangles": 4228,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "neck_left_sheet.stl",
+          "triangles": 2500,
+          "sha256": "91a93798d6080087e34cd58a050e5ce9629f3d71064bbd86f2ae22381e2ab04c"
+        }
+      ],
+      "sourceSha256": "aa3202e5304cd7c11ee3b9c9a39c3d4c2646aeb3e79e8901e731134afb8514f9",
+      "sourceBounds": [
+        [
+          0.004639999940991402,
+          0.01600000075995922,
+          0.014120382256805897
+        ],
+        [
+          0.035360001027584076,
+          0.02305000089108944,
+          0.07210999727249146
+        ]
+      ],
+      "displayBounds": [
+        [
+          0.004639999940991402,
+          0.01600000075995922,
+          0.014094063080847263
+        ],
+        [
+          0.035360001027584076,
+          0.023053470999002457,
+          0.07210999727249146
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "neck_right_sheet.stl",
+      "sourceTriangles": 4312,
+      "displayTriangles": 2500,
+      "displaySurfaces": [
+        {
+          "file": "neck_right_sheet.stl",
+          "triangles": 2500,
+          "sha256": "6f2229c009d0ab01e1f59d4a09f7e48c0c8f13cb3cb82e14e99bca6025d37288"
+        }
+      ],
+      "sourceSha256": "e41167546cc7fe9f5a5104c020a885453a960019692b02499f7148c0a0504ec5",
+      "sourceBounds": [
+        [
+          0.004639999940991402,
+          -0.021849999204277992,
+          0.014120382256805897
+        ],
+        [
+          0.035360001027584076,
+          -0.01600000075995922,
+          0.07210999727249146
+        ]
+      ],
+      "displayBounds": [
+        [
+          0.004639999940991402,
+          -0.021850060671567917,
+          0.014094063080847263
+        ],
+        [
+          0.035360001027584076,
+          -0.01600000075995922,
+          0.07210999727249146
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "passive_palonier.stl",
+      "sourceTriangles": 2048,
+      "displayTriangles": 2048,
+      "displaySurfaces": [
+        {
+          "file": "passive_palonier.stl",
+          "triangles": 2048,
+          "sha256": "04daf10b30125a1657b0f589fa991fbb7f065f825191ae7bcf63ec68d192f2f4"
+        }
+      ],
+      "sourceSha256": "88f1ac81c6214080d7ef083a5faafcde9e986b551136e531a1ac7bb1b6b11a4a",
+      "sourceBounds": [
+        [
+          -0.035475000739097595,
+          -0.030300000682473183,
+          -0.009975000284612179
+        ],
+        [
+          -0.015525000169873238,
+          -0.0272000003606081,
+          0.009975000284612179
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.035475000739097595,
+          -0.030300000682473183,
+          -0.009975000284612179
+        ],
+        [
+          -0.015525000169873238,
+          -0.0272000003606081,
+          0.009975000284612179
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "power_switch.stl",
+      "sourceTriangles": 1930,
+      "displayTriangles": 1930,
+      "displaySurfaces": [
+        {
+          "file": "power_switch.stl",
+          "triangles": 1930,
+          "sha256": "079ae17ce432b6905fb75509e7022d0e842e44ea6709ae292ccbb07c81270a0b"
+        }
+      ],
+      "sourceSha256": "3a6ff93634f42a231845ead79c6fe3739f80b2859e11ca92d95110dad00a2dc2",
+      "sourceBounds": [
+        [
+          -0.011704999953508377,
+          -0.0036800000816583633,
+          -0.004000000189989805
+        ],
+        [
+          0.011704999953508377,
+          0.0036800000816583633,
+          0.012839999981224537
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.011704999953508377,
+          -0.0036800000816583633,
+          -0.004000000189989805
+        ],
+        [
+          0.011704999953508377,
+          0.0036800000816583633,
+          0.012839999981224537
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "raspberrypizerow.stl",
+      "sourceTriangles": 21256,
+      "displayTriangles": 15659,
+      "displaySurfaces": [
+        {
+          "file": "raspberrypizerow.stl",
+          "triangles": 15649,
+          "sha256": "f722dd30332f9284e0eb60d5905f4df64b1d9bf97aba0943c92e5b7bd3988dee"
+        },
+        {
+          "file": "raspberrypizerow__surface2.stl",
+          "triangles": 10,
+          "sha256": "8a63b239e4fad278598afb1b43942718da2b1a581d0668ec1e18deffea180de1"
+        }
+      ],
+      "sourceSha256": "a153a352da3a7bd748fa71c0451318c2c2a9e5fb9d5f4e6f606a8329505e10e2",
+      "sourceBounds": [
+        [
+          -0.032499998807907104,
+          0.0,
+          -0.014999999664723873
+        ],
+        [
+          0.033399999141693115,
+          0.004100000020116568,
+          0.016249999403953552
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.03184065967798233,
+          0.0,
+          -0.014999999664723873
+        ],
+        [
+          0.032499998807907104,
+          0.004100000020116568,
+          0.016249999403953552
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "right_antenna_holder.stl",
+      "sourceTriangles": 2168,
+      "displayTriangles": 2168,
+      "displaySurfaces": [
+        {
+          "file": "right_antenna_holder.stl",
+          "triangles": 2168,
+          "sha256": "bbf0d1beb0625fccdcafedb9bb6a46592c852ca0904636e78f040613ab4f7419"
+        }
+      ],
+      "sourceSha256": "bbf0d1beb0625fccdcafedb9bb6a46592c852ca0904636e78f040613ab4f7419",
+      "sourceBounds": [
+        [
+          -0.07721574604511261,
+          -0.07338286936283112,
+          0.10974389314651489
+        ],
+        [
+          -0.05031254515051842,
+          -0.05337448790669441,
+          0.15144936740398407
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.07721574604511261,
+          -0.07338286936283112,
+          0.10974389314651489
+        ],
+        [
+          -0.05031254515051842,
+          -0.05337448790669441,
+          0.15144936740398407
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "right_cache.stl",
+      "sourceTriangles": 2144,
+      "displayTriangles": 2144,
+      "displaySurfaces": [
+        {
+          "file": "right_cache.stl",
+          "triangles": 2144,
+          "sha256": "639c210f835f0d4611d578e91359e89e3dd2ec27c2ee44529c8567c9180bde0c"
+        }
+      ],
+      "sourceSha256": "7cf3edfd76be032fcb657ded24e7b098a7c4107919f6420073ae86276df9d002",
+      "sourceBounds": [
+        [
+          -0.04744923114776611,
+          -0.12304999679327011,
+          -0.17005378007888794
+        ],
+        [
+          0.04251914843916893,
+          -0.08304999768733978,
+          -0.017439087852835655
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.04744923114776611,
+          -0.12304999679327011,
+          -0.17005378007888794
+        ],
+        [
+          0.04251914843916893,
+          -0.08304999768733978,
+          -0.017439087852835655
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "right_roll_to_pitch.stl",
+      "sourceTriangles": 10092,
+      "displayTriangles": 2499,
+      "displaySurfaces": [
+        {
+          "file": "right_roll_to_pitch.stl",
+          "triangles": 2497,
+          "sha256": "6ca8be4ddfe4cd61b022848f9bceb8539a6b1ad4d57b4692c28ac052923a0e7b"
+        },
+        {
+          "file": "right_roll_to_pitch__surface2.stl",
+          "triangles": 2,
+          "sha256": "cc678630833a374ed6fdcda518cf7537fe1d75d8fa8730c0d8054c1cf39eaae5"
+        }
+      ],
+      "sourceSha256": "60c5ac394fceafa042103745cca33d09dc879ba78867c76cee5950c3f2d59b43",
+      "sourceBounds": [
+        [
+          -0.022849999368190765,
+          -0.11010000109672546,
+          -0.08036000281572342
+        ],
+        [
+          0.024049999192357063,
+          -0.024034874513745308,
+          -0.049639999866485596
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.022901717573404312,
+          -0.11010000109672546,
+          -0.08050177991390228
+        ],
+        [
+          0.024179015308618546,
+          -0.023734942078590393,
+          -0.0496206171810627
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "roll_bearing.stl",
+      "sourceTriangles": 576,
+      "displayTriangles": 576,
+      "displaySurfaces": [
+        {
+          "file": "roll_bearing.stl",
+          "triangles": 576,
+          "sha256": "85f2cbc9881cdc611d140a399e8fd79eead56f2b700e804de7308679f502e24b"
+        }
+      ],
+      "sourceSha256": "777abd3d00a58c06bf31f8cc233fc8620099ec7e8d79eb7325dc8c1cdd7aa297",
+      "sourceBounds": [
+        [
+          -0.01600000075995922,
+          0.01899999938905239,
+          -0.08527500182390213
+        ],
+        [
+          0.01600000075995922,
+          0.050999999046325684,
+          -0.07827500253915787
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.01600000075995922,
+          0.01899999938905239,
+          -0.08527500182390213
+        ],
+        [
+          0.01600000075995922,
+          0.050999999046325684,
+          -0.07827500253915787
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "roll_motor_bottom.stl",
+      "sourceTriangles": 1790,
+      "displayTriangles": 1790,
+      "displaySurfaces": [
+        {
+          "file": "roll_motor_bottom.stl",
+          "triangles": 1790,
+          "sha256": "5b49d69ce0b24ed75227777a1ce36a4e98bc76a4a51f7e2c10f7363dd255adbb"
+        }
+      ],
+      "sourceSha256": "20c85b387cd88a8939e70d86cdfc1556f562c8c3e39fc105cfe84e50c977e60a",
+      "sourceBounds": [
+        [
+          -0.017500000074505806,
+          0.019630245864391327,
+          -0.08517500013113022
+        ],
+        [
+          0.014499999582767487,
+          0.0503697544336319,
+          -0.05376499891281128
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.017500000074505806,
+          0.019630245864391327,
+          -0.08517500013113022
+        ],
+        [
+          0.014499999582767487,
+          0.0503697544336319,
+          -0.05376499891281128
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "roll_motor_top.stl",
+      "sourceTriangles": 4530,
+      "displayTriangles": 2920,
+      "displaySurfaces": [
+        {
+          "file": "roll_motor_top.stl",
+          "triangles": 2914,
+          "sha256": "384d2dd7856e0eb7a057ad283ca141ac685d9348c1990fe6458b31ffe479e8da"
+        },
+        {
+          "file": "roll_motor_top__surface2.stl",
+          "triangles": 6,
+          "sha256": "f20c27ffeea7c1b7f94b54820dc771360bbd199b042e8ac85835277cebf9fbf2"
+        }
+      ],
+      "sourceSha256": "e9b6e70d23ad1aee3704de2b2240d3450daaa69d55429a57e50702d98c8c8fb4",
+      "sourceBounds": [
+        [
+          -0.01899999938905239,
+          0.020640000700950623,
+          -0.03906499966979027
+        ],
+        [
+          0.01899999938905239,
+          0.0493599995970726,
+          -0.019050000235438347
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.01899999938905239,
+          0.02059379778802395,
+          -0.03906499966979027
+        ],
+        [
+          0.01899999938905239,
+          0.0493599995970726,
+          -0.019050000235438347
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "sg90.stl",
+      "sourceTriangles": 1344,
+      "displayTriangles": 1344,
+      "displaySurfaces": [
+        {
+          "file": "sg90.stl",
+          "triangles": 1344,
+          "sha256": "fb7be115b288bedd4a6ee36f4c64dd23a7c2220024478e169d2e20334a210f77"
+        }
+      ],
+      "sourceSha256": "5594cd7f8041e407ea3e7260efa9804055d8c08e3d35ec2282a04169387c3d7f",
+      "sourceBounds": [
+        [
+          -0.016300000250339508,
+          -0.006500000134110451,
+          0.0
+        ],
+        [
+          0.016300000250339508,
+          0.006500000134110451,
+          0.030969999730587006
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.016300000250339508,
+          -0.006500000134110451,
+          0.0
+        ],
+        [
+          0.016300000250339508,
+          0.006500000134110451,
+          0.030969999730587006
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "trunk_bottom.stl",
+      "sourceTriangles": 5648,
+      "displayTriangles": 3156,
+      "displaySurfaces": [
+        {
+          "file": "trunk_bottom.stl",
+          "triangles": 3153,
+          "sha256": "86da341fa712e82280a13f58399517e0decb48dc4e2b5f9a66b48c64da13a688"
+        },
+        {
+          "file": "trunk_bottom__surface2.stl",
+          "triangles": 3,
+          "sha256": "ddae2982e9082266b935ee732db9c5ac947dbf98a86ca3fb094ba0d42a8e1596"
+        }
+      ],
+      "sourceSha256": "b6f5baba76f9f29d2f76714630927f20a5358c3096b682b1129866cc164c7772",
+      "sourceBounds": [
+        [
+          -0.01899999938905239,
+          -0.05400000140070915,
+          -0.08877500146627426
+        ],
+        [
+          0.035360001027584076,
+          0.05400000140070915,
+          -0.01510000042617321
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.01899999938905239,
+          -0.05262525752186775,
+          -0.08877500146627426
+        ],
+        [
+          0.035360001027584076,
+          0.03921845555305481,
+          -0.01510000042617321
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "trunk_top.stl",
+      "sourceTriangles": 19028,
+      "displayTriangles": 6596,
+      "displaySurfaces": [
+        {
+          "file": "trunk_top.stl",
+          "triangles": 6576,
+          "sha256": "7f94ff71b264ed89d7ba4f3ef00a5472bded673a862f2ccdd5701f80e0468102"
+        },
+        {
+          "file": "trunk_top__surface2.stl",
+          "triangles": 20,
+          "sha256": "4b8cf884f42208088a4b7d5cae9b9bf6ada5b65185bd1bb913a1f13a489962ee"
+        }
+      ],
+      "sourceSha256": "693314821a26e943df0c4500b8e35fbe84e1fa8d8348fdc5fa5adfc0c2f98c7c",
+      "sourceBounds": [
+        [
+          -0.09010999649763107,
+          -0.050360001623630524,
+          -0.020099999383091927
+        ],
+        [
+          0.035360001027584076,
+          0.050360001623630524,
+          0.020899999886751175
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.09118516743183136,
+          -0.050360001623630524,
+          -0.020108623430132866
+        ],
+        [
+          0.035360001027584076,
+          0.050360001623630524,
+          0.020899999886751175
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "usb_c_charger.stl",
+      "sourceTriangles": 1212,
+      "displayTriangles": 1212,
+      "displaySurfaces": [
+        {
+          "file": "usb_c_charger.stl",
+          "triangles": 1212,
+          "sha256": "cee7606502eafc34d6e7f54f6a82382de2ce7a26f1f36380abf6ae759e92f816"
+        }
+      ],
+      "sourceSha256": "485a27a44d353343f18de679c5ce2cfd87cc662150d379d37b79d6869f358f8a",
+      "sourceBounds": [
+        [
+          -0.018449999392032623,
+          -0.009050000458955765,
+          0.0
+        ],
+        [
+          0.019750000908970833,
+          0.009050000458955765,
+          0.005150000099092722
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.018449999392032623,
+          -0.009050000458955765,
+          0.0
+        ],
+        [
+          0.019750000908970833,
+          0.009050000458955765,
+          0.005150000099092722
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "wj-wk00-0122topcabinetcase_95.stl",
+      "sourceTriangles": 41378,
+      "displayTriangles": 3256,
+      "displaySurfaces": [
+        {
+          "file": "wj-wk00-0122topcabinetcase_95.stl",
+          "triangles": 3252,
+          "sha256": "14e65daef25ecafe63b39bb6f1a06dbfe3834d68f932d5096d8bc831e6b2df85"
+        },
+        {
+          "file": "wj-wk00-0122topcabinetcase_95__surface2.stl",
+          "triangles": 4,
+          "sha256": "1fddad58d9cfd4c0511cc3b37677b9a760cbc6b8b91935304bc2aa995be815b7"
+        }
+      ],
+      "sourceSha256": "aa68a42a6e95bf1c90f2875232804982630ec1d6011efba559a7b7681c595cb4",
+      "sourceBounds": [
+        [
+          -0.035609662532806396,
+          -0.002199999988079071,
+          -0.012359661981463432
+        ],
+        [
+          0.009606231935322285,
+          0.007500015664845705,
+          0.012359661050140858
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.035935208201408386,
+          -0.002199999988079071,
+          -0.012359661981463432
+        ],
+        [
+          0.010515955276787281,
+          0.007414461579173803,
+          0.012356220744550228
+        ]
+      ],
+      "watertight": false
+    },
+    {
+      "file": "wj-wk00-0123middlecase_56.stl",
+      "sourceTriangles": 992,
+      "displayTriangles": 992,
+      "displaySurfaces": [
+        {
+          "file": "wj-wk00-0123middlecase_56.stl",
+          "triangles": 992,
+          "sha256": "61f4b2bdcc62258a3036415f7d91d0b4e316ecbbcc3e71356bda06c7092e5fb8"
+        }
+      ],
+      "sourceSha256": "2d0c841a7d7f2bb7cdb17ee7cb7cab7871cc6bb33ca3cee375beab2fdac2f6b4",
+      "sourceBounds": [
+        [
+          -0.03560999780893326,
+          -0.01510000042617321,
+          -0.012359999120235443
+        ],
+        [
+          0.009609999135136604,
+          -0.0012000000569969416,
+          0.012359999120235443
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.03560999780893326,
+          -0.01510000042617321,
+          -0.012359999120235443
+        ],
+        [
+          0.009609999135136604,
+          -0.0012000000569969416,
+          0.012359999120235443
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "file": "wj-wk00-0124bottomcase_45.stl",
+      "sourceTriangles": 102342,
+      "displayTriangles": 2106,
+      "displaySurfaces": [
+        {
+          "file": "wj-wk00-0124bottomcase_45.stl",
+          "triangles": 2104,
+          "sha256": "577a505ea836d8375f2ba7b98ead6c3024b87ba9fd385bb7180ed7f4de48a949"
+        },
+        {
+          "file": "wj-wk00-0124bottomcase_45__surface2.stl",
+          "triangles": 2,
+          "sha256": "3894f00c56737f1dafed0c1344bf054b1a40267cf0b0cc706a38330d1f26d610"
+        }
+      ],
+      "sourceSha256": "bf0d8a2b7c00710e6c5e6a0f100f3dc27132e6d0bac215480d37dc3236395349",
+      "sourceBounds": [
+        [
+          -0.035610001534223557,
+          -0.028200000524520874,
+          -0.012360002845525742
+        ],
+        [
+          0.009610000066459179,
+          -0.014100000262260437,
+          0.012360002845525742
+        ]
+      ],
+      "displayBounds": [
+        [
+          -0.03560997545719147,
+          -0.02754667028784752,
+          -0.012360002845525742
+        ],
+        [
+          0.009614798240363598,
+          -0.014100000262260437,
+          0.01235999446362257
+        ]
+      ],
+      "watertight": false
+    }
+  ]
+}

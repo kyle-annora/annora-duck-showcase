@@ -1,0 +1,245 @@
+{
+  "id": "apollo",
+  "title": "Inside the Apollo crew hatch",
+  "duration": 17.5,
+  "chapters": [
+    {
+      "id": "whole",
+      "label": "Overview",
+      "title": "Start with the whole hatch.",
+      "caption": "The shell carries the window, drive and latch assemblies.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "transition": 2.5,
+      "scopeId": "hatch",
+      "selectedId": "hatch",
+      "renderStyle": "engineering",
+      "highlightIds": [],
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "hatch",
+        "direction": [
+          0.34,
+          0.2,
+          1
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [],
+      "start": 0,
+      "end": 2.5
+    },
+    {
+      "id": "layers",
+      "label": "Separate",
+      "title": "See the connected layers.",
+      "caption": "Separate the assemblies to see how they sit around the shell.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "transition": 2.5,
+      "scopeId": "hatch",
+      "selectedId": "hatch",
+      "renderStyle": "flat",
+      "highlightIds": [
+        "handle"
+      ],
+      "explosion": [
+        0,
+        0.52
+      ],
+      "camera": {
+        "focusId": "hatch",
+        "direction": [
+          0.64,
+          0.22,
+          1
+        ],
+        "explosion": 0.52,
+        "scale": 1
+      },
+      "annotations": [
+        {
+          "nodeId": "handle",
+          "label": "Handle assembly"
+        },
+        {
+          "nodeId": "shell",
+          "label": "Structural shell"
+        }
+      ],
+      "cues": [],
+      "start": 2.5,
+      "end": 5.0
+    },
+    {
+      "id": "drive",
+      "label": "Reassemble",
+      "title": "Bring the layers together.",
+      "caption": "The parts return to their assembled positions.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "transition": 2.5,
+      "scopeId": "hatch",
+      "selectedId": "hatch",
+      "renderStyle": "linework",
+      "highlightIds": [],
+      "explosion": [
+        0.52,
+        0
+      ],
+      "camera": {
+        "focusId": "hatch",
+        "direction": [
+          0.64,
+          0.22,
+          1
+        ],
+        "explosion": 0.52,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [],
+      "start": 5.0,
+      "end": 7.5
+    },
+    {
+      "id": "connections",
+      "label": "Inspect latch",
+      "title": "Follow one latch assembly.",
+      "caption": "Focus on one connection before separating its parts.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "transition": 2.5,
+      "scopeId": "latch-body1-1-003",
+      "selectedId": "latch-body1-1-003",
+      "renderStyle": "engineering",
+      "highlightIds": [],
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "latch-body1-1-003",
+        "direction": [
+          0.48,
+          0.25,
+          1
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [],
+      "start": 7.5,
+      "end": 10.0
+    },
+    {
+      "id": "latch",
+      "label": "Separate latch",
+      "title": "See the parts of a latch.",
+      "caption": "The housing and pivot components separate for inspection.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "transition": 2.5,
+      "scopeId": "latch-body1-1-003",
+      "selectedId": "latch-body1-1-003",
+      "renderStyle": "flat",
+      "highlightIds": [
+        "latch-body1-1-003"
+      ],
+      "explosion": [
+        0,
+        0.48
+      ],
+      "camera": {
+        "focusId": "latch-body1-1-003",
+        "direction": [
+          0.48,
+          0.25,
+          1
+        ],
+        "explosion": 0.48,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [],
+      "start": 10.0,
+      "end": 12.5
+    },
+    {
+      "id": "latch-return",
+      "label": "Reassemble latch",
+      "title": "Put the connection back.",
+      "caption": "Each component returns to its original position.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "transition": 2.5,
+      "scopeId": "latch-body1-1-003",
+      "selectedId": "latch-body1-1-003",
+      "renderStyle": "linework",
+      "highlightIds": [],
+      "explosion": [
+        0.48,
+        0
+      ],
+      "camera": {
+        "focusId": "latch-body1-1-003",
+        "direction": [
+          0.48,
+          0.25,
+          1
+        ],
+        "explosion": 0.48,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [],
+      "start": 12.5,
+      "end": 15.0
+    },
+    {
+      "id": "return",
+      "label": "Whole assembly",
+      "title": "Back to the whole hatch.",
+      "caption": "Continue exploring any assembly in its place.",
+      "duration": 2.5,
+      "previewAt": 0,
+      "settledAt": 2.5,
+      "transition": 2.5,
+      "scopeId": "hatch",
+      "selectedId": "hatch",
+      "renderStyle": "engineering",
+      "highlightIds": [],
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "hatch",
+        "direction": [
+          0.34,
+          0.2,
+          1
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [],
+      "start": 15.0,
+      "end": 17.5
+    }
+  ],
+  "playback": "steps"
+}

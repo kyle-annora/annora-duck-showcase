@@ -1,0 +1,2492 @@
+{
+  "schemaVersion": 1,
+  "id": "open-duck",
+  "rootId": "open-duck",
+  "title": "Open Duck Mini v2",
+  "shortTitle": "Open Duck",
+  "provenance": {
+    "author": "Antoine Pirrone / Open Duck Mini contributors; display adaptation by Annora",
+    "url": "https://github.com/apirrone/Open_Duck_Mini",
+    "license": "Apache-2.0",
+    "attribution": "Open Duck Mini v2 · Antoine Pirrone and contributors · Apache-2.0. Display adaptation and authored motion: Annora, 2026.",
+    "description": "An open-source sixteen-joint biped presented as source-linked mechanical assemblies.",
+    "note": "Derived display geometry is simplified from pinned source STL files. Finishes, exploded offsets and pose animation are illustrative; not manufacturing data, learned walking or a physically balanced simulation."
+  },
+  "licenseFile": "LICENSE.txt",
+  "tour": "authored-tour.json",
+  "view": {
+    "direction": [
+      1.5,
+      0.85,
+      1.5
+    ],
+    "normalizedWidth": 4.4,
+    "labels": [
+      "Hero",
+      "Reverse"
+    ],
+    "facts": [
+      {
+        "label": "Articulated joints",
+        "value": "16"
+      },
+      {
+        "label": "Source visuals",
+        "value": "131"
+      }
+    ]
+  },
+  "creaseAngle": 32,
+  "groups": [
+    {
+      "id": "duck-body",
+      "title": "Body & power",
+      "description": "Source body enclosure, battery, controller and power electronics.",
+      "meshNames": [
+        "Duck_trunk_assembly_01_body_front",
+        "Duck_trunk_assembly_01_body_front_surface2",
+        "Duck_trunk_assembly_02_usb_c_charger",
+        "Duck_trunk_assembly_03_body_back",
+        "Duck_trunk_assembly_03_body_back_surface2",
+        "Duck_trunk_assembly_04_body_middle_bottom",
+        "Duck_trunk_assembly_04_body_middle_bottom_surface2",
+        "Duck_trunk_assembly_05_power_switch",
+        "Duck_trunk_assembly_06_bms",
+        "Duck_trunk_assembly_07_battery_pack_lid",
+        "Duck_trunk_assembly_08_body_middle_top",
+        "Duck_trunk_assembly_09_bno055",
+        "Duck_trunk_assembly_10_roll_bearing",
+        "Duck_trunk_assembly_11_trunk_bottom",
+        "Duck_trunk_assembly_11_trunk_bottom_surface2",
+        "Duck_trunk_assembly_12_trunk_top",
+        "Duck_trunk_assembly_12_trunk_top_surface2",
+        "Duck_trunk_assembly_13_board",
+        "Duck_trunk_assembly_14_roll_bearing",
+        "Duck_trunk_assembly_15_cell",
+        "Duck_trunk_assembly_16_holder",
+        "Duck_trunk_assembly_17_cell",
+        "Duck_trunk_assembly_18_wj-wk00-0123middlecase_56",
+        "Duck_trunk_assembly_19_drive_palonier",
+        "Duck_trunk_assembly_20_wj-wk00-0124bottomcase_45",
+        "Duck_trunk_assembly_20_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_trunk_assembly_21_wj-wk00-0122topcabinetcase_95",
+        "Duck_trunk_assembly_21_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_trunk_assembly_22_passive_palonier",
+        "Duck_trunk_assembly_23_wj-wk00-0123middlecase_56",
+        "Duck_trunk_assembly_24_drive_palonier",
+        "Duck_trunk_assembly_25_wj-wk00-0124bottomcase_45",
+        "Duck_trunk_assembly_25_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_trunk_assembly_26_wj-wk00-0122topcabinetcase_95",
+        "Duck_trunk_assembly_26_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_trunk_assembly_27_passive_palonier",
+        "Duck_trunk_assembly_28_wj-wk00-0123middlecase_56",
+        "Duck_trunk_assembly_29_drive_palonier",
+        "Duck_trunk_assembly_30_wj-wk00-0124bottomcase_45",
+        "Duck_trunk_assembly_30_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_trunk_assembly_31_wj-wk00-0122topcabinetcase_95",
+        "Duck_trunk_assembly_31_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_trunk_assembly_32_passive_palonier"
+      ],
+      "children": [
+        {
+          "id": "duck-body-shell",
+          "title": "Outer panels",
+          "description": "Source-defined outer panels in body & power.",
+          "meshNames": [
+            "Duck_trunk_assembly_01_body_front",
+            "Duck_trunk_assembly_01_body_front_surface2",
+            "Duck_trunk_assembly_03_body_back",
+            "Duck_trunk_assembly_03_body_back_surface2",
+            "Duck_trunk_assembly_04_body_middle_bottom",
+            "Duck_trunk_assembly_04_body_middle_bottom_surface2",
+            "Duck_trunk_assembly_07_battery_pack_lid",
+            "Duck_trunk_assembly_08_body_middle_top"
+          ]
+        },
+        {
+          "id": "duck-body-core",
+          "title": "Mechanism & electronics",
+          "description": "Source-defined mechanism & electronics in body & power.",
+          "meshNames": [
+            "Duck_trunk_assembly_02_usb_c_charger",
+            "Duck_trunk_assembly_05_power_switch",
+            "Duck_trunk_assembly_06_bms",
+            "Duck_trunk_assembly_09_bno055",
+            "Duck_trunk_assembly_10_roll_bearing",
+            "Duck_trunk_assembly_11_trunk_bottom",
+            "Duck_trunk_assembly_11_trunk_bottom_surface2",
+            "Duck_trunk_assembly_12_trunk_top",
+            "Duck_trunk_assembly_12_trunk_top_surface2",
+            "Duck_trunk_assembly_13_board",
+            "Duck_trunk_assembly_14_roll_bearing",
+            "Duck_trunk_assembly_15_cell",
+            "Duck_trunk_assembly_16_holder",
+            "Duck_trunk_assembly_17_cell",
+            "Duck_trunk_assembly_18_wj-wk00-0123middlecase_56",
+            "Duck_trunk_assembly_19_drive_palonier",
+            "Duck_trunk_assembly_20_wj-wk00-0124bottomcase_45",
+            "Duck_trunk_assembly_20_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_trunk_assembly_21_wj-wk00-0122topcabinetcase_95",
+            "Duck_trunk_assembly_21_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_trunk_assembly_22_passive_palonier",
+            "Duck_trunk_assembly_23_wj-wk00-0123middlecase_56",
+            "Duck_trunk_assembly_24_drive_palonier",
+            "Duck_trunk_assembly_25_wj-wk00-0124bottomcase_45",
+            "Duck_trunk_assembly_25_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_trunk_assembly_26_wj-wk00-0122topcabinetcase_95",
+            "Duck_trunk_assembly_26_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_trunk_assembly_27_passive_palonier",
+            "Duck_trunk_assembly_28_wj-wk00-0123middlecase_56",
+            "Duck_trunk_assembly_29_drive_palonier",
+            "Duck_trunk_assembly_30_wj-wk00-0124bottomcase_45",
+            "Duck_trunk_assembly_30_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_trunk_assembly_31_wj-wk00-0122topcabinetcase_95",
+            "Duck_trunk_assembly_31_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_trunk_assembly_32_passive_palonier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "duck-head",
+      "title": "Head & neck",
+      "description": "The source head housing and four-axis neck/head mechanism.",
+      "meshNames": [
+        "Duck_neck_pitch_assembly_01_neck_left_sheet",
+        "Duck_neck_pitch_assembly_02_neck_right_sheet",
+        "Duck_neck_pitch_assembly_03_wj-wk00-0123middlecase_56",
+        "Duck_neck_pitch_assembly_04_drive_palonier",
+        "Duck_neck_pitch_assembly_05_wj-wk00-0124bottomcase_45",
+        "Duck_neck_pitch_assembly_05_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_neck_pitch_assembly_06_wj-wk00-0122topcabinetcase_95",
+        "Duck_neck_pitch_assembly_06_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_neck_pitch_assembly_07_passive_palonier",
+        "Duck_head_pitch_to_yaw_01_head_pitch_to_yaw",
+        "Duck_neck_yaw_assembly_01_head_yaw_to_roll",
+        "Duck_neck_yaw_assembly_02_wj-wk00-0123middlecase_56",
+        "Duck_neck_yaw_assembly_03_drive_palonier",
+        "Duck_neck_yaw_assembly_04_wj-wk00-0124bottomcase_45",
+        "Duck_neck_yaw_assembly_04_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_neck_yaw_assembly_05_wj-wk00-0122topcabinetcase_95",
+        "Duck_neck_yaw_assembly_05_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_neck_yaw_assembly_06_passive_palonier",
+        "Duck_head_assembly_01_head_bot_sheet",
+        "Duck_head_assembly_02_head",
+        "Duck_head_assembly_02_head_surface2",
+        "Duck_head_assembly_03_head_roll_mount",
+        "Duck_head_assembly_04_raspberrypizerow",
+        "Duck_head_assembly_04_raspberrypizerow_surface2",
+        "Duck_head_assembly_05_roll_bearing",
+        "Duck_head_assembly_06_sg90",
+        "Duck_head_assembly_07_sg90",
+        "Duck_head_assembly_08_board",
+        "Duck_head_assembly_09_wj-wk00-0123middlecase_56",
+        "Duck_head_assembly_10_drive_palonier",
+        "Duck_head_assembly_11_wj-wk00-0124bottomcase_45",
+        "Duck_head_assembly_11_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_head_assembly_12_wj-wk00-0122topcabinetcase_95",
+        "Duck_head_assembly_12_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_head_assembly_13_passive_palonier"
+      ],
+      "children": [
+        {
+          "id": "duck-head-shell",
+          "title": "Outer panels",
+          "description": "Source-defined outer panels in head & neck.",
+          "meshNames": [
+            "Duck_head_assembly_02_head",
+            "Duck_head_assembly_02_head_surface2"
+          ]
+        },
+        {
+          "id": "duck-head-core",
+          "title": "Mechanism & electronics",
+          "description": "Source-defined mechanism & electronics in head & neck.",
+          "meshNames": [
+            "Duck_neck_pitch_assembly_01_neck_left_sheet",
+            "Duck_neck_pitch_assembly_02_neck_right_sheet",
+            "Duck_neck_pitch_assembly_03_wj-wk00-0123middlecase_56",
+            "Duck_neck_pitch_assembly_04_drive_palonier",
+            "Duck_neck_pitch_assembly_05_wj-wk00-0124bottomcase_45",
+            "Duck_neck_pitch_assembly_05_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_neck_pitch_assembly_06_wj-wk00-0122topcabinetcase_95",
+            "Duck_neck_pitch_assembly_06_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_neck_pitch_assembly_07_passive_palonier",
+            "Duck_head_pitch_to_yaw_01_head_pitch_to_yaw",
+            "Duck_neck_yaw_assembly_01_head_yaw_to_roll",
+            "Duck_neck_yaw_assembly_02_wj-wk00-0123middlecase_56",
+            "Duck_neck_yaw_assembly_03_drive_palonier",
+            "Duck_neck_yaw_assembly_04_wj-wk00-0124bottomcase_45",
+            "Duck_neck_yaw_assembly_04_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_neck_yaw_assembly_05_wj-wk00-0122topcabinetcase_95",
+            "Duck_neck_yaw_assembly_05_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_neck_yaw_assembly_06_passive_palonier",
+            "Duck_head_assembly_01_head_bot_sheet",
+            "Duck_head_assembly_03_head_roll_mount",
+            "Duck_head_assembly_04_raspberrypizerow",
+            "Duck_head_assembly_04_raspberrypizerow_surface2",
+            "Duck_head_assembly_05_roll_bearing",
+            "Duck_head_assembly_06_sg90",
+            "Duck_head_assembly_07_sg90",
+            "Duck_head_assembly_08_board",
+            "Duck_head_assembly_09_wj-wk00-0123middlecase_56",
+            "Duck_head_assembly_10_drive_palonier",
+            "Duck_head_assembly_11_wj-wk00-0124bottomcase_45",
+            "Duck_head_assembly_11_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_head_assembly_12_wj-wk00-0122topcabinetcase_95",
+            "Duck_head_assembly_12_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_head_assembly_13_passive_palonier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "duck-left-leg",
+      "title": "Left leg",
+      "description": "Five source revolute joints connect the left hip, knee, ankle and foot.",
+      "meshNames": [
+        "Duck_hip_roll_assembly_01_roll_motor_bottom",
+        "Duck_hip_roll_assembly_02_roll_motor_top",
+        "Duck_hip_roll_assembly_02_roll_motor_top_surface2",
+        "Duck_hip_roll_assembly_03_wj-wk00-0123middlecase_56",
+        "Duck_hip_roll_assembly_04_drive_palonier",
+        "Duck_hip_roll_assembly_05_wj-wk00-0124bottomcase_45",
+        "Duck_hip_roll_assembly_05_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_hip_roll_assembly_06_wj-wk00-0122topcabinetcase_95",
+        "Duck_hip_roll_assembly_06_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_hip_roll_assembly_07_passive_palonier",
+        "Duck_left_roll_to_pitch_assembly_01_left_roll_to_pitch",
+        "Duck_left_roll_to_pitch_assembly_01_left_roll_to_pitch_surface2",
+        "Duck_left_roll_to_pitch_assembly_02_wj-wk00-0123middlecase_56",
+        "Duck_left_roll_to_pitch_assembly_03_drive_palonier",
+        "Duck_left_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45",
+        "Duck_left_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_left_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95",
+        "Duck_left_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_left_roll_to_pitch_assembly_06_passive_palonier",
+        "Duck_knee_and_ankle_assembly_01_left_cache",
+        "Duck_knee_and_ankle_assembly_02_leg_spacer",
+        "Duck_knee_and_ankle_assembly_03_left_knee_to_ankle_right_sheet",
+        "Duck_knee_and_ankle_assembly_04_left_knee_to_ankle_left_sheet",
+        "Duck_knee_and_ankle_assembly_05_wj-wk00-0123middlecase_56",
+        "Duck_knee_and_ankle_assembly_06_drive_palonier",
+        "Duck_knee_and_ankle_assembly_07_wj-wk00-0124bottomcase_45",
+        "Duck_knee_and_ankle_assembly_07_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_knee_and_ankle_assembly_08_wj-wk00-0122topcabinetcase_95",
+        "Duck_knee_and_ankle_assembly_08_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_knee_and_ankle_assembly_09_passive_palonier",
+        "Duck_knee_and_ankle_assembly_2_01_leg_spacer",
+        "Duck_knee_and_ankle_assembly_2_02_left_knee_to_ankle_right_sheet",
+        "Duck_knee_and_ankle_assembly_2_03_left_knee_to_ankle_left_sheet",
+        "Duck_knee_and_ankle_assembly_2_04_wj-wk00-0123middlecase_56",
+        "Duck_knee_and_ankle_assembly_2_05_drive_palonier",
+        "Duck_knee_and_ankle_assembly_2_06_wj-wk00-0124bottomcase_45",
+        "Duck_knee_and_ankle_assembly_2_06_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_knee_and_ankle_assembly_2_07_wj-wk00-0122topcabinetcase_95",
+        "Duck_knee_and_ankle_assembly_2_07_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_knee_and_ankle_assembly_2_08_passive_palonier",
+        "Duck_foot_assembly_01_foot_side",
+        "Duck_foot_assembly_02_foot_bottom_tpu",
+        "Duck_foot_assembly_03_foot_bottom_pla",
+        "Duck_foot_assembly_04_foot_top"
+      ],
+      "children": [
+        {
+          "id": "duck-left-leg-shell",
+          "title": "Outer panels",
+          "description": "Source-defined outer panels in left leg.",
+          "meshNames": [
+            "Duck_knee_and_ankle_assembly_01_left_cache",
+            "Duck_foot_assembly_01_foot_side",
+            "Duck_foot_assembly_04_foot_top"
+          ]
+        },
+        {
+          "id": "duck-left-leg-core",
+          "title": "Mechanism & electronics",
+          "description": "Source-defined mechanism & electronics in left leg.",
+          "meshNames": [
+            "Duck_hip_roll_assembly_01_roll_motor_bottom",
+            "Duck_hip_roll_assembly_02_roll_motor_top",
+            "Duck_hip_roll_assembly_02_roll_motor_top_surface2",
+            "Duck_hip_roll_assembly_03_wj-wk00-0123middlecase_56",
+            "Duck_hip_roll_assembly_04_drive_palonier",
+            "Duck_hip_roll_assembly_05_wj-wk00-0124bottomcase_45",
+            "Duck_hip_roll_assembly_05_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_hip_roll_assembly_06_wj-wk00-0122topcabinetcase_95",
+            "Duck_hip_roll_assembly_06_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_hip_roll_assembly_07_passive_palonier",
+            "Duck_left_roll_to_pitch_assembly_01_left_roll_to_pitch",
+            "Duck_left_roll_to_pitch_assembly_01_left_roll_to_pitch_surface2",
+            "Duck_left_roll_to_pitch_assembly_02_wj-wk00-0123middlecase_56",
+            "Duck_left_roll_to_pitch_assembly_03_drive_palonier",
+            "Duck_left_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45",
+            "Duck_left_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_left_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95",
+            "Duck_left_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_left_roll_to_pitch_assembly_06_passive_palonier",
+            "Duck_knee_and_ankle_assembly_02_leg_spacer",
+            "Duck_knee_and_ankle_assembly_03_left_knee_to_ankle_right_sheet",
+            "Duck_knee_and_ankle_assembly_04_left_knee_to_ankle_left_sheet",
+            "Duck_knee_and_ankle_assembly_05_wj-wk00-0123middlecase_56",
+            "Duck_knee_and_ankle_assembly_06_drive_palonier",
+            "Duck_knee_and_ankle_assembly_07_wj-wk00-0124bottomcase_45",
+            "Duck_knee_and_ankle_assembly_07_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_knee_and_ankle_assembly_08_wj-wk00-0122topcabinetcase_95",
+            "Duck_knee_and_ankle_assembly_08_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_knee_and_ankle_assembly_09_passive_palonier",
+            "Duck_knee_and_ankle_assembly_2_01_leg_spacer",
+            "Duck_knee_and_ankle_assembly_2_02_left_knee_to_ankle_right_sheet",
+            "Duck_knee_and_ankle_assembly_2_03_left_knee_to_ankle_left_sheet",
+            "Duck_knee_and_ankle_assembly_2_04_wj-wk00-0123middlecase_56",
+            "Duck_knee_and_ankle_assembly_2_05_drive_palonier",
+            "Duck_knee_and_ankle_assembly_2_06_wj-wk00-0124bottomcase_45",
+            "Duck_knee_and_ankle_assembly_2_06_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_knee_and_ankle_assembly_2_07_wj-wk00-0122topcabinetcase_95",
+            "Duck_knee_and_ankle_assembly_2_07_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_knee_and_ankle_assembly_2_08_passive_palonier",
+            "Duck_foot_assembly_02_foot_bottom_tpu",
+            "Duck_foot_assembly_03_foot_bottom_pla"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "duck-right-leg",
+      "title": "Right leg",
+      "description": "Five source revolute joints connect the right hip, knee, ankle and foot.",
+      "meshNames": [
+        "Duck_hip_roll_assembly_2_01_roll_motor_bottom",
+        "Duck_hip_roll_assembly_2_02_roll_motor_top",
+        "Duck_hip_roll_assembly_2_02_roll_motor_top_surface2",
+        "Duck_hip_roll_assembly_2_03_wj-wk00-0123middlecase_56",
+        "Duck_hip_roll_assembly_2_04_drive_palonier",
+        "Duck_hip_roll_assembly_2_05_wj-wk00-0124bottomcase_45",
+        "Duck_hip_roll_assembly_2_05_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_hip_roll_assembly_2_06_wj-wk00-0122topcabinetcase_95",
+        "Duck_hip_roll_assembly_2_06_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_hip_roll_assembly_2_07_passive_palonier",
+        "Duck_right_roll_to_pitch_assembly_01_right_roll_to_pitch",
+        "Duck_right_roll_to_pitch_assembly_01_right_roll_to_pitch_surface2",
+        "Duck_right_roll_to_pitch_assembly_02_wj-wk00-0123middlecase_56",
+        "Duck_right_roll_to_pitch_assembly_03_drive_palonier",
+        "Duck_right_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45",
+        "Duck_right_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_right_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95",
+        "Duck_right_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_right_roll_to_pitch_assembly_06_passive_palonier",
+        "Duck_knee_and_ankle_assembly_3_01_right_cache",
+        "Duck_knee_and_ankle_assembly_3_02_leg_spacer",
+        "Duck_knee_and_ankle_assembly_3_03_left_knee_to_ankle_right_sheet",
+        "Duck_knee_and_ankle_assembly_3_04_left_knee_to_ankle_left_sheet",
+        "Duck_knee_and_ankle_assembly_3_05_wj-wk00-0123middlecase_56",
+        "Duck_knee_and_ankle_assembly_3_06_drive_palonier",
+        "Duck_knee_and_ankle_assembly_3_07_wj-wk00-0124bottomcase_45",
+        "Duck_knee_and_ankle_assembly_3_07_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_knee_and_ankle_assembly_3_08_wj-wk00-0122topcabinetcase_95",
+        "Duck_knee_and_ankle_assembly_3_08_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_knee_and_ankle_assembly_3_09_passive_palonier",
+        "Duck_knee_and_ankle_assembly_4_01_leg_spacer",
+        "Duck_knee_and_ankle_assembly_4_02_left_knee_to_ankle_right_sheet",
+        "Duck_knee_and_ankle_assembly_4_03_left_knee_to_ankle_left_sheet",
+        "Duck_knee_and_ankle_assembly_4_04_wj-wk00-0123middlecase_56",
+        "Duck_knee_and_ankle_assembly_4_05_drive_palonier",
+        "Duck_knee_and_ankle_assembly_4_06_wj-wk00-0124bottomcase_45",
+        "Duck_knee_and_ankle_assembly_4_06_wj-wk00-0124bottomcase_45_surface2",
+        "Duck_knee_and_ankle_assembly_4_07_wj-wk00-0122topcabinetcase_95",
+        "Duck_knee_and_ankle_assembly_4_07_wj-wk00-0122topcabinetcase_95_surface2",
+        "Duck_knee_and_ankle_assembly_4_08_passive_palonier",
+        "Duck_foot_assembly_2_01_foot_side",
+        "Duck_foot_assembly_2_02_foot_bottom_tpu",
+        "Duck_foot_assembly_2_03_foot_bottom_pla",
+        "Duck_foot_assembly_2_04_foot_top"
+      ],
+      "children": [
+        {
+          "id": "duck-right-leg-shell",
+          "title": "Outer panels",
+          "description": "Source-defined outer panels in right leg.",
+          "meshNames": [
+            "Duck_knee_and_ankle_assembly_3_01_right_cache",
+            "Duck_foot_assembly_2_01_foot_side",
+            "Duck_foot_assembly_2_04_foot_top"
+          ]
+        },
+        {
+          "id": "duck-right-leg-core",
+          "title": "Mechanism & electronics",
+          "description": "Source-defined mechanism & electronics in right leg.",
+          "meshNames": [
+            "Duck_hip_roll_assembly_2_01_roll_motor_bottom",
+            "Duck_hip_roll_assembly_2_02_roll_motor_top",
+            "Duck_hip_roll_assembly_2_02_roll_motor_top_surface2",
+            "Duck_hip_roll_assembly_2_03_wj-wk00-0123middlecase_56",
+            "Duck_hip_roll_assembly_2_04_drive_palonier",
+            "Duck_hip_roll_assembly_2_05_wj-wk00-0124bottomcase_45",
+            "Duck_hip_roll_assembly_2_05_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_hip_roll_assembly_2_06_wj-wk00-0122topcabinetcase_95",
+            "Duck_hip_roll_assembly_2_06_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_hip_roll_assembly_2_07_passive_palonier",
+            "Duck_right_roll_to_pitch_assembly_01_right_roll_to_pitch",
+            "Duck_right_roll_to_pitch_assembly_01_right_roll_to_pitch_surface2",
+            "Duck_right_roll_to_pitch_assembly_02_wj-wk00-0123middlecase_56",
+            "Duck_right_roll_to_pitch_assembly_03_drive_palonier",
+            "Duck_right_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45",
+            "Duck_right_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_right_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95",
+            "Duck_right_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_right_roll_to_pitch_assembly_06_passive_palonier",
+            "Duck_knee_and_ankle_assembly_3_02_leg_spacer",
+            "Duck_knee_and_ankle_assembly_3_03_left_knee_to_ankle_right_sheet",
+            "Duck_knee_and_ankle_assembly_3_04_left_knee_to_ankle_left_sheet",
+            "Duck_knee_and_ankle_assembly_3_05_wj-wk00-0123middlecase_56",
+            "Duck_knee_and_ankle_assembly_3_06_drive_palonier",
+            "Duck_knee_and_ankle_assembly_3_07_wj-wk00-0124bottomcase_45",
+            "Duck_knee_and_ankle_assembly_3_07_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_knee_and_ankle_assembly_3_08_wj-wk00-0122topcabinetcase_95",
+            "Duck_knee_and_ankle_assembly_3_08_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_knee_and_ankle_assembly_3_09_passive_palonier",
+            "Duck_knee_and_ankle_assembly_4_01_leg_spacer",
+            "Duck_knee_and_ankle_assembly_4_02_left_knee_to_ankle_right_sheet",
+            "Duck_knee_and_ankle_assembly_4_03_left_knee_to_ankle_left_sheet",
+            "Duck_knee_and_ankle_assembly_4_04_wj-wk00-0123middlecase_56",
+            "Duck_knee_and_ankle_assembly_4_05_drive_palonier",
+            "Duck_knee_and_ankle_assembly_4_06_wj-wk00-0124bottomcase_45",
+            "Duck_knee_and_ankle_assembly_4_06_wj-wk00-0124bottomcase_45_surface2",
+            "Duck_knee_and_ankle_assembly_4_07_wj-wk00-0122topcabinetcase_95",
+            "Duck_knee_and_ankle_assembly_4_07_wj-wk00-0122topcabinetcase_95_surface2",
+            "Duck_knee_and_ankle_assembly_4_08_passive_palonier",
+            "Duck_foot_assembly_2_02_foot_bottom_tpu",
+            "Duck_foot_assembly_2_03_foot_bottom_pla"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "duck-antennas",
+      "title": "Antennas",
+      "description": "The two independently driven source antenna assemblies.",
+      "meshNames": [
+        "Duck_left_antenna_holder_01_antenna",
+        "Duck_left_antenna_holder_02_left_antenna_holder",
+        "Duck_right_antenna_holder_01_right_antenna_holder",
+        "Duck_right_antenna_holder_02_antenna"
+      ],
+      "children": [
+        {
+          "id": "duck-antennas-shell",
+          "title": "Outer panels",
+          "description": "Source-defined outer panels in antennas.",
+          "meshNames": [
+            "Duck_left_antenna_holder_01_antenna",
+            "Duck_right_antenna_holder_02_antenna"
+          ]
+        },
+        {
+          "id": "duck-antennas-core",
+          "title": "Mechanism & electronics",
+          "description": "Source-defined mechanism & electronics in antennas.",
+          "meshNames": [
+            "Duck_left_antenna_holder_02_left_antenna_holder",
+            "Duck_right_antenna_holder_01_right_antenna_holder"
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": {
+    "Duck_trunk_assembly_01_body_front": {
+      "id": "duck-trunk-assembly-1-body-front",
+      "title": "Body Front",
+      "description": "Body Front from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.14,
+        0.03,
+        0
+      ]
+    },
+    "Duck_trunk_assembly_01_body_front_surface2": {
+      "id": "duck-trunk-assembly-1-body-front-surface2",
+      "title": "Body Front · surface 2",
+      "description": "Body Front · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.14,
+        0.03,
+        0
+      ]
+    },
+    "Duck_trunk_assembly_02_usb_c_charger": {
+      "id": "duck-trunk-assembly-2-usb-c-charger",
+      "title": "Usb C Charger",
+      "description": "Usb C Charger from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_03_body_back": {
+      "id": "duck-trunk-assembly-3-body-back",
+      "title": "Body Back",
+      "description": "Body Back from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.15,
+        0.04,
+        0
+      ]
+    },
+    "Duck_trunk_assembly_03_body_back_surface2": {
+      "id": "duck-trunk-assembly-3-body-back-surface2",
+      "title": "Body Back · surface 2",
+      "description": "Body Back · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.15,
+        0.04,
+        0
+      ]
+    },
+    "Duck_trunk_assembly_04_body_middle_bottom": {
+      "id": "duck-trunk-assembly-4-body-middle-bottom",
+      "title": "Body Middle Bottom",
+      "description": "Body Middle Bottom from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.005183247849346359,
+        -0.01956376185206303,
+        -0.019703937681629563
+      ]
+    },
+    "Duck_trunk_assembly_04_body_middle_bottom_surface2": {
+      "id": "duck-trunk-assembly-4-body-middle-bottom-surface2",
+      "title": "Body Middle Bottom · surface 2",
+      "description": "Body Middle Bottom · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.005183247849346359,
+        -0.01956376185206303,
+        -0.019703937681629563
+      ]
+    },
+    "Duck_trunk_assembly_05_power_switch": {
+      "id": "duck-trunk-assembly-5-power-switch",
+      "title": "Power Switch",
+      "description": "Power Switch from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_06_bms": {
+      "id": "duck-trunk-assembly-6-bms",
+      "title": "Bms",
+      "description": "Bms from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_07_battery_pack_lid": {
+      "id": "duck-trunk-assembly-7-battery-pack-lid",
+      "title": "Battery Pack Lid",
+      "description": "Battery Pack Lid from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.044558247551322976,
+        -0.007136537074424146,
+        -0.020137139583244222
+      ]
+    },
+    "Duck_trunk_assembly_08_body_middle_top": {
+      "id": "duck-trunk-assembly-8-body-middle-top",
+      "title": "Body Middle Top",
+      "description": "Body Middle Top from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.005183247849346359,
+        0.01618623888554445,
+        -0.020137139583244222
+      ]
+    },
+    "Duck_trunk_assembly_09_bno055": {
+      "id": "duck-trunk-assembly-9-bno055",
+      "title": "Bno055",
+      "description": "Bno055 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_10_roll_bearing": {
+      "id": "duck-trunk-assembly-10-roll-bearing",
+      "title": "Roll Bearing",
+      "description": "Roll Bearing from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_11_trunk_bottom": {
+      "id": "duck-trunk-assembly-11-trunk-bottom",
+      "title": "Trunk Bottom",
+      "description": "Trunk Bottom from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_11_trunk_bottom_surface2": {
+      "id": "duck-trunk-assembly-11-trunk-bottom-surface2",
+      "title": "Trunk Bottom · surface 2",
+      "description": "Trunk Bottom · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_12_trunk_top": {
+      "id": "duck-trunk-assembly-12-trunk-top",
+      "title": "Trunk Top",
+      "description": "Trunk Top from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_12_trunk_top_surface2": {
+      "id": "duck-trunk-assembly-12-trunk-top-surface2",
+      "title": "Trunk Top · surface 2",
+      "description": "Trunk Top · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_13_board": {
+      "id": "duck-trunk-assembly-13-board",
+      "title": "Board",
+      "description": "Board from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_14_roll_bearing": {
+      "id": "duck-trunk-assembly-14-roll-bearing",
+      "title": "Roll Bearing",
+      "description": "Roll Bearing from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_15_cell": {
+      "id": "duck-trunk-assembly-15-cell",
+      "title": "Cell",
+      "description": "Cell from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_16_holder": {
+      "id": "duck-trunk-assembly-16-holder",
+      "title": "Holder",
+      "description": "Holder from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_17_cell": {
+      "id": "duck-trunk-assembly-17-cell",
+      "title": "Cell",
+      "description": "Cell from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_18_wj-wk00-0123middlecase_56": {
+      "id": "duck-trunk-assembly-18-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_19_drive_palonier": {
+      "id": "duck-trunk-assembly-19-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_20_wj-wk00-0124bottomcase_45": {
+      "id": "duck-trunk-assembly-20-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_20_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-trunk-assembly-20-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_21_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-trunk-assembly-21-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_21_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-trunk-assembly-21-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_22_passive_palonier": {
+      "id": "duck-trunk-assembly-22-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_23_wj-wk00-0123middlecase_56": {
+      "id": "duck-trunk-assembly-23-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_24_drive_palonier": {
+      "id": "duck-trunk-assembly-24-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_25_wj-wk00-0124bottomcase_45": {
+      "id": "duck-trunk-assembly-25-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_25_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-trunk-assembly-25-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_26_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-trunk-assembly-26-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_26_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-trunk-assembly-26-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_27_passive_palonier": {
+      "id": "duck-trunk-assembly-27-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_28_wj-wk00-0123middlecase_56": {
+      "id": "duck-trunk-assembly-28-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_29_drive_palonier": {
+      "id": "duck-trunk-assembly-29-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_30_wj-wk00-0124bottomcase_45": {
+      "id": "duck-trunk-assembly-30-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_30_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-trunk-assembly-30-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_31_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-trunk-assembly-31-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_31_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-trunk-assembly-31-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_trunk_assembly_32_passive_palonier": {
+      "id": "duck-trunk-assembly-32-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Trunk Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.015,
+        -0.02
+      ]
+    },
+    "Duck_hip_roll_assembly_01_roll_motor_bottom": {
+      "id": "duck-hip-roll-assembly-1-roll-motor-bottom",
+      "title": "Roll Motor Bottom",
+      "description": "Roll Motor Bottom from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_02_roll_motor_top": {
+      "id": "duck-hip-roll-assembly-2-roll-motor-top",
+      "title": "Roll Motor Top",
+      "description": "Roll Motor Top from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_02_roll_motor_top_surface2": {
+      "id": "duck-hip-roll-assembly-2-roll-motor-top-surface2",
+      "title": "Roll Motor Top · surface 2",
+      "description": "Roll Motor Top · surface 2 from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_03_wj-wk00-0123middlecase_56": {
+      "id": "duck-hip-roll-assembly-3-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_04_drive_palonier": {
+      "id": "duck-hip-roll-assembly-4-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_05_wj-wk00-0124bottomcase_45": {
+      "id": "duck-hip-roll-assembly-5-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_05_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-hip-roll-assembly-5-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_06_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-hip-roll-assembly-6-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_06_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-hip-roll-assembly-6-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_07_passive_palonier": {
+      "id": "duck-hip-roll-assembly-7-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Hip Roll Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_left_roll_to_pitch_assembly_01_left_roll_to_pitch": {
+      "id": "duck-left-roll-to-pitch-assembly-1-left-roll-to-pitch",
+      "title": "Left Roll To Pitch",
+      "description": "Left Roll To Pitch from the pinned Open Duck Left Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_left_roll_to_pitch_assembly_01_left_roll_to_pitch_surface2": {
+      "id": "duck-left-roll-to-pitch-assembly-1-left-roll-to-pitch-surface2",
+      "title": "Left Roll To Pitch · surface 2",
+      "description": "Left Roll To Pitch · surface 2 from the pinned Open Duck Left Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_left_roll_to_pitch_assembly_02_wj-wk00-0123middlecase_56": {
+      "id": "duck-left-roll-to-pitch-assembly-2-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Left Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_left_roll_to_pitch_assembly_03_drive_palonier": {
+      "id": "duck-left-roll-to-pitch-assembly-3-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Left Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_left_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45": {
+      "id": "duck-left-roll-to-pitch-assembly-4-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Left Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_left_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-left-roll-to-pitch-assembly-4-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Left Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_left_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-left-roll-to-pitch-assembly-5-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Left Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_left_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-left-roll-to-pitch-assembly-5-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Left Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_left_roll_to_pitch_assembly_06_passive_palonier": {
+      "id": "duck-left-roll-to-pitch-assembly-6-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Left Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_01_left_cache": {
+      "id": "duck-knee-and-ankle-assembly-1-left-cache",
+      "title": "Left Cache",
+      "description": "Left Cache from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.006250495449416228,
+        -0.07100396663124521,
+        -0.17076474675045547
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_02_leg_spacer": {
+      "id": "duck-knee-and-ankle-assembly-2-leg-spacer",
+      "title": "Leg Spacer",
+      "description": "Leg Spacer from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_03_left_knee_to_ankle_right_sheet": {
+      "id": "duck-knee-and-ankle-assembly-3-left-knee-to-ankle-right-sheet",
+      "title": "Left Knee To Ankle Right Sheet",
+      "description": "Left Knee To Ankle Right Sheet from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_04_left_knee_to_ankle_left_sheet": {
+      "id": "duck-knee-and-ankle-assembly-4-left-knee-to-ankle-left-sheet",
+      "title": "Left Knee To Ankle Left Sheet",
+      "description": "Left Knee To Ankle Left Sheet from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_05_wj-wk00-0123middlecase_56": {
+      "id": "duck-knee-and-ankle-assembly-5-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_06_drive_palonier": {
+      "id": "duck-knee-and-ankle-assembly-6-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_07_wj-wk00-0124bottomcase_45": {
+      "id": "duck-knee-and-ankle-assembly-7-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_07_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-knee-and-ankle-assembly-7-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_08_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-knee-and-ankle-assembly-8-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_08_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-knee-and-ankle-assembly-8-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_09_passive_palonier": {
+      "id": "duck-knee-and-ankle-assembly-9-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Knee And Ankle Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_01_leg_spacer": {
+      "id": "duck-knee-and-ankle-assembly-2-1-leg-spacer",
+      "title": "Leg Spacer",
+      "description": "Leg Spacer from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_02_left_knee_to_ankle_right_sheet": {
+      "id": "duck-knee-and-ankle-assembly-2-2-left-knee-to-ankle-right-sheet",
+      "title": "Left Knee To Ankle Right Sheet",
+      "description": "Left Knee To Ankle Right Sheet from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_03_left_knee_to_ankle_left_sheet": {
+      "id": "duck-knee-and-ankle-assembly-2-3-left-knee-to-ankle-left-sheet",
+      "title": "Left Knee To Ankle Left Sheet",
+      "description": "Left Knee To Ankle Left Sheet from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_04_wj-wk00-0123middlecase_56": {
+      "id": "duck-knee-and-ankle-assembly-2-4-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_05_drive_palonier": {
+      "id": "duck-knee-and-ankle-assembly-2-5-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_06_wj-wk00-0124bottomcase_45": {
+      "id": "duck-knee-and-ankle-assembly-2-6-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_06_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-knee-and-ankle-assembly-2-6-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_07_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-knee-and-ankle-assembly-2-7-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_07_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-knee-and-ankle-assembly-2-7-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_2_08_passive_palonier": {
+      "id": "duck-knee-and-ankle-assembly-2-8-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Knee And Ankle Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_foot_assembly_01_foot_side": {
+      "id": "duck-foot-assembly-1-foot-side",
+      "title": "Foot Side",
+      "description": "Foot Side from the pinned Open Duck Foot Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.005924588364384033,
+        -0.11982639510083497,
+        -0.15317406262746627
+      ]
+    },
+    "Duck_foot_assembly_02_foot_bottom_tpu": {
+      "id": "duck-foot-assembly-2-foot-bottom-tpu",
+      "title": "Foot Bottom Tpu",
+      "description": "Foot Bottom Tpu from the pinned Open Duck Foot Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_foot_assembly_03_foot_bottom_pla": {
+      "id": "duck-foot-assembly-3-foot-bottom-pla",
+      "title": "Foot Bottom Pla",
+      "description": "Foot Bottom Pla from the pinned Open Duck Foot Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        -0.015,
+        -0.12
+      ]
+    },
+    "Duck_foot_assembly_04_foot_top": {
+      "id": "duck-foot-assembly-4-foot-top",
+      "title": "Foot Top",
+      "description": "Foot Top from the pinned Open Duck Foot Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.005904614747221992,
+        -0.12043172294671299,
+        -0.16488414244314464
+      ]
+    },
+    "Duck_hip_roll_assembly_2_01_roll_motor_bottom": {
+      "id": "duck-hip-roll-assembly-2-1-roll-motor-bottom",
+      "title": "Roll Motor Bottom",
+      "description": "Roll Motor Bottom from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_2_02_roll_motor_top": {
+      "id": "duck-hip-roll-assembly-2-2-roll-motor-top",
+      "title": "Roll Motor Top",
+      "description": "Roll Motor Top from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_2_02_roll_motor_top_surface2": {
+      "id": "duck-hip-roll-assembly-2-2-roll-motor-top-surface2",
+      "title": "Roll Motor Top · surface 2",
+      "description": "Roll Motor Top · surface 2 from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_2_03_wj-wk00-0123middlecase_56": {
+      "id": "duck-hip-roll-assembly-2-3-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_2_04_drive_palonier": {
+      "id": "duck-hip-roll-assembly-2-4-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_2_05_wj-wk00-0124bottomcase_45": {
+      "id": "duck-hip-roll-assembly-2-5-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_2_05_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-hip-roll-assembly-2-5-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_2_06_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-hip-roll-assembly-2-6-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_2_06_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-hip-roll-assembly-2-6-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_hip_roll_assembly_2_07_passive_palonier": {
+      "id": "duck-hip-roll-assembly-2-7-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Hip Roll Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_right_roll_to_pitch_assembly_01_right_roll_to_pitch": {
+      "id": "duck-right-roll-to-pitch-assembly-1-right-roll-to-pitch",
+      "title": "Right Roll To Pitch",
+      "description": "Right Roll To Pitch from the pinned Open Duck Right Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_right_roll_to_pitch_assembly_01_right_roll_to_pitch_surface2": {
+      "id": "duck-right-roll-to-pitch-assembly-1-right-roll-to-pitch-surface2",
+      "title": "Right Roll To Pitch · surface 2",
+      "description": "Right Roll To Pitch · surface 2 from the pinned Open Duck Right Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_right_roll_to_pitch_assembly_02_wj-wk00-0123middlecase_56": {
+      "id": "duck-right-roll-to-pitch-assembly-2-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Right Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_right_roll_to_pitch_assembly_03_drive_palonier": {
+      "id": "duck-right-roll-to-pitch-assembly-3-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Right Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_right_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45": {
+      "id": "duck-right-roll-to-pitch-assembly-4-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Right Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_right_roll_to_pitch_assembly_04_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-right-roll-to-pitch-assembly-4-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Right Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_right_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-right-roll-to-pitch-assembly-5-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Right Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_right_roll_to_pitch_assembly_05_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-right-roll-to-pitch-assembly-5-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Right Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_right_roll_to_pitch_assembly_06_passive_palonier": {
+      "id": "duck-right-roll-to-pitch-assembly-6-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Right Roll To Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_01_right_cache": {
+      "id": "duck-knee-and-ankle-assembly-3-1-right-cache",
+      "title": "Right Cache",
+      "description": "Right Cache from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.006363505760362688,
+        -0.07137930891033034,
+        0.17024581422657595
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_02_leg_spacer": {
+      "id": "duck-knee-and-ankle-assembly-3-2-leg-spacer",
+      "title": "Leg Spacer",
+      "description": "Leg Spacer from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_03_left_knee_to_ankle_right_sheet": {
+      "id": "duck-knee-and-ankle-assembly-3-3-left-knee-to-ankle-right-sheet",
+      "title": "Left Knee To Ankle Right Sheet",
+      "description": "Left Knee To Ankle Right Sheet from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_04_left_knee_to_ankle_left_sheet": {
+      "id": "duck-knee-and-ankle-assembly-3-4-left-knee-to-ankle-left-sheet",
+      "title": "Left Knee To Ankle Left Sheet",
+      "description": "Left Knee To Ankle Left Sheet from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_05_wj-wk00-0123middlecase_56": {
+      "id": "duck-knee-and-ankle-assembly-3-5-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_06_drive_palonier": {
+      "id": "duck-knee-and-ankle-assembly-3-6-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_07_wj-wk00-0124bottomcase_45": {
+      "id": "duck-knee-and-ankle-assembly-3-7-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_07_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-knee-and-ankle-assembly-3-7-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_08_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-knee-and-ankle-assembly-3-8-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_08_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-knee-and-ankle-assembly-3-8-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_3_09_passive_palonier": {
+      "id": "duck-knee-and-ankle-assembly-3-9-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Knee And Ankle Assembly 3 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_01_leg_spacer": {
+      "id": "duck-knee-and-ankle-assembly-4-1-leg-spacer",
+      "title": "Leg Spacer",
+      "description": "Leg Spacer from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_02_left_knee_to_ankle_right_sheet": {
+      "id": "duck-knee-and-ankle-assembly-4-2-left-knee-to-ankle-right-sheet",
+      "title": "Left Knee To Ankle Right Sheet",
+      "description": "Left Knee To Ankle Right Sheet from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_03_left_knee_to_ankle_left_sheet": {
+      "id": "duck-knee-and-ankle-assembly-4-3-left-knee-to-ankle-left-sheet",
+      "title": "Left Knee To Ankle Left Sheet",
+      "description": "Left Knee To Ankle Left Sheet from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_04_wj-wk00-0123middlecase_56": {
+      "id": "duck-knee-and-ankle-assembly-4-4-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_05_drive_palonier": {
+      "id": "duck-knee-and-ankle-assembly-4-5-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_06_wj-wk00-0124bottomcase_45": {
+      "id": "duck-knee-and-ankle-assembly-4-6-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_06_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-knee-and-ankle-assembly-4-6-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_07_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-knee-and-ankle-assembly-4-7-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_07_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-knee-and-ankle-assembly-4-7-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_knee_and_ankle_assembly_4_08_passive_palonier": {
+      "id": "duck-knee-and-ankle-assembly-4-8-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Knee And Ankle Assembly 4 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_foot_assembly_2_01_foot_side": {
+      "id": "duck-foot-assembly-2-1-foot-side",
+      "title": "Foot Side",
+      "description": "Foot Side from the pinned Open Duck Foot Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.005843038459897094,
+        -0.12090585502709207,
+        0.16964240329201657
+      ]
+    },
+    "Duck_foot_assembly_2_02_foot_bottom_tpu": {
+      "id": "duck-foot-assembly-2-2-foot-bottom-tpu",
+      "title": "Foot Bottom Tpu",
+      "description": "Foot Bottom Tpu from the pinned Open Duck Foot Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_foot_assembly_2_03_foot_bottom_pla": {
+      "id": "duck-foot-assembly-2-3-foot-bottom-pla",
+      "title": "Foot Bottom Pla",
+      "description": "Foot Bottom Pla from the pinned Open Duck Foot Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        -0.015,
+        0.12
+      ]
+    },
+    "Duck_foot_assembly_2_04_foot_top": {
+      "id": "duck-foot-assembly-2-4-foot-top",
+      "title": "Foot Top",
+      "description": "Foot Top from the pinned Open Duck Foot Assembly 2 source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.005880362000649331,
+        -0.12012858630117978,
+        0.15794252080042884
+      ]
+    },
+    "Duck_neck_pitch_assembly_01_neck_left_sheet": {
+      "id": "duck-neck-pitch-assembly-1-neck-left-sheet",
+      "title": "Neck Left Sheet",
+      "description": "Neck Left Sheet from the pinned Open Duck Neck Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_pitch_assembly_02_neck_right_sheet": {
+      "id": "duck-neck-pitch-assembly-2-neck-right-sheet",
+      "title": "Neck Right Sheet",
+      "description": "Neck Right Sheet from the pinned Open Duck Neck Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_pitch_assembly_03_wj-wk00-0123middlecase_56": {
+      "id": "duck-neck-pitch-assembly-3-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Neck Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_pitch_assembly_04_drive_palonier": {
+      "id": "duck-neck-pitch-assembly-4-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Neck Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_pitch_assembly_05_wj-wk00-0124bottomcase_45": {
+      "id": "duck-neck-pitch-assembly-5-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Neck Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_pitch_assembly_05_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-neck-pitch-assembly-5-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Neck Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_pitch_assembly_06_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-neck-pitch-assembly-6-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Neck Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_pitch_assembly_06_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-neck-pitch-assembly-6-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Neck Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_pitch_assembly_07_passive_palonier": {
+      "id": "duck-neck-pitch-assembly-7-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Neck Pitch Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_pitch_to_yaw_01_head_pitch_to_yaw": {
+      "id": "duck-head-pitch-to-yaw-1-head-pitch-to-yaw",
+      "title": "Head Pitch To Yaw",
+      "description": "Head Pitch To Yaw from the pinned Open Duck Head Pitch To Yaw source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_yaw_assembly_01_head_yaw_to_roll": {
+      "id": "duck-neck-yaw-assembly-1-head-yaw-to-roll",
+      "title": "Head Yaw To Roll",
+      "description": "Head Yaw To Roll from the pinned Open Duck Neck Yaw Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_yaw_assembly_02_wj-wk00-0123middlecase_56": {
+      "id": "duck-neck-yaw-assembly-2-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Neck Yaw Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_yaw_assembly_03_drive_palonier": {
+      "id": "duck-neck-yaw-assembly-3-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Neck Yaw Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_yaw_assembly_04_wj-wk00-0124bottomcase_45": {
+      "id": "duck-neck-yaw-assembly-4-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Neck Yaw Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_yaw_assembly_04_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-neck-yaw-assembly-4-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Neck Yaw Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_yaw_assembly_05_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-neck-yaw-assembly-5-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Neck Yaw Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_yaw_assembly_05_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-neck-yaw-assembly-5-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Neck Yaw Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_neck_yaw_assembly_06_passive_palonier": {
+      "id": "duck-neck-yaw-assembly-6-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Neck Yaw Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_01_head_bot_sheet": {
+      "id": "duck-head-assembly-1-head-bot-sheet",
+      "title": "Head Bot Sheet",
+      "description": "Head Bot Sheet from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_02_head": {
+      "id": "duck-head-assembly-2-head",
+      "title": "Head",
+      "description": "Head from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.075,
+        0.23,
+        0.025
+      ]
+    },
+    "Duck_head_assembly_02_head_surface2": {
+      "id": "duck-head-assembly-2-head-surface2",
+      "title": "Head · surface 2",
+      "description": "Head · surface 2 from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.075,
+        0.23,
+        0.025
+      ]
+    },
+    "Duck_head_assembly_03_head_roll_mount": {
+      "id": "duck-head-assembly-3-head-roll-mount",
+      "title": "Head Roll Mount",
+      "description": "Head Roll Mount from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "machined",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_04_raspberrypizerow": {
+      "id": "duck-head-assembly-4-raspberrypizerow",
+      "title": "Raspberrypizerow",
+      "description": "Raspberrypizerow from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_04_raspberrypizerow_surface2": {
+      "id": "duck-head-assembly-4-raspberrypizerow-surface2",
+      "title": "Raspberrypizerow · surface 2",
+      "description": "Raspberrypizerow · surface 2 from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_05_roll_bearing": {
+      "id": "duck-head-assembly-5-roll-bearing",
+      "title": "Roll Bearing",
+      "description": "Roll Bearing from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_06_sg90": {
+      "id": "duck-head-assembly-6-sg90",
+      "title": "Sg90",
+      "description": "Sg90 from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_07_sg90": {
+      "id": "duck-head-assembly-7-sg90",
+      "title": "Sg90",
+      "description": "Sg90 from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_08_board": {
+      "id": "duck-head-assembly-8-board",
+      "title": "Board",
+      "description": "Board from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_09_wj-wk00-0123middlecase_56": {
+      "id": "duck-head-assembly-9-wj-wk00-0123middlecase-56",
+      "title": "Wj-Wk00-0123middlecase 56",
+      "description": "Wj-Wk00-0123middlecase 56 from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_10_drive_palonier": {
+      "id": "duck-head-assembly-10-drive-palonier",
+      "title": "Drive Palonier",
+      "description": "Drive Palonier from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_11_wj-wk00-0124bottomcase_45": {
+      "id": "duck-head-assembly-11-wj-wk00-0124bottomcase-45",
+      "title": "Wj-Wk00-0124bottomcase 45",
+      "description": "Wj-Wk00-0124bottomcase 45 from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_11_wj-wk00-0124bottomcase_45_surface2": {
+      "id": "duck-head-assembly-11-wj-wk00-0124bottomcase-45-surface2",
+      "title": "Wj-Wk00-0124bottomcase 45 · surface 2",
+      "description": "Wj-Wk00-0124bottomcase 45 · surface 2 from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_12_wj-wk00-0122topcabinetcase_95": {
+      "id": "duck-head-assembly-12-wj-wk00-0122topcabinetcase-95",
+      "title": "Wj-Wk00-0122topcabinetcase 95",
+      "description": "Wj-Wk00-0122topcabinetcase 95 from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_12_wj-wk00-0122topcabinetcase_95_surface2": {
+      "id": "duck-head-assembly-12-wj-wk00-0122topcabinetcase-95-surface2",
+      "title": "Wj-Wk00-0122topcabinetcase 95 · surface 2",
+      "description": "Wj-Wk00-0122topcabinetcase 95 · surface 2 from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_head_assembly_13_passive_palonier": {
+      "id": "duck-head-assembly-13-passive-palonier",
+      "title": "Passive Palonier",
+      "description": "Passive Palonier from the pinned Open Duck Head Assembly source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.025,
+        0.15,
+        0
+      ]
+    },
+    "Duck_left_antenna_holder_01_antenna": {
+      "id": "duck-left-antenna-holder-1-antenna",
+      "title": "Antenna",
+      "description": "Antenna from the pinned Open Duck Left Antenna Holder source visual. Display finish and separation are illustrative.",
+      "finishFamily": "indicator",
+      "explode": [
+        -0.003386071436105583,
+        0.3156530127960716,
+        -0.02568356458101853
+      ]
+    },
+    "Duck_left_antenna_holder_02_left_antenna_holder": {
+      "id": "duck-left-antenna-holder-2-left-antenna-holder",
+      "title": "Left Antenna Holder",
+      "description": "Left Antenna Holder from the pinned Open Duck Left Antenna Holder source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.02,
+        0.23,
+        0
+      ]
+    },
+    "Duck_right_antenna_holder_01_right_antenna_holder": {
+      "id": "duck-right-antenna-holder-1-right-antenna-holder",
+      "title": "Right Antenna Holder",
+      "description": "Right Antenna Holder from the pinned Open Duck Right Antenna Holder source visual. Display finish and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.02,
+        0.23,
+        0
+      ]
+    },
+    "Duck_right_antenna_holder_02_antenna": {
+      "id": "duck-right-antenna-holder-2-antenna",
+      "title": "Antenna",
+      "description": "Antenna from the pinned Open Duck Right Antenna Holder source visual. Display finish and separation are illustrative.",
+      "finishFamily": "indicator",
+      "explode": [
+        -0.0033860714361055415,
+        0.31604130289870885,
+        0.024757366019211316
+      ]
+    }
+  },
+  "operation": {
+    "clipName": "DuckPresentation",
+    "duration": 5,
+    "stages": [
+      {
+        "at": 0,
+        "title": "Look around",
+        "description": "Illustrative head and antenna scan from the source joint axes.",
+        "nodeId": "duck-head"
+      },
+      {
+        "at": 0.5,
+        "title": "A small greeting",
+        "description": "A restrained bow and leg pose within source joint limits. This is not balance simulation.",
+        "nodeId": "duck-body"
+      },
+      {
+        "at": 0.99,
+        "title": "Back to neutral",
+        "description": "All articulated source transforms return to the assembled display pose.",
+        "nodeId": "open-duck"
+      }
+    ]
+  },
+  "presentationPolicy": {
+    "actionDuration": 2.5,
+    "explosion": {
+      "separationProfiles": {
+        "duck-body": [
+          0.2,
+          0.85
+        ],
+        "duck-head": [
+          0.2,
+          0.7
+        ],
+        "duck-antennas": [
+          0.25,
+          0.9
+        ],
+        "duck-left-leg": [
+          0.35,
+          1
+        ],
+        "duck-right-leg": [
+          0.35,
+          1
+        ],
+        "duck-trunk-assembly-1-body-front": [
+          0,
+          0.45
+        ],
+        "duck-trunk-assembly-1-body-front-surface2": [
+          0,
+          0.45
+        ],
+        "duck-trunk-assembly-3-body-back": [
+          0,
+          0.45
+        ],
+        "duck-trunk-assembly-3-body-back-surface2": [
+          0,
+          0.45
+        ],
+        "duck-trunk-assembly-4-body-middle-bottom": [
+          0,
+          0.45
+        ],
+        "duck-trunk-assembly-4-body-middle-bottom-surface2": [
+          0,
+          0.45
+        ],
+        "duck-trunk-assembly-7-battery-pack-lid": [
+          0,
+          0.45
+        ],
+        "duck-trunk-assembly-8-body-middle-top": [
+          0,
+          0.45
+        ],
+        "duck-knee-and-ankle-assembly-1-left-cache": [
+          0,
+          0.45
+        ],
+        "duck-foot-assembly-1-foot-side": [
+          0,
+          0.45
+        ],
+        "duck-foot-assembly-4-foot-top": [
+          0,
+          0.45
+        ],
+        "duck-knee-and-ankle-assembly-3-1-right-cache": [
+          0,
+          0.45
+        ],
+        "duck-foot-assembly-2-1-foot-side": [
+          0,
+          0.45
+        ],
+        "duck-foot-assembly-2-4-foot-top": [
+          0,
+          0.45
+        ],
+        "duck-head-assembly-2-head": [
+          0,
+          0.45
+        ],
+        "duck-head-assembly-2-head-surface2": [
+          0,
+          0.45
+        ],
+        "duck-left-antenna-holder-1-antenna": [
+          0,
+          0.45
+        ],
+        "duck-right-antenna-holder-2-antenna": [
+          0,
+          0.45
+        ]
+      }
+    }
+  }
+}

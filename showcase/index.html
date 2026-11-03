@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" data-appearance="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f3f3f1">
+  <title>Open Duck Mini · Annora Showcase</title>
+  <meta name="description" content="Meet Open Duck Mini. Explore its mechanical layers, follow a short presentation and take control of the same 3D assembly.">
+  <link rel="stylesheet" href="../src/showcase/showcase.css">
+</head>
+<body>
+  <svg class="icon-library" aria-hidden="true"><defs>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7Z"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></symbol>
+    <symbol id="i-replay" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1 8M4 4v6h6"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 10 6-10 6L2 9Zm-10 9 10 6 10-6M2 16l10 6 10-6"/></symbol>
+    <symbol id="i-focus" viewBox="0 0 24 24"><path d="M3 9V3h6m6 0h6v6M3 15v6h6m6 0h6v-6M8 12h8m-4-4v8"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><path d="M3 3h18v18H3ZM3 9h18M3 15h18M9 3v18M15 3v18"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M20 12H5m6-6-6 6 6 6"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></symbol>
+  </defs></svg>
+
+  <main class="showcase" id="showcase">
+    <header class="showcase-header">
+      <div class="identity">
+        <span class="annora-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="identity-brand">ANNORA</span>
+        <span class="identity-rule" aria-hidden="true"></span>
+        <div class="product-identity"><span class="micro-label">ASSEMBLY STUDY / 01</span><h1>Open Duck Mini <span>v2</span></h1></div>
+      </div>
+      <div class="header-context"><span class="live-dot" aria-hidden="true"></span><span id="view-status">Preparing the assembly</span></div>
+      <div class="header-controls">
+        <details class="settings-menu" id="display-menu">
+          <summary><span class="display-mark" aria-hidden="true">◈</span><span id="display-label">Engineering</span><svg><use href="#i-chevron"/></svg></summary>
+          <div class="settings-panel">
+            <span class="micro-label">RENDERING</span>
+            <div class="render-options" role="group" aria-label="Rendering style">
+              <button type="button" data-style="engineering" aria-pressed="true"><strong>Engineering</strong><span>Materials and studio light</span></button>
+              <button type="button" data-style="linework" aria-pressed="false"><strong>Linework</strong><span>Visible outlines and features</span></button>
+              <button type="button" data-style="flat" aria-pressed="false"><strong>Flat highlight</strong><span>Emphasize the selected part</span></button>
+            </div>
+            <label class="setting-check"><span><svg aria-hidden="true"><use href="#i-grid"/></svg>Ground grid</span><input id="grid-option" type="checkbox" checked></label>
+            <label class="quality-setting">Quality<select id="quality-option"><option value="balanced">Balanced</option><option value="performance">Performance</option><option value="quality">Quality</option></select></label>
+          </div>
+        </details>
+        <details class="settings-menu appearance-menu" id="appearance-menu">
+          <summary aria-label="Appearance and accent"><svg><use href="#i-sun"/></svg><i class="accent-dot" aria-hidden="true"></i></summary>
+          <div class="settings-panel">
+            <span class="micro-label">APPEARANCE</span>
+            <div class="appearance-options" role="group" aria-label="Appearance"><button type="button" data-appearance="light" aria-pressed="true">Light</button><button type="button" data-appearance="dark" aria-pressed="false">Dark</button></div>
+            <span class="micro-label accent-heading">ACCENT COLOR</span><div id="accent-options" class="accent-options" role="group" aria-label="Accent color"></div>
+            <label class="custom-color">Custom accent<input id="custom-accent" aria-label="Custom accent color" type="color" value="#ff6840"></label>
+          </div>
+        </details>
+      </div>
+    </header>
+
+    <section class="model-stage" aria-label="Interactive Open Duck assembly">
+      <div id="explorer-mount"></div>
+      <div class="connection-screen" id="connection-screen"><span class="micro-label">OPENING THE ASSEMBLY</span><p id="connection-message">Preparing Open Duck Mini…</p><span class="loading-line" aria-hidden="true"></span><button type="button" id="retry" hidden>Try again</button></div>
+    </section>
+
+    <div class="stage-topline">
+      <div class="stage-tools">
+        <button type="button" id="parts-toggle" class="tool-button" aria-expanded="false" aria-controls="parts-panel" disabled><svg aria-hidden="true"><use href="#i-layers"/></svg><span>Parts</span></button>
+        <button type="button" id="reset-view" class="icon-button" aria-label="Return to whole assembly" disabled><svg aria-hidden="true"><use href="#i-replay"/></svg></button>
+        <button type="button" id="back-assembly" class="tool-button breadcrumb-back" hidden disabled><svg aria-hidden="true"><use href="#i-back"/></svg><span>Whole assembly</span></button>
+        <span class="scope-crumb" id="scope-name">Whole assembly</span>
+      </div>
+      <button type="button" id="details-toggle" class="tool-button mobile-details" aria-expanded="false" aria-controls="detail-panel" disabled><svg aria-hidden="true"><use href="#i-info"/></svg>Details</button>
+    </div>
+
+    <aside class="parts-panel instrument-panel" id="parts-panel" aria-label="Assembly index" hidden>
+      <div class="panel-heading"><span class="micro-label">ASSEMBLY INDEX</span><button type="button" class="icon-button" id="parts-close" aria-label="Close assembly index"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div>
+      <div class="tree-search"><label for="parts-search" class="sr-only">Find a part</label><input id="parts-search" type="search" placeholder="Find a part…" autocomplete="off"></div>
+      <div class="component-tree" id="component-tree"></div>
+      <p class="index-footnote">Select a part. Inspect to enter its assembly.</p>
+    </aside>
+
+    <aside class="detail-panel instrument-panel" id="detail-panel" aria-label="Selected component">
+      <div class="detail-kicker"><span class="micro-label">SELECTED COMPONENT</span><span class="detail-code" id="selected-code">01 / ROOT</span><button type="button" class="icon-button mobile-details" id="details-close" aria-label="Close component details"><svg aria-hidden="true"><use href="#i-close"/></svg></button></div>
+      <h2 id="selected-title">Open Duck Mini</h2>
+      <p id="selected-description">An open-hardware robot. A closer look at its mechanical layers.</p>
+      <div class="detail-facts"><div><span>Structure</span><strong id="selected-kind">Whole assembly</strong></div><div><span>Current view</span><strong id="selected-view">Engineering</strong></div></div>
+      <div class="detail-actions"><button type="button" id="inspect-selection" class="outlined-button" disabled><span>Inspect</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></button><button type="button" id="isolate-selection" class="text-button" aria-pressed="false" disabled>Isolate</button></div>
+      <details class="manual-actions" id="manual-actions" hidden>
+        <summary>Assembly actions<svg aria-hidden="true"><use href="#i-chevron"/></svg></summary>
+        <div class="manual-action-body">
+          <label class="separation-label" for="separation-progress"><span>Separation</span><output id="separation-value">0%</output></label>
+          <input id="separation-progress" aria-label="Assembly separation" type="range" min="0" max="1" step="0.01" value="0" disabled>
+          <div class="separation-buttons"><button type="button" id="separate-assembly" class="outlined-button" disabled>Separate</button><button type="button" id="restore-assembly" class="text-button" disabled>Restore</button></div>
+          <button type="button" id="play-motion" class="outlined-button motion-button" disabled><svg aria-hidden="true"><use href="#i-play"/></svg><span>Play gesture · 2.5 s</span></button>
+          <p class="manual-action-note" id="motion-note">A short gesture, using source joints.</p>
+        </div>
+      </details>
+    </aside>
+
+    <div class="scene-caption" aria-live="polite" aria-atomic="true"><span class="micro-label" id="beat-number">READY TO EXPLORE</span><h2 id="beat-title">Meet the mechanism.</h2><p id="beat-description">A short presentation. Every part within reach.</p></div>
+    <div class="stage-corner" aria-hidden="true"><span>Y</span><i></i><span>X</span></div>
+
+    <footer class="transport instrument-panel" aria-label="Showcase playback">
+      <div class="transport-heading"><div><span class="micro-label">OPEN DUCK / SHOWCASE</span><p id="transport-state">Ready when you are</p></div><span class="timecode"><span id="elapsed-time">00:00</span><span>/</span><span id="duration-time">00:20</span></span></div>
+      <div class="transport-main">
+        <button type="button" id="play-showcase" class="primary-button" disabled><svg aria-hidden="true"><use href="#i-play"/></svg><span>Play showcase</span></button>
+        <button type="button" id="replay-showcase" class="icon-button" aria-label="Replay showcase" disabled><svg aria-hidden="true"><use href="#i-replay"/></svg></button>
+        <div class="progress-control"><label class="sr-only" for="showcase-progress">Showcase progress</label><input id="showcase-progress" type="range" min="0" max="20" step="0.01" value="0" disabled><div class="chapter-track" id="chapter-track"></div></div>
+        <button type="button" id="explore-freely" class="text-button" disabled>Explore freely<svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </div>
+      <p class="action-message" id="action-message" role="status" aria-live="polite" hidden></p>
+    </footer>
+
+    <div class="page-footnote"><span id="interaction-hint">Drag to orbit · Scroll to zoom · Click a part</span><a href="./media/">Film &amp; keyframes</a><a href="https://github.com/apirrone/Open_Duck_Mini" target="_blank" rel="noopener">Open-hardware source <span aria-hidden="true">↗</span></a></div>
+  </main>
+  <script type="module" src="../src/showcase/showcase.js"></script>
+</body>
+</html>
