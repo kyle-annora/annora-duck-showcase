@@ -73,6 +73,12 @@ renders at a fixed 30 fps. Keep that tab visible during capture. It exports PNGs
 and a silent VP8/WebM film through the browser; it is an authoring utility, not a
 second production player.
 
+## Planned robot expansion
+
+The [Hexapod and Dropbear expansion plan](docs/robot-showcase-expansion-plan.md)
+sets the next model sequence, shared-host changes, mechanical constraints and
+acceptance gates. These robots are planned; the live showcase remains Open Duck.
+
 ## Reuse and source
 
 The existing [API](docs/api.md), [model package](docs/models.md),
