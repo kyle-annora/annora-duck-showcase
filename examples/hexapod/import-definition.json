@@ -1,0 +1,1508 @@
+{
+  "schemaVersion": 1,
+  "id": "hexapod",
+  "rootId": "hexapod",
+  "title": "Hexapod",
+  "shortTitle": "Hexapod",
+  "provenance": {
+    "author": "ggldnl / Hexapod contributors; display adaptation by Annora",
+    "url": "https://github.com/ggldnl/Hexapod-Hardware",
+    "license": "CERN-OHL-W-2.0",
+    "attribution": "Hexapod · ggldnl and contributors · CERN-OHL-W-2.0. Display adaptation and illustrative motion: Annora, 2026.",
+    "description": "A six-legged source assembly with eighteen revolute joints.",
+    "note": "Source hardware and joint frames are retained. Derived geometry, finishes and separation are illustrative. The single-leg clip is an authored pose study, not firmware output, gait or balance simulation."
+  },
+  "licenseFile": "LICENSE.txt",
+  "tour": "authored-tour.json",
+  "view": {
+    "direction": [
+      1.5,
+      1.25,
+      1.6
+    ],
+    "normalizedWidth": 5.2,
+    "labels": [
+      "Hero",
+      "Reverse"
+    ],
+    "facts": [
+      {
+        "label": "Articulated joints",
+        "value": "18"
+      },
+      {
+        "label": "Source visuals",
+        "value": "72"
+      }
+    ]
+  },
+  "creaseAngle": 32,
+  "groups": [
+    {
+      "id": "hex-body",
+      "title": "Body & electronics",
+      "description": "The source frame, battery, electronics and supporting body layers.",
+      "meshNames": [
+        "Hex_base_1",
+        "Hex_battery_1",
+        "Hex_electronics_1",
+        "Hex_electronics_1_surface2",
+        "Hex_electronics_1_surface3",
+        "Hex_battery_mount_1",
+        "Hex_top_stiffeners_1",
+        "Hex_bottom_stiffeners_1"
+      ],
+      "children": [
+        {
+          "id": "hex-body-structure",
+          "title": "Body frame",
+          "description": "Source body frame components.",
+          "meshNames": [
+            "Hex_base_1",
+            "Hex_battery_mount_1",
+            "Hex_top_stiffeners_1",
+            "Hex_bottom_stiffeners_1"
+          ]
+        },
+        {
+          "id": "hex-body-electronics",
+          "title": "Power & control",
+          "description": "Source power & control components.",
+          "meshNames": [
+            "Hex_battery_1",
+            "Hex_electronics_1",
+            "Hex_electronics_1_surface2",
+            "Hex_electronics_1_surface3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hex-leg-1",
+      "title": "Front right leg",
+      "description": "One source leg with coxa, femur and tibia joints.",
+      "meshNames": [
+        "Hex_leg_1_coxa_motor_1",
+        "Hex_leg_1_coxa_motor_1_surface2",
+        "Hex_leg_1_coxa_bracket_B_1",
+        "Hex_leg_1_coxa_bracket_A_1",
+        "Hex_leg_1_femur_bracket_A_1",
+        "Hex_leg_1_femur_bracket_B_1",
+        "Hex_leg_1_femur_motor_1",
+        "Hex_leg_1_femur_motor_1_surface2",
+        "Hex_leg_1_femur_1",
+        "Hex_leg_1_tibia_motor_1",
+        "Hex_leg_1_tibia_motor_1_surface2",
+        "Hex_leg_1_tibia_bracket_A_1",
+        "Hex_leg_1_tibia_bracket_B_1",
+        "Hex_leg_1_tibia_1"
+      ],
+      "children": [
+        {
+          "id": "hex-leg-1-coxa",
+          "title": "Coxa joint",
+          "description": "The source coxa joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_1_coxa_motor_1",
+            "Hex_leg_1_coxa_motor_1_surface2",
+            "Hex_leg_1_coxa_bracket_B_1",
+            "Hex_leg_1_coxa_bracket_A_1"
+          ]
+        },
+        {
+          "id": "hex-leg-1-femur",
+          "title": "Femur joint",
+          "description": "The source femur joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_1_femur_bracket_A_1",
+            "Hex_leg_1_femur_bracket_B_1",
+            "Hex_leg_1_femur_motor_1",
+            "Hex_leg_1_femur_motor_1_surface2",
+            "Hex_leg_1_femur_1"
+          ]
+        },
+        {
+          "id": "hex-leg-1-tibia",
+          "title": "Tibia joint",
+          "description": "The source tibia joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_1_tibia_motor_1",
+            "Hex_leg_1_tibia_motor_1_surface2",
+            "Hex_leg_1_tibia_bracket_A_1",
+            "Hex_leg_1_tibia_bracket_B_1",
+            "Hex_leg_1_tibia_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hex-leg-2",
+      "title": "Middle right leg",
+      "description": "One source leg with coxa, femur and tibia joints.",
+      "meshNames": [
+        "Hex_leg_2_coxa_motor_1",
+        "Hex_leg_2_coxa_motor_1_surface2",
+        "Hex_leg_2_coxa_bracket_B_1",
+        "Hex_leg_2_coxa_bracket_A_1",
+        "Hex_leg_2_femur_bracket_A_1",
+        "Hex_leg_2_femur_bracket_B_1",
+        "Hex_leg_2_femur_motor_1",
+        "Hex_leg_2_femur_motor_1_surface2",
+        "Hex_leg_2_femur_1",
+        "Hex_leg_2_tibia_motor_1",
+        "Hex_leg_2_tibia_motor_1_surface2",
+        "Hex_leg_2_tibia_bracket_A_1",
+        "Hex_leg_2_tibia_bracket_B_1",
+        "Hex_leg_2_tibia_1"
+      ],
+      "children": [
+        {
+          "id": "hex-leg-2-coxa",
+          "title": "Coxa joint",
+          "description": "The source coxa joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_2_coxa_motor_1",
+            "Hex_leg_2_coxa_motor_1_surface2",
+            "Hex_leg_2_coxa_bracket_B_1",
+            "Hex_leg_2_coxa_bracket_A_1"
+          ]
+        },
+        {
+          "id": "hex-leg-2-femur",
+          "title": "Femur joint",
+          "description": "The source femur joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_2_femur_bracket_A_1",
+            "Hex_leg_2_femur_bracket_B_1",
+            "Hex_leg_2_femur_motor_1",
+            "Hex_leg_2_femur_motor_1_surface2",
+            "Hex_leg_2_femur_1"
+          ]
+        },
+        {
+          "id": "hex-leg-2-tibia",
+          "title": "Tibia joint",
+          "description": "The source tibia joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_2_tibia_motor_1",
+            "Hex_leg_2_tibia_motor_1_surface2",
+            "Hex_leg_2_tibia_bracket_A_1",
+            "Hex_leg_2_tibia_bracket_B_1",
+            "Hex_leg_2_tibia_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hex-leg-3",
+      "title": "Rear right leg",
+      "description": "One source leg with coxa, femur and tibia joints.",
+      "meshNames": [
+        "Hex_leg_3_coxa_motor_1",
+        "Hex_leg_3_coxa_motor_1_surface2",
+        "Hex_leg_3_coxa_bracket_B_1",
+        "Hex_leg_3_coxa_bracket_A_1",
+        "Hex_leg_3_femur_bracket_A_1",
+        "Hex_leg_3_femur_bracket_B_1",
+        "Hex_leg_3_femur_motor_1",
+        "Hex_leg_3_femur_motor_1_surface2",
+        "Hex_leg_3_femur_1",
+        "Hex_leg_3_tibia_motor_1",
+        "Hex_leg_3_tibia_motor_1_surface2",
+        "Hex_leg_3_tibia_bracket_A_1",
+        "Hex_leg_3_tibia_bracket_B_1",
+        "Hex_leg_3_tibia_1"
+      ],
+      "children": [
+        {
+          "id": "hex-leg-3-coxa",
+          "title": "Coxa joint",
+          "description": "The source coxa joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_3_coxa_motor_1",
+            "Hex_leg_3_coxa_motor_1_surface2",
+            "Hex_leg_3_coxa_bracket_B_1",
+            "Hex_leg_3_coxa_bracket_A_1"
+          ]
+        },
+        {
+          "id": "hex-leg-3-femur",
+          "title": "Femur joint",
+          "description": "The source femur joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_3_femur_bracket_A_1",
+            "Hex_leg_3_femur_bracket_B_1",
+            "Hex_leg_3_femur_motor_1",
+            "Hex_leg_3_femur_motor_1_surface2",
+            "Hex_leg_3_femur_1"
+          ]
+        },
+        {
+          "id": "hex-leg-3-tibia",
+          "title": "Tibia joint",
+          "description": "The source tibia joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_3_tibia_motor_1",
+            "Hex_leg_3_tibia_motor_1_surface2",
+            "Hex_leg_3_tibia_bracket_A_1",
+            "Hex_leg_3_tibia_bracket_B_1",
+            "Hex_leg_3_tibia_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hex-leg-4",
+      "title": "Rear left leg",
+      "description": "One source leg with coxa, femur and tibia joints.",
+      "meshNames": [
+        "Hex_leg_4_coxa_motor_1",
+        "Hex_leg_4_coxa_motor_1_surface2",
+        "Hex_leg_4_coxa_bracket_B_1",
+        "Hex_leg_4_coxa_bracket_A_1",
+        "Hex_leg_4_femur_bracket_A_1",
+        "Hex_leg_4_femur_bracket_B_1",
+        "Hex_leg_4_femur_motor_1",
+        "Hex_leg_4_femur_motor_1_surface2",
+        "Hex_leg_4_femur_1",
+        "Hex_leg_4_tibia_motor_1",
+        "Hex_leg_4_tibia_motor_1_surface2",
+        "Hex_leg_4_tibia_bracket_A_1",
+        "Hex_leg_4_tibia_bracket_B_1",
+        "Hex_leg_4_tibia_1"
+      ],
+      "children": [
+        {
+          "id": "hex-leg-4-coxa",
+          "title": "Coxa joint",
+          "description": "The source coxa joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_4_coxa_motor_1",
+            "Hex_leg_4_coxa_motor_1_surface2",
+            "Hex_leg_4_coxa_bracket_B_1",
+            "Hex_leg_4_coxa_bracket_A_1"
+          ]
+        },
+        {
+          "id": "hex-leg-4-femur",
+          "title": "Femur joint",
+          "description": "The source femur joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_4_femur_bracket_A_1",
+            "Hex_leg_4_femur_bracket_B_1",
+            "Hex_leg_4_femur_motor_1",
+            "Hex_leg_4_femur_motor_1_surface2",
+            "Hex_leg_4_femur_1"
+          ]
+        },
+        {
+          "id": "hex-leg-4-tibia",
+          "title": "Tibia joint",
+          "description": "The source tibia joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_4_tibia_motor_1",
+            "Hex_leg_4_tibia_motor_1_surface2",
+            "Hex_leg_4_tibia_bracket_A_1",
+            "Hex_leg_4_tibia_bracket_B_1",
+            "Hex_leg_4_tibia_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hex-leg-5",
+      "title": "Middle left leg",
+      "description": "One source leg with coxa, femur and tibia joints.",
+      "meshNames": [
+        "Hex_leg_5_coxa_motor_1",
+        "Hex_leg_5_coxa_motor_1_surface2",
+        "Hex_leg_5_coxa_bracket_B_1",
+        "Hex_leg_5_coxa_bracket_A_1",
+        "Hex_leg_5_femur_bracket_A_1",
+        "Hex_leg_5_femur_bracket_B_1",
+        "Hex_leg_5_femur_motor_1",
+        "Hex_leg_5_femur_motor_1_surface2",
+        "Hex_leg_5_femur_1",
+        "Hex_leg_5_tibia_motor_1",
+        "Hex_leg_5_tibia_motor_1_surface2",
+        "Hex_leg_5_tibia_bracket_A_1",
+        "Hex_leg_5_tibia_bracket_B_1",
+        "Hex_leg_5_tibia_1"
+      ],
+      "children": [
+        {
+          "id": "hex-leg-5-coxa",
+          "title": "Coxa joint",
+          "description": "The source coxa joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_5_coxa_motor_1",
+            "Hex_leg_5_coxa_motor_1_surface2",
+            "Hex_leg_5_coxa_bracket_B_1",
+            "Hex_leg_5_coxa_bracket_A_1"
+          ]
+        },
+        {
+          "id": "hex-leg-5-femur",
+          "title": "Femur joint",
+          "description": "The source femur joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_5_femur_bracket_A_1",
+            "Hex_leg_5_femur_bracket_B_1",
+            "Hex_leg_5_femur_motor_1",
+            "Hex_leg_5_femur_motor_1_surface2",
+            "Hex_leg_5_femur_1"
+          ]
+        },
+        {
+          "id": "hex-leg-5-tibia",
+          "title": "Tibia joint",
+          "description": "The source tibia joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_5_tibia_motor_1",
+            "Hex_leg_5_tibia_motor_1_surface2",
+            "Hex_leg_5_tibia_bracket_A_1",
+            "Hex_leg_5_tibia_bracket_B_1",
+            "Hex_leg_5_tibia_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hex-leg-6",
+      "title": "Front left leg",
+      "description": "One source leg with coxa, femur and tibia joints.",
+      "meshNames": [
+        "Hex_leg_6_coxa_motor_1",
+        "Hex_leg_6_coxa_motor_1_surface2",
+        "Hex_leg_6_coxa_bracket_B_1",
+        "Hex_leg_6_coxa_bracket_A_1",
+        "Hex_leg_6_femur_bracket_A_1",
+        "Hex_leg_6_femur_bracket_B_1",
+        "Hex_leg_6_femur_motor_1",
+        "Hex_leg_6_femur_motor_1_surface2",
+        "Hex_leg_6_femur_1",
+        "Hex_leg_6_tibia_motor_1",
+        "Hex_leg_6_tibia_motor_1_surface2",
+        "Hex_leg_6_tibia_bracket_A_1",
+        "Hex_leg_6_tibia_bracket_B_1",
+        "Hex_leg_6_tibia_1"
+      ],
+      "children": [
+        {
+          "id": "hex-leg-6-coxa",
+          "title": "Coxa joint",
+          "description": "The source coxa joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_6_coxa_motor_1",
+            "Hex_leg_6_coxa_motor_1_surface2",
+            "Hex_leg_6_coxa_bracket_B_1",
+            "Hex_leg_6_coxa_bracket_A_1"
+          ]
+        },
+        {
+          "id": "hex-leg-6-femur",
+          "title": "Femur joint",
+          "description": "The source femur joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_6_femur_bracket_A_1",
+            "Hex_leg_6_femur_bracket_B_1",
+            "Hex_leg_6_femur_motor_1",
+            "Hex_leg_6_femur_motor_1_surface2",
+            "Hex_leg_6_femur_1"
+          ]
+        },
+        {
+          "id": "hex-leg-6-tibia",
+          "title": "Tibia joint",
+          "description": "The source tibia joint and its rigid components.",
+          "meshNames": [
+            "Hex_leg_6_tibia_motor_1",
+            "Hex_leg_6_tibia_motor_1_surface2",
+            "Hex_leg_6_tibia_bracket_A_1",
+            "Hex_leg_6_tibia_bracket_B_1",
+            "Hex_leg_6_tibia_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": {
+    "Hex_base_1": {
+      "id": "hex-base-1",
+      "title": "Base",
+      "description": "Base from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "Hex_battery_1": {
+      "id": "hex-battery-1",
+      "title": "Battery",
+      "description": "Battery from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0,
+        0.085,
+        0
+      ]
+    },
+    "Hex_electronics_1": {
+      "id": "hex-electronics-1",
+      "title": "Electronics",
+      "description": "Electronics from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.14,
+        0
+      ]
+    },
+    "Hex_electronics_1_surface2": {
+      "id": "hex-electronics-1-surface2",
+      "title": "Electronics · surface 2",
+      "description": "Electronics from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.14,
+        0
+      ]
+    },
+    "Hex_electronics_1_surface3": {
+      "id": "hex-electronics-1-surface3",
+      "title": "Electronics · surface 3",
+      "description": "Electronics from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.14,
+        0
+      ]
+    },
+    "Hex_battery_mount_1": {
+      "id": "hex-battery-mount-1",
+      "title": "Battery Mount",
+      "description": "Battery Mount from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0,
+        0.045,
+        0
+      ]
+    },
+    "Hex_top_stiffeners_1": {
+      "id": "hex-top-stiffeners-1",
+      "title": "Top Stiffeners",
+      "description": "Top Stiffeners from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0,
+        0.18,
+        0
+      ]
+    },
+    "Hex_bottom_stiffeners_1": {
+      "id": "hex-bottom-stiffeners-1",
+      "title": "Bottom Stiffeners",
+      "description": "Bottom Stiffeners from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.1,
+        0
+      ]
+    },
+    "Hex_leg_1_coxa_motor_1": {
+      "id": "hex-leg-1-coxa-motor-1",
+      "title": "Coxa Motor",
+      "description": "Leg 1 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_coxa_motor_1_surface2": {
+      "id": "hex-leg-1-coxa-motor-1-surface2",
+      "title": "Coxa Motor · surface 2",
+      "description": "Leg 1 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_coxa_bracket_B_1": {
+      "id": "hex-leg-1-coxa-bracket-b-1",
+      "title": "Coxa Bracket B",
+      "description": "Leg 1 Coxa Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_coxa_bracket_A_1": {
+      "id": "hex-leg-1-coxa-bracket-a-1",
+      "title": "Coxa Bracket A",
+      "description": "Leg 1 Coxa Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_femur_bracket_A_1": {
+      "id": "hex-leg-1-femur-bracket-a-1",
+      "title": "Femur Bracket A",
+      "description": "Leg 1 Femur Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_femur_bracket_B_1": {
+      "id": "hex-leg-1-femur-bracket-b-1",
+      "title": "Femur Bracket B",
+      "description": "Leg 1 Femur Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_femur_motor_1": {
+      "id": "hex-leg-1-femur-motor-1",
+      "title": "Femur Motor",
+      "description": "Leg 1 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_femur_motor_1_surface2": {
+      "id": "hex-leg-1-femur-motor-1-surface2",
+      "title": "Femur Motor · surface 2",
+      "description": "Leg 1 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_femur_1": {
+      "id": "hex-leg-1-femur-1",
+      "title": "Femur",
+      "description": "Leg 1 Femur from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_tibia_motor_1": {
+      "id": "hex-leg-1-tibia-motor-1",
+      "title": "Tibia Motor",
+      "description": "Leg 1 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_tibia_motor_1_surface2": {
+      "id": "hex-leg-1-tibia-motor-1-surface2",
+      "title": "Tibia Motor · surface 2",
+      "description": "Leg 1 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_tibia_bracket_A_1": {
+      "id": "hex-leg-1-tibia-bracket-a-1",
+      "title": "Tibia Bracket A",
+      "description": "Leg 1 Tibia Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_tibia_bracket_B_1": {
+      "id": "hex-leg-1-tibia-bracket-b-1",
+      "title": "Tibia Bracket B",
+      "description": "Leg 1 Tibia Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_1_tibia_1": {
+      "id": "hex-leg-1-tibia-1",
+      "title": "Tibia",
+      "description": "Leg 1 Tibia from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550120133888266,
+        0.01,
+        -0.09327147793610596
+      ]
+    },
+    "Hex_leg_2_coxa_motor_1": {
+      "id": "hex-leg-2-coxa-motor-1",
+      "title": "Coxa Motor",
+      "description": "Leg 2 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_coxa_motor_1_surface2": {
+      "id": "hex-leg-2-coxa-motor-1-surface2",
+      "title": "Coxa Motor · surface 2",
+      "description": "Leg 2 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_coxa_bracket_B_1": {
+      "id": "hex-leg-2-coxa-bracket-b-1",
+      "title": "Coxa Bracket B",
+      "description": "Leg 2 Coxa Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_coxa_bracket_A_1": {
+      "id": "hex-leg-2-coxa-bracket-a-1",
+      "title": "Coxa Bracket A",
+      "description": "Leg 2 Coxa Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_femur_bracket_A_1": {
+      "id": "hex-leg-2-femur-bracket-a-1",
+      "title": "Femur Bracket A",
+      "description": "Leg 2 Femur Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_femur_bracket_B_1": {
+      "id": "hex-leg-2-femur-bracket-b-1",
+      "title": "Femur Bracket B",
+      "description": "Leg 2 Femur Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_femur_motor_1": {
+      "id": "hex-leg-2-femur-motor-1",
+      "title": "Femur Motor",
+      "description": "Leg 2 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_femur_motor_1_surface2": {
+      "id": "hex-leg-2-femur-motor-1-surface2",
+      "title": "Femur Motor · surface 2",
+      "description": "Leg 2 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_femur_1": {
+      "id": "hex-leg-2-femur-1",
+      "title": "Femur",
+      "description": "Leg 2 Femur from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_tibia_motor_1": {
+      "id": "hex-leg-2-tibia-motor-1",
+      "title": "Tibia Motor",
+      "description": "Leg 2 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_tibia_motor_1_surface2": {
+      "id": "hex-leg-2-tibia-motor-1-surface2",
+      "title": "Tibia Motor · surface 2",
+      "description": "Leg 2 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_tibia_bracket_A_1": {
+      "id": "hex-leg-2-tibia-bracket-a-1",
+      "title": "Tibia Bracket A",
+      "description": "Leg 2 Tibia Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_tibia_bracket_B_1": {
+      "id": "hex-leg-2-tibia-bracket-b-1",
+      "title": "Tibia Bracket B",
+      "description": "Leg 2 Tibia Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_2_tibia_1": {
+      "id": "hex-leg-2-tibia-1",
+      "title": "Tibia",
+      "description": "Leg 2 Tibia from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.12,
+        0.01,
+        -1.2153157886989282e-9
+      ]
+    },
+    "Hex_leg_3_coxa_motor_1": {
+      "id": "hex-leg-3-coxa-motor-1",
+      "title": "Coxa Motor",
+      "description": "Leg 3 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_coxa_motor_1_surface2": {
+      "id": "hex-leg-3-coxa-motor-1-surface2",
+      "title": "Coxa Motor · surface 2",
+      "description": "Leg 3 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_coxa_bracket_B_1": {
+      "id": "hex-leg-3-coxa-bracket-b-1",
+      "title": "Coxa Bracket B",
+      "description": "Leg 3 Coxa Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_coxa_bracket_A_1": {
+      "id": "hex-leg-3-coxa-bracket-a-1",
+      "title": "Coxa Bracket A",
+      "description": "Leg 3 Coxa Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_femur_bracket_A_1": {
+      "id": "hex-leg-3-femur-bracket-a-1",
+      "title": "Femur Bracket A",
+      "description": "Leg 3 Femur Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_femur_bracket_B_1": {
+      "id": "hex-leg-3-femur-bracket-b-1",
+      "title": "Femur Bracket B",
+      "description": "Leg 3 Femur Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_femur_motor_1": {
+      "id": "hex-leg-3-femur-motor-1",
+      "title": "Femur Motor",
+      "description": "Leg 3 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_femur_motor_1_surface2": {
+      "id": "hex-leg-3-femur-motor-1-surface2",
+      "title": "Femur Motor · surface 2",
+      "description": "Leg 3 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_femur_1": {
+      "id": "hex-leg-3-femur-1",
+      "title": "Femur",
+      "description": "Leg 3 Femur from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_tibia_motor_1": {
+      "id": "hex-leg-3-tibia-motor-1",
+      "title": "Tibia Motor",
+      "description": "Leg 3 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_tibia_motor_1_surface2": {
+      "id": "hex-leg-3-tibia-motor-1-surface2",
+      "title": "Tibia Motor · surface 2",
+      "description": "Leg 3 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_tibia_bracket_A_1": {
+      "id": "hex-leg-3-tibia-bracket-a-1",
+      "title": "Tibia Bracket A",
+      "description": "Leg 3 Tibia Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_tibia_bracket_B_1": {
+      "id": "hex-leg-3-tibia-bracket-b-1",
+      "title": "Tibia Bracket B",
+      "description": "Leg 3 Tibia Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_3_tibia_1": {
+      "id": "hex-leg-3-tibia-1",
+      "title": "Tibia",
+      "description": "Leg 3 Tibia from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.07550385827314,
+        0.01,
+        0.09326932714386646
+      ]
+    },
+    "Hex_leg_4_coxa_motor_1": {
+      "id": "hex-leg-4-coxa-motor-1",
+      "title": "Coxa Motor",
+      "description": "Leg 4 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_coxa_motor_1_surface2": {
+      "id": "hex-leg-4-coxa-motor-1-surface2",
+      "title": "Coxa Motor · surface 2",
+      "description": "Leg 4 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_coxa_bracket_B_1": {
+      "id": "hex-leg-4-coxa-bracket-b-1",
+      "title": "Coxa Bracket B",
+      "description": "Leg 4 Coxa Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_coxa_bracket_A_1": {
+      "id": "hex-leg-4-coxa-bracket-a-1",
+      "title": "Coxa Bracket A",
+      "description": "Leg 4 Coxa Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_femur_bracket_A_1": {
+      "id": "hex-leg-4-femur-bracket-a-1",
+      "title": "Femur Bracket A",
+      "description": "Leg 4 Femur Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_femur_bracket_B_1": {
+      "id": "hex-leg-4-femur-bracket-b-1",
+      "title": "Femur Bracket B",
+      "description": "Leg 4 Femur Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_femur_motor_1": {
+      "id": "hex-leg-4-femur-motor-1",
+      "title": "Femur Motor",
+      "description": "Leg 4 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_femur_motor_1_surface2": {
+      "id": "hex-leg-4-femur-motor-1-surface2",
+      "title": "Femur Motor · surface 2",
+      "description": "Leg 4 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_femur_1": {
+      "id": "hex-leg-4-femur-1",
+      "title": "Femur",
+      "description": "Leg 4 Femur from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_tibia_motor_1": {
+      "id": "hex-leg-4-tibia-motor-1",
+      "title": "Tibia Motor",
+      "description": "Leg 4 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_tibia_motor_1_surface2": {
+      "id": "hex-leg-4-tibia-motor-1-surface2",
+      "title": "Tibia Motor · surface 2",
+      "description": "Leg 4 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_tibia_bracket_A_1": {
+      "id": "hex-leg-4-tibia-bracket-a-1",
+      "title": "Tibia Bracket A",
+      "description": "Leg 4 Tibia Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_tibia_bracket_B_1": {
+      "id": "hex-leg-4-tibia-bracket-b-1",
+      "title": "Tibia Bracket B",
+      "description": "Leg 4 Tibia Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_4_tibia_1": {
+      "id": "hex-leg-4-tibia-1",
+      "title": "Tibia",
+      "description": "Leg 4 Tibia from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.07550120479056949,
+        0.01,
+        0.0932714751420416
+      ]
+    },
+    "Hex_leg_5_coxa_motor_1": {
+      "id": "hex-leg-5-coxa-motor-1",
+      "title": "Coxa Motor",
+      "description": "Leg 5 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_coxa_motor_1_surface2": {
+      "id": "hex-leg-5-coxa-motor-1-surface2",
+      "title": "Coxa Motor · surface 2",
+      "description": "Leg 5 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_coxa_bracket_B_1": {
+      "id": "hex-leg-5-coxa-bracket-b-1",
+      "title": "Coxa Bracket B",
+      "description": "Leg 5 Coxa Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_coxa_bracket_A_1": {
+      "id": "hex-leg-5-coxa-bracket-a-1",
+      "title": "Coxa Bracket A",
+      "description": "Leg 5 Coxa Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_femur_bracket_A_1": {
+      "id": "hex-leg-5-femur-bracket-a-1",
+      "title": "Femur Bracket A",
+      "description": "Leg 5 Femur Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_femur_bracket_B_1": {
+      "id": "hex-leg-5-femur-bracket-b-1",
+      "title": "Femur Bracket B",
+      "description": "Leg 5 Femur Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_femur_motor_1": {
+      "id": "hex-leg-5-femur-motor-1",
+      "title": "Femur Motor",
+      "description": "Leg 5 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_femur_motor_1_surface2": {
+      "id": "hex-leg-5-femur-motor-1-surface2",
+      "title": "Femur Motor · surface 2",
+      "description": "Leg 5 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_femur_1": {
+      "id": "hex-leg-5-femur-1",
+      "title": "Femur",
+      "description": "Leg 5 Femur from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_tibia_motor_1": {
+      "id": "hex-leg-5-tibia-motor-1",
+      "title": "Tibia Motor",
+      "description": "Leg 5 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_tibia_motor_1_surface2": {
+      "id": "hex-leg-5-tibia-motor-1-surface2",
+      "title": "Tibia Motor · surface 2",
+      "description": "Leg 5 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_tibia_bracket_A_1": {
+      "id": "hex-leg-5-tibia-bracket-a-1",
+      "title": "Tibia Bracket A",
+      "description": "Leg 5 Tibia Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_tibia_bracket_B_1": {
+      "id": "hex-leg-5-tibia-bracket-b-1",
+      "title": "Tibia Bracket B",
+      "description": "Leg 5 Tibia Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_5_tibia_1": {
+      "id": "hex-leg-5-tibia-1",
+      "title": "Tibia",
+      "description": "Leg 5 Tibia from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.12,
+        0.01,
+        -2.1423343189005574e-11
+      ]
+    },
+    "Hex_leg_6_coxa_motor_1": {
+      "id": "hex-leg-6-coxa-motor-1",
+      "title": "Coxa Motor",
+      "description": "Leg 6 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_coxa_motor_1_surface2": {
+      "id": "hex-leg-6-coxa-motor-1-surface2",
+      "title": "Coxa Motor · surface 2",
+      "description": "Leg 6 Coxa Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_coxa_bracket_B_1": {
+      "id": "hex-leg-6-coxa-bracket-b-1",
+      "title": "Coxa Bracket B",
+      "description": "Leg 6 Coxa Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_coxa_bracket_A_1": {
+      "id": "hex-leg-6-coxa-bracket-a-1",
+      "title": "Coxa Bracket A",
+      "description": "Leg 6 Coxa Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_femur_bracket_A_1": {
+      "id": "hex-leg-6-femur-bracket-a-1",
+      "title": "Femur Bracket A",
+      "description": "Leg 6 Femur Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_femur_bracket_B_1": {
+      "id": "hex-leg-6-femur-bracket-b-1",
+      "title": "Femur Bracket B",
+      "description": "Leg 6 Femur Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_femur_motor_1": {
+      "id": "hex-leg-6-femur-motor-1",
+      "title": "Femur Motor",
+      "description": "Leg 6 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_femur_motor_1_surface2": {
+      "id": "hex-leg-6-femur-motor-1-surface2",
+      "title": "Femur Motor · surface 2",
+      "description": "Leg 6 Femur Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_femur_1": {
+      "id": "hex-leg-6-femur-1",
+      "title": "Femur",
+      "description": "Leg 6 Femur from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_tibia_motor_1": {
+      "id": "hex-leg-6-tibia-motor-1",
+      "title": "Tibia Motor",
+      "description": "Leg 6 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_tibia_motor_1_surface2": {
+      "id": "hex-leg-6-tibia-motor-1-surface2",
+      "title": "Tibia Motor · surface 2",
+      "description": "Leg 6 Tibia Motor from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_tibia_bracket_A_1": {
+      "id": "hex-leg-6-tibia-bracket-a-1",
+      "title": "Tibia Bracket A",
+      "description": "Leg 6 Tibia Bracket A from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_tibia_bracket_B_1": {
+      "id": "hex-leg-6-tibia-bracket-b-1",
+      "title": "Tibia Bracket B",
+      "description": "Leg 6 Tibia Bracket B from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    },
+    "Hex_leg_6_tibia_1": {
+      "id": "hex-leg-6-tibia-1",
+      "title": "Tibia",
+      "description": "Leg 6 Tibia from the pinned Hexapod source visual. Display finishes and separation are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.0755038605996772,
+        0.01,
+        -0.09326932526047625
+      ]
+    }
+  },
+  "operation": {
+    "clipName": "HexapodLegReach",
+    "duration": 2.5,
+    "stages": [
+      {
+        "at": 0,
+        "title": "Start from the stance",
+        "description": "The source leg rests in its authored standing pose.",
+        "nodeId": "hex-leg-1"
+      },
+      {
+        "at": 0.25,
+        "title": "Lift through the femur",
+        "description": "One leg lifts while the other five remain in their source display stance.",
+        "nodeId": "hex-leg-1-femur"
+      },
+      {
+        "at": 0.5,
+        "title": "Reach through the tibia",
+        "description": "A small tibia rotation extends the selected leg.",
+        "nodeId": "hex-leg-1-tibia"
+      },
+      {
+        "at": 0.8,
+        "title": "Return to the same pose",
+        "description": "Every articulated transform returns exactly to the original display stance.",
+        "nodeId": "hex-leg-1"
+      }
+    ]
+  },
+  "presentationPolicy": {
+    "actionDuration": 2.5,
+    "explosion": {
+      "separationProfiles": {
+        "hex-body": [
+          0,
+          0.55
+        ],
+        "hex-leg-1": [
+          0.18,
+          0.72
+        ],
+        "hex-leg-2": [
+          0.28,
+          0.85
+        ],
+        "hex-leg-3": [
+          0.4,
+          1
+        ],
+        "hex-leg-4": [
+          0.18,
+          0.72
+        ],
+        "hex-leg-5": [
+          0.28,
+          0.85
+        ],
+        "hex-leg-6": [
+          0.4,
+          1
+        ]
+      }
+    }
+  }
+}

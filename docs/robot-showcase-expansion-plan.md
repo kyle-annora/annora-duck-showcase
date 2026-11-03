@@ -63,7 +63,8 @@ about 286 MB of source meshes. The granular description has 669 links and 668
 visual references, totaling about 188 MB. Fewer modular objects do not imply a
 smaller geometry payload. Both use visual scale `0.001`.
 
-Start with the granular left arm: 67 referenced STLs, about 22 MB of raw source.
+Start with the granular left arm: 68 referenced visuals, about 22 MB of raw source.
+The shoulder subtree includes the torso rotor in addition to the 67 arm-folder STLs.
 The [granular URDF](https://github.com/Hyperspawn/dropbear_urdf/blob/9bac53d0dee196c62620eee9e8a0fa255a0ff5fa/dropbear_granular_urdf/urdf/dropbear.urdf)
 also declares 27 additional Gazebo loop closures: three per arm, five at the head
 and eight per leg. Record these relationships in preparation evidence; a plain

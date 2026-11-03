@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "dropbear-arm",
+  "rootId": "dropbear-arm",
+  "title": "Dropbear left arm",
+  "shortTitle": "Dropbear arm",
+  "assets": {
+    "model": "model.glb",
+    "compressedModel": "model.glb.gz",
+    "metadata": "metadata.json",
+    "edges": "edges.bin",
+    "compressedEdges": "edges.bin.gz",
+    "edgeMetadata": "edge-metadata.json",
+    "silhouettes": "silhouettes.bin",
+    "compressedSilhouettes": "silhouettes.bin.gz",
+    "silhouetteMetadata": "silhouette-metadata.json",
+    "license": "LICENSE.txt"
+  },
+  "view": {
+    "direction": [
+      1,
+      0.5,
+      1.5
+    ],
+    "normalizedWidth": 1.25,
+    "labels": [
+      "Hero",
+      "Reverse"
+    ],
+    "facts": [
+      {
+        "label": "Source visuals",
+        "value": "68"
+      },
+      {
+        "label": "Closure relationships",
+        "value": "3"
+      }
+    ]
+  },
+  "provenance": {
+    "author": "Pointblank LLC / Hyperspawn; display adaptation by Annora",
+    "url": "https://github.com/Hyperspawn/dropbear_urdf",
+    "license": "MIT",
+    "attribution": "Dropbear \u00b7 Pointblank LLC / Hyperspawn \u00b7 MIT. Display adaptation and illustrative motion: Annora, 2026.",
+    "description": "The source left-arm shoulder subtree and its internal tendon relationships.",
+    "note": "Source joint frames and component identity retained. Simplified display geometry, curated finishes and illustrative separation. Only a rigid whole-arm swivel is animated; internal closed-linkage joints remain fixed. Not a solved linkage, walking simulation or manufacturing release."
+  },
+  "presentationPolicy": {
+    "actionDuration": 2.5,
+    "explosion": {
+      "separationProfiles": {
+        "dropbear-arm-shoulder": [
+          0.12,
+          0.72
+        ],
+        "dropbear-arm-structure": [
+          0.16499999999999998,
+          0.755
+        ],
+        "dropbear-arm-linkages": [
+          0.21,
+          0.79
+        ]
+      }
+    }
+  },
+  "tour": "tour.json"
+}

@@ -1,0 +1,2822 @@
+{
+  "schemaVersion": 1,
+  "toolchain": {
+    "trimesh": "4.12.2",
+    "fastSimplification": "0.1.12",
+    "numpy": "2.0.2",
+    "pymeshlab": null
+  },
+  "method": "Quadric decimation, aggression 6; semantic detail budgets (whole display at 48%); MeshLab fallback with normal/topology preservation; Annora surface partitioner",
+  "files": [
+    {
+      "file": "meshes/left_arm/2020_100mm__10__1.stl",
+      "sourceTriangles": 4344,
+      "displayTriangles": 3930,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "2b3367cfd1409f88e41ae011a1b3d9b47bfbfcec8bc7ca6797b24a01955320d0",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -10.072835922241211,
+          -522.0158081054688,
+          -84.0
+        ],
+        [
+          9.964627265930176,
+          -422.00830078125,
+          -64.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -10.072835922241211,
+          -522.0158081054688,
+          -84.0
+        ],
+        [
+          9.964627265930176,
+          -422.00830078125,
+          -64.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/2020_100mm__10__1.stl",
+          "triangles": 3930,
+          "sha256": "11ec46b38b5b7b5b01c202df5585afaccd8b7e85be8d864d29e4a47dfb160428"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/2020_100mm__11__1.stl",
+      "sourceTriangles": 4344,
+      "displayTriangles": 3934,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "6f53d5f7e034e1149bf62d54cf7abc986c3dc821038b396c99dac809646f77ad",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -10.091562271118164,
+          -572.0007934570312,
+          -84.0
+        ],
+        [
+          9.945900917053223,
+          -471.9933166503906,
+          -64.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -10.091562271118164,
+          -572.0007934570312,
+          -84.0
+        ],
+        [
+          9.945900917053223,
+          -471.9933166503906,
+          -64.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/2020_100mm__11__1.stl",
+          "triangles": 3934,
+          "sha256": "8d3e41538bdb4160d7acd2f13263bfe3e31981e0377475e18c5894f1b4e6706b"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/2020_100mm__8___1__1.stl",
+      "sourceTriangles": 4344,
+      "displayTriangles": 2562,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "f51dd081be81210a7a2f73afc5c6ff0b69c35b1a1b934eb6fb8e57ebafb30467",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -50.0,
+          -90.0,
+          -84.0
+        ],
+        [
+          50.0,
+          -70.0,
+          -64.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -50.0,
+          -90.0,
+          -84.0
+        ],
+        [
+          50.0,
+          -70.0,
+          -64.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/2020_100mm__8___1__1.stl",
+          "triangles": 2562,
+          "sha256": "8c86e85497857234890833229a0d4d0c77ac89502e464fbc3e23a747080269aa"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/2020_100mm__9__1.stl",
+      "sourceTriangles": 4344,
+      "displayTriangles": 2704,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "6e04608d3cdf9a9502cc7933145353328b107cd7d64d1cdfd272fffc307414a1",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -10.0,
+          -10.0,
+          -110.0
+        ],
+        [
+          10.0,
+          10.0,
+          -10.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -10.0,
+          -10.0,
+          -110.0
+        ],
+        [
+          10.0,
+          10.0,
+          -10.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/2020_100mm__9__1.stl",
+          "triangles": 2704,
+          "sha256": "7288b5373e3c07de34ecd3e5d98f173f4ad9f38d7e3973d05c8b5c838a53823f"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing_1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "d7ccb90c4d9d46a153bd618fbee0e32daab2775bb5bf1f4aded1af8afca5fee4",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          44.846923828125,
+          -245.3228302001953,
+          -72.5
+        ],
+        [
+          59.84567642211914,
+          -230.32408142089844,
+          -67.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          44.846923828125,
+          -245.3228302001953,
+          -72.5
+        ],
+        [
+          59.84567642211914,
+          -230.32408142089844,
+          -67.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing_1.stl",
+          "triangles": 680,
+          "sha256": "7254a89c0188135adc8792e377a27318f10219520eece7057e2713d642a8c08b"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__1__1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "4299efd00d79e0dfa122f06905820dad87940bb7fab0ce8c5fad4c2b4958fa46",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          20.50824737548828,
+          -277.57562255859375,
+          -101.5
+        ],
+        [
+          35.508052825927734,
+          -262.5758056640625,
+          -96.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          20.50824737548828,
+          -277.57562255859375,
+          -101.5
+        ],
+        [
+          35.508052825927734,
+          -262.5758056640625,
+          -96.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing__1__1.stl",
+          "triangles": 680,
+          "sha256": "3985156449a84e0885bcad634c911653a5aabe01ac196bc9ea1d55b0feb48475"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__2__1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "99189904df9a7b73cd6f867f354f7e4ab3e9b784bbc7d00516b9dc7fbea4f42a",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -6.151752471923828,
+          -291.3529357910156,
+          -101.5
+        ],
+        [
+          8.848052024841309,
+          -276.3531188964844,
+          -96.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -6.151752471923828,
+          -291.3529357910156,
+          -101.5
+        ],
+        [
+          8.848052024841309,
+          -276.3531188964844,
+          -96.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing__2__1.stl",
+          "triangles": 680,
+          "sha256": "fc521f09ecf297428b4981b7a2953316b896736dfb2643b17711f4e2ad68dd2c"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__3__1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "0887476cbc64ab1d590d18a880078dc997cd30d0084e677be925194f3bcdc189",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          5.551242828369141,
+          -350.2226867675781,
+          -101.5
+        ],
+        [
+          20.54475975036621,
+          -335.2291564941406,
+          -96.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          5.551242828369141,
+          -350.2226867675781,
+          -101.5
+        ],
+        [
+          20.54475975036621,
+          -335.2291564941406,
+          -96.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing__3__1.stl",
+          "triangles": 680,
+          "sha256": "0d854f9650af70f7762ad67c41aded92e928ddc8e14436010e4c4d136fb2f1b0"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__4__1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "74bcaf96df17fa04fc72ca9c7586dfb48ec8f812d43966990183ecfb82fd8924",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -26.68892478942871,
+          -326.5451965332031,
+          -101.5
+        ],
+        [
+          -11.689334869384766,
+          -311.54559326171875,
+          -96.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -26.68892478942871,
+          -326.5451965332031,
+          -101.5
+        ],
+        [
+          -11.689334869384766,
+          -311.54559326171875,
+          -96.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing__4__1.stl",
+          "triangles": 680,
+          "sha256": "44a784defbdc2e3be88e93390ad1cb929c36f3b3dd8c48bba438e787975b7a75"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__5__1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "0ef712d9696b53ac43b7ffa8d4f1fa2aa0c8fc25a0f1f6e6af6b71612a6c83ad",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          20.597063064575195,
+          -277.5755310058594,
+          -72.5
+        ],
+        [
+          35.596866607666016,
+          -262.5757141113281,
+          -67.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          20.597063064575195,
+          -277.5755310058594,
+          -72.5
+        ],
+        [
+          35.596866607666016,
+          -262.5757141113281,
+          -67.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing__5__1.stl",
+          "triangles": 680,
+          "sha256": "53a7ea94e7cdea7153c1943810ca6be776ca8e746582fa06ed9bd6c70aea198b"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__6__1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "033b22e4cf2d3d711e902f19352cf49b4c3c912c1b3c8af9e30a97ac07f7b3cd",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -6.062936782836914,
+          -291.35284423828125,
+          -72.5
+        ],
+        [
+          8.936867713928223,
+          -276.35302734375,
+          -67.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -6.062936782836914,
+          -291.35284423828125,
+          -72.5
+        ],
+        [
+          8.936867713928223,
+          -276.35302734375,
+          -67.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing__6__1.stl",
+          "triangles": 680,
+          "sha256": "eea8ed5be8b5841c7d8e780c531517ebf962442c02d2daa2bff650da013d5e61"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__7__1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "d7014bb2796fa3d9b8582119947989f288683a3353a7c051b81326f76bdb94cb",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -26.68892478942871,
+          -326.5451965332031,
+          -72.5
+        ],
+        [
+          -11.689334869384766,
+          -311.54559326171875,
+          -67.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -26.68892478942871,
+          -326.5451965332031,
+          -72.5
+        ],
+        [
+          -11.689334869384766,
+          -311.54559326171875,
+          -67.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing__7__1.stl",
+          "triangles": 680,
+          "sha256": "9b882186f34d0806eb376f9a3a63a5eab298a287a9b0572ef318dffcc4a9d190"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__8__1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "e73ef2f0c15c093e6086dbffdac5fab298793cdfd6df900a997537a701f841f5",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          5.550608158111572,
+          -350.2165222167969,
+          -72.5
+        ],
+        [
+          20.54385757446289,
+          -335.2232666015625,
+          -67.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          5.550608158111572,
+          -350.2165222167969,
+          -72.5
+        ],
+        [
+          20.54385757446289,
+          -335.2232666015625,
+          -67.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing__8__1.stl",
+          "triangles": 680,
+          "sha256": "dfee6167b431a140b97b440a817e09be2db427e6c82fdc725e36034e406d2127"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__9__1.stl",
+      "sourceTriangles": 680,
+      "displayTriangles": 680,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "e43bc203d9d5ef97d876102ea139e286fce36bb997b346103b2870c3527fe031",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          38.49323272705078,
+          -294.9179992675781,
+          -72.5
+        ],
+        [
+          53.4929084777832,
+          -279.9183349609375,
+          -67.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          38.49323272705078,
+          -294.9179992675781,
+          -72.5
+        ],
+        [
+          53.4929084777832,
+          -279.9183349609375,
+          -67.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/6mm-bearing__9__1.stl",
+          "triangles": 680,
+          "sha256": "a1656f616d7d94d3bb5f864bb722d37c9c9318185103715c3f04960003dd6e8d"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/MG995_1.stl",
+      "sourceTriangles": 9014,
+      "displayTriangles": 395,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.2911949157714844,
+      "sourceSha256": "9f38c7ff89c4a3486ddc892352f5921e3a6efc644b72c35f5ff6e58da34697e7",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -10.064962387084961,
+          -510.0043029785156,
+          -64.0
+        ],
+        [
+          36.4464225769043,
+          -454.79473876953125,
+          -44.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -10.064962387084961,
+          -509.813232421875,
+          -64.2470703125
+        ],
+        [
+          36.7186164855957,
+          -454.7947692871094,
+          -43.708805084228516
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/MG995_1.stl",
+          "triangles": 384,
+          "sha256": "1a3bd5c568a68cc676bebcd32c6fab08bfbee620ac2388223f6bb369926eb426"
+        },
+        {
+          "file": "left_arm/MG995_1__surface2.stl",
+          "triangles": 11,
+          "sha256": "16f83f45e2d48e06deb04226e0e12a8c76005e5b1f78bf48b21b160afd2de3cc"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/MG995__1__1.stl",
+      "sourceTriangles": 9014,
+      "displayTriangles": 395,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.2856922149658203,
+      "sourceSha256": "7c01a0d1a2944f7ddd343c8ccb8a691baf2f3eb7a324f2020178c516099f8b23",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -30.08818817138672,
+          -565.1901245117188,
+          -110.5
+        ],
+        [
+          -10.068708419799805,
+          -509.9861755371094,
+          -64.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -30.37388038635254,
+          -565.1900024414062,
+          -110.77351379394531
+        ],
+        [
+          -9.8350830078125,
+          -510.1833801269531,
+          -64.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/MG995__1__1.stl",
+          "triangles": 384,
+          "sha256": "ffbcc68bb6bb5b686d593fb8a3ecf9af93b6b97caa73f32ffc92d4b5aef3120a"
+        },
+        {
+          "file": "left_arm/MG995__1__1__surface2.stl",
+          "triangles": 11,
+          "sha256": "b91d09dead3a3caeacbb131c7534140c6921848c4ccb11a974cbc6ce0cc103ad"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/MG995__2__1.stl",
+      "sourceTriangles": 9014,
+      "displayTriangles": 397,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.27719688415527344,
+      "sourceSha256": "82efd92ce791a25bd399202a54c765babae0efaf8c4df80c89cf65c4e8af53e4",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          9.911808013916016,
+          -565.205078125,
+          -84.0
+        ],
+        [
+          29.93128776550293,
+          -510.00115966796875,
+          -37.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          9.670775413513184,
+          -565.2050170898438,
+          -84.0
+        ],
+        [
+          30.208484649658203,
+          -510.1910400390625,
+          -37.260337829589844
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/MG995__2__1.stl",
+          "triangles": 388,
+          "sha256": "589c0c8143b61d6cba694af6d771ef410a470350d87be74a8d0cc30d093f7b66"
+        },
+        {
+          "file": "left_arm/MG995__2__1__surface2.stl",
+          "triangles": 9,
+          "sha256": "8a5756d793f9867087338282331fdcdf6ba3b6a8f76579985b5e06ba3b431c8e"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/MG995__3__1.stl",
+      "sourceTriangles": 9014,
+      "displayTriangles": 395,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.29119110107421875,
+      "sourceSha256": "feb45e9b6f4970edb843bd2d1b134fbd011126fdb783c1621d87c1462eb42c5d",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -36.55537033081055,
+          -509.98870849609375,
+          -104.0
+        ],
+        [
+          9.94852352142334,
+          -454.7969970703125,
+          -84.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -36.828399658203125,
+          -509.7985534667969,
+          -104.29119110107422
+        ],
+        [
+          9.94852352142334,
+          -454.7969970703125,
+          -83.7529296875
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/MG995__3__1.stl",
+          "triangles": 384,
+          "sha256": "94fe8465fd1555fadbeef2ff19cf12d1fa4487eda0791b7f48f1159ec2d95b36"
+        },
+        {
+          "file": "left_arm/MG995__3__1__surface2.stl",
+          "triangles": 11,
+          "sha256": "4d712785bc7f59f90b57233c414bce90692037b79df122ea2bd030ead685641c"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/MG995__4__1.stl",
+      "sourceTriangles": 9014,
+      "displayTriangles": 396,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.2772064208984375,
+      "sourceSha256": "dbcd47db5ae11e69141c954f8a035985f144860040d899a35d5b5bf166c2aecd",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -30.067956924438477,
+          -509.991943359375,
+          -84.0
+        ],
+        [
+          -10.048478126525879,
+          -454.7879943847656,
+          -37.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -30.345163345336914,
+          -509.80206298828125,
+          -84.0
+        ],
+        [
+          -9.807443618774414,
+          -454.78814697265625,
+          -37.22648239135742
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/MG995__4__1.stl",
+          "triangles": 386,
+          "sha256": "e3f255be847292cb291e08a624963acf6ec3f4e430e60b3806e7705f3bf96fc6"
+        },
+        {
+          "file": "left_arm/MG995__4__1__surface2.stl",
+          "triangles": 10,
+          "sha256": "894ce671dbf0e165515a4b5d8fe6ec8c20737654228b0e4334649725ca8211b3"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/MG995__5__1.stl",
+      "sourceTriangles": 9014,
+      "displayTriangles": 395,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.28569602966308594,
+      "sourceSha256": "a35b275426b35a73ce5b3b867048bbb5e6df5256a3de21be58c27d08ec867d4f",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          9.932039260864258,
+          -510.0069274902344,
+          -110.5
+        ],
+        [
+          29.951519012451172,
+          -454.802978515625,
+          -64.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          9.698415756225586,
+          -509.8097229003906,
+          -110.77350616455078
+        ],
+        [
+          30.237215042114258,
+          -454.8031005859375,
+          -64.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/MG995__5__1.stl",
+          "triangles": 384,
+          "sha256": "00955e99c2851c97288c1880315c93b55f6d29b91ee5bd3351d6da098477f631"
+        },
+        {
+          "file": "left_arm/MG995__5__1__surface2.stl",
+          "triangles": 11,
+          "sha256": "eb7abae8edff2b7805da623f52b632c69d36ea8b28b5f0767c70b04ef78b2c44"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/MG995__6__1.stl",
+      "sourceTriangles": 9014,
+      "displayTriangles": 397,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.2911949157714844,
+      "sourceSha256": "982b8677950cee3b15c7e80175fed9b067fe8d4e8808d78dd320d787c27568b0",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -36.583091735839844,
+          -565.1983642578125,
+          -64.0
+        ],
+        [
+          9.928292274475098,
+          -509.9888000488281,
+          -44.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -36.82132339477539,
+          -565.1983032226562,
+          -64.24707794189453
+        ],
+        [
+          9.928292274475098,
+          -510.17987060546875,
+          -43.708805084228516
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/MG995__6__1.stl",
+          "triangles": 388,
+          "sha256": "52dee503c73e5d057c412d4787854045d8fdd39582a26a0e1ad4dac431a7b8e3"
+        },
+        {
+          "file": "left_arm/MG995__6__1__surface2.stl",
+          "triangles": 9,
+          "sha256": "e8a882d0ed305147b24f345a7036248705b8a1c5343d1f3f88ceffe2df305d7b"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/MG995__7__1.stl",
+      "sourceTriangles": 9014,
+      "displayTriangles": 396,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.2911834716796875,
+      "sourceSha256": "c496f67d9c9a6a8b60aca99bc10056133f9acfebb5c72cb706fca39cb8751bc2",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -10.085192680358887,
+          -565.1961059570312,
+          -104.0
+        ],
+        [
+          36.418701171875,
+          -510.00439453125,
+          -84.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -10.085192680358887,
+          -565.1961669921875,
+          -104.29118347167969
+        ],
+        [
+          36.691734313964844,
+          -510.1945495605469,
+          -83.7529296875
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/MG995__7__1.stl",
+          "triangles": 386,
+          "sha256": "9573677719057c2afd908e192506d34ef39d99abae47a11cc5b275cb7820628e"
+        },
+        {
+          "file": "left_arm/MG995__7__1__surface2.stl",
+          "triangles": 10,
+          "sha256": "a25ed2b8bbbd76939c0f979c1d33f0f27485f71e457f24bbb4361fbe37255360"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__1__1.stl",
+      "sourceTriangles": 24320,
+      "displayTriangles": 1573,
+      "method": "fast-quadric",
+      "boundsDeviation": 3.028776168823242,
+      "sourceSha256": "29731679c966a1ba1874fcd582e33722eb606a7e50aeafdb0a339e1182fcc1ed",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -76.0,
+          -48.99769592285156,
+          -109.0
+        ],
+        [
+          -24.5,
+          48.9952507019043,
+          -11.000109672546387
+        ]
+      ],
+      "displayBounds": [
+        [
+          -76.0,
+          -48.82526779174805,
+          -109.19990539550781
+        ],
+        [
+          -27.528776168823242,
+          48.900718688964844,
+          -10.945509910583496
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/RMD-X8-Pro_MIR8_MIR1__1__1.stl",
+          "triangles": 1454,
+          "sha256": "533ef4ebb1038176f0838c2e034d2e1515c079f1ed32dccf0fac6964b7dffa63"
+        },
+        {
+          "file": "left_arm/RMD-X8-Pro_MIR8_MIR1__1__1__surface2.stl",
+          "triangles": 119,
+          "sha256": "b7fceccba7177495944e63830bcd864ac544c60e50a5177aa182717b001ba62c"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__2__1.stl",
+      "sourceTriangles": 24320,
+      "displayTriangles": 1574,
+      "method": "fast-quadric",
+      "boundsDeviation": 3.028778076171875,
+      "sourceSha256": "8e2d5905beba51f1300ce74509931b2db2c962dce83169a9712175a4961525fd",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -49.0,
+          -257.4952392578125,
+          -113.5
+        ],
+        [
+          48.9998893737793,
+          -159.50230407714844,
+          -62.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -49.19986343383789,
+          -257.4007263183594,
+          -113.5
+        ],
+        [
+          49.05448913574219,
+          -159.67474365234375,
+          -65.02877807617188
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/RMD-X8-Pro_MIR8_MIR1__2__1.stl",
+          "triangles": 1454,
+          "sha256": "e28ffd3f9291aabef9960bd2d69aae8769334455106ab926e8e20249280f3ccf"
+        },
+        {
+          "file": "left_arm/RMD-X8-Pro_MIR8_MIR1__2__1__surface2.stl",
+          "triangles": 120,
+          "sha256": "2e44e9a461476be8af87911a878cb8c0aa46e725cc851d14e268eeafe2269273"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__3__1.stl",
+      "sourceTriangles": 24320,
+      "displayTriangles": 1573,
+      "method": "fast-quadric",
+      "boundsDeviation": 3.028778076171875,
+      "sourceSha256": "2ee8e54859ef0da72d5c0d36dd8fcf2e5afe6e1e6b1ca127bfc3753dd59c2873",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -48.99769592285156,
+          -156.0,
+          -122.99989318847656
+        ],
+        [
+          48.9952507019043,
+          -104.5,
+          -25.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -48.82526779174805,
+          -156.0,
+          -123.05448913574219
+        ],
+        [
+          48.900718688964844,
+          -107.52877807617188,
+          -24.80011749267578
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/RMD-X8-Pro_MIR8_MIR1__3__1.stl",
+          "triangles": 1454,
+          "sha256": "90539ab96b84cdbf94199562b00dd4e1c1f78b04e450e1212e2db08067a6c7d5"
+        },
+        {
+          "file": "left_arm/RMD-X8-Pro_MIR8_MIR1__3__1__surface2.stl",
+          "triangles": 119,
+          "sha256": "27e781c15bdc1a9b06ce83d3f16740a87ab1f8836a04b0f1fe862d7bc6aff91f"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__4__1.stl",
+      "sourceTriangles": 24320,
+      "displayTriangles": 1575,
+      "method": "fast-quadric",
+      "boundsDeviation": 3.035186767578125,
+      "sourceSha256": "192901d7c97d3a1e817cdef1121c281722195129de6e52eb94cc3ae7e68be814",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -49.02312469482422,
+          -407.5171813964844,
+          -122.99989318847656
+        ],
+        [
+          48.97943115234375,
+          -356.00213623046875,
+          -25.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -48.92865753173828,
+          -404.48199462890625,
+          -123.05449676513672
+        ],
+        [
+          48.752357482910156,
+          -356.00213623046875,
+          -24.80011749267578
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/RMD-X8-Pro_MIR8_MIR1__4__1.stl",
+          "triangles": 1457,
+          "sha256": "9a2ba2b51ec208d73431eea9420715a897bf615dcf8ba38c7939911ec29ba8c9"
+        },
+        {
+          "file": "left_arm/RMD-X8-Pro_MIR8_MIR1__4__1__surface2.stl",
+          "triangles": 118,
+          "sha256": "1de8aa16810fa82c6d88fb0a167e30072b2e13f27dd4338d7ef901221580eca1"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/arm-cuff-bicep-bracket_1.stl",
+      "sourceTriangles": 13790,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.059417724609375,
+      "sourceSha256": "38d9e4758342a5a3eafd9bacc5d43b27763607ae3b6ba2ecfefe3dea607c8ca9",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -40.977699279785156,
+          -180.5,
+          -123.00003051757812
+        ],
+        [
+          40.97793197631836,
+          -144.5,
+          -91.68706512451172
+        ]
+      ],
+      "displayBounds": [
+        [
+          -40.980552673339844,
+          -180.535400390625,
+          -123.00713348388672
+        ],
+        [
+          40.97813034057617,
+          -144.49998474121094,
+          -91.7464828491211
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/arm-cuff-bicep-bracket_1.stl",
+          "triangles": 1400,
+          "sha256": "1e7492e2dcfcf81858d2b4abe51a59e652e04de6895b6e2122312b3cc58a311d"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/bicep-motor-mate_1.stl",
+      "sourceTriangles": 3982,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0313568115234375,
+      "sourceSha256": "291ef2307775bc4bc5b7d75b7046cad6025e37ae6ada2b6fd3f83324810e5977",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -20.9999942779541,
+          -247.81076049804688,
+          -67.5
+        ],
+        [
+          62.3336181640625,
+          -187.50001525878906,
+          -54.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -20.99300193786621,
+          -247.77940368652344,
+          -67.5
+        ],
+        [
+          62.30226135253906,
+          -187.52154541015625,
+          -54.49489212036133
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/bicep-motor-mate_1.stl",
+          "triangles": 1400,
+          "sha256": "bebcdd96ef10481d0f8a3f53a045e5c471f5730daea9554d253b8e3466d36e01"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/bicep-rear-motor-adapter_1.stl",
+      "sourceTriangles": 1976,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "a75bec52cc20a9e26a5a3de199c2dae03dc31d897879143f2f3fb2a14e289bb6",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -64.5,
+          -80.0,
+          -95.0
+        ],
+        [
+          -19.0,
+          -50.0,
+          -53.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -64.5,
+          -80.0,
+          -95.0
+        ],
+        [
+          -19.0,
+          -50.0,
+          -53.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/bicep-rear-motor-adapter_1.stl",
+          "triangles": 1400,
+          "sha256": "0d69a2ba2d1fedd2368e442eeae5bc6b51cc44a8fd0ca5b04b404ed1764740e1"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/bicep-rotational-cuff-second-motor-bracket_1.stl",
+      "sourceTriangles": 9229,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0361480712890625,
+      "sourceSha256": "887e5dae4cabc556251e50c66424624210b0eb8b0004956ccbe67b2b02c67743",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -49.0,
+          -181.50869750976562,
+          -80.99850463867188
+        ],
+        [
+          49.0,
+          -144.5,
+          -42.31367111206055
+        ]
+      ],
+      "displayBounds": [
+        [
+          -49.03614807128906,
+          -181.5299072265625,
+          -81.02153778076172
+        ],
+        [
+          48.99998474121094,
+          -144.49998474121094,
+          -42.3380012512207
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/bicep-rotational-cuff-second-motor-bracket_1.stl",
+          "triangles": 1400,
+          "sha256": "fde6511dcba5298979cc5d6c0bc0a4dbc813baa13f00869cb27c28fde45b22fc"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/bicep-shoulder-bracket-exal_1.stl",
+      "sourceTriangles": 1356,
+      "displayTriangles": 1356,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "15ee86a55f3a8f2e61d47c9db0e42e88d41474271d7c0d4a9748bfa3dc56213f",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          19.0,
+          -90.0,
+          -64.0
+        ],
+        [
+          50.0,
+          -50.0,
+          -53.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          19.0,
+          -90.0,
+          -64.0
+        ],
+        [
+          50.0,
+          -50.0,
+          -53.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/bicep-shoulder-bracket-exal_1.stl",
+          "triangles": 1356,
+          "sha256": "3ba2b82bf36457d60188bbc087c31245c67c44d94a16dff94522d220d3168d3e"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/bicep-shoulder-bracket-exal__1__1.stl",
+      "sourceTriangles": 1356,
+      "displayTriangles": 1356,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "5358edf4115494e30e46dd36cc8f910b87904586d8289f87a85d0f15d2211952",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -50.0,
+          -90.0,
+          -95.0
+        ],
+        [
+          -19.0,
+          -50.0,
+          -84.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -50.0,
+          -90.0,
+          -95.0
+        ],
+        [
+          -19.0,
+          -50.0,
+          -84.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/bicep-shoulder-bracket-exal__1__1.stl",
+          "triangles": 1356,
+          "sha256": "853206380d62b35a88219ccb473fdc3c5496f51e15b6defa6b9a9729c8e4c1ab"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/bicep-shoulder-bracket-exal__2__1.stl",
+      "sourceTriangles": 1356,
+      "displayTriangles": 1356,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "1c5f70ea776359f3ba457f38c9ac7e5a8fab1a6d2dbfded8e471ce809ba218be",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -50.0,
+          -90.0,
+          -64.0
+        ],
+        [
+          -19.0,
+          -50.0,
+          -53.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -50.0,
+          -90.0,
+          -64.0
+        ],
+        [
+          -19.0,
+          -50.0,
+          -53.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/bicep-shoulder-bracket-exal__2__1.stl",
+          "triangles": 1356,
+          "sha256": "216f2fac3ead21adc052735182a6490590e7d5c8764065da65726c755a0c922b"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/bicep-shoulder-bracket-exal__3__1.stl",
+      "sourceTriangles": 1356,
+      "displayTriangles": 1356,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "11116f239106c6edee556c781723e4d6195b456b0cffc57a0c427e3b873fbd56",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          19.0,
+          -90.0,
+          -95.0
+        ],
+        [
+          50.0,
+          -50.0,
+          -84.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          19.0,
+          -90.0,
+          -95.0
+        ],
+        [
+          50.0,
+          -50.0,
+          -84.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/bicep-shoulder-bracket-exal__3__1.stl",
+          "triangles": 1356,
+          "sha256": "da55de9e15a8a861f3c021936d96c7652a4d421d818664f02a3dd08a9d70ea6f"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/bicep_1.stl",
+      "sourceTriangles": 6096,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.02459716796875,
+      "sourceSha256": "da9eab0d10583d41a150bfaf31eed2f5347c4a3aa2dbf03c7356b579bde5bd3a",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          35.997642517089844,
+          -297.4074401855469,
+          -74.5
+        ],
+        [
+          62.34580612182617,
+          -227.82852172851562,
+          -65.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          36.001243591308594,
+          -297.4087219238281,
+          -74.5
+        ],
+        [
+          62.32120895385742,
+          -227.83262634277344,
+          -65.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/bicep_1.stl",
+          "triangles": 1400,
+          "sha256": "06436bfc10fc6c56273b2c07e091adaba6b4494af3f982e57483396164f4463a"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/elbow-bridge-rear_1.stl",
+      "sourceTriangles": 6760,
+      "displayTriangles": 400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.044010162353515625,
+      "sourceSha256": "f1aec2481be81cbf4fffe82ab64b1dcde310b563cc21ccdccf3355fa30b63b38",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          5.592917442321777,
+          -350.2257385253906,
+          -96.5
+        ],
+        [
+          20.54561424255371,
+          -335.22552490234375,
+          -72.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          5.589083194732666,
+          -350.2584228515625,
+          -96.5
+        ],
+        [
+          20.501604080200195,
+          -335.2348327636719,
+          -72.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/elbow-bridge-rear_1.stl",
+          "triangles": 400,
+          "sha256": "7236e1d4723e192c0ce5663209ee0084e08d6f985bed361bc007fe8f900b5be5"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/elbow-bridge-rear__1__1.stl",
+      "sourceTriangles": 6768,
+      "displayTriangles": 400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.013698577880859375,
+      "sourceSha256": "498814275d520b2daa35b688600b3fe19c52b0feaeb612a5e73b817b0ab12664",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -6.150644779205322,
+          -291.35107421875,
+          -96.5
+        ],
+        [
+          8.688353538513184,
+          -276.3537902832031,
+          -72.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -6.148106575012207,
+          -291.3416748046875,
+          -96.5
+        ],
+        [
+          8.702052116394043,
+          -276.364013671875,
+          -72.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/elbow-bridge-rear__1__1.stl",
+          "triangles": 400,
+          "sha256": "c9b7de26b4406e91647878edbd7cfd156a21d9e01574dd743a7aefe79d8864a5"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/elbow-hangar1_1.stl",
+      "sourceTriangles": 7000,
+      "displayTriangles": 400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.3848152160644531,
+      "sourceSha256": "972c5b99f3864b1247f7a95df07a59cffd072df9502c95d790df8765998079f3",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -30.59385108947754,
+          -293.8389892578125,
+          -67.5
+        ],
+        [
+          38.09123229980469,
+          -236.4774627685547,
+          -56.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -30.574922561645508,
+          -293.8625183105469,
+          -67.5
+        ],
+        [
+          37.706417083740234,
+          -236.27406311035156,
+          -55.714027404785156
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/elbow-hangar1_1.stl",
+          "triangles": 400,
+          "sha256": "31180f2cb70bddf26cd32b7d0d108959ad1d646cea8406d19003a79e83db9d29"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/elbow-hangar_1.stl",
+      "sourceTriangles": 7288,
+      "displayTriangles": 400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.4164543151855469,
+      "sourceSha256": "3a29bdd90cb64ea1ecde62393e9df4c41a8699760f42e55c38a7cf950b9e7e44",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -30.682666778564453,
+          -293.8390808105469,
+          -113.0
+        ],
+        [
+          38.00241470336914,
+          -236.47755432128906,
+          -101.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -30.685983657836914,
+          -293.881591796875,
+          -113.15393829345703
+        ],
+        [
+          37.585960388183594,
+          -236.4486846923828,
+          -101.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/elbow-hangar_1.stl",
+          "triangles": 400,
+          "sha256": "2aa9b83df1108c9852e164f2ca5e6938b084e8609ce318fafde4eadc85595043"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/elbow-rear-hanger_1.stl",
+      "sourceTriangles": 7088,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0322265625,
+      "sourceSha256": "1bd088eae066edb39bf5fa3db215ef4f420056208ae488d9db5e8ebe0ba009f6",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -13.386662483215332,
+          -352.700927734375,
+          -75.5
+        ],
+        [
+          23.06974220275879,
+          -273.85748291015625,
+          -67.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -13.384806632995605,
+          -352.7057800292969,
+          -75.50000762939453
+        ],
+        [
+          23.085205078125,
+          -273.88970947265625,
+          -67.47827911376953
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/elbow-rear-hanger_1.stl",
+          "triangles": 1400,
+          "sha256": "0db24301af4dad5bb9c69e10df62d27fd731fa481d523efd1c9831a59c8f0591"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/elbow-rear-hanger__1__1.stl",
+      "sourceTriangles": 7088,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.031951904296875,
+      "sourceSha256": "9d35494e5164eca904e778ef3d4b9eab3407f9f0a210514989776a147e143bce",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -13.470733642578125,
+          -352.694091796875,
+          -101.5
+        ],
+        [
+          23.014606475830078,
+          -273.85772705078125,
+          -93.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -13.469103813171387,
+          -352.7095947265625,
+          -101.52172088623047
+        ],
+        [
+          23.030441284179688,
+          -273.8896789550781,
+          -93.49999237060547
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/elbow-rear-hanger__1__1.stl",
+          "triangles": 1400,
+          "sha256": "263fa1c3acbb2d5d7e70283c83ca208eb4de6fb03d6190c35cd3bd3128560059"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/fan-mount_1.stl",
+      "sourceTriangles": 9136,
+      "displayTriangles": 665,
+      "method": "fast-quadric",
+      "boundsDeviation": 1.1372909545898438,
+      "sourceSha256": "31776b7423aea79136ce801f9b63219a9279a0a0b9902b9af27e9a08985eabb0",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -54.0273551940918,
+          -244.58450317382812,
+          -97.25
+        ],
+        [
+          -35.7344970703125,
+          -172.58450317382812,
+          -54.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -54.2176628112793,
+          -244.17677307128906,
+          -97.25
+        ],
+        [
+          -35.38029098510742,
+          -172.99252319335938,
+          -55.137290954589844
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/fan-mount_1.stl",
+          "triangles": 649,
+          "sha256": "ae63bd0e69f402df3f2736b4733bb24726b7d395a70282d6452997412fe532be"
+        },
+        {
+          "file": "left_arm/fan-mount_1__surface2.stl",
+          "triangles": 16,
+          "sha256": "4116b36c48cb3e864878c4e200abcab3aac2e5c9f2781adde54be54d7ad08ec6"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/fore-arm-bicep-motor-attatch_1.stl",
+      "sourceTriangles": 6242,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.052459716796875,
+      "sourceSha256": "889e006db6036b20846353a884e3f1176fe3352821b38edd8832be331e6aad3c",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -39.9936637878418,
+          -367.52703857421875,
+          -56.0
+        ],
+        [
+          39.9637565612793,
+          -332.7028503417969,
+          -43.313018798828125
+        ]
+      ],
+      "displayBounds": [
+        [
+          -40.04612350463867,
+          -367.52703857421875,
+          -56.000736236572266
+        ],
+        [
+          40.01621627807617,
+          -332.7028503417969,
+          -43.313018798828125
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/fore-arm-bicep-motor-attatch_1.stl",
+          "triangles": 1400,
+          "sha256": "9f6eade8ca28a94b61fa39aeece7bafe1aa51ae811831440a689b1451f1f08ce"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/forearm-elbow-motor-bracket-inner2_1.stl",
+      "sourceTriangles": 5536,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.040782928466796875,
+      "sourceSha256": "dc16c584353b98ad9e0706e54b9d6c4a440bde0703e0d9759df2fa7b528e033a",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -36.93925094604492,
+          -352.73291015625,
+          -113.0
+        ],
+        [
+          33.039573669433594,
+          -309.04864501953125,
+          -101.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -36.95249938964844,
+          -352.73291015625,
+          -113.0
+        ],
+        [
+          32.9987907409668,
+          -309.0574035644531,
+          -101.49897766113281
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/forearm-elbow-motor-bracket-inner2_1.stl",
+          "triangles": 1400,
+          "sha256": "0760d16b69c7fb28bc15f9cf6497d44bbe51cf774cc68502f33f66133448dd09"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/forearm-elbow-motor-bracket-inner_1.stl",
+      "sourceTriangles": 5232,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.041080474853515625,
+      "sourceSha256": "21fc04e49dcfad42d73c7a06f7df1e554e3db418542468c9f3640ee3b47ffd12",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -36.94014358520508,
+          -352.72418212890625,
+          -67.5
+        ],
+        [
+          33.03855514526367,
+          -309.0234069824219,
+          -56.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -36.944297790527344,
+          -352.72418212890625,
+          -67.50054931640625
+        ],
+        [
+          32.997474670410156,
+          -309.0318603515625,
+          -56.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/forearm-elbow-motor-bracket-inner_1.stl",
+          "triangles": 1400,
+          "sha256": "f2d462fe2e98f913ee770a433ebd2ebec2b0b500a35bc536ae87e55b17814ee4"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/front-bearing-adapter-shoulder_1.stl",
+      "sourceTriangles": 2596,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.012701034545898438,
+      "sourceSha256": "fbf047f0d4065e687988290ee539f9a3c3e521b1e3fef11251085ca3f6ca21ec",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          20.0,
+          -25.588457107543945,
+          -79.0
+        ],
+        [
+          40.0,
+          25.588457107543945,
+          -41.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          20.0,
+          -25.575756072998047,
+          -79.0
+        ],
+        [
+          40.00010681152344,
+          25.588457107543945,
+          -41.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/front-bearing-adapter-shoulder_1.stl",
+          "triangles": 1400,
+          "sha256": "465f47846d0dfd1906d13608d46dd4a598541b7fc5eca112e6b78cf76139be3a"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/multiplex-stack-flat_1.stl",
+      "sourceTriangles": 20428,
+      "displayTriangles": 614,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.6152496337890625,
+      "sourceSha256": "abc3803f51ee529e9f0579f33b133d217de0dc82c18f5c8863bdafd0fcbfb427",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -61.75,
+          -87.0,
+          -110.0
+        ],
+        [
+          58.25,
+          -53.0,
+          -95.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -61.18373107910156,
+          -87.0,
+          -110.61524963378906
+        ],
+        [
+          58.43846893310547,
+          -53.0,
+          -94.99954986572266
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/multiplex-stack-flat_1.stl",
+          "triangles": 600,
+          "sha256": "aca9ba9dfadfa9e585b67f3e4d60e21b77e13009b6f5921d863c9eb11dca7f06"
+        },
+        {
+          "file": "left_arm/multiplex-stack-flat_1__surface2.stl",
+          "triangles": 14,
+          "sha256": "afee489f6cdae16941e549c8779c8c5560c170100975f306cab7dfecf0a5da83"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/power-mount-arm_1.stl",
+      "sourceTriangles": 5812,
+      "displayTriangles": 398,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.8939361572265625,
+      "sourceSha256": "3fb3ce83b895719d5123fcf5a447c23eed6ad83777d4f4241ea1a08c190a770a",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -49.0273551940918,
+          -256.58441162109375,
+          -67.0
+        ],
+        [
+          -29.02735710144043,
+          -188.60752868652344,
+          -54.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -49.028900146484375,
+          -256.73345947265625,
+          -67.33927917480469
+        ],
+        [
+          -28.857391357421875,
+          -187.71359252929688,
+          -53.810665130615234
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/power-mount-arm_1.stl",
+          "triangles": 395,
+          "sha256": "09a0a0c94aca4bf17255ce2a1975432d8d10dbf796507b7274523f27c60a8064"
+        },
+        {
+          "file": "left_arm/power-mount-arm_1__surface2.stl",
+          "triangles": 3,
+          "sha256": "6365b930ff6464315442496c619de808fcdcba21411dc870efffd651aea8cc5b"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/second-forearm-motor-strap_1.stl",
+      "sourceTriangles": 4772,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.038440704345703125,
+      "sourceSha256": "5b66834540e488e9d4194b701b0fe18bcf480fa06614bb120c4fde38f5515d3e",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -36.95199203491211,
+          -367.5191650390625,
+          -119.94437408447266
+        ],
+        [
+          33.04800033569336,
+          -332.7028503417969,
+          -107.94437408447266
+        ]
+      ],
+      "displayBounds": [
+        [
+          -36.99043273925781,
+          -367.5191345214844,
+          -119.94437408447266
+        ],
+        [
+          33.02665710449219,
+          -332.6937561035156,
+          -107.94437408447266
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/second-forearm-motor-strap_1.stl",
+          "triangles": 1360,
+          "sha256": "fca185317117ef13fac335f5eda5c39d2ec1a83512ad674fc66223b1ae666ed4"
+        },
+        {
+          "file": "left_arm/second-forearm-motor-strap_1__surface2.stl",
+          "triangles": 40,
+          "sha256": "210dadd71f0a69db191e8402478fdf0922083029b9734e0db98bb152db8049f8"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-cap_1.stl",
+      "sourceTriangles": 1794,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 5.340576171875e-05,
+      "sourceSha256": "1e21fd8f5cd2b1031e2a6388b0fb001d86f3a793c0c9643cb3bc26da1d275587",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          47.0,
+          -50.0,
+          -95.0
+        ],
+        [
+          60.0,
+          34.999752044677734,
+          -25.000993728637695
+        ]
+      ],
+      "displayBounds": [
+        [
+          46.99994659423828,
+          -50.0,
+          -95.0
+        ],
+        [
+          60.0,
+          34.999752044677734,
+          -25.000993728637695
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-cap_1.stl",
+          "triangles": 1400,
+          "sha256": "1c2d0beafe0386b4f7a6e1e3eb5f98ea7c27c967e11071e77ae947d934c7465c"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-ex-al-interface_1.stl",
+      "sourceTriangles": 2746,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.01386260986328125,
+      "sourceSha256": "6ee5fb7af6be42dc423adb35cf8161b2291bb891870803dcc497324cf2420296",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -19.035369873046875,
+          -422.0191650390625,
+          -99.5885009765625
+        ],
+        [
+          18.97099494934082,
+          -405.00494384765625,
+          -48.4114990234375
+        ]
+      ],
+      "displayBounds": [
+        [
+          -19.035369873046875,
+          -422.0191650390625,
+          -99.57463836669922
+        ],
+        [
+          18.97099494934082,
+          -405.00494384765625,
+          -48.4114990234375
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-ex-al-interface_1.stl",
+          "triangles": 1400,
+          "sha256": "f6e28f385e122c053797a7329b43bf496b47873328efc4a68a690acaac5233e0"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-ex-al-interface__1__1.stl",
+      "sourceTriangles": 2746,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.013858795166015625,
+      "sourceSha256": "345fb216eb1c43ef82e32321cfab92c00d8d547422fe91c97395fbc9f06e4452",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -19.0,
+          -107.0,
+          -99.5885009765625
+        ],
+        [
+          19.0,
+          -90.0,
+          -48.4114990234375
+        ]
+      ],
+      "displayBounds": [
+        [
+          -19.0,
+          -107.0,
+          -99.5885009765625
+        ],
+        [
+          19.0,
+          -90.0,
+          -48.425357818603516
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-ex-al-interface__1__1.stl",
+          "triangles": 1400,
+          "sha256": "3f15db498b6e3dfa63c9001bcf70d8a5037650c4a8bd83573faf5c32c21f425d"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-ex-al-interface__2__1.stl",
+      "sourceTriangles": 2746,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.013858795166015625,
+      "sourceSha256": "066de43266aa515e827ec963a7c2ca466420b8a60484b12372f6e380af0264f0",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -27.0,
+          -25.588499069213867,
+          -79.0
+        ],
+        [
+          -10.0,
+          25.588499069213867,
+          -41.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -27.0,
+          -25.57464027404785,
+          -79.0
+        ],
+        [
+          -10.0,
+          25.588499069213867,
+          -41.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-ex-al-interface__2__1.stl",
+          "triangles": 1400,
+          "sha256": "32b68e743161222813ddb41f8fd2f4111c80f740b357e708dda58cdb4c2211bb"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-front-bearing-adapter_1.stl",
+      "sourceTriangles": 3566,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0351715087890625,
+      "sourceSha256": "20f224afaaef90afa0d864ad73724e8e5495102483023bd00db4920d0217782e",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          34.5,
+          -34.9960823059082,
+          -94.98433685302734
+        ],
+        [
+          50.0,
+          34.9960823059082,
+          -25.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          34.5,
+          -35.031253814697266,
+          -95.01380157470703
+        ],
+        [
+          50.0,
+          35.007110595703125,
+          -24.996335983276367
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-front-bearing-adapter_1.stl",
+          "triangles": 1400,
+          "sha256": "440109b513a600dbaa3a34ffb69425d8dc520c0da4c9dac2c14c183038b7554b"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-front_1.stl",
+      "sourceTriangles": 2880,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "100508aaf4e908f951d3b0ad39e936ad7dd5e03e769a7c4868579c9f2d48e221",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          19.0,
+          -70.0,
+          -95.0
+        ],
+        [
+          50.0,
+          -35.0,
+          -53.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          19.0,
+          -70.0,
+          -95.0
+        ],
+        [
+          50.0,
+          -35.0,
+          -53.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-front_1.stl",
+          "triangles": 1400,
+          "sha256": "79faa0db366c4dfee813f0ac23825973f33c44a0528359b5d7f60496659c8918"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-motor-bicep-rotor-bracket_1.stl",
+      "sourceTriangles": 1552,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "03e3cfef034c1222e3d30a43c609f94df99dd0341afb0b0f9b4aa8ce6b9f0983",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -75.5,
+          -76.0,
+          -95.5
+        ],
+        [
+          -64.5,
+          -27.978723526000977,
+          -29.318857192993164
+        ]
+      ],
+      "displayBounds": [
+        [
+          -75.5,
+          -76.0,
+          -95.5
+        ],
+        [
+          -64.5,
+          -27.978723526000977,
+          -29.318857192993164
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-motor-bicep-rotor-bracket_1.stl",
+          "triangles": 1400,
+          "sha256": "f66b2dc1c286cec4d7a190c8f990611bafcf29de5c72b94ef3c185536ce47e3f"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-roll-al-mot_MIR1_1.stl",
+      "sourceTriangles": 8086,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.06974411010742188,
+      "sourceSha256": "b9b01612d3ea3b53381c3059969c00b3fe69727705dc7bc66ade855dcac4e2e7",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -19.75445556640625,
+          -453.0122985839844,
+          -99.58879089355469
+        ],
+        [
+          19.675094604492188,
+          -422.0046691894531,
+          -80.17313385009766
+        ]
+      ],
+      "displayBounds": [
+        [
+          -19.758522033691406,
+          -452.99908447265625,
+          -99.64556121826172
+        ],
+        [
+          19.74483871459961,
+          -422.0046691894531,
+          -80.16902160644531
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-roll-al-mot_MIR1_1.stl",
+          "triangles": 1400,
+          "sha256": "0c59faa74f827994b9022d7fe623022f62d96ba712a6f3eced91ebd0251416ba"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-roll-al-mot_MIR1__1__1.stl",
+      "sourceTriangles": 8086,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0139312744140625,
+      "sourceSha256": "548a1e7450356f4074b558540fe60a26aea8734a062287a95e9e58f072155aa7",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -25.5887451171875,
+          -19.710468292236328,
+          -41.0
+        ],
+        [
+          -6.173094272613525,
+          19.710468292236328,
+          -10.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -25.602676391601562,
+          -19.710554122924805,
+          -40.986629486083984
+        ],
+        [
+          -6.168985843658447,
+          19.720792770385742,
+          -9.999961853027344
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-roll-al-mot_MIR1__1__1.stl",
+          "triangles": 1400,
+          "sha256": "b77e54e874dc987298fe1650b460d96872d3d4bae2215a5e1e0825483657872f"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-roll-al-mot_MIR1__2__1.stl",
+      "sourceTriangles": 8086,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0139312744140625,
+      "sourceSha256": "3deb87070d575aeead07b9a85c596f2922eb0e7b277d226dbf43e6792a26b0ef",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          6.173094272613525,
+          -19.710468292236328,
+          -41.0
+        ],
+        [
+          25.5887451171875,
+          19.710468292236328,
+          -10.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          6.168985843658447,
+          -19.720792770385742,
+          -40.986629486083984
+        ],
+        [
+          25.602676391601562,
+          19.710554122924805,
+          -9.999961853027344
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-roll-al-mot_MIR1__2__1.stl",
+          "triangles": 1400,
+          "sha256": "e9d033666c96503ae97ba1f0ba6aabf967bb4f90bc3584ab93f908c205fb7578"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/shoulder-roll-al-mot_MIR1__3__1.stl",
+      "sourceTriangles": 8086,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.06112861633300781,
+      "sourceSha256": "f37fde86cf0d439e3d5a98fc39897ed4cd8177bfd5b50db38cc10a8c36f6f26a",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -19.75445556640625,
+          -453.0122985839844,
+          -67.82686614990234
+        ],
+        [
+          19.675094604492188,
+          -422.0046691894531,
+          -48.41121292114258
+        ]
+      ],
+      "displayBounds": [
+        [
+          -19.815584182739258,
+          -452.998291015625,
+          -67.85834503173828
+        ],
+        [
+          19.67036247253418,
+          -422.004638671875,
+          -48.354434967041016
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/shoulder-roll-al-mot_MIR1__3__1.stl",
+          "triangles": 1400,
+          "sha256": "adf462d8fa1fa93059560fa204f376121d93310a107840036fb4c6e5ddb4e3b3"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/skateboard-bearing__7__1.stl",
+      "sourceTriangles": 668,
+      "displayTriangles": 668,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.0,
+      "sourceSha256": "8bbe11483694a4e358c59f857608e0d8751756d985c02a60227d984efce9ada8",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          39.171573638916016,
+          -11.0,
+          -71.0
+        ],
+        [
+          46.171573638916016,
+          11.0,
+          -49.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          39.171573638916016,
+          -11.0,
+          -71.0
+        ],
+        [
+          46.171573638916016,
+          11.0,
+          -49.0
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/skateboard-bearing__7__1.stl",
+          "triangles": 668,
+          "sha256": "2a095608f074eaababca54eabfc261aeb448c29afd64c5869ea125a9fafc9b8b"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/straight-tendon_1.stl",
+      "sourceTriangles": 15789,
+      "displayTriangles": 1400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.135467529296875,
+      "sourceSha256": "b65f80e3e57f82c4624e33f1f614b899d3535b9182ada76e6d6d955952b706c1",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -29.187808990478516,
+          -329.04449462890625,
+          -101.5
+        ],
+        [
+          55.981849670410156,
+          -260.07464599609375,
+          -67.5
+        ]
+      ],
+      "displayBounds": [
+        [
+          -29.190256118774414,
+          -329.1726379394531,
+          -101.5
+        ],
+        [
+          55.994102478027344,
+          -260.2101135253906,
+          -67.5
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/straight-tendon_1.stl",
+          "triangles": 1400,
+          "sha256": "a175049e6de297e57f9b5dd5576b73d916ab3f5db2bbe49607bd8ce5207c9a39"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/top-bracket-servo-strap_1.stl",
+      "sourceTriangles": 13804,
+      "displayTriangles": 1111,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.4819488525390625,
+      "sourceSha256": "c5a0e8e3759319f93cd67f4df337905b9eb26a6da30e96a41cc278ed21b93fa1",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -30.050724029541016,
+          -463.0072937011719,
+          -104.0
+        ],
+        [
+          29.953018188476562,
+          -452.9848327636719,
+          -44.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -30.05600357055664,
+          -463.0072937011719,
+          -104.48194885253906
+        ],
+        [
+          29.963834762573242,
+          -452.7367858886719,
+          -43.99637985229492
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/top-bracket-servo-strap_1.stl",
+          "triangles": 1098,
+          "sha256": "09aa6d5a3e855cf02cd788902a5e2e955f6004c3ad5cc07a1e3586e92c3e48ca"
+        },
+        {
+          "file": "left_arm/top-bracket-servo-strap_1__surface2.stl",
+          "triangles": 13,
+          "sha256": "9c358ab763262da8087fb680dd0058ed6c452108cf87895b52c45bd9aa9165b0"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/top-bracket-servo-strap__1__1.stl",
+      "sourceTriangles": 13804,
+      "displayTriangles": 1108,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.4819450378417969,
+      "sourceSha256": "8a7fdc8596ab8b94e6d9fba2e749303a206ad11c0590c11f82e0c8a71a5ced02",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -30.08968734741211,
+          -567.00830078125,
+          -104.0
+        ],
+        [
+          29.91405487060547,
+          -556.98583984375,
+          -44.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -30.09491729736328,
+          -567.2615966796875,
+          -104.00361633300781
+        ],
+        [
+          29.925384521484375,
+          -556.98583984375,
+          -43.5180549621582
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/top-bracket-servo-strap__1__1.stl",
+          "triangles": 1098,
+          "sha256": "a243ec8b59ac34dc1df6839588c5685e391df4a63244af85e6a79862a777502b"
+        },
+        {
+          "file": "left_arm/top-bracket-servo-strap__1__1__surface2.stl",
+          "triangles": 10,
+          "sha256": "b1e5f609b3f74ec68adebaf108cd482fb9b33591c26c4e11e4fd65c761dea1bd"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/yaw-cap_1.stl",
+      "sourceTriangles": 4244,
+      "displayTriangles": 400,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.16082000732421875,
+      "sourceSha256": "b653b85030f04da9692e253a419e898f1dfacdac71089364328a3f0a72eb912e",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -10.0,
+          -20.0,
+          -120.0
+        ],
+        [
+          10.0,
+          20.0,
+          -79.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -10.139594078063965,
+          -20.032636642456055,
+          -120.15409088134766
+        ],
+        [
+          10.160820007324219,
+          20.031497955322266,
+          -78.87181091308594
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/yaw-cap_1.stl",
+          "triangles": 400,
+          "sha256": "1a8359f8dcbb1ee9f7ea4493d87506b8fd79c7fac308cbd7606f21ca02a065f7"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/yaw-waist-adapter-motor-exal_MIR1_1.stl",
+      "sourceTriangles": 2100,
+      "displayTriangles": 1600,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.004138946533203125,
+      "sourceSha256": "8f34f2224128402ccb87795ece1eec63f1ef54bf34a753b999baf3a4d9aef3db",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -10.0,
+          -25.588457107543945,
+          -79.0
+        ],
+        [
+          20.0,
+          25.588457107543945,
+          -41.0
+        ]
+      ],
+      "displayBounds": [
+        [
+          -10.004138946533203,
+          -25.588457107543945,
+          -79.001708984375
+        ],
+        [
+          20.0,
+          25.588457107543945,
+          -40.998294830322266
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/yaw-waist-adapter-motor-exal_MIR1_1.stl",
+          "triangles": 1600,
+          "sha256": "c0021b6cfa822694185ed1ce40016281f58b87c7b2c86975d2996899da9388ab"
+        }
+      ]
+    },
+    {
+      "file": "meshes/left_arm/yaw-waist-adapter-motor-exal_MIR1__5__1.stl",
+      "sourceTriangles": 2100,
+      "displayTriangles": 1600,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.00414276123046875,
+      "sourceSha256": "1e8282fcee70cd0c99ea3dd02b40618b6f9f71e237032000748e2d7fa214f20e",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -19.0,
+          -90.0,
+          -99.58845520019531
+        ],
+        [
+          19.0,
+          -60.0,
+          -48.41154098510742
+        ]
+      ],
+      "displayBounds": [
+        [
+          -19.001705169677734,
+          -90.00414276123047,
+          -99.58845520019531
+        ],
+        [
+          19.001705169677734,
+          -60.0,
+          -48.41154098510742
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "left_arm/yaw-waist-adapter-motor-exal_MIR1__5__1.stl",
+          "triangles": 1600,
+          "sha256": "41e1915ca1838880053009a0f8308e5c1db6ec3b992feb18db36087cb994e8c0"
+        }
+      ]
+    },
+    {
+      "file": "meshes/torso/RMD-X10__1_Rotor_1.stl",
+      "sourceTriangles": 7782,
+      "displayTriangles": 1600,
+      "method": "fast-quadric",
+      "boundsDeviation": 0.14415550231933594,
+      "sourceSha256": "f318b1c2bce1afdfb693815cf28523261616de02db1b1861d6ea6f7553c88e05",
+      "settingsSha256": "117ef68235f1bdb61784c1701daa4e788461c05f84865f54ab787c07908fd24f",
+      "sourceBounds": [
+        [
+          -59.4296989440918,
+          96.9604721069336,
+          -108.27960205078125
+        ],
+        [
+          -10.439337730407715,
+          145.95428466796875,
+          -78.47960662841797
+        ]
+      ],
+      "displayBounds": [
+        [
+          -59.47633743286133,
+          96.81954193115234,
+          -108.24168395996094
+        ],
+        [
+          -10.295182228088379,
+          145.9818878173828,
+          -78.5240478515625
+        ]
+      ],
+      "displaySurfaces": [
+        {
+          "file": "torso/RMD-X10__1_Rotor_1.stl",
+          "triangles": 1600,
+          "sha256": "fa14ee6f5c09e777dbd036816ba5299c8e4322570293ff0c6e91ef3f962c28a6"
+        }
+      ]
+    }
+  ]
+}

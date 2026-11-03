@@ -1,0 +1,517 @@
+{
+  "schemaVersion": 1,
+  "modelId": "dropbear",
+  "sourceRevision": "9bac53d0dee196c62620eee9e8a0fa255a0ff5fa",
+  "sourceVisuals": 668,
+  "displayMeshes": 728,
+  "referencedSourceTriangles": 3750284,
+  "referencedDisplayTriangles": 348558,
+  "uniqueGeometries": 728,
+  "bounds": [
+    [
+      -0.16985828271484377,
+      4.440892098500626e-16,
+      -0.21849204975546205
+    ],
+    [
+      0.27146817407226564,
+      1.8668660060015205,
+      0.35745064716293484
+    ]
+  ],
+  "dimensions": [
+    0.4413264567871094,
+    1.86686600600152,
+    0.575942696918397
+  ],
+  "sourceUnits": "STL millimetres, URDF metres; visual scale0.001 retained exactly once",
+  "displayUp": "+Y",
+  "floorTranslation": -0.02490986390259231,
+  "animatedJoint": "LH_yaw",
+  "internalJointsHeld": true,
+  "closureCount": 27,
+  "closureRelationships": [
+    {
+      "name": "head_platform_Rigid_1__146__gz",
+      "type": "fixed",
+      "parent": "head_10mm-ujoint-base__1__1",
+      "child": "head_new-neck_1",
+      "pose": [
+        -0.05035,
+        0.0184,
+        -0.1128,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "head_new-neck_1"
+    },
+    {
+      "name": "head_platform_Rigig_2__148__gz",
+      "type": "fixed",
+      "parent": "head_10mm-ujoint-base__2__1",
+      "child": "head_new-neck_1",
+      "pose": [
+        0.005509,
+        0.01846,
+        -0.01641,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "head_new-neck_1"
+    },
+    {
+      "name": "head_platform_Rigid_3__147_gz",
+      "type": "fixed",
+      "parent": "head_10mm-ujoint-base__4__1",
+      "child": "head_new-neck_1",
+      "pose": [
+        -0.1162,
+        0.01563,
+        0.002589,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "head_new-neck_1"
+    },
+    {
+      "name": "head_platform_Rigid_4__149_gz",
+      "type": "fixed",
+      "parent": "head_10mm-ujoint-base__5__1",
+      "child": "head_new-neck_1",
+      "pose": [
+        -0.07077,
+        0.0173,
+        -0.1107,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "head_new-neck_1"
+    },
+    {
+      "name": "head_platform_Rigid_5__150_gz",
+      "type": "fixed",
+      "parent": "head_10mm-ujoint-base_1",
+      "child": "head_new-neck_1",
+      "pose": [
+        -0.1265,
+        0.01543,
+        -0.0147,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "head_new-neck_1"
+    },
+    {
+      "name": "RH_Revolute37_gz",
+      "type": "revolute",
+      "parent": "RH_straight-tendon_1",
+      "child": "RH_6mm-bearing__5__1",
+      "pose": [
+        0.02809,
+        -0.1631,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "RH_RMD-X8-Pro_MIR8_MIR1__3__1"
+    },
+    {
+      "name": "RH_Revolute47_gz",
+      "type": "revolute",
+      "parent": "RH_elbow-rear-hanger_1",
+      "child": "RH_6mm-bearing__8__1",
+      "pose": [
+        0.01161,
+        -0.05887,
+        -0.034,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "RH_elbow-rear-hanger__1__1"
+    },
+    {
+      "name": "RH_Recolute48_gz",
+      "type": "revolute",
+      "parent": "RH_elbow-rear-hanger__1__1",
+      "child": "RH_6mm-bearing__3__1",
+      "pose": [
+        0.01161,
+        -0.05887,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "RH_elbow-rear-hanger__1__1"
+    },
+    {
+      "name": "LH_Revolute37_gz",
+      "type": "revolute",
+      "parent": "LH_straight-tendon_1",
+      "child": "LH_6mm-bearing__5__1",
+      "pose": [
+        0.02809,
+        -0.1631,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "LH_RMD-X8-Pro_MIR8_MIR1__3__1"
+    },
+    {
+      "name": "LH_Revolute47_gz",
+      "type": "revolute",
+      "parent": "LH_elbow-rear-hanger_1",
+      "child": "LH_6mm-bearing__8__1",
+      "pose": [
+        0.01161,
+        -0.05887,
+        0.034,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "LH_elbow-rear-hanger__1__1"
+    },
+    {
+      "name": "LH_Recolute48_gz",
+      "type": "revolute",
+      "parent": "LH_elbow-rear-hanger__1__1",
+      "child": "LH_6mm-bearing__3__1",
+      "pose": [
+        0.01161,
+        -0.05887,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "LH_elbow-rear-hanger__1__1"
+    },
+    {
+      "name": "RL_Rigid46gz",
+      "type": "fixed",
+      "parent": "RL_conjstraint-knee-test-oute_MIR_1",
+      "child": "RL_skateboard-bearing__11__1",
+      "pose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "RL_conjstraint-knee-test-oute_MIR_1"
+    },
+    {
+      "name": "RL_Rigid47gz",
+      "type": "fixed",
+      "parent": "RL_conjstraint-knee-test-oute_1",
+      "child": "RL_skateboard-bearing__10__1",
+      "pose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "RL_conjstraint-knee-test-oute_1"
+    },
+    {
+      "name": "RL_Rigid48gz",
+      "type": "fixed",
+      "parent": "RL_double-bracket_1",
+      "child": "RL_thigh-bracket_1",
+      "pose": [
+        0.02024,
+        0.04916,
+        -0.03511,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "RL_double-bracket_1"
+    },
+    {
+      "name": "RL_Revolute72gz",
+      "type": "revolute",
+      "parent": "RL_double-bracket-10deg_MIR_MIR_MIR_1",
+      "child": "RL_skateboard-bearing__18__1",
+      "pose": [
+        0,
+        0,
+        -0.02,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "RL_double-bracket-10deg_MIR_MIR_MIR_1"
+    },
+    {
+      "name": "RL_Revolute73gz",
+      "type": "revolute",
+      "parent": "RL_skateboard-bearing__12__1",
+      "child": "RL_double-bracket-10deg_MIR_MIR_MIR_1",
+      "pose": [
+        -0.06009,
+        -0.001384,
+        0.02,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "RL_skateboard-bearing__12__1"
+    },
+    {
+      "name": "RL_Bearing17_12_Revolutegz",
+      "type": "revolute",
+      "parent": "RL_skateboard-bearing__12__1",
+      "child": "RL_skateboard-bearing__17__1",
+      "pose": [
+        0.025,
+        -0.05433,
+        -0.01,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "RL_skateboard-bearing__12__1"
+    },
+    {
+      "name": "RL_Revolute113gz",
+      "type": "revolute",
+      "parent": "RL_heel-top_MIRleft_1",
+      "child": "RL_290mm-tie-rod_v1_1",
+      "pose": [
+        -0.01732,
+        -0.2851,
+        0.05018,
+        -0.17453294444444445,
+        0,
+        0
+      ],
+      "relativeTo": "RL_heel-top_MIRleft_1"
+    },
+    {
+      "name": "RL_Revolute114gz",
+      "type": "revolute",
+      "parent": "RL_heel-topleft_1",
+      "child": "RL_210mm-tie-rod_v1_1",
+      "pose": [
+        -0.02305,
+        -0.2048,
+        0.03904,
+        -0.17453294444444445,
+        0,
+        0
+      ],
+      "relativeTo": "RL_heel-topleft_1"
+    },
+    {
+      "name": "LL_Rigid46gz",
+      "type": "fixed",
+      "parent": "LL_conjstraint-knee-test-oute_MIR_1",
+      "child": "LL_skateboard-bearing__11__1",
+      "pose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "LL_conjstraint-knee-test-oute_MIR_1"
+    },
+    {
+      "name": "LL_Rigid47gz",
+      "type": "fixed",
+      "parent": "LL_conjstraint-knee-test-oute_1",
+      "child": "LL_skateboard-bearing__10__1",
+      "pose": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "LL_conjstraint-knee-test-oute_1"
+    },
+    {
+      "name": "LL_Rigid48gz",
+      "type": "fixed",
+      "parent": "LL_double-bracket_1",
+      "child": "LL_thigh-bracket_1",
+      "pose": [
+        0.02024,
+        0.04916,
+        0.03511,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "LL_double-bracket_1"
+    },
+    {
+      "name": "LL_Revolute72gz",
+      "type": "revolute",
+      "parent": "LL_double-bracket-10deg_MIR_MIR_MIR_1",
+      "child": "LL_skateboard-bearing__18__1",
+      "pose": [
+        0,
+        0,
+        0.02,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "LL_double-bracket-10deg_MIR_MIR_MIR_1"
+    },
+    {
+      "name": "LL_Revolute73gz",
+      "type": "revolute",
+      "parent": "LL_skateboard-bearing__12__1",
+      "child": "LL_double-bracket-10deg_MIR_MIR_MIR_1",
+      "pose": [
+        -0.06009,
+        -0.001384,
+        -0.02,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "LL_skateboard-bearing__12__1"
+    },
+    {
+      "name": "LL_Bearing17_12_Revolutegz",
+      "type": "revolute",
+      "parent": "LL_skateboard-bearing__12__1",
+      "child": "LL_skateboard-bearing__17__1",
+      "pose": [
+        0.025,
+        -0.05433,
+        0.01,
+        0,
+        0,
+        0
+      ],
+      "relativeTo": "LL_skateboard-bearing__12__1"
+    },
+    {
+      "name": "LL_Revolute113gz",
+      "type": "revolute",
+      "parent": "LL_heel-top_MIRleft_1",
+      "child": "LL_290mm-tie-rod_v1_1",
+      "pose": [
+        -0.01732,
+        -0.2851,
+        -0.05018,
+        0.17453294444444445,
+        0,
+        0
+      ],
+      "relativeTo": "LL_heel-top_MIRleft_1"
+    },
+    {
+      "name": "LL_Revolute114gz",
+      "type": "revolute",
+      "parent": "LL_heel-topleft_1",
+      "child": "LL_210mm-tie-rod_v1_1",
+      "pose": [
+        -0.02305,
+        -0.2048,
+        -0.03904,
+        0.17453294444444445,
+        0,
+        0
+      ],
+      "relativeTo": "LL_heel-topleft_1"
+    }
+  ],
+  "armRoot": "torso_RMD-X10__1_Rotor_1",
+  "armLinks": [
+    "LH_2020_100mm__10__1",
+    "LH_2020_100mm__11__1",
+    "LH_2020_100mm__8___1__1",
+    "LH_2020_100mm__9__1",
+    "LH_6mm-bearing_1",
+    "LH_6mm-bearing__1__1",
+    "LH_6mm-bearing__2__1",
+    "LH_6mm-bearing__3__1",
+    "LH_6mm-bearing__4__1",
+    "LH_6mm-bearing__5__1",
+    "LH_6mm-bearing__6__1",
+    "LH_6mm-bearing__7__1",
+    "LH_6mm-bearing__8__1",
+    "LH_6mm-bearing__9__1",
+    "LH_MG995_1",
+    "LH_MG995__1__1",
+    "LH_MG995__2__1",
+    "LH_MG995__3__1",
+    "LH_MG995__4__1",
+    "LH_MG995__5__1",
+    "LH_MG995__6__1",
+    "LH_MG995__7__1",
+    "LH_RMD-X8-Pro_MIR8_MIR1__1__1",
+    "LH_RMD-X8-Pro_MIR8_MIR1__2__1",
+    "LH_RMD-X8-Pro_MIR8_MIR1__3__1",
+    "LH_RMD-X8-Pro_MIR8_MIR1__4__1",
+    "LH_arm-cuff-bicep-bracket_1",
+    "LH_bicep-motor-mate_1",
+    "LH_bicep-rear-motor-adapter_1",
+    "LH_bicep-rotational-cuff-second-motor-bracket_1",
+    "LH_bicep-shoulder-bracket-exal_1",
+    "LH_bicep-shoulder-bracket-exal__1__1",
+    "LH_bicep-shoulder-bracket-exal__2__1",
+    "LH_bicep-shoulder-bracket-exal__3__1",
+    "LH_bicep_1",
+    "LH_elbow-bridge-rear_1",
+    "LH_elbow-bridge-rear__1__1",
+    "LH_elbow-hangar1_1",
+    "LH_elbow-hangar_1",
+    "LH_elbow-rear-hanger_1",
+    "LH_elbow-rear-hanger__1__1",
+    "LH_fan-mount_1",
+    "LH_fore-arm-bicep-motor-attatch_1",
+    "LH_forearm-elbow-motor-bracket-inner2_1",
+    "LH_forearm-elbow-motor-bracket-inner_1",
+    "LH_front-bearing-adapter-shoulder_1",
+    "LH_multiplex-stack-flat_1",
+    "LH_power-mount-arm_1",
+    "LH_second-forearm-motor-strap_1",
+    "LH_shoulder-cap_1",
+    "LH_shoulder-ex-al-interface_1",
+    "LH_shoulder-ex-al-interface__1__1",
+    "LH_shoulder-ex-al-interface__2__1",
+    "LH_shoulder-front-bearing-adapter_1",
+    "LH_shoulder-front_1",
+    "LH_shoulder-motor-bicep-rotor-bracket_1",
+    "LH_shoulder-roll-al-mot_MIR1_1",
+    "LH_shoulder-roll-al-mot_MIR1__1__1",
+    "LH_shoulder-roll-al-mot_MIR1__2__1",
+    "LH_shoulder-roll-al-mot_MIR1__3__1",
+    "LH_skateboard-bearing__7__1",
+    "LH_straight-tendon_1",
+    "LH_top-bracket-servo-strap_1",
+    "LH_top-bracket-servo-strap__1__1",
+    "LH_yaw-cap_1",
+    "LH_yaw-waist-adapter-motor-exal_MIR1_1",
+    "LH_yaw-waist-adapter-motor-exal_MIR1__5__1",
+    "torso_RMD-X10__1_Rotor_1"
+  ],
+  "glbBytes": 25731912,
+  "glbSha256": "538d79c7346979d9eae894b076034c942c15ea654c9e34a94f7a4bd283749c92",
+  "neutralChecks": [
+    0,
+    2.5
+  ]
+}

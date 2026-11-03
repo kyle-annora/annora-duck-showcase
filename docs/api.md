@@ -41,7 +41,7 @@ Public values are JSON-compatible. Model `id` means manifest `packageId`; curren
 | `getState()` | Current lifecycle and presentation state, described below; never a live Three.js object |
 | `getNode({ nodeId })` | ID, title, kind, parent ID, child IDs and source-backed description/attribution where available |
 | `getChildren({ nodeId })` | Immediate child descriptors in authored navigation order; no vertex arrays or geometry payload |
-| `getTour({ tourId })` | Tour ID, duration, `playback` (`continuous` or `steps`) and ordered chapter descriptors with ID, label, start, duration, chapter-relative `previewAt` and optional `settledAt`; no executable script |
+| `getTour({ tourId })` | Tour ID, duration, `playback` (`continuous` or `steps`) and ordered chapter descriptors with ID, label, authored title/caption, start, duration, chapter-relative `previewAt` and optional `settledAt`; no executable script |
 
 Distinguish unsupported from unavailable: Apollo has `operation.supported: false`; Kinetic may be supported but unavailable during loading.
 

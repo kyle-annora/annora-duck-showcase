@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "https://github.com/ggldnl/Hexapod-Hardware",
+    "revision": "f8ee8084d48470283d5ca23394d5a4b9590ad9e8",
+    "files": [
+      {
+        "file": "CAD/stl/hardware/MG996R.stl",
+        "bytes": 907984,
+        "sha256": "089f88404eab0fd3e301e8e0e5180fcd7d8d3220ebead09939fba9251f7f17fb"
+      },
+      {
+        "file": "CAD/stl/hardware/battery.stl",
+        "bytes": 80684,
+        "sha256": "87faf771e49f441d5c2b4a5004b542db015b74e288520178fca3bafb28acccf2"
+      },
+      {
+        "file": "CAD/stl/hardware/electronics.stl",
+        "bytes": 4844284,
+        "sha256": "07b45bafae5b076fc9e8f263cd2044ab66c0cbc37a7ceb8cf9385987790be5e4"
+      },
+      {
+        "file": "CAD/stl/parts/base.stl",
+        "bytes": 218684,
+        "sha256": "55cfcb7d1ae2665c8fccbedb58d84e6d64a58a019482cbfc3c52aac2687da510"
+      },
+      {
+        "file": "CAD/stl/parts/battery_mount.stl",
+        "bytes": 67884,
+        "sha256": "408e5d845c496afd45c72a8b60c6c50260fdea12aa722a2612a0bd747e286442"
+      },
+      {
+        "file": "CAD/stl/parts/bottom_stiffeners.stl",
+        "bytes": 329884,
+        "sha256": "f5097eb122a6d23e04bef6b0d07d9d32964f7b18cdc1f31caf8d45fd4d32a444"
+      },
+      {
+        "file": "CAD/stl/parts/bracket_A.stl",
+        "bytes": 88284,
+        "sha256": "70a74e910ab5ac45b42a248aa53bd59055077c664d75be09e8b60ef1d8c811be"
+      },
+      {
+        "file": "CAD/stl/parts/bracket_B.stl",
+        "bytes": 71084,
+        "sha256": "83cf44c475deb208805243f773cb74c5d904ae3ec69633b4d3846833911c3a4e"
+      },
+      {
+        "file": "CAD/stl/parts/femur.stl",
+        "bytes": 71484,
+        "sha256": "1d7ff962b445907b3485086f5995b82485b2b4977bbfe22d9a33e10dcba2dab7"
+      },
+      {
+        "file": "CAD/stl/parts/tibia.stl",
+        "bytes": 76984,
+        "sha256": "4c6e93a44b892200daafaf5ace3795b6ac3af3819d4232b272e0b3a73a7ea10d"
+      },
+      {
+        "file": "CAD/stl/parts/top_stiffeners.stl",
+        "bytes": 222984,
+        "sha256": "6c5d0b5cbba23d8e5505ad3d4928f9d67207aa170feb3ec6cd73d844856fbe30"
+      },
+      {
+        "file": "LICENSE.md",
+        "bytes": 14392,
+        "sha256": "e258a9c6833bfd17fb90252df8c33e29d13fabc2768508248927824c17878db7"
+      },
+      {
+        "file": "README.md",
+        "bytes": 8237,
+        "sha256": "b375757e8c3f92e77d3d053c9ebbcb1f5cda89d76f71968d9acc5f78bf923b15"
+      },
+      {
+        "file": "hexapod.urdf",
+        "bytes": 113767,
+        "sha256": "93130c2cec1ec6349a1fef04cdb16ac5a96b1e7ff05737de432b483e816f03f2"
+      }
+    ]
+  },
+  "geometry": {
+    "kind": "derived-display-geometry",
+    "toolchain": {
+      "trimesh": "4.12.2",
+      "numpy": "2.0.2",
+      "fastSimplification": "0.1.12",
+      "method": "quadric edge collapse; aggression 4; unchanged low-density brackets and leg silhouette"
+    },
+    "note": "Original hardware files remain unmodified. Conflicting edge uses partition into coincident display surfaces; every derived facet remains. Display only, not manufacturing geometry.",
+    "referencedSourceTriangles": 517230,
+    "referencedDisplayTriangles": 248656,
+    "files": [
+      {
+        "file": "MG996R.stl",
+        "sourcePath": "CAD/stl/hardware/MG996R.stl",
+        "sourceTriangles": 18158,
+        "displayTriangles": 6198,
+        "displaySurfaces": [
+          {
+            "file": "MG996R.stl",
+            "triangles": 6194,
+            "sha256": "e0e85a8a3f3d4c8276dc9e0ec527c4bfaec1022f9f3b7e28223995caf3468a3d"
+          },
+          {
+            "file": "MG996R__surface2.stl",
+            "triangles": 4,
+            "sha256": "c9d7aaa2a3a11ae6ea6c719cc0c82be54ac1c0acd407d46010d26165842214bf"
+          }
+        ],
+        "sourceSha256": "089f88404eab0fd3e301e8e0e5180fcd7d8d3220ebead09939fba9251f7f17fb",
+        "sourceBounds": [
+          [
+            -7,
+            0,
+            -31.09121322631836
+          ],
+          [
+            47,
+            19.5,
+            14.050000190734863
+          ]
+        ],
+        "displayBounds": [
+          [
+            -7,
+            -0.018900327384471893,
+            -31.091535568237305
+          ],
+          [
+            47,
+            19.50908851623535,
+            14.051486015319824
+          ]
+        ],
+        "watertight": false
+      },
+      {
+        "file": "battery.stl",
+        "sourcePath": "CAD/stl/hardware/battery.stl",
+        "sourceTriangles": 1612,
+        "displayTriangles": 1612,
+        "displaySurfaces": [
+          {
+            "file": "battery.stl",
+            "triangles": 1612,
+            "sha256": "e4c404642ef026b60bd85e3325324e014d647c29d8f87708e07958ec8eb795c6"
+          }
+        ],
+        "sourceSha256": "87faf771e49f441d5c2b4a5004b542db015b74e288520178fca3bafb28acccf2",
+        "sourceBounds": [
+          [
+            -3.111415997191513e-31,
+            -4.103244351548809e-32,
+            0
+          ],
+          [
+            47.5,
+            139,
+            26.600000381469727
+          ]
+        ],
+        "displayBounds": [
+          [
+            -3.111415997191513e-31,
+            -4.103244351548809e-32,
+            0
+          ],
+          [
+            47.5,
+            139,
+            26.600000381469727
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "file": "electronics.stl",
+        "sourcePath": "CAD/stl/hardware/electronics.stl",
+        "sourceTriangles": 96884,
+        "displayTriangles": 43590,
+        "displaySurfaces": [
+          {
+            "file": "electronics.stl",
+            "triangles": 42414,
+            "sha256": "ac825947fa5dc2e1af675946d043855801f73d3ecd390bfbe2341b8239d39a4e"
+          },
+          {
+            "file": "electronics__surface2.stl",
+            "triangles": 1174,
+            "sha256": "c764be388066011862d63d921c1c6d997d631b8ee396c5c4c0110e0dce3161cf"
+          },
+          {
+            "file": "electronics__surface3.stl",
+            "triangles": 2,
+            "sha256": "f568251070dba4314e9b0b43f7c3b8ba9390f3c127b0a2ab41fdf5c0aa1e7d6c"
+          }
+        ],
+        "sourceSha256": "07b45bafae5b076fc9e8f263cd2044ab66c0cbc37a7ceb8cf9385987790be5e4",
+        "sourceBounds": [
+          [
+            -29.1823787689209,
+            -45.2476806640625,
+            -1.2250478267669678
+          ],
+          [
+            52.08761978149414,
+            88.64231872558594,
+            18.674951553344727
+          ]
+        ],
+        "displayBounds": [
+          [
+            -29.1823787689209,
+            -45.25558090209961,
+            -1.2250478267669678
+          ],
+          [
+            52.08761978149414,
+            88.64231872558594,
+            18.67496109008789
+          ]
+        ],
+        "watertight": false
+      },
+      {
+        "file": "base.stl",
+        "sourcePath": "CAD/stl/parts/base.stl",
+        "sourceTriangles": 4372,
+        "displayTriangles": 4372,
+        "displaySurfaces": [
+          {
+            "file": "base.stl",
+            "triangles": 4372,
+            "sha256": "5587784a3434fc685eb4353ae754569880faec772c405df270841ef6798f2bff"
+          }
+        ],
+        "sourceSha256": "55cfcb7d1ae2665c8fccbedb58d84e6d64a58a019482cbfc3c52aac2687da510",
+        "sourceBounds": [
+          [
+            -88.63500213623047,
+            -103.53732299804688,
+            0
+          ],
+          [
+            88.63500213623047,
+            103.53732299804688,
+            14
+          ]
+        ],
+        "displayBounds": [
+          [
+            -88.63500213623047,
+            -103.53732299804688,
+            0
+          ],
+          [
+            88.63500213623047,
+            103.53732299804688,
+            14
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "file": "battery_mount.stl",
+        "sourcePath": "CAD/stl/parts/battery_mount.stl",
+        "sourceTriangles": 1356,
+        "displayTriangles": 1356,
+        "displaySurfaces": [
+          {
+            "file": "battery_mount.stl",
+            "triangles": 1356,
+            "sha256": "b9fc5166317a177fe7e72b66b95505b2c258d23400423f50d5d0c5109aa4076d"
+          }
+        ],
+        "sourceSha256": "408e5d845c496afd45c72a8b60c6c50260fdea12aa722a2612a0bd747e286442",
+        "sourceBounds": [
+          [
+            -40.6349983215332,
+            -66,
+            0
+          ],
+          [
+            40.6349983215332,
+            66,
+            12
+          ]
+        ],
+        "displayBounds": [
+          [
+            -40.6349983215332,
+            -66,
+            0
+          ],
+          [
+            40.6349983215332,
+            66,
+            12
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "file": "bottom_stiffeners.stl",
+        "sourcePath": "CAD/stl/parts/bottom_stiffeners.stl",
+        "sourceTriangles": 6596,
+        "displayTriangles": 6596,
+        "displaySurfaces": [
+          {
+            "file": "bottom_stiffeners.stl",
+            "triangles": 6596,
+            "sha256": "fe601365310fc6fcc0a66460d481d1ff943f30eef039af3f1a45b01fdd5bf256"
+          }
+        ],
+        "sourceSha256": "f5097eb122a6d23e04bef6b0d07d9d32964f7b18cdc1f31caf8d45fd4d32a444",
+        "sourceBounds": [
+          [
+            -55.22688293457031,
+            -80.59188079833984,
+            -2
+          ],
+          [
+            55.22688293457031,
+            80.59188079833984,
+            10
+          ]
+        ],
+        "displayBounds": [
+          [
+            -55.22688293457031,
+            -80.59188079833984,
+            -2
+          ],
+          [
+            55.22688293457031,
+            80.59188079833984,
+            10
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "file": "bracket_A.stl",
+        "sourcePath": "CAD/stl/parts/bracket_A.stl",
+        "sourceTriangles": 1764,
+        "displayTriangles": 1764,
+        "displaySurfaces": [
+          {
+            "file": "bracket_A.stl",
+            "triangles": 1764,
+            "sha256": "54c936f45e8f15ee24034519cac45e68a917d55d2a6114f2f56d58ea9d4720db"
+          }
+        ],
+        "sourceSha256": "70a74e910ab5ac45b42a248aa53bd59055077c664d75be09e8b60ef1d8c811be",
+        "sourceBounds": [
+          [
+            -49.70261001586914,
+            -10,
+            44.55315399169922
+          ],
+          [
+            2.09738826751709,
+            10,
+            86.55315399169922
+          ]
+        ],
+        "displayBounds": [
+          [
+            -49.70261001586914,
+            -10,
+            44.55315399169922
+          ],
+          [
+            2.09738826751709,
+            10,
+            86.55315399169922
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "file": "bracket_B.stl",
+        "sourcePath": "CAD/stl/parts/bracket_B.stl",
+        "sourceTriangles": 1420,
+        "displayTriangles": 1420,
+        "displaySurfaces": [
+          {
+            "file": "bracket_B.stl",
+            "triangles": 1420,
+            "sha256": "8eaa0b815f9a08fc07f586dddbdec4ba6131dbf7e9475eebb757c0bd9a3f8d35"
+          }
+        ],
+        "sourceSha256": "83cf44c475deb208805243f773cb74c5d904ae3ec69633b4d3846833911c3a4e",
+        "sourceBounds": [
+          [
+            22.899999618530273,
+            -10,
+            0
+          ],
+          [
+            28.899999618530273,
+            10,
+            42
+          ]
+        ],
+        "displayBounds": [
+          [
+            22.899999618530273,
+            -10,
+            0
+          ],
+          [
+            28.899999618530273,
+            10,
+            42
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "file": "femur.stl",
+        "sourcePath": "CAD/stl/parts/femur.stl",
+        "sourceTriangles": 1428,
+        "displayTriangles": 1428,
+        "displaySurfaces": [
+          {
+            "file": "femur.stl",
+            "triangles": 1428,
+            "sha256": "385d7c1156c9340424bbd6897c9a299320d6641be084fa9074bda9de53d4369c"
+          }
+        ],
+        "sourceSha256": "1d7ff962b445907b3485086f5995b82485b2b4977bbfe22d9a33e10dcba2dab7",
+        "sourceBounds": [
+          [
+            -28.100000381469727,
+            -14.5,
+            0
+          ],
+          [
+            85.0999984741211,
+            14.5,
+            14
+          ]
+        ],
+        "displayBounds": [
+          [
+            -28.100000381469727,
+            -14.5,
+            0
+          ],
+          [
+            85.0999984741211,
+            14.5,
+            14
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "file": "tibia.stl",
+        "sourcePath": "CAD/stl/parts/tibia.stl",
+        "sourceTriangles": 1538,
+        "displayTriangles": 1538,
+        "displaySurfaces": [
+          {
+            "file": "tibia.stl",
+            "triangles": 1538,
+            "sha256": "771ca3e554e42bafcc023592c0b16c7fa2ba76aa06429125888f2274261abad4"
+          }
+        ],
+        "sourceSha256": "4c6e93a44b892200daafaf5ace3795b6ac3af3819d4232b272e0b3a73a7ea10d",
+        "sourceBounds": [
+          [
+            -10,
+            -91.75,
+            -32
+          ],
+          [
+            10,
+            46,
+            10
+          ]
+        ],
+        "displayBounds": [
+          [
+            -10,
+            -91.75,
+            -32
+          ],
+          [
+            10,
+            46,
+            10
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "file": "top_stiffeners.stl",
+        "sourcePath": "CAD/stl/parts/top_stiffeners.stl",
+        "sourceTriangles": 4458,
+        "displayTriangles": 4458,
+        "displaySurfaces": [
+          {
+            "file": "top_stiffeners.stl",
+            "triangles": 4458,
+            "sha256": "7d84a6d16cb89d81c10d15fa082b6936c1522562dd1ef5eb1fde388ea53fb3b4"
+          }
+        ],
+        "sourceSha256": "6c5d0b5cbba23d8e5505ad3d4928f9d67207aa170feb3ec6cd73d844856fbe30",
+        "sourceBounds": [
+          [
+            -55.22688293457031,
+            -66,
+            -3.5999999046325684
+          ],
+          [
+            55.22688293457031,
+            66,
+            6
+          ]
+        ],
+        "displayBounds": [
+          [
+            -55.22688293457031,
+            -66,
+            -3.5999999046325684
+          ],
+          [
+            55.22688293457031,
+            66,
+            6
+          ]
+        ],
+        "watertight": true
+      }
+    ]
+  },
+  "display": {
+    "up": "+Y",
+    "sourceUnits": "URDF metres; original STL millimetres with retained 0.001 visual scale",
+    "bounds": [
+      [
+        -0.25167189031595655,
+        -1.3877787807814457e-17,
+        -0.2172966860711345
+      ],
+      [
+        0.2516718970687608,
+        0.1428603793440946,
+        0.217296687540313
+      ]
+    ],
+    "dimensions": [
+      0.5033437873847173,
+      0.14286037934409462,
+      0.4345933736114475
+    ],
+    "rootFloorTranslation": 0.07231435373294959,
+    "sourceVisualInstances": 72,
+    "meshInstances": 92,
+    "groups": [
+      "hex-body",
+      "hex-leg-1",
+      "hex-leg-2",
+      "hex-leg-3",
+      "hex-leg-4",
+      "hex-leg-5",
+      "hex-leg-6"
+    ],
+    "jointCount": 18,
+    "sourceClip": "HexapodLegReach",
+    "sourceDuration": 2.5,
+    "neutralChecks": [
+      0,
+      2.5
+    ],
+    "glbBytes": 5471700,
+    "glbSha256": "1f2eefe0a0bdffcd09b70f4850a955a225f7974801dfc15122e3a52b818081e0",
+    "footBounds": {
+      "leg_1_tibia": [
+        [
+          0.1320882748488575,
+          5.8657941837125804e-9,
+          -0.21729668529084076
+        ],
+        [
+          0.19193168529084295,
+          0.1428603772034504,
+          -0.15745327484885613
+        ]
+      ],
+      "leg_2_tibia": [
+        [
+          0.18704053440304602,
+          -1.3877787807814457e-17,
+          -0.01000000000000019
+        ],
+        [
+          0.2516718970687608,
+          0.1428603713376561,
+          0.010000000000000139
+        ]
+      ],
+      "leg_3_tibia": [
+        [
+          0.13208827631803632,
+          3.4023374395619754e-9,
+          0.15745327631803593
+        ],
+        [
+          0.19193168676002126,
+          0.14286037473999358,
+          0.21729668676002115
+        ]
+      ],
+      "leg_4_tibia": [
+        [
+          -0.191931687540315,
+          2.093975881578558e-9,
+          0.15745327709832835
+        ],
+        [
+          -0.1320882770983297,
+          0.142860373431632,
+          0.217296687540313
+        ]
+      ],
+      "leg_5_tibia": [
+        [
+          -0.25167189031595655,
+          8.006438442786923e-9,
+          -0.010000000000000212
+        ],
+        [
+          -0.18704052765024168,
+          0.1428603793440946,
+          0.010000000000000142
+        ]
+      ],
+      "leg_6_tibia": [
+        [
+          -0.19193168607113487,
+          4.557432847773768e-9,
+          -0.2172966860711345
+        ],
+        [
+          -0.13208827562915013,
+          0.14286037589508893,
+          -0.15745327562914935
+        ]
+      ]
+    },
+    "home": {
+      "leg_1_coxa": 0,
+      "leg_1_femur": 14.184444319612425,
+      "leg_1_tibia": -66.10558114205578,
+      "leg_2_coxa": 0,
+      "leg_2_femur": 14.184444319612425,
+      "leg_2_tibia": -66.10558114205578,
+      "leg_3_coxa": 0,
+      "leg_3_femur": 14.184444319612425,
+      "leg_3_tibia": -66.10558114205578,
+      "leg_4_coxa": 0,
+      "leg_4_femur": 14.184444319612425,
+      "leg_4_tibia": -66.10558114205578,
+      "leg_5_coxa": 0,
+      "leg_5_femur": 14.184444319612425,
+      "leg_5_tibia": -66.10558114205578,
+      "leg_6_coxa": 0,
+      "leg_6_femur": 14.184444319612425,
+      "leg_6_tibia": -66.10558114205578
+    }
+  },
+  "licenseSha256": "e258a9c6833bfd17fb90252df8c33e29d13fabc2768508248927824c17878db7",
+  "modifiedLicenseSha256": "6e4328d840ae2416b43f5877f9da84b7a4f1b47258983817e8c52c8192f3d0c3",
+  "modifiedSourceLocation": "https://github.com/kyle-annora/annora-duck-showcase/tree/main/examples/hexapod",
+  "modificationDate": "2026-11-03"
+}

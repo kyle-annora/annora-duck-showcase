@@ -58,3 +58,12 @@ body[data-playing=true] .detail-panel{visibility:hidden}
   .stage-tools>#parts-toggle{flex:none}.breadcrumb-back{min-width:44px;flex-shrink:1}
   .stage-topline>.mobile-details{flex:none}
 }
+
+/* The existing product identity is also the compact robot selector. */
+.product-identity{min-width:0}.identity-selector{position:relative;display:flex;align-items:center;gap:8px;min-height:34px;min-width:0;max-width:240px;padding-right:17px}
+.identity-selector h1{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.product-identity h1 #showcase-title{color:var(--ink);font:inherit;letter-spacing:inherit;margin:0}
+.identity-selector>svg{position:absolute;right:0;width:11px;height:11px;transform:rotate(90deg);pointer-events:none;color:var(--muted)}
+.identity-selector select{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;color:var(--ink);background:var(--panel);font-size:14px}
+.identity-selector:has(select:focus-visible){outline:2px solid var(--accent);outline-offset:4px;border-radius:2px}
+@media(max-width:760px){.identity-selector{min-height:44px;max-width:180px}.product-identity h1{margin-top:0}.product-identity .micro-label{display:block}.product-identity h1 #showcase-title{font-size:inherit}}
+@media(max-width:420px){.product-identity h1{font-size:13px}.identity-selector{padding-right:13px;gap:3px}.product-identity h1 #showcase-version{display:none}.identity-rule{margin:0 1px}.identity{gap:5px}}

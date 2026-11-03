@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "defaultShowcaseId": "open-duck",
+  "items": [
+    {
+      "id": "open-duck",
+      "modelId": "open-duck",
+      "tourId": "open-duck-showcase",
+      "studyNumber": "01",
+      "title": "Open Duck Mini",
+      "version": "v2",
+      "shortTitle": "Open Duck",
+      "description": "An open-hardware robot. A closer look at its mechanical layers.",
+      "sourceUrl": "https://github.com/apirrone/Open_Duck_Mini",
+      "attribution": "Antoine Pirrone and contributors \u00b7 Apache-2.0 \u00b7 Annora presentation",
+      "ready": {
+        "title": "Meet the mechanism.",
+        "description": "A short presentation. Every part within reach."
+      },
+      "action": {
+        "noun": "gesture",
+        "note": "A short gesture, using source joints."
+      },
+      "chapterCopy": {
+        "meet": {
+          "title": "Meet the mechanism.",
+          "description": "A complete assembly. Every detail has a place."
+        },
+        "head": {
+          "title": "Look a little closer.",
+          "description": "Follow the head and its mechanical connections."
+        },
+        "open": {
+          "title": "Open the body.",
+          "description": "Outer panels reveal the modules beneath."
+        },
+        "assembly": {
+          "title": "Read the layers.",
+          "description": "Separate the assemblies. Keep their relationships."
+        },
+        "detail": {
+          "title": "Follow one detail.",
+          "description": "Clear lines reveal the structure around it."
+        },
+        "restore": {
+          "title": "Back into place.",
+          "description": "Every component returns along the same path."
+        },
+        "motion": {
+          "title": "A little character.",
+          "description": "Authored movement follows the source joints."
+        },
+        "explore": {
+          "title": "Take it from here.",
+          "description": "Select a part, inspect it or replay the presentation."
+        }
+      },
+      "media": {
+        "film": "docs/media/annora-open-duck-20s.mp4",
+        "gif": "docs/media/annora-open-duck.gif",
+        "hero": "docs/media/open-duck-hero.png",
+        "exploded": "docs/media/open-duck-exploded.png",
+        "detail": "docs/media/open-duck-detail.png"
+      }
+    },
+    {
+      "id": "hexapod",
+      "modelId": "hexapod",
+      "tourId": "hexapod-showcase",
+      "studyNumber": "02",
+      "title": "Hexapod",
+      "shortTitle": "Hexapod",
+      "description": "Six legs. One connected mechanical system.",
+      "sourceUrl": "https://github.com/ggldnl/Hexapod-Hardware",
+      "attribution": "ggldnl \u00b7 CERN-OHL-W-2.0 \u00b7 Annora presentation",
+      "ready": {
+        "title": "Follow the movement.",
+        "description": "Read one leg, then the whole assembly."
+      },
+      "action": {
+        "noun": "leg action",
+        "note": "An authored reach and return, using source joints."
+      },
+      "media": {
+        "film": "docs/media/hexapod/annora-hexapod-showcase.mp4",
+        "gif": "docs/media/hexapod/annora-hexapod.gif",
+        "hero": "docs/media/hexapod/hero.png",
+        "exploded": "docs/media/hexapod/exploded.png",
+        "detail": "docs/media/hexapod/detail.png"
+      }
+    },
+    {
+      "id": "dropbear",
+      "modelId": "dropbear",
+      "tourId": "dropbear-showcase",
+      "studyNumber": "03",
+      "title": "Dropbear",
+      "shortTitle": "Dropbear",
+      "description": "A humanoid assembly, from the whole structure to one arm.",
+      "sourceUrl": "https://github.com/Hyperspawn/dropbear_urdf",
+      "attribution": "Hyperspawn and contributors \u00b7 MIT \u00b7 Annora presentation",
+      "ready": {
+        "title": "Look inside the structure.",
+        "description": "Follow the arm and its connected mechanisms."
+      },
+      "action": {
+        "noun": "arm action",
+        "note": "A source-joint swivel with the internal linkages held together."
+      },
+      "media": {
+        "film": "docs/media/dropbear/annora-dropbear-showcase.mp4",
+        "gif": "docs/media/dropbear/annora-dropbear.gif",
+        "hero": "docs/media/dropbear/hero.png",
+        "exploded": "docs/media/dropbear/exploded.png",
+        "detail": "docs/media/dropbear/detail.png"
+      }
+    }
+  ]
+}

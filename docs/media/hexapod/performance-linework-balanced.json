@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "scope": "Current browser and complete selected assembly",
+  "status": "completed",
+  "reason": null,
+  "scenario": "hexapod-standard-v3",
+  "modelId": "hexapod",
+  "mode": "linework",
+  "renderStyle": "linework",
+  "displayOptions": {
+    "appearance": "light",
+    "grid": false,
+    "ambientOcclusion": true,
+    "featureEdges": true,
+    "hiddenEdges": false,
+    "lineWeight": "standard"
+  },
+  "quality": "balanced",
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "pixelRatio": 1.47,
+    "renderWidth": 1885,
+    "renderHeight": 1060
+  },
+  "model": {
+    "meshCount": 92,
+    "triangles": 248656,
+    "glbBytes": 5471700,
+    "edgeBytes": 1110912,
+    "edgeSegments": 138448,
+    "silhouetteSegments": 284174,
+    "lineBytes": 14106808,
+    "surfaceBytes": 14919360,
+    "paletteBytes": 11776,
+    "lineBatchCount": 2,
+    "activePartCount": 92,
+    "contextPartCount": 0,
+    "flatPartCount": 0,
+    "selectedPartCount": 0
+  },
+  "loading": {
+    "modelFetchMs": 39.1,
+    "modelParseMs": 8.6,
+    "firstInteractiveMs": 112.1,
+    "firstTechnicalMs": 28.3,
+    "firstLineworkMs": 28.3,
+    "linePreparationMs": 91.9,
+    "edgeFetchMs": 18.2
+  },
+  "durationMs": 12004.4,
+  "frames": {
+    "observedTicks": 720,
+    "rendered": 720,
+    "motionIntervals": 719,
+    "motionTimeMs": 11984.3,
+    "frameIntervalMs": {
+      "count": 719,
+      "mean": 16.67,
+      "p50": 16.7,
+      "p95": 18.3,
+      "max": 18.8
+    },
+    "medianFps": 59.88,
+    "over50Ms": 0,
+    "enoughSamples": true
+  },
+  "cpuRenderSubmissionMs": {
+    "count": 720,
+    "mean": 0.19,
+    "p50": 0.2,
+    "p95": 0.3,
+    "max": 0.7
+  },
+  "drawCallsPerRenderedFrame": {
+    "count": 720,
+    "mean": 4,
+    "p50": 4,
+    "p95": 4,
+    "max": 4
+  },
+  "trianglesPerRenderedFrame": {
+    "count": 720,
+    "mean": 1093901,
+    "p50": 1093901,
+    "p95": 1093901,
+    "max": 1093901
+  },
+  "linesPerRenderedFrame": {
+    "count": 720,
+    "mean": 0,
+    "p50": 0,
+    "p95": 0,
+    "max": 0
+  },
+  "phases": {
+    "orbit": {
+      "count": 239,
+      "mean": 16.67,
+      "p50": 16.7,
+      "p95": 18.4,
+      "max": 18.7
+    },
+    "explode": {
+      "count": 239,
+      "mean": 16.66,
+      "p50": 16.7,
+      "p95": 18.3,
+      "max": 18.7
+    },
+    "reassemble": {
+      "count": 239,
+      "mean": 16.67,
+      "p50": 16.7,
+      "p95": 18.3,
+      "max": 18.8
+    }
+  },
+  "longTasks": {
+    "supported": true,
+    "count": 0,
+    "maxMs": 0,
+    "totalMs": 0
+  },
+  "limitations": [
+    "Frame intervals describe this browser session, not a certified device class.",
+    "CPU render submission duration is not GPU execution time.",
+    "Draw, triangle and line counts include all measured render passes, not unique model geometry or visible pixels.",
+    "Ribbon strokes contribute triangles; native line counts do not describe all visible linework.",
+    "Line, surface and palette byte counts describe prepared CPU buffers, not total GPU allocation or peak process memory.",
+    "The standard scenario measures orbit, explosion and restoration, not operating-animation playback.",
+    "Loading values describe this navigation; browser cache and network conditions must be recorded separately.",
+    "This host measurement does not certify ordinary computers or physical mobile devices."
+  ]
+}

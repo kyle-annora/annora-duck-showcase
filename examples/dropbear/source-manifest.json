@@ -1,0 +1,4028 @@
+{
+  "repository": "Hyperspawn/dropbear_urdf",
+  "revision": "9bac53d0dee196c62620eee9e8a0fa255a0ff5fa",
+  "license": "MIT",
+  "selection": "whole",
+  "files": [
+    {
+      "file": "LICENSE.txt",
+      "remote": "LICENSE",
+      "bytes": 1067,
+      "sha256": "96b7c215907eca0589988f32f877abbe3566accdb46ef34ae71aecf2337af0c0"
+    },
+    {
+      "file": "dropbear.urdf",
+      "remote": "dropbear_granular_urdf/urdf/dropbear.urdf",
+      "bytes": 818335,
+      "sha256": "1d1d06c05ab9b63a590d6a2bf73a2641e3bb6348ce6a556462a15a15a547da50"
+    },
+    {
+      "file": "meshes/battery/24ah-adapter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/24ah-adapter_1.stl",
+      "bytes": 64484,
+      "sha256": "bd9a66b4b1e66abc4edeeb87d4bd5c7bc54c851251c43854967703f7a09c73ea"
+    },
+    {
+      "file": "meshes/battery/5v-module_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/5v-module_1.stl",
+      "bytes": 14684,
+      "sha256": "fc62d00a2f03abb6c52f0c5a4698eded7f8250c22ef004c8cd64dba7bc920319"
+    },
+    {
+      "file": "meshes/battery/5v-module__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/5v-module__1__1.stl",
+      "bytes": 14684,
+      "sha256": "882074f8621c68d5a82e4dd66be3f822b2a77c44aa32742991380d04f2240043"
+    },
+    {
+      "file": "meshes/battery/Power_Converter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/Power_Converter_1.stl",
+      "bytes": 25284,
+      "sha256": "f30896dadf18d49adfed2bc747a8f56fb271ff2a9617df926d2f958c80329c50"
+    },
+    {
+      "file": "meshes/battery/Power_Converter__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/Power_Converter__2__1.stl",
+      "bytes": 25284,
+      "sha256": "5d61187a047cc2f299387471c155410b72ebeba216f0804b3062641982c6f650"
+    },
+    {
+      "file": "meshes/battery/base_link.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/base_link.stl",
+      "bytes": 23584,
+      "sha256": "f4f9adbb9737d983ece538fa2edf82dae8e0fe35696f99860ade6b505d34d404"
+    },
+    {
+      "file": "meshes/battery/battery-board-adapter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/battery-board-adapter_1.stl",
+      "bytes": 170684,
+      "sha256": "5df1635ae9a0af181d8512c106aec93c87243c9b39231ae14fd45dfac65c40ae"
+    },
+    {
+      "file": "meshes/battery/battery-frame-bottom_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/battery-frame-bottom_1.stl",
+      "bytes": 859084,
+      "sha256": "4f1878d1c097e9872a99be36eee5b7eaf29063374ad39d63fed2901dd0896671"
+    },
+    {
+      "file": "meshes/battery/battery-frame-top_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/battery-frame-top_1.stl",
+      "bytes": 914484,
+      "sha256": "de5c250b882093a28b97e9eb69e354e9f708001589e8c7062e2b1bd9b308c9f5"
+    },
+    {
+      "file": "meshes/battery/battery__1___1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/battery__1___1__1.stl",
+      "bytes": 684,
+      "sha256": "f69e9cca529eb50d774633a2b231e282f7e99879c3f3864c09a4d18d95b119f7"
+    },
+    {
+      "file": "meshes/battery/esp1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/esp1_1.stl",
+      "bytes": 24684,
+      "sha256": "98633dd6989a1ec008a62ddacb154d35d39899533b10a2643b523ea40e89c4dd"
+    },
+    {
+      "file": "meshes/battery/mcp1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/mcp1_1.stl",
+      "bytes": 26284,
+      "sha256": "f9b629cfdabe3d73e71146f784ced28e5d91b63d8358af208d00310fb152906f"
+    },
+    {
+      "file": "meshes/battery/mpu1__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/mpu1__1__1.stl",
+      "bytes": 17084,
+      "sha256": "d79f506823122a80583f3175418c17ca4ad73941fbb5b2023b528864a6fd81b2"
+    },
+    {
+      "file": "meshes/battery/naval-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/naval-strap_1.stl",
+      "bytes": 389984,
+      "sha256": "75f6cd87b2e412321ccb95d2b360c0b1b7738f77f635651a29f4ab032217f7e6"
+    },
+    {
+      "file": "meshes/battery/naval_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/naval_1.stl",
+      "bytes": 624284,
+      "sha256": "b5d3cc9b05f066b1995bd1bf8b85be3038e77ac9cd9f252c0359fccb55da0691"
+    },
+    {
+      "file": "meshes/battery/power-module-large_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large_1.stl",
+      "bytes": 77884,
+      "sha256": "2c868eb0ab72c69a3892e123c989596f3a3ebbcf54a1ec6eed501be046468931"
+    },
+    {
+      "file": "meshes/battery/power-module-large__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large__1__1.stl",
+      "bytes": 77884,
+      "sha256": "e5a9aa99893ba09935652830b5cd0e8bdadbbde25e6049c6b8d6775c854aaf7f"
+    },
+    {
+      "file": "meshes/battery/power-module-large__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large__2__1.stl",
+      "bytes": 77884,
+      "sha256": "4e6c972fb95f1ca9f2842e079083a0a141ead60010f7b914f44c0c55abd2a550"
+    },
+    {
+      "file": "meshes/battery/power-module-large__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large__3__1.stl",
+      "bytes": 77884,
+      "sha256": "73d4bfb26db78120ccc5ac6a96d8c39e397fd5a8e164d6a1c788562f1c91553c"
+    },
+    {
+      "file": "meshes/battery/power-module-large__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large__4__1.stl",
+      "bytes": 77884,
+      "sha256": "28afe6dd03bd7718f1180c67ee5106be23e0d6124a9b62f8a659544c71623070"
+    },
+    {
+      "file": "meshes/battery/power-module-large__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large__5__1.stl",
+      "bytes": 77884,
+      "sha256": "296f122b7b17ee276fd650112c20d951bf7ed5f01bd3778447ed0e3ccd86efec"
+    },
+    {
+      "file": "meshes/battery/power-module-large__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large__6__1.stl",
+      "bytes": 77884,
+      "sha256": "6ded98f4da73f73f96a1d8c555830e4bc9e2bc7d6794162fffa417f7f737f7b4"
+    },
+    {
+      "file": "meshes/battery/power-module-large__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large__7__1.stl",
+      "bytes": 77884,
+      "sha256": "8b14f578bcf28c143965e68e806b11610245ffa22f2d2dd95060c9d8a4f9633a"
+    },
+    {
+      "file": "meshes/battery/power-module-large__8__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large__8__1.stl",
+      "bytes": 77884,
+      "sha256": "3c6e383f4edecf78aa0136e76e243a97429a1d556ecca1a73709e9f0385458ba"
+    },
+    {
+      "file": "meshes/battery/power-module-large__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/battery/power-module-large__9__1.stl",
+      "bytes": 77884,
+      "sha256": "e795b490cbb29e14579debcee92545a79453f13728ca7552dac5c1d371117ef6"
+    },
+    {
+      "file": "meshes/head/00_top_lvl_p3737_01142022_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/00_top_lvl_p3737_01142022_1.stl",
+      "bytes": 884,
+      "sha256": "e0fdfbd09f29cea7849f47a1f94ec5f7858e9528a071441557637fd2da34d323"
+    },
+    {
+      "file": "meshes/head/10mm-ujoint-base_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/10mm-ujoint-base_1.stl",
+      "bytes": 398084,
+      "sha256": "f74a7e3a7d3d3e9f703a76a79e2f5a22636a6a79b65e299b8b28f461f611746f"
+    },
+    {
+      "file": "meshes/head/10mm-ujoint-base__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/10mm-ujoint-base__1__1.stl",
+      "bytes": 400384,
+      "sha256": "19fb2f5b5f88b0980a10c2a983016a7f2be024c333ea0194e855293830f0066f"
+    },
+    {
+      "file": "meshes/head/10mm-ujoint-base__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/10mm-ujoint-base__2__1.stl",
+      "bytes": 400384,
+      "sha256": "8407bf489be9deca27df281bbeff300b3482917ff998bd5d7176de3732745828"
+    },
+    {
+      "file": "meshes/head/10mm-ujoint-base__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/10mm-ujoint-base__3__1.stl",
+      "bytes": 404784,
+      "sha256": "fa53f5a058bd30a9be2d9d23dc9b89f74c7228bf4684bdc293b40ec33d1a35d3"
+    },
+    {
+      "file": "meshes/head/10mm-ujoint-base__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/10mm-ujoint-base__4__1.stl",
+      "bytes": 400384,
+      "sha256": "85de569dfe4bfc5a8bde07fd0af203c637a0ddc24de93990598e13d070686ed0"
+    },
+    {
+      "file": "meshes/head/10mm-ujoint-base__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/10mm-ujoint-base__5__1.stl",
+      "bytes": 400484,
+      "sha256": "0be816e0efc64baabacc937dda2c3e57ae8a0469e019ee796e6467e741fb4494"
+    },
+    {
+      "file": "meshes/head/20mm_antenna_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/20mm_antenna_1.stl",
+      "bytes": 91384,
+      "sha256": "9fa45fed058054aacb803c1934985223d1b6c7e5de79c13c40fe2a4efa25abc6"
+    },
+    {
+      "file": "meshes/head/20mm_antenna_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/20mm_antenna_2.stl",
+      "bytes": 97984,
+      "sha256": "8aa5eae25d74f563fa9d24a7223fa297de423b23ded7421963e7364e76019aac"
+    },
+    {
+      "file": "meshes/head/20mm_antenna_3.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/20mm_antenna_3.stl",
+      "bytes": 97984,
+      "sha256": "74e3e6aa7eb60ee18ce0b8e61f25856de43dd27f0338b0187d9a3b99b8aa6063"
+    },
+    {
+      "file": "meshes/head/20mm_antenna_4.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/20mm_antenna_4.stl",
+      "bytes": 91384,
+      "sha256": "1c3949cab7174d4b9ce4bbe4bf28f9bef168d1e8981cb9f5428f5f4010feb66e"
+    },
+    {
+      "file": "meshes/head/20mm_antenna_5.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/20mm_antenna_5.stl",
+      "bytes": 91384,
+      "sha256": "ce6b4ebcb2617a6e4d7b12fbfe4d82c5f5851c647bc94498a64f52d73cac7629"
+    },
+    {
+      "file": "meshes/head/20mm_antenna_6.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/20mm_antenna_6.stl",
+      "bytes": 91384,
+      "sha256": "0a206580e286eaa462a5c662695a6890bdb04b4a00e8142c215b3970b35189a6"
+    },
+    {
+      "file": "meshes/head/245-82972-0000-000_asm_07192018_B_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/245-82972-0000-000_asm_07192018_B_1.stl",
+      "bytes": 4684,
+      "sha256": "ff465caef556bac33bf1ff8fd3da6f951e06287500c8ba1a87839b70c05b0dee"
+    },
+    {
+      "file": "meshes/head/5mm-ujoint-base_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/5mm-ujoint-base_1.stl",
+      "bytes": 257584,
+      "sha256": "f3356921907b9d794a4f3ec0976f864f8fdc66f91a1e6d7fd3f763c192351dc5"
+    },
+    {
+      "file": "meshes/head/5mm-ujoint-base__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/5mm-ujoint-base__1__1.stl",
+      "bytes": 257584,
+      "sha256": "24fb24b5e17bc343667f608eb2afc09cc3e7e8263d4fd9375df9a9d08c007d0f"
+    },
+    {
+      "file": "meshes/head/5mm-ujoint-base__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/5mm-ujoint-base__2__1.stl",
+      "bytes": 257584,
+      "sha256": "9fceaf2f717d90d4523533b7837de2f2031ae22c8935a23dbd6cffa79847edc2"
+    },
+    {
+      "file": "meshes/head/5mm-ujoint-base__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/5mm-ujoint-base__3__1.stl",
+      "bytes": 257584,
+      "sha256": "8987c8d84e2df532d6fdb77bc67e442d54fe31bca0301bcfc2a7cd76886f1261"
+    },
+    {
+      "file": "meshes/head/5mm-ujoint-base__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/5mm-ujoint-base__4__1.stl",
+      "bytes": 257584,
+      "sha256": "601a113cf0447c42dd9fa57031a505d8f6c3754749a46304446febae83f673c3"
+    },
+    {
+      "file": "meshes/head/5mm-ujoint-base__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/5mm-ujoint-base__5__1.stl",
+      "bytes": 257584,
+      "sha256": "a986683f67460700941b445d0d38523ace861f84a5f7b608da948cc649d50c7d"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base_1.stl",
+      "bytes": 211084,
+      "sha256": "0d0e170b615fdf2e80f64104b8531b8a33d4e6d75549b221b1ea9431f16d2dfb"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__10__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__10__1.stl",
+      "bytes": 211084,
+      "sha256": "02fe3c668412fda303ec0c30af6c8aa102bee555627357b3035c755fafacce7c"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__11__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__11__1.stl",
+      "bytes": 203684,
+      "sha256": "e90f70b6d9b7fa6fae3bd363ae58903020d1da5495c2d06a3c9e84150bf961fc"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__1__1.stl",
+      "bytes": 203684,
+      "sha256": "dd126cacfa0ff302c119ba703f7140616beac66cf052e1a5990f9f46ad141926"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__2__1.stl",
+      "bytes": 208184,
+      "sha256": "14a8d44e76d01ce26451e934e472e1dfc560b5481fe1040671786b1f21d020ac"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__3__1.stl",
+      "bytes": 211084,
+      "sha256": "2e935a4100664b16cf534e962b5b8120753db286eddca5cdd9c3cfdb8d9e0023"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__4__1.stl",
+      "bytes": 208184,
+      "sha256": "be5108432f737f92f24dd40b283ce3abd8e43f32c476b6cabd63b764b22b15ae"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__5__1.stl",
+      "bytes": 208184,
+      "sha256": "559354b93c0604071a9da9370bc3087e6f988976c2ebef128f9f3f0b0ec02739"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__6__1.stl",
+      "bytes": 205884,
+      "sha256": "c3c1c153f1de1a7d22a7ecfe67a838a5332472c11d9c90e9e0d391612703b5e8"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__7__1.stl",
+      "bytes": 203684,
+      "sha256": "cd930c6f1084a27fcf6e72733a4418f1332d6861d307158a1587682daaa38714"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__8__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__8__1.stl",
+      "bytes": 210284,
+      "sha256": "e3cbdf475bc909c52fb469d6c5329c7548bc91bcdb488ca11c86498a9d22ca5e"
+    },
+    {
+      "file": "meshes/head/8mm-ujoint-base__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/8mm-ujoint-base__9__1.stl",
+      "bytes": 203684,
+      "sha256": "8a43f4715fed0ae133869cf10560cd44ec65fd34abaa4d6c2e60e9f0ba5bce32"
+    },
+    {
+      "file": "meshes/head/DRV8825_3D_Printer_Driver_Expansion_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/DRV8825_3D_Printer_Driver_Expansion_1.stl",
+      "bytes": 1047684,
+      "sha256": "ea643ab49bf723b43f743bccf00f692dbe917c435c77f58f4728f00be02b77ae"
+    },
+    {
+      "file": "meshes/head/DRV8825_3D_Printer_Driver_Expansion__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/DRV8825_3D_Printer_Driver_Expansion__1__1.stl",
+      "bytes": 1093884,
+      "sha256": "a1acface804cc3fc1318a92b856333900cd7a29a35dec722e45acdcc79e50bdb"
+    },
+    {
+      "file": "meshes/head/DRV8825_3D_Printer_Driver_Expansion__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/DRV8825_3D_Printer_Driver_Expansion__2__1.stl",
+      "bytes": 1103684,
+      "sha256": "46e2cda452658327f1ccbd04a387a06548d14039ef1284fd92f4cac71704afec"
+    },
+    {
+      "file": "meshes/head/DRV8825_3D_Printer_Driver_Expansion__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/DRV8825_3D_Printer_Driver_Expansion__3__1.stl",
+      "bytes": 1103684,
+      "sha256": "bd86a597718fe00f4dfb9f856b6a3ec5d4409fd0eec197635d262380060c6d24"
+    },
+    {
+      "file": "meshes/head/DRV8825_3D_Printer_Driver_Expansion__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/DRV8825_3D_Printer_Driver_Expansion__4__1.stl",
+      "bytes": 1093884,
+      "sha256": "f6fe83b6e644194cfcdf5a79fadc50e52de28b852b4a0c1c0d3dac26ed4ada97"
+    },
+    {
+      "file": "meshes/head/DRV8825_3D_Printer_Driver_Expansion__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/DRV8825_3D_Printer_Driver_Expansion__5__1.stl",
+      "bytes": 1093884,
+      "sha256": "94a53e74e4f9d3d641bace25f7dceec72e60d59a22ce20cbd1705932dacf7a4e"
+    },
+    {
+      "file": "meshes/head/GPIO_Rail_AGX_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/GPIO_Rail_AGX_1.stl",
+      "bytes": 534484,
+      "sha256": "f228b2c9833b260bf27310460c57f6de9c247b56e03b58a018226e235f763c71"
+    },
+    {
+      "file": "meshes/head/Intel_RealSense_D455_CAD_external_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/Intel_RealSense_D455_CAD_external_1.stl",
+      "bytes": 190484,
+      "sha256": "4e791f231a79fef02f3c5a362c3d13c363f5aed6447b43d379172b1e44a6d050"
+    },
+    {
+      "file": "meshes/head/base-cover_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/base-cover_1.stl",
+      "bytes": 745084,
+      "sha256": "6493ad5263434958a167aea755f30ce1a296c4594f61e9830afc7a78d8d38793"
+    },
+    {
+      "file": "meshes/head/base-stepper-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/base-stepper-mount_1.stl",
+      "bytes": 475784,
+      "sha256": "468ea0434465ef9531611d7e239a331464e09a1c2abe6c71a666b0e2f90772d9"
+    },
+    {
+      "file": "meshes/head/base-stepper-mount__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/base-stepper-mount__1__1.stl",
+      "bytes": 558584,
+      "sha256": "4f6ecfd9553b7a00c28b871529951ba44cb41d60e17defffa7016dcba464abb2"
+    },
+    {
+      "file": "meshes/head/base-stepper-mount__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/base-stepper-mount__2__1.stl",
+      "bytes": 475984,
+      "sha256": "8caacd8f531e720429ad51fa9a1327081e1ff46c9fdeffc98ea422535e1549fe"
+    },
+    {
+      "file": "meshes/head/cap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/cap_1.stl",
+      "bytes": 1621184,
+      "sha256": "26f30d268fffd8ede7f405dd0e890a2e1c9d29e2428be6ab538711d2ea8b8b7a"
+    },
+    {
+      "file": "meshes/head/center-bracket2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/center-bracket2_1.stl",
+      "bytes": 164984,
+      "sha256": "e2ae01ee04a416053351d53c0a5cb8d87a9fe5ccd992cf767b22ef2e3911090d"
+    },
+    {
+      "file": "meshes/head/center-bracket2__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/center-bracket2__1__1.stl",
+      "bytes": 163284,
+      "sha256": "91411effbdc9d5f0cf151ce7bea6d5d97c2df44e2d319fa5197544138afaaab2"
+    },
+    {
+      "file": "meshes/head/center-bracket2__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/center-bracket2__2__1.stl",
+      "bytes": 163284,
+      "sha256": "ebc00eb5da8d28e3d94bb082ea79740b3b09d2610495440dd019e401ca9052a1"
+    },
+    {
+      "file": "meshes/head/center-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/center-bracket_1.stl",
+      "bytes": 197484,
+      "sha256": "66b273379da9e830fd710a9012bdc34c4794fed5697a2e2c18e218afb73daf9b"
+    },
+    {
+      "file": "meshes/head/esp32_30pin_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/esp32_30pin_1.stl",
+      "bytes": 1544034,
+      "sha256": "5e59e6ad3ac21801ebec22fd33b39abb489d0a0eb33281ad96e56a5bbf91409e"
+    },
+    {
+      "file": "meshes/head/front-plate_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/front-plate_1.stl",
+      "bytes": 1188484,
+      "sha256": "3a7dddab83e2c67b9760088112500786be766f83a7318c845d23be78b8449842"
+    },
+    {
+      "file": "meshes/head/inner-antenna-holder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/inner-antenna-holder_1.stl",
+      "bytes": 932184,
+      "sha256": "f972b5f9c93d7b29be507de4163aaa8665ac9ff095ec5a9d1570fe4c243ec32f"
+    },
+    {
+      "file": "meshes/head/leadscrew_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/leadscrew_1.stl",
+      "bytes": 27884,
+      "sha256": "54999120d79290582e3ecb47c43e050d7c429c570885229c8e9eb6b78ae390aa"
+    },
+    {
+      "file": "meshes/head/leadscrew__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/leadscrew__1__1.stl",
+      "bytes": 27084,
+      "sha256": "9e5dbb03d8bda4a6471581c189a5ccede14978890e49248b105ad5a95f61b3d4"
+    },
+    {
+      "file": "meshes/head/leadscrew__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/leadscrew__2__1.stl",
+      "bytes": 27084,
+      "sha256": "f871ef917b21a9fc58b3c7ae6ca4868741c93a938fbad6a03acd4cfdd6291ae6"
+    },
+    {
+      "file": "meshes/head/leadscrew__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/leadscrew__3__1.stl",
+      "bytes": 27884,
+      "sha256": "32e7b6ff39197fa403fce81847a04caf086051562b25b60a6985ab45b8a0e352"
+    },
+    {
+      "file": "meshes/head/leadscrew__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/leadscrew__4__1.stl",
+      "bytes": 27084,
+      "sha256": "43b81bf620b685a278e57b7c995c7677c5c702f8b8000489c9d3a165cfb89f95"
+    },
+    {
+      "file": "meshes/head/leadscrew__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/leadscrew__5__1.stl",
+      "bytes": 27084,
+      "sha256": "a9451e30b4da0a1a7914c7eed414b5ac5e24928f8f5424dc70a0d9fcf68e26d7"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_1.stl",
+      "bytes": 20084,
+      "sha256": "b14053323f628d4c69960d76ce8659f62cc7ace06f28d0f230b7105bb7142f3f"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_10.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_10.stl",
+      "bytes": 20284,
+      "sha256": "e2d72857890cadb01614bbf64c9c8f09cd8dda5b5f7c2a1d4f610843a163ae09"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_11.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_11.stl",
+      "bytes": 20084,
+      "sha256": "000799c720ad4c53d404be3ab56caaf49ed90e192d9f0cb5b10e049c709ba15b"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_12.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_12.stl",
+      "bytes": 20284,
+      "sha256": "1dc79d1cc4f2eaa104e9fe585b0b10a5f957f0958e6f3842b3b4314b19343f2b"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_13.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_13.stl",
+      "bytes": 20284,
+      "sha256": "87a6b7466ab09dfa485dc527b005f1e9bd9bda851f5b509310e3de227210e174"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_14.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_14.stl",
+      "bytes": 18284,
+      "sha256": "5b2775c86de19894d0a459d4bdde468e8338170e8122f79a29fbea8cc9761e1d"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_15.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_15.stl",
+      "bytes": 20284,
+      "sha256": "3f764b55607a155e2d11ed987954275240fd68b4f137dea1096fefa1c47e5ad6"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_16.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_16.stl",
+      "bytes": 20084,
+      "sha256": "20c1811177eae9089af191a9c3c01e10ce96a322199d16a4968345675175158e"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_17.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_17.stl",
+      "bytes": 20084,
+      "sha256": "c70bd348e15b879d4f353bef37cff59e109842b45dd0d254871e74926504ab19"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_18.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_18.stl",
+      "bytes": 20084,
+      "sha256": "2bd4dd048cc3ebab3ab8d66c4c6030a24feb967149e8767d5830da21b5dd28b2"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_19.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_19.stl",
+      "bytes": 20084,
+      "sha256": "1f584d24c40f73613375b382b106eec071a4bc320f70652940a706e0afc923f1"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_2.stl",
+      "bytes": 18684,
+      "sha256": "07fc90e484c05739f05b37babbef4d621d224f4fb563e232ec4e6a3c5dc171af"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_20.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_20.stl",
+      "bytes": 20084,
+      "sha256": "18c69c9497a2df8ab0cc6f88b3552175682f5b7e3fff5ae72e7c565e32f44a69"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_21.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_21.stl",
+      "bytes": 20084,
+      "sha256": "d8bbe60cfd25a69628e1ff9bb5524d69c72a70111fd945b7e7a0cfb1020fdbe3"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_22.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_22.stl",
+      "bytes": 20084,
+      "sha256": "2d1c803656a85af73a86f7eaa0bd6fd8ba87fce2619fb8374a92a2a6ab7dcfee"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_23.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_23.stl",
+      "bytes": 20084,
+      "sha256": "45e0c4b14d7d64e9ce62d2e5ba65c133131e1245ef7f61710757eb0d04f1d624"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_3.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_3.stl",
+      "bytes": 20084,
+      "sha256": "ec66413a7f74d806b114fcb65dfab24744b9a76fcf2172e6cbc2f7eb4c0e96ae"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_4.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_4.stl",
+      "bytes": 18684,
+      "sha256": "a8e538042ac17d8754f3f590cf20ce2e88fac9a6586d014f25ee744b9b852452"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_5.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_5.stl",
+      "bytes": 18284,
+      "sha256": "99c4de8ab41aae12969078e16c868d217326bc0b5501e9e5cd73a44d758359aa"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_6.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_6.stl",
+      "bytes": 20084,
+      "sha256": "4aabeb539e4d1088065383cdaf99635ef136c0c0f458115b43f0c72194b69a78"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_7.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_7.stl",
+      "bytes": 20084,
+      "sha256": "f66b3659885fa593e879da8570b0c4d6195be95997c742bd43396697df6fa9df"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_8.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_8.stl",
+      "bytes": 18684,
+      "sha256": "c6e1d2fb68bee38f9a4aac0648e993f6ac54d569e1164cbfe082ae3360db4bad"
+    },
+    {
+      "file": "meshes/head/m4-bolt-head_9.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/m4-bolt-head_9.stl",
+      "bytes": 18684,
+      "sha256": "1355cc1ce6f0d128857d8ba8eff59092a7e4c05f29ca42996c2604f2554e263e"
+    },
+    {
+      "file": "meshes/head/mouth2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/mouth2_1.stl",
+      "bytes": 1423584,
+      "sha256": "ca05a6357824ab5837e76a489f5001bc2d9f2ab8065d8b624cd5d9a60b749fe9"
+    },
+    {
+      "file": "meshes/head/neck-back_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/neck-back_1.stl",
+      "bytes": 282784,
+      "sha256": "0174c380923b0b066ffc49b139448b7f1acb1adfef76b1f2c941c13c0fe13e2f"
+    },
+    {
+      "file": "meshes/head/neck-driver-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/neck-driver-mount_1.stl",
+      "bytes": 768584,
+      "sha256": "9c48d755235b1ad13d13ee17148aaddf5aeb5758c28da202367ca0d0c488994d"
+    },
+    {
+      "file": "meshes/head/neck-stack-secondary_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/neck-stack-secondary_1.stl",
+      "bytes": 411484,
+      "sha256": "0538d3ec6a24c6e3d81e0006d9142b522a4c55b2137c989e1f564bdccddff963"
+    },
+    {
+      "file": "meshes/head/new-neck_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/new-neck_1.stl",
+      "bytes": 551884,
+      "sha256": "d6d5858d50a021dcc1607fc754ac1058f7480447cdbe1133aee7dad84c2d49b0"
+    },
+    {
+      "file": "meshes/head/newsheath_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/newsheath_1.stl",
+      "bytes": 328084,
+      "sha256": "bf4eccbe3dc650d69957ba84760cc20f12ea65a218556495c9bd2813ddbf7657"
+    },
+    {
+      "file": "meshes/head/newsheath__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/newsheath__1__1.stl",
+      "bytes": 325184,
+      "sha256": "0e270db7e576f5822d862e7135d40dbd85d05c2d3abc1769586e3e2d9038ca2a"
+    },
+    {
+      "file": "meshes/head/newsheath__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/newsheath__2__1.stl",
+      "bytes": 325184,
+      "sha256": "8b6bbc526bb7e12e6a85f41e2cc8f39160cf7f6cf46f829de7612560ad7e8eea"
+    },
+    {
+      "file": "meshes/head/newsheath__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/newsheath__3__1.stl",
+      "bytes": 325184,
+      "sha256": "69139bf05d02c3187ccfb4f62761d3361a0974306c4a3d12be1f13dfe8441aa5"
+    },
+    {
+      "file": "meshes/head/newsheath__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/newsheath__4__1.stl",
+      "bytes": 325184,
+      "sha256": "602e13b9beddff0df6f810f2fc4a6460a802d16b2e42f9d0a8c021776f480387"
+    },
+    {
+      "file": "meshes/head/newsheath__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/newsheath__5__1.stl",
+      "bytes": 328084,
+      "sha256": "bc2b05bd557723a9dfd61eafac08e3f64b7ed93f023bb9cdab860a030c9846bf"
+    },
+    {
+      "file": "meshes/head/radiosheath_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/radiosheath_1.stl",
+      "bytes": 371084,
+      "sha256": "fed56499a01680e294ff4d89e810b6b5cf1784beec69760b21fedb00fdef8cfa"
+    },
+    {
+      "file": "meshes/head/realsense-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/realsense-bracket_1.stl",
+      "bytes": 1151534,
+      "sha256": "438bb32f6d4647781bd0b0a95f8b75154d119b757946188efba9caebb4460519"
+    },
+    {
+      "file": "meshes/head/realsense_2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/realsense_2_1.stl",
+      "bytes": 1066184,
+      "sha256": "d5e90fbe9569dee2e5466fa28ee56b343b749038ced2127a1067e5fe7b25008e"
+    },
+    {
+      "file": "meshes/head/rear-antenna-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/rear-antenna-mount_1.stl",
+      "bytes": 212084,
+      "sha256": "87b594db4c521e521d52a10f5d180193e5431c141847924ec35afed6b6a47b5c"
+    },
+    {
+      "file": "meshes/head/rear-base_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/rear-base_1.stl",
+      "bytes": 683384,
+      "sha256": "8cf67190cf6fcd9d78cacbc03cbe82dd74361d6a8c3f184b41332db88fdfabaa"
+    },
+    {
+      "file": "meshes/head/screw-reciever_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/screw-reciever_1.stl",
+      "bytes": 95584,
+      "sha256": "96397181bf574a45ddd9ec5befb82c6f57e2510813de1625b7632d49ebd5b6ef"
+    },
+    {
+      "file": "meshes/head/screw-reciever__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/screw-reciever__1__1.stl",
+      "bytes": 95584,
+      "sha256": "6a24569fdaa38795f3951aad3fa8ea8638641fa9ec8358669d0719f11196ab9a"
+    },
+    {
+      "file": "meshes/head/screw-reciever__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/screw-reciever__2__1.stl",
+      "bytes": 95784,
+      "sha256": "7d9c89e47e8527c39ee04ee6065a819227b09b0fda438cfc64c5d3740fe5bc19"
+    },
+    {
+      "file": "meshes/head/screw-reciever__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/screw-reciever__3__1.stl",
+      "bytes": 95784,
+      "sha256": "75683d75f92e93663c60efaea2d8d53a6b03f90375e41c6ea03fff679f31aacb"
+    },
+    {
+      "file": "meshes/head/screw-reciever__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/screw-reciever__4__1.stl",
+      "bytes": 95584,
+      "sha256": "54aab9371cf0193a60e93aa8ec47430e3a6fd0ee5bff2b26a752ed07297cc088"
+    },
+    {
+      "file": "meshes/head/screw-reciever__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/screw-reciever__5__1.stl",
+      "bytes": 95584,
+      "sha256": "63226a7f5a5a5e93490dc5bb4a7c2ff258ac6fba07acb9e1fe0e13370e835634"
+    },
+    {
+      "file": "meshes/head/stepper_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/stepper_1.stl",
+      "bytes": 70984,
+      "sha256": "d56cbe3f15885b769519fe0c1617678dbfcac4a6e2a39a723fa10a38049ce7fd"
+    },
+    {
+      "file": "meshes/head/stepper__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/stepper__1__1.stl",
+      "bytes": 70984,
+      "sha256": "94d2ab9305c8086e493e0375b7f8dccbcd3d2d7a99b02b7987c849ee3f79468a"
+    },
+    {
+      "file": "meshes/head/stepper__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/stepper__2__1.stl",
+      "bytes": 84684,
+      "sha256": "c90a94db0dae393a12a66cebf8fcfb6eef1ee061da605365966f59e2a2624bdf"
+    },
+    {
+      "file": "meshes/head/stepper__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/stepper__3__1.stl",
+      "bytes": 84684,
+      "sha256": "00408a6d8d6ec4640ee892cef761d2f76f9e21de9ae8ddf27b1299a69d67cb2f"
+    },
+    {
+      "file": "meshes/head/stepper__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/stepper__4__1.stl",
+      "bytes": 70984,
+      "sha256": "e465688ed9a9656a4bb7411082aefdb7877f0975cb78064debc5bdc060752d44"
+    },
+    {
+      "file": "meshes/head/stepper__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/stepper__5__1.stl",
+      "bytes": 70984,
+      "sha256": "1dceac34819e25356dc5438c641174e5536362b966521e69d76aa243076e53df"
+    },
+    {
+      "file": "meshes/head/temple2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/temple2_1.stl",
+      "bytes": 1473284,
+      "sha256": "3228787f5b796d9b77bde92a866548bc69097f98b30abd2fb84f98e23ccf88eb"
+    },
+    {
+      "file": "meshes/head/top-stewart-lead-screw-u-joint-fixture_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/top-stewart-lead-screw-u-joint-fixture_1.stl",
+      "bytes": 47484,
+      "sha256": "fcd2fd1889e7bf65f65d6ed1dc43948533380befa205d918a8fb3b08f9bfbb55"
+    },
+    {
+      "file": "meshes/head/top-stewart-lead-screw-u-joint-fixture__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/top-stewart-lead-screw-u-joint-fixture__1__1.stl",
+      "bytes": 47484,
+      "sha256": "8185c4b007efc258c15328d081d6b0f5100f9ab0a94ca63e764561a5c734ab3d"
+    },
+    {
+      "file": "meshes/head/top-stewart-lead-screw-u-joint-fixture__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/top-stewart-lead-screw-u-joint-fixture__2__1.stl",
+      "bytes": 47484,
+      "sha256": "317fe2179c6fe04d0c0e7d25f7e0fe1b2dcaad24f67123c9360c3c276c393412"
+    },
+    {
+      "file": "meshes/head/top-stewart-lead-screw-u-joint-fixture__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/top-stewart-lead-screw-u-joint-fixture__3__1.stl",
+      "bytes": 47484,
+      "sha256": "93ff65aea130ff2cf6b3f1c3ea85e8e3f45fff4080ab6af31884cb5ca108a606"
+    },
+    {
+      "file": "meshes/head/top-stewart-lead-screw-u-joint-fixture__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/top-stewart-lead-screw-u-joint-fixture__4__1.stl",
+      "bytes": 48084,
+      "sha256": "128506576e87a33fcecb069edb90353792dd2b96a0c6d111161de84d2e1e7b0a"
+    },
+    {
+      "file": "meshes/head/top-stewart-lead-screw-u-joint-fixture__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/top-stewart-lead-screw-u-joint-fixture__5__1.stl",
+      "bytes": 48084,
+      "sha256": "2bf0550a270f4702dc2b0590db4feb34ce97e23df5e2654a238068929be6cb60"
+    },
+    {
+      "file": "meshes/head/u-joint-center_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center_1.stl",
+      "bytes": 76284,
+      "sha256": "8ebbba89324d46ab59ab07d58307388d42e08c05ccc5b3981ae6ec7ab2b3b56f"
+    },
+    {
+      "file": "meshes/head/u-joint-center__10__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__10__1.stl",
+      "bytes": 75284,
+      "sha256": "5ef1bfe12613bbbcdfe196b85bbe8702176fc49cc29e206b7c60df580eb5ba7e"
+    },
+    {
+      "file": "meshes/head/u-joint-center__11__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__11__1.stl",
+      "bytes": 75284,
+      "sha256": "bbe2b0841d8fd9374206ab6e261011c696f7c1af44e157606a69d2216f83d6c9"
+    },
+    {
+      "file": "meshes/head/u-joint-center__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__1__1.stl",
+      "bytes": 75284,
+      "sha256": "de1171a8a5131abef3fa9c3932fed4a80a5b0920104e8d3daacd2eeff8b463fb"
+    },
+    {
+      "file": "meshes/head/u-joint-center__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__2__1.stl",
+      "bytes": 75284,
+      "sha256": "843dd8193ff55f54bf7d3ac77e1c3fde7060df103177418d9eca307adc6455f2"
+    },
+    {
+      "file": "meshes/head/u-joint-center__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__3__1.stl",
+      "bytes": 75284,
+      "sha256": "972b874fc3d134dc89622bee46b6d32642d979770b4a2ecb7186cf93e1efb566"
+    },
+    {
+      "file": "meshes/head/u-joint-center__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__4__1.stl",
+      "bytes": 76284,
+      "sha256": "b9af46b75de9ba09fb00727febd349983fef0a9dc1b5f810d0e6f60b6defa24f"
+    },
+    {
+      "file": "meshes/head/u-joint-center__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__5__1.stl",
+      "bytes": 75284,
+      "sha256": "708301d38b2544f015e9e0c3935ca33431614a03d22d3b344e3569267f6d62b0"
+    },
+    {
+      "file": "meshes/head/u-joint-center__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__6__1.stl",
+      "bytes": 76284,
+      "sha256": "bfa32d6c1635890f2e804c5920ac4ded6aa1d73cf2d1a4d2db6dcfa428212f60"
+    },
+    {
+      "file": "meshes/head/u-joint-center__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__7__1.stl",
+      "bytes": 74884,
+      "sha256": "a18603a008ff31c6815fd2a6468df36100562474a32e5eabb9ba0b63b87e2ec5"
+    },
+    {
+      "file": "meshes/head/u-joint-center__8__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__8__1.stl",
+      "bytes": 75284,
+      "sha256": "8c0db79bc047e1b39fb2038d6b9b3e07d2ad6774f1ed33f0b2487fd77d4dc076"
+    },
+    {
+      "file": "meshes/head/u-joint-center__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/u-joint-center__9__1.stl",
+      "bytes": 76284,
+      "sha256": "1f3fda45133c88269e6882bf908f7e2bd4fef1f471bc5222f3006aa862e9d790"
+    },
+    {
+      "file": "meshes/head/ultrasonic_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/ultrasonic_1.stl",
+      "bytes": 266384,
+      "sha256": "979b253085ccfe39b78730bf0ad00097cda7e4b615f617efed44a1c5587a63a0"
+    },
+    {
+      "file": "meshes/head/ultrasonic_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/ultrasonic_2.stl",
+      "bytes": 266384,
+      "sha256": "549cb8cd819bfe8d5ab5dde51dea319a439a9fd8fb63a3a396d5959b5bf5e97c"
+    },
+    {
+      "file": "meshes/head/usbhybrid_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/usbhybrid_1.stl",
+      "bytes": 58384,
+      "sha256": "2230d5e7e5edfab795fd07551ebbb6272bd1e907dc39f9e813a4d3bf22473198"
+    },
+    {
+      "file": "meshes/head/usbhybrid_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/head/usbhybrid_2.stl",
+      "bytes": 58384,
+      "sha256": "025997de1db1635c2f3527899e0d68a1e582cc126db43060a88e98eeb1090f4c"
+    },
+    {
+      "file": "meshes/left_arm/2020_100mm__10__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/2020_100mm__10__1.stl",
+      "bytes": 217284,
+      "sha256": "2b3367cfd1409f88e41ae011a1b3d9b47bfbfcec8bc7ca6797b24a01955320d0"
+    },
+    {
+      "file": "meshes/left_arm/2020_100mm__11__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/2020_100mm__11__1.stl",
+      "bytes": 217284,
+      "sha256": "6f53d5f7e034e1149bf62d54cf7abc986c3dc821038b396c99dac809646f77ad"
+    },
+    {
+      "file": "meshes/left_arm/2020_100mm__8___1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/2020_100mm__8___1__1.stl",
+      "bytes": 217284,
+      "sha256": "f51dd081be81210a7a2f73afc5c6ff0b69c35b1a1b934eb6fb8e57ebafb30467"
+    },
+    {
+      "file": "meshes/left_arm/2020_100mm__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/2020_100mm__9__1.stl",
+      "bytes": 217284,
+      "sha256": "6e04608d3cdf9a9502cc7933145353328b107cd7d64d1cdfd272fffc307414a1"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing_1.stl",
+      "bytes": 34084,
+      "sha256": "d7ccb90c4d9d46a153bd618fbee0e32daab2775bb5bf1f4aded1af8afca5fee4"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing__1__1.stl",
+      "bytes": 34084,
+      "sha256": "4299efd00d79e0dfa122f06905820dad87940bb7fab0ce8c5fad4c2b4958fa46"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing__2__1.stl",
+      "bytes": 34084,
+      "sha256": "99189904df9a7b73cd6f867f354f7e4ab3e9b784bbc7d00516b9dc7fbea4f42a"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing__3__1.stl",
+      "bytes": 34084,
+      "sha256": "0887476cbc64ab1d590d18a880078dc997cd30d0084e677be925194f3bcdc189"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing__4__1.stl",
+      "bytes": 34084,
+      "sha256": "74bcaf96df17fa04fc72ca9c7586dfb48ec8f812d43966990183ecfb82fd8924"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing__5__1.stl",
+      "bytes": 34084,
+      "sha256": "0ef712d9696b53ac43b7ffa8d4f1fa2aa0c8fc25a0f1f6e6af6b71612a6c83ad"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing__6__1.stl",
+      "bytes": 34084,
+      "sha256": "033b22e4cf2d3d711e902f19352cf49b4c3c912c1b3c8af9e30a97ac07f7b3cd"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing__7__1.stl",
+      "bytes": 34084,
+      "sha256": "d7014bb2796fa3d9b8582119947989f288683a3353a7c051b81326f76bdb94cb"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__8__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing__8__1.stl",
+      "bytes": 34084,
+      "sha256": "e73ef2f0c15c093e6086dbffdac5fab298793cdfd6df900a997537a701f841f5"
+    },
+    {
+      "file": "meshes/left_arm/6mm-bearing__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/6mm-bearing__9__1.stl",
+      "bytes": 34084,
+      "sha256": "e43bc203d9d5ef97d876102ea139e286fce36bb997b346103b2870c3527fe031"
+    },
+    {
+      "file": "meshes/left_arm/MG995_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/MG995_1.stl",
+      "bytes": 450784,
+      "sha256": "9f38c7ff89c4a3486ddc892352f5921e3a6efc644b72c35f5ff6e58da34697e7"
+    },
+    {
+      "file": "meshes/left_arm/MG995__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/MG995__1__1.stl",
+      "bytes": 450784,
+      "sha256": "7c01a0d1a2944f7ddd343c8ccb8a691baf2f3eb7a324f2020178c516099f8b23"
+    },
+    {
+      "file": "meshes/left_arm/MG995__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/MG995__2__1.stl",
+      "bytes": 450784,
+      "sha256": "82efd92ce791a25bd399202a54c765babae0efaf8c4df80c89cf65c4e8af53e4"
+    },
+    {
+      "file": "meshes/left_arm/MG995__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/MG995__3__1.stl",
+      "bytes": 450784,
+      "sha256": "feb45e9b6f4970edb843bd2d1b134fbd011126fdb783c1621d87c1462eb42c5d"
+    },
+    {
+      "file": "meshes/left_arm/MG995__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/MG995__4__1.stl",
+      "bytes": 450784,
+      "sha256": "dbcd47db5ae11e69141c954f8a035985f144860040d899a35d5b5bf166c2aecd"
+    },
+    {
+      "file": "meshes/left_arm/MG995__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/MG995__5__1.stl",
+      "bytes": 450784,
+      "sha256": "a35b275426b35a73ce5b3b867048bbb5e6df5256a3de21be58c27d08ec867d4f"
+    },
+    {
+      "file": "meshes/left_arm/MG995__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/MG995__6__1.stl",
+      "bytes": 450784,
+      "sha256": "982b8677950cee3b15c7e80175fed9b067fe8d4e8808d78dd320d787c27568b0"
+    },
+    {
+      "file": "meshes/left_arm/MG995__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/MG995__7__1.stl",
+      "bytes": 450784,
+      "sha256": "c496f67d9c9a6a8b60aca99bc10056133f9acfebb5c72cb706fca39cb8751bc2"
+    },
+    {
+      "file": "meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__1__1.stl",
+      "bytes": 1216084,
+      "sha256": "29731679c966a1ba1874fcd582e33722eb606a7e50aeafdb0a339e1182fcc1ed"
+    },
+    {
+      "file": "meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__2__1.stl",
+      "bytes": 1216084,
+      "sha256": "8e2d5905beba51f1300ce74509931b2db2c962dce83169a9712175a4961525fd"
+    },
+    {
+      "file": "meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__3__1.stl",
+      "bytes": 1216084,
+      "sha256": "2ee8e54859ef0da72d5c0d36dd8fcf2e5afe6e1e6b1ca127bfc3753dd59c2873"
+    },
+    {
+      "file": "meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/RMD-X8-Pro_MIR8_MIR1__4__1.stl",
+      "bytes": 1216084,
+      "sha256": "192901d7c97d3a1e817cdef1121c281722195129de6e52eb94cc3ae7e68be814"
+    },
+    {
+      "file": "meshes/left_arm/arm-cuff-bicep-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/arm-cuff-bicep-bracket_1.stl",
+      "bytes": 689584,
+      "sha256": "38d9e4758342a5a3eafd9bacc5d43b27763607ae3b6ba2ecfefe3dea607c8ca9"
+    },
+    {
+      "file": "meshes/left_arm/bicep-motor-mate_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/bicep-motor-mate_1.stl",
+      "bytes": 199184,
+      "sha256": "291ef2307775bc4bc5b7d75b7046cad6025e37ae6ada2b6fd3f83324810e5977"
+    },
+    {
+      "file": "meshes/left_arm/bicep-rear-motor-adapter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/bicep-rear-motor-adapter_1.stl",
+      "bytes": 98884,
+      "sha256": "a75bec52cc20a9e26a5a3de199c2dae03dc31d897879143f2f3fb2a14e289bb6"
+    },
+    {
+      "file": "meshes/left_arm/bicep-rotational-cuff-second-motor-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/bicep-rotational-cuff-second-motor-bracket_1.stl",
+      "bytes": 461534,
+      "sha256": "887e5dae4cabc556251e50c66424624210b0eb8b0004956ccbe67b2b02c67743"
+    },
+    {
+      "file": "meshes/left_arm/bicep-shoulder-bracket-exal_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/bicep-shoulder-bracket-exal_1.stl",
+      "bytes": 67884,
+      "sha256": "15ee86a55f3a8f2e61d47c9db0e42e88d41474271d7c0d4a9748bfa3dc56213f"
+    },
+    {
+      "file": "meshes/left_arm/bicep-shoulder-bracket-exal__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/bicep-shoulder-bracket-exal__1__1.stl",
+      "bytes": 67884,
+      "sha256": "5358edf4115494e30e46dd36cc8f910b87904586d8289f87a85d0f15d2211952"
+    },
+    {
+      "file": "meshes/left_arm/bicep-shoulder-bracket-exal__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/bicep-shoulder-bracket-exal__2__1.stl",
+      "bytes": 67884,
+      "sha256": "1c5f70ea776359f3ba457f38c9ac7e5a8fab1a6d2dbfded8e471ce809ba218be"
+    },
+    {
+      "file": "meshes/left_arm/bicep-shoulder-bracket-exal__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/bicep-shoulder-bracket-exal__3__1.stl",
+      "bytes": 67884,
+      "sha256": "11116f239106c6edee556c781723e4d6195b456b0cffc57a0c427e3b873fbd56"
+    },
+    {
+      "file": "meshes/left_arm/bicep_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/bicep_1.stl",
+      "bytes": 304884,
+      "sha256": "da9eab0d10583d41a150bfaf31eed2f5347c4a3aa2dbf03c7356b579bde5bd3a"
+    },
+    {
+      "file": "meshes/left_arm/elbow-bridge-rear_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/elbow-bridge-rear_1.stl",
+      "bytes": 338084,
+      "sha256": "f1aec2481be81cbf4fffe82ab64b1dcde310b563cc21ccdccf3355fa30b63b38"
+    },
+    {
+      "file": "meshes/left_arm/elbow-bridge-rear__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/elbow-bridge-rear__1__1.stl",
+      "bytes": 338484,
+      "sha256": "498814275d520b2daa35b688600b3fe19c52b0feaeb612a5e73b817b0ab12664"
+    },
+    {
+      "file": "meshes/left_arm/elbow-hangar1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/elbow-hangar1_1.stl",
+      "bytes": 350084,
+      "sha256": "972c5b99f3864b1247f7a95df07a59cffd072df9502c95d790df8765998079f3"
+    },
+    {
+      "file": "meshes/left_arm/elbow-hangar_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/elbow-hangar_1.stl",
+      "bytes": 364484,
+      "sha256": "3a29bdd90cb64ea1ecde62393e9df4c41a8699760f42e55c38a7cf950b9e7e44"
+    },
+    {
+      "file": "meshes/left_arm/elbow-rear-hanger_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/elbow-rear-hanger_1.stl",
+      "bytes": 354484,
+      "sha256": "1bd088eae066edb39bf5fa3db215ef4f420056208ae488d9db5e8ebe0ba009f6"
+    },
+    {
+      "file": "meshes/left_arm/elbow-rear-hanger__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/elbow-rear-hanger__1__1.stl",
+      "bytes": 354484,
+      "sha256": "9d35494e5164eca904e778ef3d4b9eab3407f9f0a210514989776a147e143bce"
+    },
+    {
+      "file": "meshes/left_arm/fan-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/fan-mount_1.stl",
+      "bytes": 456884,
+      "sha256": "31776b7423aea79136ce801f9b63219a9279a0a0b9902b9af27e9a08985eabb0"
+    },
+    {
+      "file": "meshes/left_arm/fore-arm-bicep-motor-attatch_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/fore-arm-bicep-motor-attatch_1.stl",
+      "bytes": 312184,
+      "sha256": "889e006db6036b20846353a884e3f1176fe3352821b38edd8832be331e6aad3c"
+    },
+    {
+      "file": "meshes/left_arm/forearm-elbow-motor-bracket-inner2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/forearm-elbow-motor-bracket-inner2_1.stl",
+      "bytes": 276884,
+      "sha256": "dc16c584353b98ad9e0706e54b9d6c4a440bde0703e0d9759df2fa7b528e033a"
+    },
+    {
+      "file": "meshes/left_arm/forearm-elbow-motor-bracket-inner_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/forearm-elbow-motor-bracket-inner_1.stl",
+      "bytes": 261684,
+      "sha256": "21fc04e49dcfad42d73c7a06f7df1e554e3db418542468c9f3640ee3b47ffd12"
+    },
+    {
+      "file": "meshes/left_arm/front-bearing-adapter-shoulder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/front-bearing-adapter-shoulder_1.stl",
+      "bytes": 129884,
+      "sha256": "fbf047f0d4065e687988290ee539f9a3c3e521b1e3fef11251085ca3f6ca21ec"
+    },
+    {
+      "file": "meshes/left_arm/multiplex-stack-flat_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/multiplex-stack-flat_1.stl",
+      "bytes": 1021484,
+      "sha256": "abc3803f51ee529e9f0579f33b133d217de0dc82c18f5c8863bdafd0fcbfb427"
+    },
+    {
+      "file": "meshes/left_arm/power-mount-arm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/power-mount-arm_1.stl",
+      "bytes": 290684,
+      "sha256": "3fb3ce83b895719d5123fcf5a447c23eed6ad83777d4f4241ea1a08c190a770a"
+    },
+    {
+      "file": "meshes/left_arm/second-forearm-motor-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/second-forearm-motor-strap_1.stl",
+      "bytes": 238684,
+      "sha256": "5b66834540e488e9d4194b701b0fe18bcf480fa06614bb120c4fde38f5515d3e"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-cap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-cap_1.stl",
+      "bytes": 89784,
+      "sha256": "1e21fd8f5cd2b1031e2a6388b0fb001d86f3a793c0c9643cb3bc26da1d275587"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-ex-al-interface_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-ex-al-interface_1.stl",
+      "bytes": 137384,
+      "sha256": "6ee5fb7af6be42dc423adb35cf8161b2291bb891870803dcc497324cf2420296"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-ex-al-interface__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-ex-al-interface__1__1.stl",
+      "bytes": 137384,
+      "sha256": "345fb216eb1c43ef82e32321cfab92c00d8d547422fe91c97395fbc9f06e4452"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-ex-al-interface__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-ex-al-interface__2__1.stl",
+      "bytes": 137384,
+      "sha256": "066de43266aa515e827ec963a7c2ca466420b8a60484b12372f6e380af0264f0"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-front-bearing-adapter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-front-bearing-adapter_1.stl",
+      "bytes": 178384,
+      "sha256": "20f224afaaef90afa0d864ad73724e8e5495102483023bd00db4920d0217782e"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-front_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-front_1.stl",
+      "bytes": 144084,
+      "sha256": "100508aaf4e908f951d3b0ad39e936ad7dd5e03e769a7c4868579c9f2d48e221"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-motor-bicep-rotor-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-motor-bicep-rotor-bracket_1.stl",
+      "bytes": 77684,
+      "sha256": "03e3cfef034c1222e3d30a43c609f94df99dd0341afb0b0f9b4aa8ce6b9f0983"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-roll-al-mot_MIR1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-roll-al-mot_MIR1_1.stl",
+      "bytes": 404384,
+      "sha256": "b9b01612d3ea3b53381c3059969c00b3fe69727705dc7bc66ade855dcac4e2e7"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-roll-al-mot_MIR1__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-roll-al-mot_MIR1__1__1.stl",
+      "bytes": 404384,
+      "sha256": "548a1e7450356f4074b558540fe60a26aea8734a062287a95e9e58f072155aa7"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-roll-al-mot_MIR1__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-roll-al-mot_MIR1__2__1.stl",
+      "bytes": 404384,
+      "sha256": "3deb87070d575aeead07b9a85c596f2922eb0e7b277d226dbf43e6792a26b0ef"
+    },
+    {
+      "file": "meshes/left_arm/shoulder-roll-al-mot_MIR1__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/shoulder-roll-al-mot_MIR1__3__1.stl",
+      "bytes": 404384,
+      "sha256": "f37fde86cf0d439e3d5a98fc39897ed4cd8177bfd5b50db38cc10a8c36f6f26a"
+    },
+    {
+      "file": "meshes/left_arm/skateboard-bearing__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/skateboard-bearing__7__1.stl",
+      "bytes": 33484,
+      "sha256": "8bbe11483694a4e358c59f857608e0d8751756d985c02a60227d984efce9ada8"
+    },
+    {
+      "file": "meshes/left_arm/straight-tendon_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/straight-tendon_1.stl",
+      "bytes": 789534,
+      "sha256": "b65f80e3e57f82c4624e33f1f614b899d3535b9182ada76e6d6d955952b706c1"
+    },
+    {
+      "file": "meshes/left_arm/top-bracket-servo-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/top-bracket-servo-strap_1.stl",
+      "bytes": 690284,
+      "sha256": "c5a0e8e3759319f93cd67f4df337905b9eb26a6da30e96a41cc278ed21b93fa1"
+    },
+    {
+      "file": "meshes/left_arm/top-bracket-servo-strap__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/top-bracket-servo-strap__1__1.stl",
+      "bytes": 690284,
+      "sha256": "8a7fdc8596ab8b94e6d9fba2e749303a206ad11c0590c11f82e0c8a71a5ced02"
+    },
+    {
+      "file": "meshes/left_arm/yaw-cap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/yaw-cap_1.stl",
+      "bytes": 212284,
+      "sha256": "b653b85030f04da9692e253a419e898f1dfacdac71089364328a3f0a72eb912e"
+    },
+    {
+      "file": "meshes/left_arm/yaw-waist-adapter-motor-exal_MIR1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/yaw-waist-adapter-motor-exal_MIR1_1.stl",
+      "bytes": 105084,
+      "sha256": "8f34f2224128402ccb87795ece1eec63f1ef54bf34a753b999baf3a4d9aef3db"
+    },
+    {
+      "file": "meshes/left_arm/yaw-waist-adapter-motor-exal_MIR1__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_arm/yaw-waist-adapter-motor-exal_MIR1__5__1.stl",
+      "bytes": 105084,
+      "sha256": "1e8282fcee70cd0c99ea3dd02b40618b6f9f71e237032000748e2d7fa214f20e"
+    },
+    {
+      "file": "meshes/left_leg/2020_100mm__12__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/2020_100mm__12__1.stl",
+      "bytes": 212284,
+      "sha256": "d7c26d95a1727bc2d2c39ff8266103d9d8b81ea6451861ecd70ab4497a32df5e"
+    },
+    {
+      "file": "meshes/left_leg/2020_150mm__1___1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/2020_150mm__1___1__1.stl",
+      "bytes": 266884,
+      "sha256": "605eaffb010451f4aa2b28fe3de1c336643990a397f72a410c7a2a9940ae7bfa"
+    },
+    {
+      "file": "meshes/left_leg/2020_150mm__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/2020_150mm__6__1.stl",
+      "bytes": 268484,
+      "sha256": "bc833a82ab009d05dbb50d1ca2d12fb92914bfd7f25555af3457b90208ebbd1e"
+    },
+    {
+      "file": "meshes/left_leg/2020_150mm__6__2.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/2020_150mm__6__2.stl",
+      "bytes": 268484,
+      "sha256": "4c47c6ddf442c846bc955d770b1a9a2a48b7eb4881950f3120a6c85b66c15e8b"
+    },
+    {
+      "file": "meshes/left_leg/2020_300mm__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/2020_300mm__1__1.stl",
+      "bytes": 467984,
+      "sha256": "1dfa1d76fe9876baf8c89a0a9ae91b54f1f15f24d2e07479cb740ad863f6533f"
+    },
+    {
+      "file": "meshes/left_leg/2020_300mm__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/2020_300mm__2__1.stl",
+      "bytes": 467984,
+      "sha256": "0db1943489de4bf27cc3086dfd372cc4700f26f900912ffc0822a2630add4829"
+    },
+    {
+      "file": "meshes/left_leg/2020_400mm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/2020_400mm_1.stl",
+      "bytes": 558384,
+      "sha256": "7f3bf5e156a32e145a63f0391740b502e9bc0566df5c0a15e0598df22b990421"
+    },
+    {
+      "file": "meshes/left_leg/210mm-tie-rod_v1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/210mm-tie-rod_v1_1.stl",
+      "bytes": 48684,
+      "sha256": "dcd4dfc97ae4842c825599ba623a22478f19c6fdd4146d07831973d0dc7e443f"
+    },
+    {
+      "file": "meshes/left_leg/290mm-tie-rod_v1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/290mm-tie-rod_v1_1.stl",
+      "bytes": 46684,
+      "sha256": "5a462f5e6df9aecc6c8a7957d6f322f07fa79308d0c9e2296f69e0e63d5ea74b"
+    },
+    {
+      "file": "meshes/left_leg/400mmexal_MIR2_MIR3_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/400mmexal_MIR2_MIR3_1.stl",
+      "bytes": 684,
+      "sha256": "f28841f9a647195e176d66ebb7aa63f95c52a06095a920f781951817d5bbac79"
+    },
+    {
+      "file": "meshes/left_leg/6band__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/6band__5__1.stl",
+      "bytes": 1327784,
+      "sha256": "ddfa34633be8efdb401d1cd3b0017b0b99d4ad59730eee2c9ac15ed1cbc7620b"
+    },
+    {
+      "file": "meshes/left_leg/NO-NC_Bump_Switch_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/NO-NC_Bump_Switch_1.stl",
+      "bytes": 111484,
+      "sha256": "8a3e94d592f5ee16848b3dff17168688fd0aacdea7714f36f3efff9fb3d7744c"
+    },
+    {
+      "file": "meshes/left_leg/NO-NC_Bump_Switch__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/NO-NC_Bump_Switch__1__1.stl",
+      "bytes": 103784,
+      "sha256": "0861a50a8ff9bbefe34da151082b67884bb99499631cf73dc3531cc37d8c74ff"
+    },
+    {
+      "file": "meshes/left_leg/RMD-X10-S2_MIR4Rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/RMD-X10-S2_MIR4Rotor_1.stl",
+      "bytes": 284084,
+      "sha256": "41eeafe82bfbeca9ddc98cb86ab296120a52428a2b0b58fd36181d02e754a4a7"
+    },
+    {
+      "file": "meshes/left_leg/RMD-X10-S2_MIR4Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/RMD-X10-S2_MIR4Stator_1.stl",
+      "bytes": 765784,
+      "sha256": "eff7414001778dbae661d01bc8411fd888ed6e121f5857941ef7c20af173b3a4"
+    },
+    {
+      "file": "meshes/left_leg/RMD-X10-S2_MIR4__3_Rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/RMD-X10-S2_MIR4__3_Rotor_1.stl",
+      "bytes": 284084,
+      "sha256": "ab65086b8ee90211a902eee73a8c80b24256bc86af3cb9c12f2de387bd7b021d"
+    },
+    {
+      "file": "meshes/left_leg/RMD-X10-S2_MIR4__3_Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/RMD-X10-S2_MIR4__3_Stator_1.stl",
+      "bytes": 765784,
+      "sha256": "f2c5384e9ef22638b7ea2780de00de400ca6fb968cf0a177f2509d421c181f59"
+    },
+    {
+      "file": "meshes/left_leg/RMD-X8-Pro_MIR8_MIR1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/RMD-X8-Pro_MIR8_MIR1_1.stl",
+      "bytes": 1195784,
+      "sha256": "32c6f97390c0ef4e94f6a8c0306b679481060db8fe1b3c6e965ee965c35455c1"
+    },
+    {
+      "file": "meshes/left_leg/RMD-X8-Pro_MIR8_MIR1_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/RMD-X8-Pro_MIR8_MIR1_2.stl",
+      "bytes": 1195784,
+      "sha256": "b36bf677453b8ec3e6af213bef03eca18fcf401913a0458b015dcb750918d777"
+    },
+    {
+      "file": "meshes/left_leg/ankle-motor-driver-bracket_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/ankle-motor-driver-bracket_left_1.stl",
+      "bytes": 140284,
+      "sha256": "4dd8f817038285b20b9cac00eb3a2601d6502820613db894bffc516e5375628c"
+    },
+    {
+      "file": "meshes/left_leg/ankle-motor-driver-bracketleft_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/ankle-motor-driver-bracketleft_1.stl",
+      "bytes": 140284,
+      "sha256": "e00984f7150db15c1dee8567b13a96d66d260a5710973b0bb5fa7642eef55bc3"
+    },
+    {
+      "file": "meshes/left_leg/ankle-side-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/ankle-side-bracket_1.stl",
+      "bytes": 157184,
+      "sha256": "1be726d73fa2003a3fdf75efadcf845b17f84fbdac3e8a100c679a3110678c40"
+    },
+    {
+      "file": "meshes/left_leg/ankle-side-bracket_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/ankle-side-bracket_2.stl",
+      "bytes": 157184,
+      "sha256": "80a7a83d8373f24c3fac95273ea1c1185fde2b640564a7b37ca0819f75c439a4"
+    },
+    {
+      "file": "meshes/left_leg/ankle-thick_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/ankle-thick_1.stl",
+      "bytes": 386084,
+      "sha256": "8551f633cf8d967dedd27eac756fa96d165da7b6fb249625b0f11f80384bb7c4"
+    },
+    {
+      "file": "meshes/left_leg/basis_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/basis_left_1.stl",
+      "bytes": 464484,
+      "sha256": "69f3dd919f867bce4bf0c9462e56afa349a4e7d94f33e5fc6bad554964f1aa95"
+    },
+    {
+      "file": "meshes/left_leg/bearing-sensor-adapter-arm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/bearing-sensor-adapter-arm_1.stl",
+      "bytes": 257384,
+      "sha256": "513408ad3079bb0b1122c78af0100cf102b492d60a7acbf1d803f745ed450947"
+    },
+    {
+      "file": "meshes/left_leg/bearing-sensor-adapter-arm_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/bearing-sensor-adapter-arm_2.stl",
+      "bytes": 257484,
+      "sha256": "b9a3698e59187a55fdb65999a4a3447aff05d8662d4fdfbf639244342606ee16"
+    },
+    {
+      "file": "meshes/left_leg/bearing-sensor-adapter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/bearing-sensor-adapter_1.stl",
+      "bytes": 121684,
+      "sha256": "f1585d046d337a8529cc50f70e393407f588a2fcf3aff70f1ad946561d3c5cd5"
+    },
+    {
+      "file": "meshes/left_leg/bearing-sensor-adapter_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/bearing-sensor-adapter_2.stl",
+      "bytes": 121684,
+      "sha256": "fa3a4903c7fb92a2f0b4f68c5b8e02b0b50a99903736eaf6986a7995eb1d169b"
+    },
+    {
+      "file": "meshes/left_leg/bearingstrap-inner-thigh_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/bearingstrap-inner-thigh_1.stl",
+      "bytes": 253384,
+      "sha256": "a673cabca8ef01ec930ab85e8a52ce118835f429871a273afcbc91f4890a6995"
+    },
+    {
+      "file": "meshes/left_leg/bearingstrap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/bearingstrap_1.stl",
+      "bytes": 466684,
+      "sha256": "b182d859b2a7e3ff80d6ba96912dd9cf52d1afe1e9f2d937c4c155b57b2da8e4"
+    },
+    {
+      "file": "meshes/left_leg/bearingstrap__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/bearingstrap__1__1.stl",
+      "bytes": 422784,
+      "sha256": "a52399aed902bd864318454f231da79266c3deafb9fa4577690e315a8e733fad"
+    },
+    {
+      "file": "meshes/left_leg/calf-cover_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/calf-cover_1.stl",
+      "bytes": 379284,
+      "sha256": "53e6a86e031d41416d2834f334344a1817d93d786519b3455761715380eff099"
+    },
+    {
+      "file": "meshes/left_leg/calf-cover_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/calf-cover_2.stl",
+      "bytes": 379284,
+      "sha256": "7beaea2e2ac6c82cef484fa5bfbe4464053f6e87b311717291b537bc61b8054a"
+    },
+    {
+      "file": "meshes/left_leg/calf-lower-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/calf-lower-bracket_1.stl",
+      "bytes": 314684,
+      "sha256": "3cde096f30a2e0356de5bfe7cbde1d4e91527fb06530f07ad5b63505096454ab"
+    },
+    {
+      "file": "meshes/left_leg/calf-lower-bracket_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/calf-lower-bracket_left_1.stl",
+      "bytes": 314684,
+      "sha256": "935a2479a3d5765eb63b95f35ff7944d74fb568bf3540d48cd7505d37dc65c1f"
+    },
+    {
+      "file": "meshes/left_leg/calf-motor-driver-ext_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/calf-motor-driver-ext_1.stl",
+      "bytes": 437384,
+      "sha256": "0e0a007a130bc5ac72cc47846abe4834b5dff49033980189ae2e913249849862"
+    },
+    {
+      "file": "meshes/left_leg/calf-motor-driver-ext_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/calf-motor-driver-ext_2.stl",
+      "bytes": 444684,
+      "sha256": "bb66600f90c2ea2f19bb59e9fb71bad3c3dd2b26a102f32418b21d732debb8e7"
+    },
+    {
+      "file": "meshes/left_leg/calf-skin_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/calf-skin_1.stl",
+      "bytes": 358584,
+      "sha256": "9a76fdf8288fd45ad9c5ea9d5c05da5019b57a4d3c4b65af567e0485e466208e"
+    },
+    {
+      "file": "meshes/left_leg/calf-skin_flip_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/calf-skin_flip_1.stl",
+      "bytes": 358884,
+      "sha256": "557b6d61f6c57eb9a066c2ecbeefcec0355f540baab86919791fd0ab6473706b"
+    },
+    {
+      "file": "meshes/left_leg/conjstraint-knee-test-oute_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/conjstraint-knee-test-oute_1.stl",
+      "bytes": 837384,
+      "sha256": "31dce709ef992741ecfd1edd1dbe2ff22945cd0e3c939a92a50bf9f2b25f18a4"
+    },
+    {
+      "file": "meshes/left_leg/conjstraint-knee-test-oute_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/conjstraint-knee-test-oute_MIR_1.stl",
+      "bytes": 848884,
+      "sha256": "999eca0162a254c895141a715e5003c61439c3d227f1829d1d17d46307e339d4"
+    },
+    {
+      "file": "meshes/left_leg/double-bracket-10deg_MIR_MIR_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/double-bracket-10deg_MIR_MIR_MIR_1.stl",
+      "bytes": 495184,
+      "sha256": "2464d08ba881ec2f3e764aa8234443c9204dada444802300f4d1b45ca627ee47"
+    },
+    {
+      "file": "meshes/left_leg/double-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/double-bracket_1.stl",
+      "bytes": 404984,
+      "sha256": "f12ec8ca49205bfb507611b6096f1fcec248aebf5638321c59f27cec87569d54"
+    },
+    {
+      "file": "meshes/left_leg/flank-front-flipped_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/flank-front-flipped_1.stl",
+      "bytes": 148484,
+      "sha256": "f076b951158063087aab81b128b10be4034b4a79dd1ba94b2d1cb6afedec8a1d"
+    },
+    {
+      "file": "meshes/left_leg/flank-front_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/flank-front_1.stl",
+      "bytes": 118384,
+      "sha256": "ce0764cdf769bd4bfba0c7d3defa91c962bddce195404a2028f4081433c51cc9"
+    },
+    {
+      "file": "meshes/left_leg/flank-front__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/flank-front__1__1.stl",
+      "bytes": 118584,
+      "sha256": "703aa86c8c62123afee0ba05fc528fdb090cb70f5e9fe3aa91b304966b4f3cba"
+    },
+    {
+      "file": "meshes/left_leg/flank_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/flank_1.stl",
+      "bytes": 195684,
+      "sha256": "a3943c8be0d29c87f58f70f0e7206066c8f0cc29a7445624017f0c08bc839bde"
+    },
+    {
+      "file": "meshes/left_leg/flank__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/flank__1__1.stl",
+      "bytes": 195684,
+      "sha256": "f976a11b08b950e709c829f8e81c88fb2253bab90591e56109cf723132c165d5"
+    },
+    {
+      "file": "meshes/left_leg/foot-imu-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/foot-imu-strap_1.stl",
+      "bytes": 40284,
+      "sha256": "b11eb318fe0959a2ce8e64cca6e985ff6a91311ad8222c9791bcb0f4d5f5827d"
+    },
+    {
+      "file": "meshes/left_leg/foot-top_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/foot-top_1.stl",
+      "bytes": 198384,
+      "sha256": "1e0fe5216ffbd5471b6ad06ec59a8ec84035c08e3e35272787deac6ed1d68c29"
+    },
+    {
+      "file": "meshes/left_leg/heel-bracket_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/heel-bracket_left_1.stl",
+      "bytes": 254884,
+      "sha256": "e7833640c3f9c8426e627bb5172acf2f178a42d764786e0b5728763ddf1fd1c2"
+    },
+    {
+      "file": "meshes/left_leg/heel-bracketleft_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/heel-bracketleft_1.stl",
+      "bytes": 253684,
+      "sha256": "15d89dd52fc4ffadbb711f39b5fd3b19e0f0cc0a7387e67102a447a92a7a0c4f"
+    },
+    {
+      "file": "meshes/left_leg/heel-connector_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/heel-connector_1.stl",
+      "bytes": 55584,
+      "sha256": "fb9b1e398bfa38666ac6cc0795549dc2c196b94a0c2b79409af4b7e7371160ac"
+    },
+    {
+      "file": "meshes/left_leg/heel-roller_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/heel-roller_1.stl",
+      "bytes": 417184,
+      "sha256": "fe3737a02284e7d523481d64108f56a11b6b4e084c2ecc46edcae9ade2479031"
+    },
+    {
+      "file": "meshes/left_leg/heel-top_MIRleft_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/heel-top_MIRleft_1.stl",
+      "bytes": 281484,
+      "sha256": "e4cec6756d65ff00682b349b85d567fb5e8909dbfccb219e7a71b6614c60b2ec"
+    },
+    {
+      "file": "meshes/left_leg/heel-topleft_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/heel-topleft_1.stl",
+      "bytes": 281484,
+      "sha256": "2400f3318f81e9884803516a602d022dccc1ff2cb483be4a3a1cc2077df3cfec"
+    },
+    {
+      "file": "meshes/left_leg/hip-ex-al-base_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/hip-ex-al-base_MIR_1.stl",
+      "bytes": 140684,
+      "sha256": "f1ccdf46c3e8ab1871b452e7ad7527cf4dbd0d78349114a4884b0c09189203c4"
+    },
+    {
+      "file": "meshes/left_leg/hip-motor-bracket-v5-right_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/hip-motor-bracket-v5-right_MIR_1.stl",
+      "bytes": 92284,
+      "sha256": "623b6f7846ef5ee642dc33022bc89f1cedc530cfdb124da96bb333ccf1729a03"
+    },
+    {
+      "file": "meshes/left_leg/hip-motor-bracket-v5-right_MIR__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/hip-motor-bracket-v5-right_MIR__1__1.stl",
+      "bytes": 92284,
+      "sha256": "2c8c6af34d274f2c94aa1811302f85de07bb225693d37dba1065b41788bfce57"
+    },
+    {
+      "file": "meshes/left_leg/innner-thigh-magnet-encoder__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/innner-thigh-magnet-encoder__1__1.stl",
+      "bytes": 466084,
+      "sha256": "3df253b085fd4b138397971b2461fc46d4d15bd526274c0c87a32ea8ac452221"
+    },
+    {
+      "file": "meshes/left_leg/knee-bend-motor-bracket-hip_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/knee-bend-motor-bracket-hip_1.stl",
+      "bytes": 151684,
+      "sha256": "0a3e769d3ce4d3d93dfa2b70e59d9831e32edeae361cbb4c75fe3908d8ba41ea"
+    },
+    {
+      "file": "meshes/left_leg/knee-bend-motor-bracket-hip__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/knee-bend-motor-bracket-hip__1__1.stl",
+      "bytes": 151684,
+      "sha256": "b4053a0eb2aca8efd4050239577758678a314321958852a19e0ef2fec62d9562"
+    },
+    {
+      "file": "meshes/left_leg/knee-lock-2-b_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/knee-lock-2-b_1.stl",
+      "bytes": 321884,
+      "sha256": "f538bcb655ff8daf48647c3ea17ac9fce7569f1f93aef238dfbee42466ead41a"
+    },
+    {
+      "file": "meshes/left_leg/knee-lock-2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/knee-lock-2_1.stl",
+      "bytes": 321884,
+      "sha256": "2baa0e3b26365fee1cdd9c9a17b7b1e895faa756cb7e601920999cf7f03dd271"
+    },
+    {
+      "file": "meshes/left_leg/knee-strap-second-test_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/knee-strap-second-test_1.stl",
+      "bytes": 329384,
+      "sha256": "f730dc52696027b0f849dc346441afeef5a606d52d6ac352d75661d275af5c7c"
+    },
+    {
+      "file": "meshes/left_leg/knee-strap-second-test__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/knee-strap-second-test__1__1.stl",
+      "bytes": 337084,
+      "sha256": "714ae1fbdecbd1d054fc5ded8a0adc23c5642b740c1f6efada508bf73358b883"
+    },
+    {
+      "file": "meshes/left_leg/leg-pitch-elastic_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/leg-pitch-elastic_1.stl",
+      "bytes": 558984,
+      "sha256": "c9621073181156c51c33d653faae463f367d88e7e93fc8aed83ada7babcde980"
+    },
+    {
+      "file": "meshes/left_leg/leg-pitch-elastic__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/leg-pitch-elastic__1__1.stl",
+      "bytes": 558984,
+      "sha256": "42a798f6a774226001df7389bd6965721233a4ee97b1d6943da045a432311beb"
+    },
+    {
+      "file": "meshes/left_leg/leg-pitch-elastic__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/leg-pitch-elastic__2__1.stl",
+      "bytes": 560684,
+      "sha256": "6063f7289954a6848a472adf5ce7cd8687fa0b7f311b5ef218e06ce2dff6de3b"
+    },
+    {
+      "file": "meshes/left_leg/leg-pitch-elastic__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/leg-pitch-elastic__3__1.stl",
+      "bytes": 560684,
+      "sha256": "10339cd7908481995c70f3fa010fb46bc749a31570a9f2f82b441ed9ac581e90"
+    },
+    {
+      "file": "meshes/left_leg/leg-thigh-knee-support-bottom_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/leg-thigh-knee-support-bottom_1.stl",
+      "bytes": 88184,
+      "sha256": "9052a43052a091d070f1f53d212d2421fe5adb278359bd2240e2e47a452a50ed"
+    },
+    {
+      "file": "meshes/left_leg/limit-bracket-knee_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/limit-bracket-knee_1.stl",
+      "bytes": 82884,
+      "sha256": "638ff263a183007566b8f6d1d36daa851ec93bfc66f0df287e77615f53ace24e"
+    },
+    {
+      "file": "meshes/left_leg/magmount__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/magmount__1__1.stl",
+      "bytes": 131084,
+      "sha256": "15552fe05e3172a3fb179490e244b147fd558f52b77cbd345c9a7e157b4831ba"
+    },
+    {
+      "file": "meshes/left_leg/motor-calf-exal-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/motor-calf-exal-mount_1.stl",
+      "bytes": 119684,
+      "sha256": "a831ac574985d241564f3731dfc4213c7775a8e2abfb703c0061634038688e62"
+    },
+    {
+      "file": "meshes/left_leg/motor-calf-exal-mount_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/motor-calf-exal-mount_2.stl",
+      "bytes": 120484,
+      "sha256": "850167ad0f5d061999f7b1133d63fbe664145d788da2de792a9503c902582bc4"
+    },
+    {
+      "file": "meshes/left_leg/motor-calf-exal-mount_3.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/motor-calf-exal-mount_3.stl",
+      "bytes": 120484,
+      "sha256": "bedde04f29df8a90256b1850a0e453a493c4cc7b983312fb414a7c781c035a4f"
+    },
+    {
+      "file": "meshes/left_leg/motor-calf-exal-mount_4.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/motor-calf-exal-mount_4.stl",
+      "bytes": 119684,
+      "sha256": "e8b95068afb1a9c6675d44a1ff2649d6b50eec3e5d185e28843b066195df7223"
+    },
+    {
+      "file": "meshes/left_leg/motorcap-KNEE_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/motorcap-KNEE_MIR_1.stl",
+      "bytes": 171284,
+      "sha256": "6858a2c6530cbba0774ca5aa3160f1d5a48af869e7ea0767ac207fc43da87018"
+    },
+    {
+      "file": "meshes/left_leg/mpu1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/mpu1_1.stl",
+      "bytes": 16684,
+      "sha256": "d2bf154941c0dde38c30604dd0ee5404620d164eceec9062a8c87b1dd24fefb3"
+    },
+    {
+      "file": "meshes/left_leg/multiplex-stack_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/multiplex-stack_1.stl",
+      "bytes": 1045384,
+      "sha256": "fad1366a575a1744f3258fb74e513d82a8d7d44d603f289cd792345bf510608a"
+    },
+    {
+      "file": "meshes/left_leg/new-heel-opposing_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/new-heel-opposing_1.stl",
+      "bytes": 274184,
+      "sha256": "de9912a59d12cbb0ce2b6f160a206dcd7e700b3165d5f6f346833a7dd2c8bf8e"
+    },
+    {
+      "file": "meshes/left_leg/new-heel_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/new-heel_1.stl",
+      "bytes": 274384,
+      "sha256": "77e2cbe9f20d7c76490cca3c247efa6f0f94149987c261a27d7cfa563ba1f2bc"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing_1.stl",
+      "bytes": 33484,
+      "sha256": "de533960df4bee943b0118fb536dbf47b7e4c83ec85889bc1693ea1ccdd61790"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__10__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__10__1.stl",
+      "bytes": 33484,
+      "sha256": "1e22f6d38e1ca8e6d1dfca9bfbf33a02626a921e19296932f1904c20f2b7582f"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__11__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__11__1.stl",
+      "bytes": 33484,
+      "sha256": "1ad41fe2e6320990b7d3951a33c6de1c51f72bf08f85deb92ce7abec4fe973be"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__12__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__12__1.stl",
+      "bytes": 33484,
+      "sha256": "8ee4ed4637f1d47def2511801ff428f05ba02d8a85e823314abe704a951236c2"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__13__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__13__1.stl",
+      "bytes": 33484,
+      "sha256": "3ee6057ddb7fba71091200016a9a5ed127ad9101d9dec3d122c884266b338a4e"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__14__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__14__1.stl",
+      "bytes": 33484,
+      "sha256": "3aa7dc927a4ceaf3eecab3ee601f6d0ca5104b238459785ed4eb3a37b49e1335"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__15__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__15__1.stl",
+      "bytes": 33484,
+      "sha256": "53f6991702018ecec069c12675b882019280d7d50bd27098af0e0c6e0cd0efa1"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__16__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__16__1.stl",
+      "bytes": 33484,
+      "sha256": "6e99e172965b2ceed40163c0d83691ee2fb1e258eb89de312ba9cdc7f784a631"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__17__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__17__1.stl",
+      "bytes": 33484,
+      "sha256": "a5fba7ab41b725851afb3f3c803c5c16e326e481cbfb1e9b17be4693dccaaf08"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__18__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__18__1.stl",
+      "bytes": 33484,
+      "sha256": "8afbe35425c2d7662d72c451c3846db901fef2503077a0adc8ce0aea190f03c4"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__19__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__19__1.stl",
+      "bytes": 33484,
+      "sha256": "2557b0426ac6604a6aa8595aedbbcf1a7b8e3016e84973f2278145b804d45303"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__20__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__20__1.stl",
+      "bytes": 33484,
+      "sha256": "bc0b97de48f8662fe619e040d11c13815ac99409f7353d45d4fda839ce7e138e"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__8__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__8__1.stl",
+      "bytes": 33484,
+      "sha256": "ac19e1a23d2a5f90f156503ec45d990a091cc1b7c65ec24ed608efcb2d65547f"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing__9__1.stl",
+      "bytes": 33484,
+      "sha256": "1cc874ef86ff3be08993696f2c9e2e10b0d38eaa170b1c24ebe1230616145ecc"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing_left_1.stl",
+      "bytes": 33084,
+      "sha256": "582b0fb148fa09c67c962a6e985a3492238ba9c306c6bed5195e63ab3a55a252"
+    },
+    {
+      "file": "meshes/left_leg/skateboard-bearing_left_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/skateboard-bearing_left_2.stl",
+      "bytes": 33084,
+      "sha256": "2a5fad71868df7563856796aa47a775640a77d81c161fdcdf26a95029d02e845"
+    },
+    {
+      "file": "meshes/left_leg/thigh-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/thigh-bracket_1.stl",
+      "bytes": 117484,
+      "sha256": "5cab8cc752cc551da6069b9bea3975abb0d048a3debfefdba444d201381d8e25"
+    },
+    {
+      "file": "meshes/left_leg/thigh-nub_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/thigh-nub_1.stl",
+      "bytes": 205684,
+      "sha256": "ed0d624caadfddff9ff20edfd90394cbf9b48d01a196f941ef740b96c71c6e9d"
+    },
+    {
+      "file": "meshes/left_leg/thigh-outer-encoder-mount__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/thigh-outer-encoder-mount__1__1.stl",
+      "bytes": 339584,
+      "sha256": "a5fb3d9ec9eca2fc89fcd6cbdb6bd43432dceb564caab735a24fc9d9b4fbcdf0"
+    },
+    {
+      "file": "meshes/left_leg/tie-rod-ankle-brackket_left1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/tie-rod-ankle-brackket_left1_1.stl",
+      "bytes": 324384,
+      "sha256": "d7f883013d8a2470718a4ee763cfcc20f60b0759cacc22147e42609e0c6ac35b"
+    },
+    {
+      "file": "meshes/left_leg/tie-rod-ankle-brackket_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/tie-rod-ankle-brackket_left_1.stl",
+      "bytes": 314584,
+      "sha256": "28b75806603fd48627586d93917ee8fc89f1720f24c4c337427cc56307a88fe0"
+    },
+    {
+      "file": "meshes/left_leg/toes-rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/toes-rotor_1.stl",
+      "bytes": 330384,
+      "sha256": "3fe286ee3de3985af8eba66e75302b1107cd1e5fa11b39ea66ed90c3726da9b1"
+    },
+    {
+      "file": "meshes/left_leg/toes_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/toes_1.stl",
+      "bytes": 480784,
+      "sha256": "6bb2c61d79795757224328d76c12e94345d2f375ce7320519245d398efbcb5b1"
+    },
+    {
+      "file": "meshes/left_leg/wire-clip_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/left_leg/wire-clip_1.stl",
+      "bytes": 35484,
+      "sha256": "ccb3912796ac7485c4201fa82b11ac361be5bdfe187cdeaafc33f4cf3dda18ce"
+    },
+    {
+      "file": "meshes/pelvic_girdle/100m_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/100m_1.stl",
+      "bytes": 684,
+      "sha256": "c685a78ce45dbd9689ec1fb0af658c1242afbb1e3dd10987055a6ff47653b57e"
+    },
+    {
+      "file": "meshes/pelvic_girdle/100m__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/100m__1__1.stl",
+      "bytes": 684,
+      "sha256": "32bc9c5d5de44579840a65137aa5a6ab9da1836e9862c714b4831686ed2a064d"
+    },
+    {
+      "file": "meshes/pelvic_girdle/100m__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/100m__2__1.stl",
+      "bytes": 684,
+      "sha256": "64692a7165b0ce02c8bf578010b89113057d9a2f58865669370149e757d70ce9"
+    },
+    {
+      "file": "meshes/pelvic_girdle/100m__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/100m__3__1.stl",
+      "bytes": 684,
+      "sha256": "91f9fe36aeaa2d2deb047a7f52ea092bb3d4c8154a792bed27b8c2a15d9b6b6a"
+    },
+    {
+      "file": "meshes/pelvic_girdle/100m__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/100m__4__1.stl",
+      "bytes": 684,
+      "sha256": "32896849a73c4b656724913434513fe1ce15d25e3ca0cdc74cf6449741468d52"
+    },
+    {
+      "file": "meshes/pelvic_girdle/2020_100mm__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/2020_100mm__1__1.stl",
+      "bytes": 213084,
+      "sha256": "c5c0be52638934cc704a6ca4f78d30df57fe466463c9ae7fc967aa71e09c2ab5"
+    },
+    {
+      "file": "meshes/pelvic_girdle/2020_100mm__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/2020_100mm__2__1.stl",
+      "bytes": 213084,
+      "sha256": "9bd2eac006bed2e9268e149ab83238d35e9d45a69a109c9bb88edd151d995115"
+    },
+    {
+      "file": "meshes/pelvic_girdle/2020_100mm__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/2020_100mm__3__1.stl",
+      "bytes": 213084,
+      "sha256": "b0ab25bd116e392956a09df9b86bc9b936bb198d2e431dc977b26b0a5986ccd9"
+    },
+    {
+      "file": "meshes/pelvic_girdle/2020_100mm__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/2020_100mm__5__1.stl",
+      "bytes": 213084,
+      "sha256": "65ad0c2b2a96fd69e6a6d9ea435add2890dbfb2e41577596f19d1f49da7f4a2b"
+    },
+    {
+      "file": "meshes/pelvic_girdle/2020_100mm__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/2020_100mm__6__1.stl",
+      "bytes": 213084,
+      "sha256": "3a670f7b08b4b2b4e339f370555c91691e9f0ec69f667ce456f82bf126fb5c46"
+    },
+    {
+      "file": "meshes/pelvic_girdle/2020_100mm__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/2020_100mm__7__1.stl",
+      "bytes": 213084,
+      "sha256": "a18566e27f2b74980f0e756f94ef29890df2d2b223a681781b2eaccb6c5e7d0e"
+    },
+    {
+      "file": "meshes/pelvic_girdle/2020_200mm__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/2020_200mm__1__1.stl",
+      "bytes": 330284,
+      "sha256": "6095b17d05cb06797097eb960e74b16c48bfa93854c93145d856ff79d67002ce"
+    },
+    {
+      "file": "meshes/pelvic_girdle/6band__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/6band__3__1.stl",
+      "bytes": 754684,
+      "sha256": "8f8fc16d4ed4c938a924a0c4b25f78cdae2b09cda4f6e97ff41e9ad6e70f9add"
+    },
+    {
+      "file": "meshes/pelvic_girdle/6band__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/6band__4__1.stl",
+      "bytes": 754484,
+      "sha256": "e60f012f87358194aa5ba30e0de0625aafadacf30ebbd8a33110e2dbea1b1129"
+    },
+    {
+      "file": "meshes/pelvic_girdle/RMD-X10-S2_MIR4__1_Rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/RMD-X10-S2_MIR4__1_Rotor_1.stl",
+      "bytes": 284084,
+      "sha256": "f71271c5e9805b364d2a8405802437063d89f895eefdfce62e2ddae031cd5958"
+    },
+    {
+      "file": "meshes/pelvic_girdle/RMD-X10-S2_MIR4__1_Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/RMD-X10-S2_MIR4__1_Stator_1.stl",
+      "bytes": 765784,
+      "sha256": "73edd388321988e65714929a927f27ccd43f7e568a94450893bd1770ead2f8df"
+    },
+    {
+      "file": "meshes/pelvic_girdle/RMD-X10-S2_MIR4__2_Rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/RMD-X10-S2_MIR4__2_Rotor_1.stl",
+      "bytes": 284084,
+      "sha256": "136d307559305904624c6b80bc982f79507333b1c9f53b29022372f5349de6bb"
+    },
+    {
+      "file": "meshes/pelvic_girdle/RMD-X10-S2_MIR4__2_Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/RMD-X10-S2_MIR4__2_Stator_1.stl",
+      "bytes": 765784,
+      "sha256": "de28889bd9699bd60065d4dcd23972944a135d3bd915af26662fdc4554218a8b"
+    },
+    {
+      "file": "meshes/pelvic_girdle/RMD-X10-V3Rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/RMD-X10-V3Rotor_1.stl",
+      "bytes": 268084,
+      "sha256": "60839e7ac90b0e986832680f1edd21ffd8f959fd94d26f4c4e4241b7ffb448fd"
+    },
+    {
+      "file": "meshes/pelvic_girdle/RMD-X10-V3Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/RMD-X10-V3Stator_1.stl",
+      "bytes": 819584,
+      "sha256": "fb4db33efbb46d23a4ea6f80b711d302a13261853d212d16ff0130941616bdab"
+    },
+    {
+      "file": "meshes/pelvic_girdle/RMD-X10-V3__1_Rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/RMD-X10-V3__1_Rotor_1.stl",
+      "bytes": 268084,
+      "sha256": "346b94100efae9c2a58bcf7d6ad21898d897514f0416b7cbcb0a2ee125ef4284"
+    },
+    {
+      "file": "meshes/pelvic_girdle/RMD-X10-V3__1_Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/RMD-X10-V3__1_Stator_1.stl",
+      "bytes": 819584,
+      "sha256": "acb709adeca4b97ab7c1b75626e7e33b41894322aa7171215a64650ab24479a2"
+    },
+    {
+      "file": "meshes/pelvic_girdle/bearing-rocker-rear_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/bearing-rocker-rear_1.stl",
+      "bytes": 118484,
+      "sha256": "10c6c055d05b3b5723d251d29c8684a9a2d35543ee568d5ecd54450849fa706f"
+    },
+    {
+      "file": "meshes/pelvic_girdle/bearing-rocker-rear__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/bearing-rocker-rear__1__1.stl",
+      "bytes": 118484,
+      "sha256": "f3a256331ba1325a105e6414753f8d302bd7950897665b58d54ba8415ebdafd8"
+    },
+    {
+      "file": "meshes/pelvic_girdle/bearing-torso-rocker-mount-rear_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/bearing-torso-rocker-mount-rear_1.stl",
+      "bytes": 122984,
+      "sha256": "89e48af485dcd525c15476a24383966e7c91ddb1cd6c88ac5cd06e9bc3e24223"
+    },
+    {
+      "file": "meshes/pelvic_girdle/bearing-torso-rocker-mount-rear_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/bearing-torso-rocker-mount-rear_MIR_1.stl",
+      "bytes": 122984,
+      "sha256": "a00622eff76d42840a6f186bbfb1f29bd6d90b2af99558e44665694a2f225160"
+    },
+    {
+      "file": "meshes/pelvic_girdle/butt-adapter-large-motor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/butt-adapter-large-motor_1.stl",
+      "bytes": 43484,
+      "sha256": "f119779da84398d7ba3cf111832b58978f24fd2a2c7f2eef9773860995c4e31c"
+    },
+    {
+      "file": "meshes/pelvic_girdle/butt-adapter-large-motor__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/butt-adapter-large-motor__1__1.stl",
+      "bytes": 43484,
+      "sha256": "d5e8e0ac63c59e1bfc2a695fc9d7df5ed37e67e665c69c1e4d2811150881edd9"
+    },
+    {
+      "file": "meshes/pelvic_girdle/butt-center-rear-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/butt-center-rear-bracket_1.stl",
+      "bytes": 121084,
+      "sha256": "a4f291e8a675d32f0093be9a1238017e32f1507771bb48acab8c269e85ada8aa"
+    },
+    {
+      "file": "meshes/pelvic_girdle/butt-mag_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/butt-mag_1.stl",
+      "bytes": 217184,
+      "sha256": "2c459559e4e832151618d68281e57165283b4039e3e0e76176c82e8acde9437f"
+    },
+    {
+      "file": "meshes/pelvic_girdle/butt-mag__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/butt-mag__1__1.stl",
+      "bytes": 217184,
+      "sha256": "2d73546b983e1d3d520db21b27e4e32592143eda3049a85a92b084016b6dce99"
+    },
+    {
+      "file": "meshes/pelvic_girdle/center-band-brick__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/center-band-brick__5__1.stl",
+      "bytes": 498284,
+      "sha256": "800914eedd00ef8c732f83b2b06069bfb3a83bbf62e2314d89c4043f6c8d4bf5"
+    },
+    {
+      "file": "meshes/pelvic_girdle/center-band-brick__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/center-band-brick__6__1.stl",
+      "bytes": 498284,
+      "sha256": "b41afbe0b93028851d17b2b2084e757ef00e35d31d2d3b341649ad75249de1a7"
+    },
+    {
+      "file": "meshes/pelvic_girdle/center-bracket-waist-hips_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/center-bracket-waist-hips_1.stl",
+      "bytes": 53084,
+      "sha256": "762714adb6aea18de4ed57132c1fa273bcc82af13445097c32d9947825801746"
+    },
+    {
+      "file": "meshes/pelvic_girdle/center-waist-aluminum-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/center-waist-aluminum-strap_1.stl",
+      "bytes": 34084,
+      "sha256": "623451b544e2bfd7f84221a95b3c73259dd7ad97ef428d0b2871691a43daa92d"
+    },
+    {
+      "file": "meshes/pelvic_girdle/encoder-butt_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/encoder-butt_1.stl",
+      "bytes": 224384,
+      "sha256": "5f912c905a52a5c11745bd7b61213b1087227484c9c108f4f05f48bb6502846f"
+    },
+    {
+      "file": "meshes/pelvic_girdle/encoder-butt__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/encoder-butt__1__1.stl",
+      "bytes": 224384,
+      "sha256": "28228915b0ae4e9ab44c1d737d058f813d680e2fc8a7ed96fd2fd9c557431f9d"
+    },
+    {
+      "file": "meshes/pelvic_girdle/encoder-magnet-leg_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/encoder-magnet-leg_1.stl",
+      "bytes": 64684,
+      "sha256": "2806a3d08ccfe0c39d67ed6e4bf16a64441346165d3581d2722aff82ab04af61"
+    },
+    {
+      "file": "meshes/pelvic_girdle/encoder-magnet-leg__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/encoder-magnet-leg__1__1.stl",
+      "bytes": 64684,
+      "sha256": "efbcd4c9dbeb17fc593b27d41f2a97ab703815e6776eeacf131574e705984b35"
+    },
+    {
+      "file": "meshes/pelvic_girdle/front-bearing-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/front-bearing-strap_1.stl",
+      "bytes": 501384,
+      "sha256": "75907f0670b837019870adbfa226a8c9e39e139a42bd339986918c6389c9b0f3"
+    },
+    {
+      "file": "meshes/pelvic_girdle/front-bearing-strap__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/front-bearing-strap__1__1.stl",
+      "bytes": 501384,
+      "sha256": "817400b720e37973c497ef944a707cf386d26ddfce92cedf9ee37fb792c6c341"
+    },
+    {
+      "file": "meshes/pelvic_girdle/front-bearing-strap__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/front-bearing-strap__2__1.stl",
+      "bytes": 501384,
+      "sha256": "98e2bf96bd3a26fc97fb89b9ddd120a76ce389a96b37fddf41462d1962ce6c72"
+    },
+    {
+      "file": "meshes/pelvic_girdle/front-motor-roll-nut_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/front-motor-roll-nut_1.stl",
+      "bytes": 353884,
+      "sha256": "7fa3c91f3bf4badcae8d18688cf20c664c8897898b01fb287bf7555aefe8b9f4"
+    },
+    {
+      "file": "meshes/pelvic_girdle/front-motor-roll-nut__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/front-motor-roll-nut__1__1.stl",
+      "bytes": 354984,
+      "sha256": "0c3316fa1eb72c2eb7d17bc1412cfb8dcf67c9cf78f8b2596526e085684be1d5"
+    },
+    {
+      "file": "meshes/pelvic_girdle/groin-square_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/groin-square_1.stl",
+      "bytes": 52084,
+      "sha256": "ef96f984532b156415901ac7a1d0d9ff1943cdb145891f21b3db2f828ce96637"
+    },
+    {
+      "file": "meshes/pelvic_girdle/groin-square__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/groin-square__1__1.stl",
+      "bytes": 52084,
+      "sha256": "5fa1867b4add12388d9deadbd6662c09e23af351b9c5334462ec8b69f8de43d1"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hard-limit_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hard-limit_1.stl",
+      "bytes": 220384,
+      "sha256": "a9e095ec30fec2413d9fedee2dcb3549de6a0590022eb6d01029a48dec4549cb"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hard-limit_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hard-limit_MIR_1.stl",
+      "bytes": 220384,
+      "sha256": "117fc6188e97bd5d48a8adae05deaa62612686f4a7c901e2cf24ce9958c1a652"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-motor-bracket-v5-right_MIR_MIR2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-motor-bracket-v5-right_MIR_MIR2_1.stl",
+      "bytes": 101084,
+      "sha256": "754721e090f1213420f62ebf33a3e7be6667a72396bbe2f2b4e7014524b72679"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-al-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-al-bracket_1.stl",
+      "bytes": 212484,
+      "sha256": "38a0d278b44d4f75538ea5489e96bdfc55ba8128d3339f2f0fae9d90b6df63b3"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-al-bracket_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-al-bracket_MIR_1.stl",
+      "bytes": 212584,
+      "sha256": "4bd2db1550e221fce7c20c7b23c3125a60096964a2a39cafb88961396b4a6cea"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-al-bracket_MIR__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-al-bracket_MIR__1__1.stl",
+      "bytes": 212384,
+      "sha256": "76500fbfa4ae84ebc12ce8a4762be200baeb9582023463a65d8af2b93272ab36"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-al-bracket__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-al-bracket__1__1.stl",
+      "bytes": 212284,
+      "sha256": "f3200cbc04b93c70e10c9f3647f4808003a48a8b07204dc1bdaabcd69ab9caea"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-al-mot_MIR2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-al-mot_MIR2_1.stl",
+      "bytes": 459584,
+      "sha256": "cdfb06bd1a353db1e236d8fc0f1e2b7ec453eee5ffbbce515e555a7ed0f621b9"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-al-mot_MIR2__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-al-mot_MIR2__1__1.stl",
+      "bytes": 459684,
+      "sha256": "f9119faf59a83065370b8992cd29793a6d4027017cea38a34d9290409aee99d7"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-al-mot_MIR2__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-al-mot_MIR2__2__1.stl",
+      "bytes": 459684,
+      "sha256": "187dd0b098f4a6c26e1f6702cce0305c23c8d764460138d66e653d7d687a1e69"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-al-mot_MIR2__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-al-mot_MIR2__3__1.stl",
+      "bytes": 459584,
+      "sha256": "b97f768c0828c27098cc646828530744911c1e0a14fb610434a0c3d782b3654e"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-front-bracket-strap-motor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-front-bracket-strap-motor_1.stl",
+      "bytes": 60284,
+      "sha256": "e8feb9a9f0af731c99d190abdae6085748b9644e9464ddd57993f127cf956474"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-front-bracket-strap-motor__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-front-bracket-strap-motor__1__1.stl",
+      "bytes": 60284,
+      "sha256": "c61cd4973d0c609fc77ecea558d7a55c87b5bf59729ae19c803532eb24b2664c"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-front-bracket-strap-motor__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-front-bracket-strap-motor__2__1.stl",
+      "bytes": 60284,
+      "sha256": "631541baccead3d18dd1090bddcb03fd02c164c2b3e10ed76ea21854f289d731"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-roll-front-bracket-strap-motor__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-roll-front-bracket-strap-motor__3__1.stl",
+      "bytes": 60284,
+      "sha256": "4e8e6623c57a8c30dc58b3c4a75f02012948492cc6cdb288009ebb00e4f5970c"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hip-yaw-chromatic-encoder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hip-yaw-chromatic-encoder_1.stl",
+      "bytes": 168384,
+      "sha256": "6b5cded441be0688a92719b90b055a3a9049343a731d3bc320f71af6ae73ba7c"
+    },
+    {
+      "file": "meshes/pelvic_girdle/hips-front-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/hips-front-mount_1.stl",
+      "bytes": 264084,
+      "sha256": "b0798c1e8673b60c37bb565097b9532a23494aad4943acc35367604730db5776"
+    },
+    {
+      "file": "meshes/pelvic_girdle/inner-rear-rocker-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/inner-rear-rocker-bracket_1.stl",
+      "bytes": 68284,
+      "sha256": "2033181cedf3ead7107216be80c5fc4f3fcb319a7eb866d274bb7cc58679ea8a"
+    },
+    {
+      "file": "meshes/pelvic_girdle/inner-rear-rocker-bracket_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/inner-rear-rocker-bracket_MIR_1.stl",
+      "bytes": 68284,
+      "sha256": "6ac3ff54d09fa1e69c9723930016e7c74705d3fbdd27f0976384968639a0ab84"
+    },
+    {
+      "file": "meshes/pelvic_girdle/lumbare_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/lumbare_1.stl",
+      "bytes": 340184,
+      "sha256": "ca0c82a85bcbd03ff5c183703a9c0001d3b2cd4f28f0103836b28ff0f8ce60d0"
+    },
+    {
+      "file": "meshes/pelvic_girdle/motor-yaw-cap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/motor-yaw-cap_1.stl",
+      "bytes": 62884,
+      "sha256": "9701e20fdce87acfb59c8a83d7c3ff79ec0dbe4e29d526fe0c39b75b453474f4"
+    },
+    {
+      "file": "meshes/pelvic_girdle/motor-yaw-cap__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/motor-yaw-cap__1__1.stl",
+      "bytes": 62884,
+      "sha256": "ce0312f19c185d0b15414f7470938b098f32c443cb7104ca37e3a481247aa583"
+    },
+    {
+      "file": "meshes/pelvic_girdle/motor-yaw-cap__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/motor-yaw-cap__2__1.stl",
+      "bytes": 60684,
+      "sha256": "a65eda54a3583bca1528dd69ccde969287c1d49eae2e2e9237758179196a6f4e"
+    },
+    {
+      "file": "meshes/pelvic_girdle/motor-yaw-cap__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/motor-yaw-cap__3__1.stl",
+      "bytes": 60684,
+      "sha256": "400383c68051d364e78ae579da369b3ffb2b1a4ebc30396395b007032343a453"
+    },
+    {
+      "file": "meshes/pelvic_girdle/motor-yaw-cap__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/motor-yaw-cap__4__1.stl",
+      "bytes": 62884,
+      "sha256": "49c3ac2f91f494eadcf03daedfaff2f0fee0ed12e65a8ea0303e2e4c966e4266"
+    },
+    {
+      "file": "meshes/pelvic_girdle/motor-yaw-cap__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/motor-yaw-cap__5__1.stl",
+      "bytes": 62884,
+      "sha256": "a5b291431abc5a03b9af906bbd9dbaf51202d965a00c62ffe8de72907ffd3f64"
+    },
+    {
+      "file": "meshes/pelvic_girdle/naval__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/naval__1__1.stl",
+      "bytes": 624084,
+      "sha256": "f3099d6ee8eefab2f3a6862323a7fd0a17b6d5d0d0afeeb39e575a5f9971ed0c"
+    },
+    {
+      "file": "meshes/pelvic_girdle/side-band-brick-double_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/side-band-brick-double_1.stl",
+      "bytes": 340684,
+      "sha256": "2b992da714c230e1b5ba49441c7e8e515877ad2acaf6b4ef7456b78499434930"
+    },
+    {
+      "file": "meshes/pelvic_girdle/side-band-brick-double__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/side-band-brick-double__1__1.stl",
+      "bytes": 340684,
+      "sha256": "fa7af87bc5298dcdffcc40ca0832faaf6d64afad4255cb7c26bacf0e66439cf6"
+    },
+    {
+      "file": "meshes/pelvic_girdle/side-band-brick-double__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/side-band-brick-double__2__1.stl",
+      "bytes": 340684,
+      "sha256": "16303c358b0bde3fd5981692549464c5f4f116d0eda773daaf3fcb5f4a265684"
+    },
+    {
+      "file": "meshes/pelvic_girdle/side-band-brick-double__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/side-band-brick-double__3__1.stl",
+      "bytes": 340684,
+      "sha256": "1d137bd13f1d35a0d0d2c1b03d2216d4874621221c80142cc1165a55f578ac72"
+    },
+    {
+      "file": "meshes/pelvic_girdle/skateboard-bearing__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/skateboard-bearing__1__1.stl",
+      "bytes": 33484,
+      "sha256": "6ae70889287954e1b7cff7319bee942ea25bea6eedf6876a6aca5f6957cb3276"
+    },
+    {
+      "file": "meshes/pelvic_girdle/skateboard-bearing__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/skateboard-bearing__2__1.stl",
+      "bytes": 33484,
+      "sha256": "39f2c1570574c16247ae096c8a25fa642c5aed7aa79130f364e290faba06db91"
+    },
+    {
+      "file": "meshes/pelvic_girdle/skateboard-bearing__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/skateboard-bearing__3__1.stl",
+      "bytes": 33484,
+      "sha256": "db9d2b74f4148ee45e80661528845a35f95162c27220af94b857491ca23d2999"
+    },
+    {
+      "file": "meshes/pelvic_girdle/skateboard-bearing__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/skateboard-bearing__4__1.stl",
+      "bytes": 33484,
+      "sha256": "dd1499724e1d1731c717f6875b9dc157898270f6722e32e29da3e568aa5e6509"
+    },
+    {
+      "file": "meshes/pelvic_girdle/skateboard-bearing__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/skateboard-bearing__5__1.stl",
+      "bytes": 33484,
+      "sha256": "69c91a8951884e0f9922f3f2aad774176fc06bde0dd1604593aeef62f2d52f0a"
+    },
+    {
+      "file": "meshes/pelvic_girdle/skateboard-bearing__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/skateboard-bearing__6__1.stl",
+      "bytes": 33484,
+      "sha256": "f8471be0920f0cf3e577e7c1cd6ae471a24ac536c5cc5f07f9b6f6af645c05f3"
+    },
+    {
+      "file": "meshes/pelvic_girdle/yaw-waist-adapter-motor-exal_MIR1__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/yaw-waist-adapter-motor-exal_MIR1__1__1.stl",
+      "bytes": 102484,
+      "sha256": "7e241654d485fd24861a46372a44a8a46b1d2eaf9bef1ee785f3b49ed87f92a9"
+    },
+    {
+      "file": "meshes/pelvic_girdle/yaw-waist-adapter-motor-exal_MIR1__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/yaw-waist-adapter-motor-exal_MIR1__2__1.stl",
+      "bytes": 102484,
+      "sha256": "d28708ba834fd07383e31374bf11d47a951ea7488f108941a97af5f3a8cab7bf"
+    },
+    {
+      "file": "meshes/pelvic_girdle/yaw-waist-adapter-motor-exal_MIR1__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/yaw-waist-adapter-motor-exal_MIR1__3__1.stl",
+      "bytes": 101684,
+      "sha256": "5e0d8fc04b245fea7381537200c972fdfdc0d9b0410150872a372baa33a1cc76"
+    },
+    {
+      "file": "meshes/pelvic_girdle/yaw-waist-adapter-motor-exal_MIR1__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/pelvic_girdle/yaw-waist-adapter-motor-exal_MIR1__4__1.stl",
+      "bytes": 101684,
+      "sha256": "a5d76be0db147c983fbb7b46d0e7aa790e8c75bf5542a1b6d485e1acdb7bbe48"
+    },
+    {
+      "file": "meshes/right_arm/2020_100mm__10__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/2020_100mm__10__1.stl",
+      "bytes": 217284,
+      "sha256": "e53e7733e2a8599c588031e54576a7a71b1da2c4dd62c7ac790423cc07443cb8"
+    },
+    {
+      "file": "meshes/right_arm/2020_100mm__11__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/2020_100mm__11__1.stl",
+      "bytes": 217284,
+      "sha256": "5fd560a456220ad2a7922e70930242e0dfa836f468325ab81070ac1d46a6df82"
+    },
+    {
+      "file": "meshes/right_arm/2020_100mm__8___1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/2020_100mm__8___1__1.stl",
+      "bytes": 217284,
+      "sha256": "539284253d5fed6847c489aab14a3510e519923c09cd0c2accd6f27b08318b51"
+    },
+    {
+      "file": "meshes/right_arm/2020_100mm__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/2020_100mm__9__1.stl",
+      "bytes": 217284,
+      "sha256": "bd8fcb594557c5c8152fb2db109530bb8f69facd8ed8add45935c071f6173993"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing_1.stl",
+      "bytes": 34084,
+      "sha256": "d74a0026a26188a669597fd7bc77a30cb3109f60993a2c63d3d6118512932470"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing__1__1.stl",
+      "bytes": 34084,
+      "sha256": "88fb3f5e6f90600e8251ef1c6440365f3bdcf98f86c7e81baec43a54c340e6a8"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing__2__1.stl",
+      "bytes": 34084,
+      "sha256": "8acee44d8024521293d87cca083d66fb0a74e5aadfcf8428777fbd68552b2389"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing__3__1.stl",
+      "bytes": 34084,
+      "sha256": "cc72416b89ca62ce03327c82a35ed961cc2872a0cff3e6853c4f67a1900d5e6e"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing__4__1.stl",
+      "bytes": 34084,
+      "sha256": "59265a3dfcd4eb2f94857aa056218c9eaba1d76fc7ab699e19d302318b23991f"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing__5__1.stl",
+      "bytes": 34084,
+      "sha256": "7d397a9c9b664e9e359f3ab98dd90c3423fb24bc75bdf0e9e7b57451d4294540"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing__6__1.stl",
+      "bytes": 34084,
+      "sha256": "97a5269408ba845b208750297ff5729501b7eb875878f108582e6f21b89666bb"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing__7__1.stl",
+      "bytes": 34084,
+      "sha256": "3e4d0321c2c3e91556fac98a4370f8c5391c4fc9794318053bd2061830995e57"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing__8__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing__8__1.stl",
+      "bytes": 34084,
+      "sha256": "69b53cdda76dca18cab0750d42a633cd566412153eef3778c18055b31e0931f1"
+    },
+    {
+      "file": "meshes/right_arm/6mm-bearing__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/6mm-bearing__9__1.stl",
+      "bytes": 34084,
+      "sha256": "93da66c34a2e0e1a3e13f2f7be410dcfba2c3c5792a37893c7ce965d2418eeff"
+    },
+    {
+      "file": "meshes/right_arm/MG995_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/MG995_1.stl",
+      "bytes": 450784,
+      "sha256": "ceac1b0ffbfc524dfdb4b968991c15937a882e0bae0f9e8719c673e142bb9e0e"
+    },
+    {
+      "file": "meshes/right_arm/MG995__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/MG995__1__1.stl",
+      "bytes": 450784,
+      "sha256": "059c8053f33ddf13b86d7a44cbd636316c9bc675c8fae318308c17c811c57303"
+    },
+    {
+      "file": "meshes/right_arm/MG995__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/MG995__2__1.stl",
+      "bytes": 450784,
+      "sha256": "411fae7afdf0eaab36ec439b4ccd0bdea3b9da539d750227aef6e94dee097010"
+    },
+    {
+      "file": "meshes/right_arm/MG995__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/MG995__3__1.stl",
+      "bytes": 450784,
+      "sha256": "804f20cb4383eff6a94dc972709b6e3ad5efb8cfb95a6f5dfc4e54b517e9b339"
+    },
+    {
+      "file": "meshes/right_arm/MG995__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/MG995__4__1.stl",
+      "bytes": 450784,
+      "sha256": "8276c0f43386fbe678523bc6a4d191c42889132c725730367563652b8ec389ab"
+    },
+    {
+      "file": "meshes/right_arm/MG995__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/MG995__5__1.stl",
+      "bytes": 450784,
+      "sha256": "33466c6931205181425a16d1169ea1dfbe1f581f45afb431ceee6f05864a1952"
+    },
+    {
+      "file": "meshes/right_arm/MG995__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/MG995__6__1.stl",
+      "bytes": 450784,
+      "sha256": "d2b4d210551962e0baedcffc5df056ccc1c4877ef804aaf21ee2223093e57d6b"
+    },
+    {
+      "file": "meshes/right_arm/MG995__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/MG995__7__1.stl",
+      "bytes": 450784,
+      "sha256": "d38abb0d06d60dcc47aa74c870cac29360a163fd421d347f103f956e4337c855"
+    },
+    {
+      "file": "meshes/right_arm/RMD-X8-Pro_MIR8_MIR1__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/RMD-X8-Pro_MIR8_MIR1__1__1.stl",
+      "bytes": 1216084,
+      "sha256": "894dc8122658aea790246bc371d71ce47ba3db02d390fe37c48dcfd6f573d829"
+    },
+    {
+      "file": "meshes/right_arm/RMD-X8-Pro_MIR8_MIR1__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/RMD-X8-Pro_MIR8_MIR1__2__1.stl",
+      "bytes": 1216084,
+      "sha256": "51a1260649f1321e2d54c61b063ce82a826d486673ca1e0345b0f6e72a2ca047"
+    },
+    {
+      "file": "meshes/right_arm/RMD-X8-Pro_MIR8_MIR1__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/RMD-X8-Pro_MIR8_MIR1__3__1.stl",
+      "bytes": 1216084,
+      "sha256": "03d662718a1f859d5f3ca0716f4ba2c03f23f76ea3ccf6f68a8e76ce9b07a604"
+    },
+    {
+      "file": "meshes/right_arm/RMD-X8-Pro_MIR8_MIR1__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/RMD-X8-Pro_MIR8_MIR1__4__1.stl",
+      "bytes": 1216084,
+      "sha256": "dd9506ac1721975e2a412224ebd4af3cbb76e8e5481c922599512b4868853493"
+    },
+    {
+      "file": "meshes/right_arm/arm-cuff-bicep-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/arm-cuff-bicep-bracket_1.stl",
+      "bytes": 738984,
+      "sha256": "e0ed23600b1d8af63c521990517fb727f4209539d972efb098c6d7f35ca4440d"
+    },
+    {
+      "file": "meshes/right_arm/bicep-motor-mate_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/bicep-motor-mate_1.stl",
+      "bytes": 199184,
+      "sha256": "48793832eefb289f8b47ef2e404132f362b0a3744880512d7e91e553072fd0da"
+    },
+    {
+      "file": "meshes/right_arm/bicep-rear-motor-adapter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/bicep-rear-motor-adapter_1.stl",
+      "bytes": 98884,
+      "sha256": "7799ac22e49c591514c98be1bc2165bfa2634b696d6ae2c342a189e6db49ba34"
+    },
+    {
+      "file": "meshes/right_arm/bicep-rotational-cuff-second-motor-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/bicep-rotational-cuff-second-motor-bracket_1.stl",
+      "bytes": 461534,
+      "sha256": "711573ca2d2f50e806fcc68253b2122e081975f731f8851d340cf4ca6f030be3"
+    },
+    {
+      "file": "meshes/right_arm/bicep-shoulder-bracket-exal_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/bicep-shoulder-bracket-exal_1.stl",
+      "bytes": 67884,
+      "sha256": "942e87cd886b03d20d7e4a7a67c7b52207433e0835f4fdd151ebb97bc8bd4bc2"
+    },
+    {
+      "file": "meshes/right_arm/bicep-shoulder-bracket-exal__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/bicep-shoulder-bracket-exal__1__1.stl",
+      "bytes": 67884,
+      "sha256": "492d1290a7765b8043abac4b417def01509aaf3994a4ee5256822ae52370960c"
+    },
+    {
+      "file": "meshes/right_arm/bicep-shoulder-bracket-exal__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/bicep-shoulder-bracket-exal__2__1.stl",
+      "bytes": 67884,
+      "sha256": "9bc3767976afb983c18b46a14d441d246e85f72419c17f5dbf4f6488fdb23549"
+    },
+    {
+      "file": "meshes/right_arm/bicep-shoulder-bracket-exal__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/bicep-shoulder-bracket-exal__3__1.stl",
+      "bytes": 67884,
+      "sha256": "70bc2bac03869c29e0d11a94482fd9d5d81d2725ebf5ef22ed51d9eca6ba0009"
+    },
+    {
+      "file": "meshes/right_arm/bicep_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/bicep_1.stl",
+      "bytes": 304884,
+      "sha256": "13dd1924ec51ce279bf2d2d0680181a4b1ccc1a3adaed5546f313901762df041"
+    },
+    {
+      "file": "meshes/right_arm/elbow-bridge-rear_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/elbow-bridge-rear_1.stl",
+      "bytes": 338084,
+      "sha256": "e7f0b380eb3bbe426f319b50cfbbfc3461c8e31be26438e91d6ded2ac240b190"
+    },
+    {
+      "file": "meshes/right_arm/elbow-bridge-rear__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/elbow-bridge-rear__1__1.stl",
+      "bytes": 338484,
+      "sha256": "5b1a7960789967a46689b4d476eee2b457b4678bb87f2c7c230c51df852ad532"
+    },
+    {
+      "file": "meshes/right_arm/elbow-hangar1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/elbow-hangar1_1.stl",
+      "bytes": 350084,
+      "sha256": "9afeba15f25eb34cf61415955da0844eab3f978f8ac07c05751ace64b225809c"
+    },
+    {
+      "file": "meshes/right_arm/elbow-hangar_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/elbow-hangar_1.stl",
+      "bytes": 364484,
+      "sha256": "2f17bd98ab04e01a0d8cb19fe6209e08960ee57151fd26bad8b1950de2922d89"
+    },
+    {
+      "file": "meshes/right_arm/elbow-rear-hanger_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/elbow-rear-hanger_1.stl",
+      "bytes": 407584,
+      "sha256": "860cf4b37225602b0c572e818b8cfe41aa90c304c7797f178327f1862ca80949"
+    },
+    {
+      "file": "meshes/right_arm/elbow-rear-hanger__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/elbow-rear-hanger__1__1.stl",
+      "bytes": 407584,
+      "sha256": "cebf6af4809a53ff528b8c1c9e399957eb259056bf68ddcb0f206daea9a7e06e"
+    },
+    {
+      "file": "meshes/right_arm/fan-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/fan-mount_1.stl",
+      "bytes": 456884,
+      "sha256": "ebbd3bb7bb23f9562ab1049db09785f81c6599b8efe38cbe1650fd885d428b26"
+    },
+    {
+      "file": "meshes/right_arm/fore-arm-bicep-motor-attatch_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/fore-arm-bicep-motor-attatch_1.stl",
+      "bytes": 312184,
+      "sha256": "ad3e7d729407743ec197bef3439a398e736f60ee6d9671cf8bd014f88dd908f1"
+    },
+    {
+      "file": "meshes/right_arm/forearm-elbow-motor-bracket-inner2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/forearm-elbow-motor-bracket-inner2_1.stl",
+      "bytes": 276884,
+      "sha256": "12a91a6a1047d91b583c6c2f6bf6c8a67c526b638993b747fcefedef7e693c0f"
+    },
+    {
+      "file": "meshes/right_arm/forearm-elbow-motor-bracket-inner_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/forearm-elbow-motor-bracket-inner_1.stl",
+      "bytes": 261684,
+      "sha256": "f444ac015efa9898c2b2c7210b201b049e44a25bc748aa5dc1ac2816064c2b1f"
+    },
+    {
+      "file": "meshes/right_arm/front-bearing-adapter-shoulder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/front-bearing-adapter-shoulder_1.stl",
+      "bytes": 129884,
+      "sha256": "097a106364816ee4b931c079a41b7a5a8779293c5f053f07c23d28e3ce8de06c"
+    },
+    {
+      "file": "meshes/right_arm/multiplex-stack-flat_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/multiplex-stack-flat_1.stl",
+      "bytes": 1021484,
+      "sha256": "b906b52a10291692044ba8edfd0450554b235006a3cefe2ea16ad71f2572014e"
+    },
+    {
+      "file": "meshes/right_arm/power-mount-arm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/power-mount-arm_1.stl",
+      "bytes": 290684,
+      "sha256": "378f961c3584598917a376f73d49db81043792dc3d90ceed2e512785a4f8cf74"
+    },
+    {
+      "file": "meshes/right_arm/second-forearm-motor-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/second-forearm-motor-strap_1.stl",
+      "bytes": 238684,
+      "sha256": "3e69256f559ab37322d57677d41c466560f5aa071bb98b2cc7af51c13f4f75a9"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-cap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-cap_1.stl",
+      "bytes": 89784,
+      "sha256": "5b28e2581aee7e38be3d3de9aaa4965294e2b1051706641f9aa2bc678d0b39c1"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-ex-al-interface_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-ex-al-interface_1.stl",
+      "bytes": 137384,
+      "sha256": "4fd334b900c3ece1ed21cf9bb456ded4a16cee83ecdc3da811c1570938921eb9"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-ex-al-interface__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-ex-al-interface__1__1.stl",
+      "bytes": 137384,
+      "sha256": "dde1f3212380b9485ccf3aea7ab09a57b7ff2fb88196c99d5a6062e478fc2ea6"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-ex-al-interface__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-ex-al-interface__2__1.stl",
+      "bytes": 137384,
+      "sha256": "e3d059077972fbc7b88c19c542df397c35c7a532b61cb5bd93dfaf099c9ec659"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-front-bearing-adapter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-front-bearing-adapter_1.stl",
+      "bytes": 178384,
+      "sha256": "1c1c12652ae625aa55156c63aafff1c2dc1944f2b1b9fa7643009319f1eefb69"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-front_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-front_1.stl",
+      "bytes": 144084,
+      "sha256": "5f0dcddb7b9c86e85e7c435ec123c4f29934cc524d32893be07a325f887269df"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-motor-bicep-rotor-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-motor-bicep-rotor-bracket_1.stl",
+      "bytes": 77684,
+      "sha256": "20b7a140fcfaf96481413ffc5a9413ef4ba0084b01b39613704736a6351472ce"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-roll-al-mot_MIR1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-roll-al-mot_MIR1_1.stl",
+      "bytes": 404384,
+      "sha256": "e240d26014bf84608e816cb10f213bd295d3d62a833bf5fcc316d1bd0f5af97c"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-roll-al-mot_MIR1__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-roll-al-mot_MIR1__1__1.stl",
+      "bytes": 404384,
+      "sha256": "c52ebe13b4393af41026b3cd3cc2c7f12d7bb852f2399a0b8d190a17e88a0759"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-roll-al-mot_MIR1__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-roll-al-mot_MIR1__2__1.stl",
+      "bytes": 404384,
+      "sha256": "e63de2f3c3507cb2c3ce68e2bd6bcc605bcc55010abc6f681342a80f8d550d4b"
+    },
+    {
+      "file": "meshes/right_arm/shoulder-roll-al-mot_MIR1__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/shoulder-roll-al-mot_MIR1__3__1.stl",
+      "bytes": 404384,
+      "sha256": "1590e1efbb24755ad371b3f595cba3e48d94045e74d97f9cf1a29289ceb4cf01"
+    },
+    {
+      "file": "meshes/right_arm/skateboard-bearing__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/skateboard-bearing__7__1.stl",
+      "bytes": 33484,
+      "sha256": "cdc432ffea528f66f15e497a70190d3e494dac53bc210a1d88edc6aea3512057"
+    },
+    {
+      "file": "meshes/right_arm/straight-tendon_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/straight-tendon_1.stl",
+      "bytes": 940334,
+      "sha256": "75b7b51dfa21f48c0ce88699b51b1b72d0707dc2583bf8c9952f4c559dd7efec"
+    },
+    {
+      "file": "meshes/right_arm/top-bracket-servo-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/top-bracket-servo-strap_1.stl",
+      "bytes": 690284,
+      "sha256": "ae33984d048e911d815a7ffebd8886d450ae21e2f2f6c7ff7f4010f3e3a44b0c"
+    },
+    {
+      "file": "meshes/right_arm/top-bracket-servo-strap__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/top-bracket-servo-strap__1__1.stl",
+      "bytes": 690284,
+      "sha256": "ae312cc95458bbddc8fe193c90378450d6040fe5f5034f582819f3e689245c64"
+    },
+    {
+      "file": "meshes/right_arm/yaw-cap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/yaw-cap_1.stl",
+      "bytes": 212284,
+      "sha256": "1c5e9518199bd0817e7719f8c63e764d0f22141fda724ff363c5dc81102a8d91"
+    },
+    {
+      "file": "meshes/right_arm/yaw-waist-adapter-motor-exal_MIR1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/yaw-waist-adapter-motor-exal_MIR1_1.stl",
+      "bytes": 105084,
+      "sha256": "ec7919090b4ff6e4ff69c66d6bd864dfde0aecf7272d1ba1b94415ff4d3d1185"
+    },
+    {
+      "file": "meshes/right_arm/yaw-waist-adapter-motor-exal_MIR1__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_arm/yaw-waist-adapter-motor-exal_MIR1__5__1.stl",
+      "bytes": 105084,
+      "sha256": "95b47ca7c48940e4ac6bf42679165cc85d9f72746adfa5e11ec1c0d4fae67c41"
+    },
+    {
+      "file": "meshes/right_leg/2020_100mm__12__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/2020_100mm__12__1.stl",
+      "bytes": 212284,
+      "sha256": "e046399365c63e0e607f9c2b4df9e27780120e35104f82498731df68af297e93"
+    },
+    {
+      "file": "meshes/right_leg/2020_150mm__1___1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/2020_150mm__1___1__1.stl",
+      "bytes": 266884,
+      "sha256": "caa2de3464547e6cb481d84058dcaef663e663a5b63c9f78b353192136f47285"
+    },
+    {
+      "file": "meshes/right_leg/2020_150mm__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/2020_150mm__6__1.stl",
+      "bytes": 268484,
+      "sha256": "1c40c04aea3cbdbeed8399df96b7c33e435865afbe1ff5f89b341f507cac6233"
+    },
+    {
+      "file": "meshes/right_leg/2020_150mm__6__2.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/2020_150mm__6__2.stl",
+      "bytes": 268484,
+      "sha256": "5a1b1be1f061674b45b7d7958d7618368a8afdc224939dbbc671dd3e7a70f9aa"
+    },
+    {
+      "file": "meshes/right_leg/2020_300mm__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/2020_300mm__1__1.stl",
+      "bytes": 467984,
+      "sha256": "39eb4f79baddee0ddc73d3012d8514647e0f49d7128f1a1980fdb130729a8f79"
+    },
+    {
+      "file": "meshes/right_leg/2020_300mm__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/2020_300mm__2__1.stl",
+      "bytes": 467984,
+      "sha256": "cad60fd7eeec97bde89f93ff60838cac9fdbccfb13fbcb8a6f4d54f0af254643"
+    },
+    {
+      "file": "meshes/right_leg/2020_400mm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/2020_400mm_1.stl",
+      "bytes": 558384,
+      "sha256": "dfad641ef413882abdfa97e6657da5469f304d9c2c4e6f665b53fc0b9a1799fd"
+    },
+    {
+      "file": "meshes/right_leg/210mm-tie-rod_v1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/210mm-tie-rod_v1_1.stl",
+      "bytes": 48684,
+      "sha256": "6fe6dbe739b8bfe9ddfee0f6b1bbc5ccfea76befb1ff9fd4d56162308a373be1"
+    },
+    {
+      "file": "meshes/right_leg/290mm-tie-rod_v1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/290mm-tie-rod_v1_1.stl",
+      "bytes": 46684,
+      "sha256": "2ed4e44959989bc0f1e7aaf0ac3ee42416b3320ea4ad8b7b02702fad71b80c3c"
+    },
+    {
+      "file": "meshes/right_leg/400mmexal_MIR2_MIR3_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/400mmexal_MIR2_MIR3_1.stl",
+      "bytes": 684,
+      "sha256": "ac7e7b848eaae97d07ffad5b28c6181bae3506dccb3c00adeee183c56170bd86"
+    },
+    {
+      "file": "meshes/right_leg/6band__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/6band__5__1.stl",
+      "bytes": 1327784,
+      "sha256": "2decbee73af7a21e5cf74024ffb9af11998b28dec0b56ee5b5c67d261d4b1e4a"
+    },
+    {
+      "file": "meshes/right_leg/NO-NC_Bump_Switch_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/NO-NC_Bump_Switch_1.stl",
+      "bytes": 111484,
+      "sha256": "26818fa15e75cddf4ddd8d37a50c740e435b606dcb44395da2ee624b67b97ede"
+    },
+    {
+      "file": "meshes/right_leg/NO-NC_Bump_Switch__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/NO-NC_Bump_Switch__1__1.stl",
+      "bytes": 103784,
+      "sha256": "b160dac255d5949b8418f074a1d1e4a42f7bf7da32338f545fc9eec95018a293"
+    },
+    {
+      "file": "meshes/right_leg/RMD-X10-S2_MIR4Rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/RMD-X10-S2_MIR4Rotor_1.stl",
+      "bytes": 284084,
+      "sha256": "14cc6499dce338197d582bb2ecb3a1ca428f9596ebd17369da52cef9f7dc01fe"
+    },
+    {
+      "file": "meshes/right_leg/RMD-X10-S2_MIR4Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/RMD-X10-S2_MIR4Stator_1.stl",
+      "bytes": 765784,
+      "sha256": "5ef67c848dea3ee80281ffdcdf63c6f5b9e1f922571793de7eb487cb50ab5f41"
+    },
+    {
+      "file": "meshes/right_leg/RMD-X10-S2_MIR4__3_Rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/RMD-X10-S2_MIR4__3_Rotor_1.stl",
+      "bytes": 284084,
+      "sha256": "f6f63071e1bb11429b15ec67e7f858cbf5084cc8b5be3dbdc5c318c91f4bc39a"
+    },
+    {
+      "file": "meshes/right_leg/RMD-X10-S2_MIR4__3_Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/RMD-X10-S2_MIR4__3_Stator_1.stl",
+      "bytes": 765784,
+      "sha256": "7f8b3957acfe6076a22c7ac4b2c1f5b1d7ae35049e5d37c3e585803392668d5c"
+    },
+    {
+      "file": "meshes/right_leg/RMD-X8-Pro_MIR8_MIR1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/RMD-X8-Pro_MIR8_MIR1_1.stl",
+      "bytes": 1195784,
+      "sha256": "b61e7a3ef0326c830b4428f007528a6ad54327218a2374b9e304c414767fed20"
+    },
+    {
+      "file": "meshes/right_leg/RMD-X8-Pro_MIR8_MIR1_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/RMD-X8-Pro_MIR8_MIR1_2.stl",
+      "bytes": 1195784,
+      "sha256": "86e9b98ec3d4191f4f6ca12856fdb5eac4f2c22f6923a3609fcfbda9d86c21da"
+    },
+    {
+      "file": "meshes/right_leg/ankle-motor-driver-bracket_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/ankle-motor-driver-bracket_left_1.stl",
+      "bytes": 140284,
+      "sha256": "a0aff6d2ead2e05ee7b7f73c39d3255ee93842a773d8e646e1e234097e3571b0"
+    },
+    {
+      "file": "meshes/right_leg/ankle-motor-driver-bracketleft_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/ankle-motor-driver-bracketleft_1.stl",
+      "bytes": 140284,
+      "sha256": "c63716272d1d5f3c1804263946c8732756f5cedf6811e678d8735492058ebd4c"
+    },
+    {
+      "file": "meshes/right_leg/ankle-side-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/ankle-side-bracket_1.stl",
+      "bytes": 157184,
+      "sha256": "5575028608b71351f19e9a2c1ccff2a4ee29f3ac59a591cbbd0fec844df3124e"
+    },
+    {
+      "file": "meshes/right_leg/ankle-side-bracket_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/ankle-side-bracket_2.stl",
+      "bytes": 157184,
+      "sha256": "9e0d5f634b18037d2852f6c3845b235474cec874bfd6a29e3c95e6d3c2cd940d"
+    },
+    {
+      "file": "meshes/right_leg/ankle-thick_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/ankle-thick_1.stl",
+      "bytes": 386084,
+      "sha256": "23e588737cc7261f6a75a1db78af140294a4c4cba6c52e55731cd715d7ef05ea"
+    },
+    {
+      "file": "meshes/right_leg/basis_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/basis_left_1.stl",
+      "bytes": 464484,
+      "sha256": "3da0e659aefe7007153d4dcc3a62c23ae0e9f022832902a3ad888b26218a439a"
+    },
+    {
+      "file": "meshes/right_leg/bearing-sensor-adapter-arm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/bearing-sensor-adapter-arm_1.stl",
+      "bytes": 257384,
+      "sha256": "fd206799f1ffb7c9c9477133ab83ca281ed05b25f49ac2d52f6c132a64f0a5fe"
+    },
+    {
+      "file": "meshes/right_leg/bearing-sensor-adapter-arm_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/bearing-sensor-adapter-arm_2.stl",
+      "bytes": 257484,
+      "sha256": "fd45c820ec698522975a0283fe37845b49b1628dfaa6a49d3106b88bd6df1b1f"
+    },
+    {
+      "file": "meshes/right_leg/bearing-sensor-adapter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/bearing-sensor-adapter_1.stl",
+      "bytes": 121684,
+      "sha256": "405b78d08b73576d713f55ff21b7e4fb74c5695ca8b546efd8b1db83d4f7fa7d"
+    },
+    {
+      "file": "meshes/right_leg/bearing-sensor-adapter_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/bearing-sensor-adapter_2.stl",
+      "bytes": 121684,
+      "sha256": "8b2d7ef3c667bb22ca38d6027c54d79cbaab7bee36e752e91c844a00895adf94"
+    },
+    {
+      "file": "meshes/right_leg/bearingstrap-inner-thigh_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/bearingstrap-inner-thigh_1.stl",
+      "bytes": 253384,
+      "sha256": "61698668dc3acead398b6877a8d86f366fc882e2e00919fdd9c5cd145d05baf3"
+    },
+    {
+      "file": "meshes/right_leg/bearingstrap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/bearingstrap_1.stl",
+      "bytes": 466684,
+      "sha256": "b3872832eee2f92f4088613d222083ce8cb9cf669cd38035653cbea7cc18c000"
+    },
+    {
+      "file": "meshes/right_leg/bearingstrap__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/bearingstrap__1__1.stl",
+      "bytes": 422784,
+      "sha256": "89960e47058de4b753b5632530b6ee95c48ef7b8aecddf881335ae996d3fbf7c"
+    },
+    {
+      "file": "meshes/right_leg/calf-cover_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/calf-cover_1.stl",
+      "bytes": 379284,
+      "sha256": "146741444768b377000823f747c6fbf452fa6e8b2a3807b8a946d218ec9ebe14"
+    },
+    {
+      "file": "meshes/right_leg/calf-cover_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/calf-cover_2.stl",
+      "bytes": 379284,
+      "sha256": "72fd37ec8987061b91c1a6d1fcb669c34aea0f12925f52927a89051c20cf424f"
+    },
+    {
+      "file": "meshes/right_leg/calf-lower-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/calf-lower-bracket_1.stl",
+      "bytes": 314684,
+      "sha256": "fbb2ed2a276be383807d747a9d9470208efe4401f88f6dc660484954590fcb30"
+    },
+    {
+      "file": "meshes/right_leg/calf-lower-bracket_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/calf-lower-bracket_left_1.stl",
+      "bytes": 314684,
+      "sha256": "a3dc19fd6be3cf340a29bd1bf3b659d4a7e8de1ea3184f1e28d6a3935814586b"
+    },
+    {
+      "file": "meshes/right_leg/calf-motor-driver-ext_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/calf-motor-driver-ext_1.stl",
+      "bytes": 437384,
+      "sha256": "88203505f3638e42cfc3264e7572fa791b103fcfad08f79eb40dbb42c335949f"
+    },
+    {
+      "file": "meshes/right_leg/calf-motor-driver-ext_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/calf-motor-driver-ext_2.stl",
+      "bytes": 444684,
+      "sha256": "672bccd77fbf448292b54a9a332dd96203419c78c491516822f08022b87099d0"
+    },
+    {
+      "file": "meshes/right_leg/calf-skin_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/calf-skin_1.stl",
+      "bytes": 358584,
+      "sha256": "8e16f3de5cba7ec95d25750c34bdccf1c4e6e33241d88fcde29f064ff8023759"
+    },
+    {
+      "file": "meshes/right_leg/calf-skin_flip_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/calf-skin_flip_1.stl",
+      "bytes": 358884,
+      "sha256": "a8be081c171c121cc74118b9078d1aa18b23899b7a5bb81cd94dee69bcc35ba3"
+    },
+    {
+      "file": "meshes/right_leg/conjstraint-knee-test-oute_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/conjstraint-knee-test-oute_1.stl",
+      "bytes": 831784,
+      "sha256": "35942618f449a8a8d4f28113a6f1360bf43183c913ea7a552e0718d2fa44d165"
+    },
+    {
+      "file": "meshes/right_leg/conjstraint-knee-test-oute_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/conjstraint-knee-test-oute_MIR_1.stl",
+      "bytes": 854484,
+      "sha256": "3015c9cc2f7f800dedaa46013743347d03e878cd5828b5e43872a110edd9bdc7"
+    },
+    {
+      "file": "meshes/right_leg/double-bracket-10deg_MIR_MIR_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/double-bracket-10deg_MIR_MIR_MIR_1.stl",
+      "bytes": 494984,
+      "sha256": "d9012e8175a4008e887a6fcdce56f7b02a625e0ddffab5cda12c9c9e0ecff50e"
+    },
+    {
+      "file": "meshes/right_leg/double-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/double-bracket_1.stl",
+      "bytes": 404984,
+      "sha256": "6839d4a2a92352ea344f187ddf442b1e8a7864fec7cc0fa5a025db2e2b352ca2"
+    },
+    {
+      "file": "meshes/right_leg/flank-front-flipped_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/flank-front-flipped_1.stl",
+      "bytes": 148484,
+      "sha256": "ca4af7a9ea0a0fdb1424b9a01cbcaeea4f3f16c9bfea690e8aae6c892fa3dd0b"
+    },
+    {
+      "file": "meshes/right_leg/flank-front_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/flank-front_1.stl",
+      "bytes": 118384,
+      "sha256": "3cf07e223f1db1d6f2492fefd219c367983ab585cf38b0e70d55599d08e1f7e9"
+    },
+    {
+      "file": "meshes/right_leg/flank-front__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/flank-front__1__1.stl",
+      "bytes": 118584,
+      "sha256": "0d3d0f218567926b0f63deb9400870d975eb9b8b4759940aa0d66cf9d5289b62"
+    },
+    {
+      "file": "meshes/right_leg/flank_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/flank_1.stl",
+      "bytes": 195684,
+      "sha256": "17f5bed80109d23915e2c4c0af782c615afa05a493652dba1d9467b72059eb0d"
+    },
+    {
+      "file": "meshes/right_leg/flank__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/flank__1__1.stl",
+      "bytes": 195684,
+      "sha256": "6b3a9178174cd9ecd91fb28db0d19fcbbd9fcf2267f0e8414d984320d3d23008"
+    },
+    {
+      "file": "meshes/right_leg/foot-imu-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/foot-imu-strap_1.stl",
+      "bytes": 40284,
+      "sha256": "3623b1e068ea0d12025eb13f01ea10f45cfa7207b2a42e5344c681420b8ccc57"
+    },
+    {
+      "file": "meshes/right_leg/foot-top_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/foot-top_1.stl",
+      "bytes": 198384,
+      "sha256": "27f465455fd33f46cbb6618344750dc0e2e297377636150551f369dd101ff6cb"
+    },
+    {
+      "file": "meshes/right_leg/heel-bracket_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/heel-bracket_left_1.stl",
+      "bytes": 254684,
+      "sha256": "727c188789c0e9bfc2308eee57fee29dbbb8c6b72d7085f02d2a321d89e2d124"
+    },
+    {
+      "file": "meshes/right_leg/heel-bracketleft_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/heel-bracketleft_1.stl",
+      "bytes": 253484,
+      "sha256": "0d04fa047b7a878c4c0758ce989ab45141149bf2d72834786163d3d090e602ea"
+    },
+    {
+      "file": "meshes/right_leg/heel-connector_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/heel-connector_1.stl",
+      "bytes": 55584,
+      "sha256": "fd7f71935120e5a4d775918e92b3178b48347ad0cb844138d9a3f7ae18f614cb"
+    },
+    {
+      "file": "meshes/right_leg/heel-roller_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/heel-roller_1.stl",
+      "bytes": 417184,
+      "sha256": "f1eb86f4a982e036d512d1fbcb163ae26dda7ebf65baa72ae3f0e1a8b0598ba5"
+    },
+    {
+      "file": "meshes/right_leg/heel-top_MIRleft_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/heel-top_MIRleft_1.stl",
+      "bytes": 281484,
+      "sha256": "9c18bc13f461714cf6038082724a7edf76098157e592997a867531c1fb07400d"
+    },
+    {
+      "file": "meshes/right_leg/heel-topleft_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/heel-topleft_1.stl",
+      "bytes": 281484,
+      "sha256": "513d1e1db883cd20abf88a4a4e1def0a753212e72194c4ccd6df6ec9abbb2443"
+    },
+    {
+      "file": "meshes/right_leg/hip-ex-al-base_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/hip-ex-al-base_MIR_1.stl",
+      "bytes": 140684,
+      "sha256": "527360657dcc576a0a7887cd2fa502fe40e97e07bbb72dcaefc30238b434dc7a"
+    },
+    {
+      "file": "meshes/right_leg/hip-motor-bracket-v5-right_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/hip-motor-bracket-v5-right_MIR_1.stl",
+      "bytes": 92284,
+      "sha256": "548f3b12fab69f04fe2bc53b04bba99788178a9d3d18e7653cf649447a19c022"
+    },
+    {
+      "file": "meshes/right_leg/hip-motor-bracket-v5-right_MIR__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/hip-motor-bracket-v5-right_MIR__1__1.stl",
+      "bytes": 92284,
+      "sha256": "3c8e3ca1c0a765d10892386835a6bcff6236f764efa2efeaced2ad37df83d9ba"
+    },
+    {
+      "file": "meshes/right_leg/innner-thigh-magnet-encoder__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/innner-thigh-magnet-encoder__1__1.stl",
+      "bytes": 466084,
+      "sha256": "b5d1256d69e374c69fee337f994032dbac8e97fb83d20ed0410c860b771ee772"
+    },
+    {
+      "file": "meshes/right_leg/knee-bend-motor-bracket-hip_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/knee-bend-motor-bracket-hip_1.stl",
+      "bytes": 151684,
+      "sha256": "e9156c549cf3dc4cf44eeffc40fb723fb2e6ad5de09cbf29061798f93e3bde53"
+    },
+    {
+      "file": "meshes/right_leg/knee-bend-motor-bracket-hip__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/knee-bend-motor-bracket-hip__1__1.stl",
+      "bytes": 151684,
+      "sha256": "8ed138efb667042d6f4df1a54d0a50e140d0ad63f6c38048a5e4b5bfee802a19"
+    },
+    {
+      "file": "meshes/right_leg/knee-lock-2-b_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/knee-lock-2-b_1.stl",
+      "bytes": 321884,
+      "sha256": "56f3a8605f23bf5ab20b9805c9578acc2c161c3f2a01a90b0f3b3a602ec524d0"
+    },
+    {
+      "file": "meshes/right_leg/knee-lock-2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/knee-lock-2_1.stl",
+      "bytes": 321884,
+      "sha256": "c051fc9e87b1f16f62a8b8ba289270c49ca1643c390fc90162185dcf116115d2"
+    },
+    {
+      "file": "meshes/right_leg/knee-strap-second-test_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/knee-strap-second-test_1.stl",
+      "bytes": 337084,
+      "sha256": "7fd4ca7e523784a5b7c0f398f2baaff21fef300b758d9356571cd498fcea1edf"
+    },
+    {
+      "file": "meshes/right_leg/knee-strap-second-test__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/knee-strap-second-test__1__1.stl",
+      "bytes": 329384,
+      "sha256": "2acf271f07b3f1c6c9fc78805f544591529769e37697d87afdee6f1af50e0f07"
+    },
+    {
+      "file": "meshes/right_leg/leg-pitch-elastic_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/leg-pitch-elastic_1.stl",
+      "bytes": 558984,
+      "sha256": "ef31b79f0b83a0c6213175b002413615da21e5e52c4c5953851e77cfcd293d0c"
+    },
+    {
+      "file": "meshes/right_leg/leg-pitch-elastic__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/leg-pitch-elastic__1__1.stl",
+      "bytes": 558984,
+      "sha256": "63097e3b6296196f1d83610fc9758d983880d66e910eb74b7193a27b504e8584"
+    },
+    {
+      "file": "meshes/right_leg/leg-pitch-elastic__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/leg-pitch-elastic__2__1.stl",
+      "bytes": 560684,
+      "sha256": "76f4debaf02c172a540b4b21ed31b92bf91715c0a8a3189a4b8593b479fee641"
+    },
+    {
+      "file": "meshes/right_leg/leg-pitch-elastic__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/leg-pitch-elastic__3__1.stl",
+      "bytes": 560684,
+      "sha256": "4132983a36dd5305f502c70295c2ed0c20b885fb66735cd06a90ec1ea917e4ae"
+    },
+    {
+      "file": "meshes/right_leg/leg-thigh-knee-support-bottom_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/leg-thigh-knee-support-bottom_1.stl",
+      "bytes": 88184,
+      "sha256": "cb0bce855023dfa1740dbc92f59be8b43cdc935f2fa8e668389d76611de41109"
+    },
+    {
+      "file": "meshes/right_leg/limit-bracket-knee_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/limit-bracket-knee_1.stl",
+      "bytes": 82884,
+      "sha256": "696dc7ef86f289eebcaa20d077c083ad9fe85380b265a7d121f4e84732166f0c"
+    },
+    {
+      "file": "meshes/right_leg/magmount__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/magmount__1__1.stl",
+      "bytes": 131084,
+      "sha256": "f0817186b8ba7112ab505de9c8191be791904e6be919369664a4f3df3a8413fc"
+    },
+    {
+      "file": "meshes/right_leg/motor-calf-exal-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/motor-calf-exal-mount_1.stl",
+      "bytes": 119684,
+      "sha256": "48b67b01beb6d7b9cfc297c5bfa4c00e6985891935bec06ab2c54195905f7eba"
+    },
+    {
+      "file": "meshes/right_leg/motor-calf-exal-mount_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/motor-calf-exal-mount_2.stl",
+      "bytes": 120484,
+      "sha256": "0ffb9a67d190026e22b5c58d7ff7cd3972e0e27d6cc3624c4e0477c1403c21d5"
+    },
+    {
+      "file": "meshes/right_leg/motor-calf-exal-mount_3.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/motor-calf-exal-mount_3.stl",
+      "bytes": 120484,
+      "sha256": "1a70726dd1927228ffcd63cd722fbc2faffe5967c7222a031a666bcb0c5b99d5"
+    },
+    {
+      "file": "meshes/right_leg/motor-calf-exal-mount_4.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/motor-calf-exal-mount_4.stl",
+      "bytes": 119684,
+      "sha256": "fe9ba2da5758eed7ce780e56f3061aed71f4831a7694613e4f5958bc3da5cab5"
+    },
+    {
+      "file": "meshes/right_leg/motorcap-KNEE_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/motorcap-KNEE_MIR_1.stl",
+      "bytes": 171284,
+      "sha256": "5d570756faf2e8b96df588a0af9355ae7b824aad33fdce45846626f3ec9df37a"
+    },
+    {
+      "file": "meshes/right_leg/mpu1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/mpu1_1.stl",
+      "bytes": 16684,
+      "sha256": "917957dd525ec51ee04460d230612447c7d1ee61db952760258f9271e6e58c9c"
+    },
+    {
+      "file": "meshes/right_leg/multiplex-stack_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/multiplex-stack_1.stl",
+      "bytes": 1045384,
+      "sha256": "7a197763802447d44ef9095ac68fa50640fad12542519ee66d92be6a61dbedc1"
+    },
+    {
+      "file": "meshes/right_leg/new-heel-opposing_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/new-heel-opposing_1.stl",
+      "bytes": 274184,
+      "sha256": "417656f5f54e6b3b51e1916a41cdb34566bbc07ab259957838be0116ea7e3b2f"
+    },
+    {
+      "file": "meshes/right_leg/new-heel_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/new-heel_1.stl",
+      "bytes": 274384,
+      "sha256": "4fdc26fd97be2082f5afde2a2700e6fc92302067a79956eff16396b599f64d8e"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing_1.stl",
+      "bytes": 33484,
+      "sha256": "62f5fd2e8ff0a0cf0c1612f772c4d1fc7ca05caa269e1115cf5a7727f7c71992"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__10__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__10__1.stl",
+      "bytes": 33484,
+      "sha256": "6e45b9284ee86322fce2b6bad8241cc9b8e102ff5c659b97e31f60e922ad22e4"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__11__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__11__1.stl",
+      "bytes": 33484,
+      "sha256": "411b2ec6c8abadad741003a5e81b645264d9935edf33b121fb71af3949d57860"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__12__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__12__1.stl",
+      "bytes": 33484,
+      "sha256": "1672a5e4b9607eb802ddfc28cefc62fb0504e15f783e24157f4ff897d9b7c4b0"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__13__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__13__1.stl",
+      "bytes": 33484,
+      "sha256": "7fedff38450d6fe7eb76e52743944989716d1c06ba6d3c64c716b97930a1dfc6"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__14__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__14__1.stl",
+      "bytes": 33484,
+      "sha256": "3ce516fe16e8f51bcf423f6a2f5704cd2d7038aa8ba9509c0d48a0d88ee60348"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__15__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__15__1.stl",
+      "bytes": 33484,
+      "sha256": "7976166167e71afa435c8d0e6f94c91423bd860e072e6f086016b1caf8468ce8"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__16__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__16__1.stl",
+      "bytes": 33484,
+      "sha256": "74b0112f54128f003d178584a3e22b3d00634757bc55972f28fb4ada5f5e30a0"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__17__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__17__1.stl",
+      "bytes": 33484,
+      "sha256": "b697aa3ec512987691a4fb3571151e6a6adf99172c1899b468bae7b586ef366c"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__18__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__18__1.stl",
+      "bytes": 33484,
+      "sha256": "98392c2f33f7d4303b5c929837931246012c5caa304ba8ad985df461e612032f"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__19__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__19__1.stl",
+      "bytes": 33484,
+      "sha256": "5a6c26924822c021335a8b732fa4fdc94aa0e287eb00d0f80b255f214de07e12"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__20__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__20__1.stl",
+      "bytes": 33484,
+      "sha256": "fb73aea9897fc58a013d8b75a301a277ab7749fb40cb9206f39c8cbf0e84586b"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__8__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__8__1.stl",
+      "bytes": 33484,
+      "sha256": "8ad4e674521a0529d05461d3c58a14092eda1a0b4dff2d38aad240cfee29432a"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing__9__1.stl",
+      "bytes": 33484,
+      "sha256": "8380f7ed5368f89bee6077c4958796f2f15815d08f1192ddfe9fe9f0073bd725"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing_left_1.stl",
+      "bytes": 33084,
+      "sha256": "673c2e6368a61614f3eb3be791cf2091c2301ac3d2c343573dce2e60674849cd"
+    },
+    {
+      "file": "meshes/right_leg/skateboard-bearing_left_2.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/skateboard-bearing_left_2.stl",
+      "bytes": 33084,
+      "sha256": "0b043e4b79af5435a76a463dc9822dd491c4b334ef4418d7addb16fc37247731"
+    },
+    {
+      "file": "meshes/right_leg/thigh-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/thigh-bracket_1.stl",
+      "bytes": 117484,
+      "sha256": "da4189e0ffc6e36ddbb67c2640eec6daef7e56e1d0da80ae6faf49606a7f0e09"
+    },
+    {
+      "file": "meshes/right_leg/thigh-nub_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/thigh-nub_1.stl",
+      "bytes": 205684,
+      "sha256": "76db7cf5136d11fa2b1a36947aa170201c0985c77b03f466937f59ee04d0fb09"
+    },
+    {
+      "file": "meshes/right_leg/thigh-outer-encoder-mount__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/thigh-outer-encoder-mount__1__1.stl",
+      "bytes": 339584,
+      "sha256": "7ba5cf33768d7070e49c6e5c629d59e85a41a13769d1e78099c2e21f7fdc9995"
+    },
+    {
+      "file": "meshes/right_leg/tie-rod-ankle-brackket_left1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/tie-rod-ankle-brackket_left1_1.stl",
+      "bytes": 324384,
+      "sha256": "111083c3b24d268650af129f75c01a8a9e7167e1b6867f572d4395b553db993d"
+    },
+    {
+      "file": "meshes/right_leg/tie-rod-ankle-brackket_left_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/tie-rod-ankle-brackket_left_1.stl",
+      "bytes": 314584,
+      "sha256": "a2321cd8e6067b9c5ff2d74725b93cc6b53fba046d6309e8c9597137ee35493a"
+    },
+    {
+      "file": "meshes/right_leg/toes-rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/toes-rotor_1.stl",
+      "bytes": 330384,
+      "sha256": "e8c5f9a86c0262ba09a9dfce1a430386ca478aa4c5e3a536b6b1a918e17e84f3"
+    },
+    {
+      "file": "meshes/right_leg/toes_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/toes_1.stl",
+      "bytes": 480784,
+      "sha256": "c7c5e64a6ff36a11eb6129b1e1c3ee61739af8d744117e6bab5dec07a6a10814"
+    },
+    {
+      "file": "meshes/right_leg/wire-clip_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/right_leg/wire-clip_1.stl",
+      "bytes": 35484,
+      "sha256": "18cdb83931f59cebac43c99da56824b26c593034e69e2f6cf1a2752c211b18d4"
+    },
+    {
+      "file": "meshes/torso/2020_100mm__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_100mm__1__1.stl",
+      "bytes": 212284,
+      "sha256": "61fe7089c0c092923f1226bd9fb580af887c679fc84b3c306b269441aa55afb8"
+    },
+    {
+      "file": "meshes/torso/2020_100mm__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_100mm__2__1.stl",
+      "bytes": 208784,
+      "sha256": "f835c17a4d8dfedc0c7cdc013915f680d9416c74ebb74941a4333eac58396937"
+    },
+    {
+      "file": "meshes/torso/2020_100mm__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_100mm__3__1.stl",
+      "bytes": 208784,
+      "sha256": "ece6857d05a3f3a8f136cf8d240ae6c6e288d5339708f9423660c77b7749305d"
+    },
+    {
+      "file": "meshes/torso/2020_100mm__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_100mm__4__1.stl",
+      "bytes": 212284,
+      "sha256": "14d52832ba2fa38f1e534f9cfeca7d80cb1f241b7211325c02a97e747deca6cf"
+    },
+    {
+      "file": "meshes/torso/2020_100mm__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_100mm__5__1.stl",
+      "bytes": 212284,
+      "sha256": "314dfb314b875ae3cc12283d42405724c627fa288a86ffbec5a65b0d850f4c98"
+    },
+    {
+      "file": "meshes/torso/2020_100mm__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_100mm__6__1.stl",
+      "bytes": 208784,
+      "sha256": "42a51f1c707713306dc03de153cbba5edf6163c22d261ea4d9bd53a361f40036"
+    },
+    {
+      "file": "meshes/torso/2020_100mm__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_100mm__7__1.stl",
+      "bytes": 208784,
+      "sha256": "5ba6cf5b6ce2a5ff765413f1dbe5dc5e80a8b555840ba720b252beec9616fe8c"
+    },
+    {
+      "file": "meshes/torso/2020_100mm__8__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_100mm__8__1.stl",
+      "bytes": 212284,
+      "sha256": "ee8c988330b9e5213b197fe894a5b5b52a41691ab2d5e280ae2bfb4609a62470"
+    },
+    {
+      "file": "meshes/torso/2020_150mm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_150mm_1.stl",
+      "bytes": 265684,
+      "sha256": "319ec2b766de066c04c78381b72d9285043adf340ddcc17c276354e31ae9d6fc"
+    },
+    {
+      "file": "meshes/torso/2020_150mm__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_150mm__1__1.stl",
+      "bytes": 265684,
+      "sha256": "3b76b3a60f80c616d7ea13dc25e4a062e24c05ba21cee3f6e75d667499bb983f"
+    },
+    {
+      "file": "meshes/torso/2020_150mm__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_150mm__2__1.stl",
+      "bytes": 265684,
+      "sha256": "23b66b2bd01a81d67ce40512e9b26ad2f63b59a57b0491359fb247259248b4f4"
+    },
+    {
+      "file": "meshes/torso/2020_150mm__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_150mm__3__1.stl",
+      "bytes": 265684,
+      "sha256": "76f04850dde6144c866763dc035edd28c64f5df330565707ed1e0c26dfcd8c2d"
+    },
+    {
+      "file": "meshes/torso/2020_150mm__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_150mm__4__1.stl",
+      "bytes": 265684,
+      "sha256": "492f0f3b46e5ea038285818bbbc784876234d37245538a6f09abcf82d01d6e59"
+    },
+    {
+      "file": "meshes/torso/2020_150mm__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_150mm__5__1.stl",
+      "bytes": 265684,
+      "sha256": "04dcaa202cb02c59dde3872a2540fd61387e6b5e5efa8bb4e038737884db2c52"
+    },
+    {
+      "file": "meshes/torso/2020_200mm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm_1.stl",
+      "bytes": 328884,
+      "sha256": "5ca4c48a3d2de707508f1414ea650062e054a123e39926b521f485ed88a8d542"
+    },
+    {
+      "file": "meshes/torso/2020_200mm__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm__1__1.stl",
+      "bytes": 328884,
+      "sha256": "90a9d25ed25ff49f4aca33e969857643065ca216dd7e1431075bee1684469637"
+    },
+    {
+      "file": "meshes/torso/2020_200mm__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm__2__1.stl",
+      "bytes": 328084,
+      "sha256": "93daf0599e67a490707f5c9d4c8ff7c176b4a3b87b238953f274ca6c3fac4022"
+    },
+    {
+      "file": "meshes/torso/2020_200mm__3__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm__3__1.stl",
+      "bytes": 328084,
+      "sha256": "f2d1ed38f187b7c2de59bf39946c0b91e042f2efbaf6eadb244cc80b508da534"
+    },
+    {
+      "file": "meshes/torso/2020_200mm__4__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm__4__1.stl",
+      "bytes": 328884,
+      "sha256": "1c3ad88ab60f2f9b4d3017e024f367e855cc47d813d10adc73273bef3d8154be"
+    },
+    {
+      "file": "meshes/torso/2020_200mm__5__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm__5__1.stl",
+      "bytes": 328884,
+      "sha256": "d0c1fc1458f62d39f2f779e74d0bb29793552613bffc88b42c36dc1cdb39b8aa"
+    },
+    {
+      "file": "meshes/torso/2020_200mm__6__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm__6__1.stl",
+      "bytes": 328084,
+      "sha256": "a5b15d5cd808d62ce47cffd8176949637dddedd26a8e3e68411dee8580312569"
+    },
+    {
+      "file": "meshes/torso/2020_200mm__7__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm__7__1.stl",
+      "bytes": 328884,
+      "sha256": "3290fbe15fa5920109cd0ecbfa23393c2eb42d92c872f722e45a22b148121e6a"
+    },
+    {
+      "file": "meshes/torso/2020_200mm__8__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm__8__1.stl",
+      "bytes": 328884,
+      "sha256": "84f7ffb8eef6178a9c6521ede616c9472a441c98bbc5b29011832848c741db34"
+    },
+    {
+      "file": "meshes/torso/2020_200mm__9__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_200mm__9__1.stl",
+      "bytes": 328084,
+      "sha256": "9dc381630794d771008210daa35fc643e03a786a0995b12e8cc990a67f5e08d8"
+    },
+    {
+      "file": "meshes/torso/2020_300mm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_300mm_1.stl",
+      "bytes": 467984,
+      "sha256": "0aa028c5bab4a1c679f8b974c17396879503eb30bb7b4b862e1bc5d07a436633"
+    },
+    {
+      "file": "meshes/torso/2020_350mm_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/2020_350mm_1.stl",
+      "bytes": 498084,
+      "sha256": "0613f748883e9f288a9d90cf8500113850efd065942a9fefde55b1fa6eb83ab3"
+    },
+    {
+      "file": "meshes/torso/6band__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/6band__1__1.stl",
+      "bytes": 739684,
+      "sha256": "0fdcfddfb1e6e51dabf7e158ffe3ab680e325dcb4e941b7aa9c8d96b3fba9142"
+    },
+    {
+      "file": "meshes/torso/6band__2__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/6band__2__1.stl",
+      "bytes": 741184,
+      "sha256": "c20fd77938a3911fdc903d54bb3e9c352528ada66a82aad1d25d0fbbd5095eb0"
+    },
+    {
+      "file": "meshes/torso/Power_Converter__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/Power_Converter__1__1.stl",
+      "bytes": 25284,
+      "sha256": "bb68998c3e9b7fa4781d8c2bea5edf7f155406e761a054c4e2955eeb33c7b06a"
+    },
+    {
+      "file": "meshes/torso/RMD-X10Rotot_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/RMD-X10Rotot_1.stl",
+      "bytes": 389184,
+      "sha256": "e87cde91b3b7fc786ef805d85c1223dd20a3a517f504e430cf097c005d347f04"
+    },
+    {
+      "file": "meshes/torso/RMD-X10Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/RMD-X10Stator_1.stl",
+      "bytes": 1133584,
+      "sha256": "d1774b429bd8f654353454645250c80f3d52b853b20176777b940bdecd8f97d4"
+    },
+    {
+      "file": "meshes/torso/RMD-X10__1_Rotor_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/RMD-X10__1_Rotor_1.stl",
+      "bytes": 389184,
+      "sha256": "f318b1c2bce1afdfb693815cf28523261616de02db1b1861d6ea6f7553c88e05"
+    },
+    {
+      "file": "meshes/torso/RMD-X10__1_Stator_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/RMD-X10__1_Stator_1.stl",
+      "bytes": 1133584,
+      "sha256": "0d423d7b5c50ef7815962d8b54d0bd6e8adbae0cd5a7c017ad4f12e610f38bc7"
+    },
+    {
+      "file": "meshes/torso/back-bottom-strap-spine_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/back-bottom-strap-spine_1.stl",
+      "bytes": 180184,
+      "sha256": "a74dca86ccf6c0a271205d8a1fb3dd020d8d2bbc9e935b68e1a34d0f7f012a82"
+    },
+    {
+      "file": "meshes/torso/back-bottom-strap-spine__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/back-bottom-strap-spine__1__1.stl",
+      "bytes": 180184,
+      "sha256": "e599e3e25f2af00f8bbb4d6427a35d82c7bc5b90faae9281818be46cdf86ec46"
+    },
+    {
+      "file": "meshes/torso/back-middle-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/back-middle-strap_1.stl",
+      "bytes": 217784,
+      "sha256": "dc39ed1ce3dcf6291b4ab81ef448d04b0ddc50c9f8477af7ff13ad36ffcd8c2c"
+    },
+    {
+      "file": "meshes/torso/back-middle-strap__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/back-middle-strap__1__1.stl",
+      "bytes": 217784,
+      "sha256": "bfa70e7d1a61aed959a8738faf5591d3858e091f4173e9774cc9950b0488692b"
+    },
+    {
+      "file": "meshes/torso/back-top_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/back-top_1.stl",
+      "bytes": 185384,
+      "sha256": "3da8d6daada162d722fd6e3abab840383ad3d2494c4d3369f1649ee7b679b7cb"
+    },
+    {
+      "file": "meshes/torso/back-top__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/back-top__1__1.stl",
+      "bytes": 185384,
+      "sha256": "1d5eb65e3dd9e42e8212f60adfc6c89b98cc2e60d6563faeac2c8b1345d0b6d8"
+    },
+    {
+      "file": "meshes/torso/base_link.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/base_link.stl",
+      "bytes": 684,
+      "sha256": "38d38e01307e076375ee2e6ef5eb62b77f3ae6d3074d3de19ba60b3e49e1fd20"
+    },
+    {
+      "file": "meshes/torso/battery-monitor-holder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/battery-monitor-holder_1.stl",
+      "bytes": 191384,
+      "sha256": "cc01abc8840f5d22d4edf744eaf75cca132973be38b5f083cd5a5fb18078e604"
+    },
+    {
+      "file": "meshes/torso/button-holder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/button-holder_1.stl",
+      "bytes": 168784,
+      "sha256": "185f558f276e7679695eca768210ff8ac8f7b6016af929e58d654276c3cc42e0"
+    },
+    {
+      "file": "meshes/torso/dumBattery_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/dumBattery_1.stl",
+      "bytes": 23584,
+      "sha256": "4ce5ac9f3c3b9276c5e2ffbaace07cdf323b1e528d8d2f95e49a3a4d4d90d201"
+    },
+    {
+      "file": "meshes/torso/dumWaist_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/dumWaist_1.stl",
+      "bytes": 20084,
+      "sha256": "320692debb5354e1e98138e0955e8f1ee439899a2fcebe8c7c3e44ac6969db54"
+    },
+    {
+      "file": "meshes/torso/front-left-shoulder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/front-left-shoulder_1.stl",
+      "bytes": 149884,
+      "sha256": "38a7ee46d9ec8d29600d7b3b9a73df52f8036597542dadc9d041458b40d2b59a"
+    },
+    {
+      "file": "meshes/torso/front-right-shoulder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/front-right-shoulder_1.stl",
+      "bytes": 147684,
+      "sha256": "9d7bb6d43d5bade4f3ded731acb268364361d2840f72f5047c3caf5a0672097e"
+    },
+    {
+      "file": "meshes/torso/handle__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/handle__1__1.stl",
+      "bytes": 554384,
+      "sha256": "5176ded278dec149b40d8a7245111d0676e6682f01905bd3780a91c3fe24b9e9"
+    },
+    {
+      "file": "meshes/torso/head-power-supply-bracket_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/head-power-supply-bracket_1.stl",
+      "bytes": 75884,
+      "sha256": "82a8e838d00c45c654a24021e682a7abbf55cca7113043b128f16f351d17b0fd"
+    },
+    {
+      "file": "meshes/torso/killswitch-spine-interface_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/killswitch-spine-interface_1.stl",
+      "bytes": 401184,
+      "sha256": "914b3c7f885d2c5b08eb8a428500d49263cc3eeddb2c1c58e306312795439fa0"
+    },
+    {
+      "file": "meshes/torso/killswitch_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/killswitch_1.stl",
+      "bytes": 171684,
+      "sha256": "939da9c8ccb5b248df5e15fa394e2d079df1f01df452d002a37981d3426929f2"
+    },
+    {
+      "file": "meshes/torso/left-battery-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/left-battery-mount_1.stl",
+      "bytes": 473184,
+      "sha256": "ed96e48c8c03e3bff0f98ac9dfe8a6cd2b0ffc72df09c50876daf4c406f557e3"
+    },
+    {
+      "file": "meshes/torso/left-front-rib-lower_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/left-front-rib-lower_1.stl",
+      "bytes": 192584,
+      "sha256": "ca01eaae8f913ed60fa9265c36b11ab61099b3230902a74ff6605014fb5110be"
+    },
+    {
+      "file": "meshes/torso/left-lower-rib-side_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/left-lower-rib-side_1.stl",
+      "bytes": 250784,
+      "sha256": "c16fd3a2a8bded2de78c1811c58a19dca9e5852ab8d8edded953cb28189aa2a9"
+    },
+    {
+      "file": "meshes/torso/left-middle-rib_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/left-middle-rib_1.stl",
+      "bytes": 289184,
+      "sha256": "cdf83df85e61f3a22d4b42730989355a52665c17c1f82d92fd1f20bb07d78296"
+    },
+    {
+      "file": "meshes/torso/lumbar-strap_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/lumbar-strap_1.stl",
+      "bytes": 472184,
+      "sha256": "bdd38e4fac0c93e6139667ada48e0f0fb4db16625927fa079f954b92733ae9b5"
+    },
+    {
+      "file": "meshes/torso/naval-strap__1__1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/naval-strap__1__1.stl",
+      "bytes": 389984,
+      "sha256": "a0f0f9e6da702fd2248620673c1585ff1e06c1fc91d32a378bf658a463358c2f"
+    },
+    {
+      "file": "meshes/torso/neck-chest-interface2_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/neck-chest-interface2_1.stl",
+      "bytes": 299484,
+      "sha256": "de3589ee15cd6ac4f6c204236359d9c19ea9e62cfc9c527d7de850f332806791"
+    },
+    {
+      "file": "meshes/torso/rear-left-rib_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/rear-left-rib_1.stl",
+      "bytes": 375684,
+      "sha256": "c50f1c5b2f8ead28832a5d00d07ee5f10ffc38ed24bbca50fcf22c47be4c05b3"
+    },
+    {
+      "file": "meshes/torso/rear-left-spine-support_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/rear-left-spine-support_1.stl",
+      "bytes": 371184,
+      "sha256": "ac68e2426f4e6ce3bc9256666408fd03164a3ef2c35dc082002bf65018400362"
+    },
+    {
+      "file": "meshes/torso/rear-left-spine-support_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/rear-left-spine-support_MIR_1.stl",
+      "bytes": 371184,
+      "sha256": "6a499ddcf62b186d568cb81edde792749654107040a3d074180bb69cb3222530"
+    },
+    {
+      "file": "meshes/torso/rear-right-rib_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/rear-right-rib_1.stl",
+      "bytes": 374684,
+      "sha256": "1d9ed01e15a75e93056c164ecb8f23f370eb86a304940f418e4ddf97f1343daa"
+    },
+    {
+      "file": "meshes/torso/rear-right-shoulder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/rear-right-shoulder_1.stl",
+      "bytes": 617284,
+      "sha256": "fc9f31edc4cf6ce7c5bb2c85f2d2cbfeb96230d1c7a4ec9bcb63ae3fd5008f2d"
+    },
+    {
+      "file": "meshes/torso/rear-right-shoulder_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/rear-right-shoulder_MIR_1.stl",
+      "bytes": 623684,
+      "sha256": "20ac06c382e482b8b0b5d59d504df91a6d986ab681d9ce2226f1be671644cc26"
+    },
+    {
+      "file": "meshes/torso/right-battery-mount_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-battery-mount_1.stl",
+      "bytes": 496184,
+      "sha256": "67c4c0649a8a12f9dc5d15d39cf826be44c6633d306c3e6691d498c7b5f75403"
+    },
+    {
+      "file": "meshes/torso/right-front-rib-lower_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-front-rib-lower_1.stl",
+      "bytes": 191784,
+      "sha256": "2bb291a6eb53356b10ff660489845d746897649ac5885db09bc13404e91e3856"
+    },
+    {
+      "file": "meshes/torso/right-lower-rib-side_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-lower-rib-side_1.stl",
+      "bytes": 250784,
+      "sha256": "7e48446f1c384ec6c31b55e8d114f87f31c5d76488289fd5d73ba1fb0280009c"
+    },
+    {
+      "file": "meshes/torso/right-middle-rib_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-middle-rib_1.stl",
+      "bytes": 289184,
+      "sha256": "df05d2548afbad58fe462dcd1e1773c200ae3444d68bfcd6141726d06b18c820"
+    },
+    {
+      "file": "meshes/torso/right-rear-shoulder_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-rear-shoulder_1.stl",
+      "bytes": 146084,
+      "sha256": "a6b53f2d9b551664073f2d871d09b099ac5eadbb79b6f8046f06dc4423ab2b1e"
+    },
+    {
+      "file": "meshes/torso/right-rear-shoulder_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-rear-shoulder_MIR_1.stl",
+      "bytes": 146084,
+      "sha256": "2c6c90d0d54621ae8d67741805e6c690d4cf1fe8e9616df84991a8bf1de137e9"
+    },
+    {
+      "file": "meshes/torso/right-shoulder-motor-adapter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-shoulder-motor-adapter_1.stl",
+      "bytes": 373584,
+      "sha256": "35f6de0b473c76d59aff130c6e30611b4644a93ed33738cda3e6da6b56a9c4a3"
+    },
+    {
+      "file": "meshes/torso/right-shoulder-motor-adapter_MIR_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-shoulder-motor-adapter_MIR_1.stl",
+      "bytes": 374084,
+      "sha256": "9a8f0109b40193d5ce051de273234e082519beef58074b7bf2fa703b6ed01357"
+    },
+    {
+      "file": "meshes/torso/right-shoulder-top1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-shoulder-top1_1.stl",
+      "bytes": 160184,
+      "sha256": "25382c716446fa1bb9e6c150db326682492afc145a606795880576ebeda43886"
+    },
+    {
+      "file": "meshes/torso/right-shoulder-top_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-shoulder-top_1.stl",
+      "bytes": 160184,
+      "sha256": "6d200796bcb52a9531f7d5c02403e630af80584b9505c739962f1fd50a6bca7b"
+    },
+    {
+      "file": "meshes/torso/right-shoulder-under1_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-shoulder-under1_1.stl",
+      "bytes": 172484,
+      "sha256": "01b4541de2efd2e214e9314e14a1ddc3b93944a1bf530cbd2a2638db6b657b19"
+    },
+    {
+      "file": "meshes/torso/right-shoulder-under_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/right-shoulder-under_1.stl",
+      "bytes": 172484,
+      "sha256": "10fe15fb0c1c4b04ab6ff4eafb4df02cbcabe60136776007280dd4b8b7d06355"
+    },
+    {
+      "file": "meshes/torso/voltage-meter_1.stl",
+      "remote": "dropbear_granular_urdf/meshes/torso/voltage-meter_1.stl",
+      "bytes": 7084,
+      "sha256": "c4dd4ca9b6f37472e4cec14d362943046f80db82afcb10ef4e6299407c9d7c13"
+    }
+  ]
+}

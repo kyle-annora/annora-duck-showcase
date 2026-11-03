@@ -7,3 +7,5 @@ work/
 !.env.example
 
 .vite/
+
+__pycache__/

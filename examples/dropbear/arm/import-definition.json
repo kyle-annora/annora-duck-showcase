@@ -1,0 +1,1267 @@
+{
+  "schemaVersion": 1,
+  "id": "dropbear-arm",
+  "rootId": "dropbear-arm",
+  "title": "Dropbear left arm",
+  "shortTitle": "Dropbear arm",
+  "licenseFile": "LICENSE.txt",
+  "tour": "authored-tour.json",
+  "provenance": {
+    "author": "Pointblank LLC / Hyperspawn; display adaptation by Annora",
+    "url": "https://github.com/Hyperspawn/dropbear_urdf",
+    "license": "MIT",
+    "attribution": "Dropbear · Pointblank LLC / Hyperspawn · MIT. Display adaptation and illustrative motion: Annora, 2026.",
+    "description": "The source left-arm shoulder subtree and its internal tendon relationships.",
+    "note": "Source joint frames and component identity retained. Simplified display geometry, curated finishes and illustrative separation. Only a rigid whole-arm swivel is animated; internal closed-linkage joints remain fixed. Not a solved linkage, walking simulation or manufacturing release."
+  },
+  "view": {
+    "direction": [
+      1,
+      0.5,
+      1.5
+    ],
+    "normalizedWidth": 1.25,
+    "labels": [
+      "Hero",
+      "Reverse"
+    ],
+    "facts": [
+      {
+        "label": "Source visuals",
+        "value": "68"
+      },
+      {
+        "label": "Closure relationships",
+        "value": "3"
+      }
+    ]
+  },
+  "creaseAngle": 32,
+  "groups": [
+    {
+      "id": "dropbear-arm-shoulder",
+      "title": "Shoulder drive",
+      "description": "Source yaw rotor and shoulder interfaces; the complete arm turns as one rigid subtree.",
+      "meshNames": [
+        "Db_torso-rmd-x10-1-rotor-1_1",
+        "Db_lh-shoulder-roll-al-mot-mir1-1-1_1",
+        "Db_lh-shoulder-roll-al-mot-mir1-2-1_1",
+        "Db_lh-yaw-cap-1_1",
+        "Db_lh-yaw-waist-adapter-motor-exal-mir1-1_1",
+        "Db_lh-front-bearing-adapter-shoulder-1_1",
+        "Db_lh-shoulder-ex-al-interface-2-1_1",
+        "Db_lh-shoulder-motor-bicep-rotor-bracket-1_1",
+        "Db_lh-bicep-shoulder-bracket-exal-1-1_1",
+        "Db_lh-bicep-shoulder-bracket-exal-2-1_1",
+        "Db_lh-yaw-waist-adapter-motor-exal-mir1-5-1_1",
+        "Db_lh-bicep-shoulder-bracket-exal-1_1",
+        "Db_lh-shoulder-front-1_1",
+        "Db_lh-bicep-shoulder-bracket-exal-3-1_1",
+        "Db_lh-shoulder-cap-1_1",
+        "Db_lh-shoulder-front-bearing-adapter-1_1",
+        "Db_lh-shoulder-ex-al-interface-1-1_1",
+        "Db_lh-shoulder-ex-al-interface-1_1",
+        "Db_lh-shoulder-roll-al-mot-mir1-3-1_1",
+        "Db_lh-shoulder-roll-al-mot-mir1-1_1"
+      ],
+      "children": [
+        {
+          "id": "dropbear-arm-shoulder-main",
+          "title": "Structure & drives",
+          "description": "Source structural and drive components.",
+          "meshNames": [
+            "Db_torso-rmd-x10-1-rotor-1_1",
+            "Db_lh-shoulder-roll-al-mot-mir1-1-1_1",
+            "Db_lh-shoulder-roll-al-mot-mir1-2-1_1",
+            "Db_lh-yaw-cap-1_1",
+            "Db_lh-yaw-waist-adapter-motor-exal-mir1-1_1",
+            "Db_lh-shoulder-ex-al-interface-2-1_1",
+            "Db_lh-shoulder-motor-bicep-rotor-bracket-1_1",
+            "Db_lh-bicep-shoulder-bracket-exal-1-1_1",
+            "Db_lh-bicep-shoulder-bracket-exal-2-1_1",
+            "Db_lh-yaw-waist-adapter-motor-exal-mir1-5-1_1",
+            "Db_lh-bicep-shoulder-bracket-exal-1_1",
+            "Db_lh-shoulder-front-1_1",
+            "Db_lh-bicep-shoulder-bracket-exal-3-1_1",
+            "Db_lh-shoulder-cap-1_1",
+            "Db_lh-shoulder-ex-al-interface-1-1_1",
+            "Db_lh-shoulder-ex-al-interface-1_1",
+            "Db_lh-shoulder-roll-al-mot-mir1-3-1_1",
+            "Db_lh-shoulder-roll-al-mot-mir1-1_1"
+          ]
+        },
+        {
+          "id": "dropbear-arm-shoulder-hardware",
+          "title": "Connections",
+          "description": "Source bearings, pins and fastening components.",
+          "meshNames": [
+            "Db_lh-front-bearing-adapter-shoulder-1_1",
+            "Db_lh-shoulder-front-bearing-adapter-1_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dropbear-arm-structure",
+      "title": "Arm structure",
+      "description": "Source extrusions, brackets and motor supports.",
+      "meshNames": [
+        "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1_surface2",
+        "Db_lh-bicep-rear-motor-adapter-1_1",
+        "Db_lh-2020-100mm-8-1-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1_surface2",
+        "Db_lh-bicep-rotational-cuff-second-motor-bracket-1_1",
+        "Db_lh-arm-cuff-bicep-bracket-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1_surface2",
+        "Db_lh-power-mount-arm-1_1",
+        "Db_lh-power-mount-arm-1_1_surface2",
+        "Db_lh-fan-mount-1_1",
+        "Db_lh-fan-mount-1_1_surface2",
+        "Db_lh-bicep-motor-mate-1_1",
+        "Db_lh-bicep-1_1",
+        "Db_lh-second-forearm-motor-strap-1_1",
+        "Db_lh-second-forearm-motor-strap-1_1_surface2",
+        "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1",
+        "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1_surface2",
+        "Db_lh-fore-arm-bicep-motor-attatch-1_1",
+        "Db_lh-2020-100mm-10-1_1",
+        "Db_lh-top-bracket-servo-strap-1_1",
+        "Db_lh-top-bracket-servo-strap-1_1_surface2",
+        "Db_lh-mg995-1_1",
+        "Db_lh-mg995-1_1_surface2",
+        "Db_lh-mg995-4-1_1",
+        "Db_lh-mg995-4-1_1_surface2",
+        "Db_lh-mg995-3-1_1",
+        "Db_lh-mg995-3-1_1_surface2",
+        "Db_lh-mg995-5-1_1",
+        "Db_lh-mg995-5-1_1_surface2",
+        "Db_lh-2020-100mm-11-1_1",
+        "Db_lh-top-bracket-servo-strap-1-1_1",
+        "Db_lh-top-bracket-servo-strap-1-1_1_surface2",
+        "Db_lh-mg995-2-1_1",
+        "Db_lh-mg995-2-1_1_surface2",
+        "Db_lh-mg995-6-1_1",
+        "Db_lh-mg995-6-1_1_surface2",
+        "Db_lh-mg995-1-1_1",
+        "Db_lh-mg995-1-1_1_surface2",
+        "Db_lh-mg995-7-1_1",
+        "Db_lh-mg995-7-1_1_surface2",
+        "Db_lh-multiplex-stack-flat-1_1",
+        "Db_lh-multiplex-stack-flat-1_1_surface2",
+        "Db_lh-2020-100mm-9-1_1"
+      ],
+      "children": [
+        {
+          "id": "dropbear-arm-structure-main",
+          "title": "Structure & drives",
+          "description": "Source structural and drive components.",
+          "meshNames": [
+            "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1_surface2",
+            "Db_lh-bicep-rear-motor-adapter-1_1",
+            "Db_lh-2020-100mm-8-1-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1_surface2",
+            "Db_lh-bicep-rotational-cuff-second-motor-bracket-1_1",
+            "Db_lh-arm-cuff-bicep-bracket-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1_surface2",
+            "Db_lh-power-mount-arm-1_1",
+            "Db_lh-power-mount-arm-1_1_surface2",
+            "Db_lh-fan-mount-1_1",
+            "Db_lh-fan-mount-1_1_surface2",
+            "Db_lh-bicep-motor-mate-1_1",
+            "Db_lh-bicep-1_1",
+            "Db_lh-second-forearm-motor-strap-1_1",
+            "Db_lh-second-forearm-motor-strap-1_1_surface2",
+            "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1",
+            "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1_surface2",
+            "Db_lh-fore-arm-bicep-motor-attatch-1_1",
+            "Db_lh-2020-100mm-10-1_1",
+            "Db_lh-top-bracket-servo-strap-1_1",
+            "Db_lh-top-bracket-servo-strap-1_1_surface2",
+            "Db_lh-mg995-1_1",
+            "Db_lh-mg995-1_1_surface2",
+            "Db_lh-mg995-4-1_1",
+            "Db_lh-mg995-4-1_1_surface2",
+            "Db_lh-mg995-3-1_1",
+            "Db_lh-mg995-3-1_1_surface2",
+            "Db_lh-mg995-5-1_1",
+            "Db_lh-mg995-5-1_1_surface2",
+            "Db_lh-2020-100mm-11-1_1",
+            "Db_lh-top-bracket-servo-strap-1-1_1",
+            "Db_lh-top-bracket-servo-strap-1-1_1_surface2",
+            "Db_lh-mg995-2-1_1",
+            "Db_lh-mg995-2-1_1_surface2",
+            "Db_lh-mg995-6-1_1",
+            "Db_lh-mg995-6-1_1_surface2",
+            "Db_lh-mg995-1-1_1",
+            "Db_lh-mg995-1-1_1_surface2",
+            "Db_lh-mg995-7-1_1",
+            "Db_lh-mg995-7-1_1_surface2",
+            "Db_lh-multiplex-stack-flat-1_1",
+            "Db_lh-multiplex-stack-flat-1_1_surface2",
+            "Db_lh-2020-100mm-9-1_1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dropbear-arm-linkages",
+      "title": "Tendons & bearings",
+      "description": "Source elbow and tendon chains. Their internal transforms stay fixed during the swivel.",
+      "meshNames": [
+        "Db_lh-skateboard-bearing-7-1_1",
+        "Db_lh-elbow-hangar-1_1",
+        "Db_lh-elbow-hangar1-1_1",
+        "Db_lh-6mm-bearing-1_1",
+        "Db_lh-6mm-bearing-9-1_1",
+        "Db_lh-straight-tendon-1_1",
+        "Db_lh-6mm-bearing-1-1_1",
+        "Db_lh-6mm-bearing-5-1_1",
+        "Db_lh-6mm-bearing-2-1_1",
+        "Db_lh-elbow-bridge-rear-1-1_1",
+        "Db_lh-6mm-bearing-6-1_1",
+        "Db_lh-elbow-rear-hanger-1-1_1",
+        "Db_lh-elbow-rear-hanger-1_1",
+        "Db_lh-6mm-bearing-7-1_1",
+        "Db_lh-6mm-bearing-4-1_1",
+        "Db_lh-forearm-elbow-motor-bracket-inner2-1_1",
+        "Db_lh-6mm-bearing-3-1_1",
+        "Db_lh-elbow-bridge-rear-1_1",
+        "Db_lh-forearm-elbow-motor-bracket-inner-1_1",
+        "Db_lh-6mm-bearing-8-1_1"
+      ],
+      "children": [
+        {
+          "id": "dropbear-arm-linkages-main",
+          "title": "Structure & drives",
+          "description": "Source structural and drive components.",
+          "meshNames": [
+            "Db_lh-elbow-hangar-1_1",
+            "Db_lh-elbow-hangar1-1_1",
+            "Db_lh-straight-tendon-1_1",
+            "Db_lh-elbow-bridge-rear-1-1_1",
+            "Db_lh-elbow-rear-hanger-1-1_1",
+            "Db_lh-elbow-rear-hanger-1_1",
+            "Db_lh-forearm-elbow-motor-bracket-inner2-1_1",
+            "Db_lh-elbow-bridge-rear-1_1",
+            "Db_lh-forearm-elbow-motor-bracket-inner-1_1"
+          ]
+        },
+        {
+          "id": "dropbear-arm-linkages-hardware",
+          "title": "Connections",
+          "description": "Source bearings, pins and fastening components.",
+          "meshNames": [
+            "Db_lh-skateboard-bearing-7-1_1",
+            "Db_lh-6mm-bearing-1_1",
+            "Db_lh-6mm-bearing-9-1_1",
+            "Db_lh-6mm-bearing-1-1_1",
+            "Db_lh-6mm-bearing-5-1_1",
+            "Db_lh-6mm-bearing-2-1_1",
+            "Db_lh-6mm-bearing-6-1_1",
+            "Db_lh-6mm-bearing-7-1_1",
+            "Db_lh-6mm-bearing-4-1_1",
+            "Db_lh-6mm-bearing-3-1_1",
+            "Db_lh-6mm-bearing-8-1_1"
+          ]
+        }
+      ]
+    }
+  ],
+  "parts": {
+    "Db_torso-rmd-x10-1-rotor-1_1": {
+      "id": "db-torso-rmd-x10-1-rotor-1-1",
+      "title": "RMD X10  1 Rotor",
+      "description": "RMD X10  1 Rotor. Source link torso_RMD-X10__1_Rotor_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.02828460128250121,
+        0.11913445672978801,
+        0.04706380297021669
+      ]
+    },
+    "Db_lh-shoulder-roll-al-mot-mir1-1-1_1": {
+      "id": "db-lh-shoulder-roll-al-mot-mir1-1-1-1",
+      "title": "Shoulder Roll Al Mot MIR1",
+      "description": "Shoulder Roll Al Mot MIR1. Source link LH_shoulder-roll-al-mot_MIR1__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.042940266866683945,
+        0.11916707764758017,
+        0.023669129084818556
+      ]
+    },
+    "Db_lh-shoulder-roll-al-mot-mir1-2-1_1": {
+      "id": "db-lh-shoulder-roll-al-mot-mir1-2-1-1",
+      "title": "Shoulder Roll Al Mot MIR1",
+      "description": "Shoulder Roll Al Mot MIR1. Source link LH_shoulder-roll-al-mot_MIR1__2__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.013710337610244743,
+        0.11916154877795124,
+        0.023669129083275696
+      ]
+    },
+    "Db_lh-yaw-cap-1_1": {
+      "id": "db-lh-yaw-cap-1-1",
+      "title": "Yaw Cap",
+      "description": "Yaw Cap. Source link LH_yaw-cap_1; display finish and separated positions are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        -0.028315538311004633,
+        0.11916401269035384,
+        -0.04072797096410288
+      ]
+    },
+    "Db_lh-yaw-waist-adapter-motor-exal-mir1-1_1": {
+      "id": "db-lh-yaw-waist-adapter-motor-exal-mir1-1-1",
+      "title": "Yaw Waist Adapter Motor Exal MIR1",
+      "description": "Yaw Waist Adapter Motor Exal MIR1. Source link LH_yaw-waist-adapter-motor-exal_MIR1_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.023727206153869623,
+        0.11916431644020403,
+        -0.006351705342832298
+      ]
+    },
+    "Db_lh-front-bearing-adapter-shoulder-1_1": {
+      "id": "db-lh-front-bearing-adapter-shoulder-1-1",
+      "title": "Front Bearing Adapter Shoulder",
+      "description": "Front Bearing Adapter Shoulder. Source link LH_front-bearing-adapter-shoulder_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        -0.000725253105163564,
+        0.11916774571953126,
+        -0.006351703682482047
+      ]
+    },
+    "Db_lh-shoulder-ex-al-interface-2-1_1": {
+      "id": "db-lh-shoulder-ex-al-interface-2-1-1",
+      "title": "Shoulder Ex Al Interface",
+      "description": "Shoulder Ex Al Interface. Source link LH_shoulder-ex-al-interface__2__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04534530223846435,
+        0.11916805831489866,
+        -0.006351703682394802
+      ]
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1": {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-1-1-1",
+      "title": "RMD X8 Pro MIR8 MIR1",
+      "description": "RMD X8 Pro MIR8 MIR1. Source link LH_RMD-X8-Pro_MIR8_MIR1__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0763309931564331,
+        0.14125738944851104,
+        -0.0002921096371811733
+      ]
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1_surface2": {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-1-1-1-surface2",
+      "title": "RMD X8 Pro MIR8 MIR1 · surface 2",
+      "description": "RMD X8 Pro MIR8 MIR1 · surface 2. Source link LH_RMD-X8-Pro_MIR8_MIR1__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.0763309931564331,
+        0.14125738944851104,
+        -0.0002921096371811733
+      ]
+    },
+    "Db_lh-shoulder-motor-bicep-rotor-bracket-1_1": {
+      "id": "db-lh-shoulder-motor-bicep-rotor-bracket-1-1",
+      "title": "Shoulder Motor Bicep Rotor Bracket",
+      "description": "Shoulder Motor Bicep Rotor Bracket. Source link LH_shoulder-motor-bicep-rotor-bracket_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.09272530223846437,
+        0.09109006131353972,
+        -0.00844791439658681
+      ]
+    },
+    "Db_lh-bicep-rear-motor-adapter-1_1": {
+      "id": "db-lh-bicep-rear-motor-adapter-1-1",
+      "title": "Bicep Rear Motor Adapter",
+      "description": "Bicep Rear Motor Adapter. Source link LH_bicep-rear-motor-adapter_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.06711775611877442,
+        0.10613701900889325,
+        -0.012408863779464657
+      ]
+    },
+    "Db_lh-bicep-shoulder-bracket-exal-1-1_1": {
+      "id": "db-lh-bicep-shoulder-bracket-exal-1-1-1",
+      "title": "Bicep Shoulder Bracket Exal",
+      "description": "Bicep Shoulder Bracket Exal. Source link LH_bicep-shoulder-bracket-exal__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.06006530223846436,
+        0.08136431919936168,
+        -0.03201671423162939
+      ]
+    },
+    "Db_lh-bicep-shoulder-bracket-exal-2-1_1": {
+      "id": "db-lh-bicep-shoulder-bracket-exal-2-1-1",
+      "title": "Bicep Shoulder Bracket Exal",
+      "description": "Bicep Shoulder Bracket Exal. Source link LH_bicep-shoulder-bracket-exal__2__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.06006530223846436,
+        0.08136431629990831,
+        -0.005046714231629828
+      ]
+    },
+    "Db_lh-2020-100mm-8-1-1_1": {
+      "id": "db-lh-2020-100mm-8-1-1-1",
+      "title": "2020 100mm  8 ",
+      "description": "2020 100mm  8 . Source link LH_2020_100mm__8___1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.02870775611877443,
+        0.09803701900889335,
+        -0.012408866039791265
+      ]
+    },
+    "Db_lh-yaw-waist-adapter-motor-exal-mir1-5-1_1": {
+      "id": "db-lh-yaw-waist-adapter-motor-exal-mir1-5-1-1",
+      "title": "Yaw Waist Adapter Motor Exal MIR1",
+      "description": "Yaw Waist Adapter Motor Exal MIR1. Source link LH_yaw-waist-adapter-motor-exal_MIR1__5__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028325302238464366,
+        0.07866319920410267,
+        -0.018531713325990642
+      ]
+    },
+    "Db_lh-bicep-shoulder-bracket-exal-1_1": {
+      "id": "db-lh-bicep-shoulder-bracket-exal-1-1",
+      "title": "Bicep Shoulder Bracket Exal",
+      "description": "Bicep Shoulder Bracket Exal. Source link LH_bicep-shoulder-bracket-exal_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.0034146977615356344,
+        0.08136431629990831,
+        -0.00504671423162978
+      ]
+    },
+    "Db_lh-shoulder-front-1_1": {
+      "id": "db-lh-shoulder-front-1-1",
+      "title": "Shoulder Front",
+      "description": "Shoulder Front. Source link LH_shoulder-front_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.0034146977615356344,
+        0.09081431774963485,
+        -0.018531711594581887
+      ]
+    },
+    "Db_lh-bicep-shoulder-bracket-exal-3-1_1": {
+      "id": "db-lh-bicep-shoulder-bracket-exal-3-1-1",
+      "title": "Bicep Shoulder Bracket Exal",
+      "description": "Bicep Shoulder Bracket Exal. Source link LH_bicep-shoulder-bracket-exal__3__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.0034146977615356344,
+        0.08136431919936174,
+        -0.03201671423162937
+      ]
+    },
+    "Db_lh-shoulder-cap-1_1": {
+      "id": "db-lh-shoulder-cap-1-1",
+      "title": "Shoulder Cap",
+      "description": "Shoulder Cap. Source link LH_shoulder-cap_1; display finish and separated positions are illustrative.",
+      "finishFamily": "coatedWhite",
+      "explode": [
+        0.020894673194885242,
+        0.1151142494923134,
+        -0.006352137085578319
+      ]
+    },
+    "Db_lh-shoulder-front-bearing-adapter-1_1": {
+      "id": "db-lh-shoulder-front-bearing-adapter-1-1",
+      "title": "Shoulder Front Bearing Adapter",
+      "description": "Shoulder Front Bearing Adapter. Source link LH_shoulder-front-bearing-adapter_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.010544697761535635,
+        0.11915779777154946,
+        -0.006356113522980806
+      ]
+    },
+    "Db_lh-skateboard-bearing-7-1_1": {
+      "id": "db-lh-skateboard-bearing-7-1-1",
+      "title": "Skateboard Bearing",
+      "description": "Skateboard Bearing. Source link LH_skateboard-bearing__7__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.11286997833251952,
+        0.10314991315647609,
+        0.005882024676981439
+      ]
+    },
+    "Db_lh-shoulder-ex-al-interface-1-1_1": {
+      "id": "db-lh-shoulder-ex-al-interface-1-1-1",
+      "title": "Shoulder Ex Al Interface",
+      "description": "Shoulder Ex Al Interface. Source link LH_shoulder-ex-al-interface__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028325302238464363,
+        0.06597431775028334,
+        -0.018537747102147353
+      ]
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1": {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-3-1-1",
+      "title": "RMD X8 Pro MIR8 MIR1",
+      "description": "RMD X8 Pro MIR8 MIR1. Source link LH_RMD-X8-Pro_MIR8_MIR1__3__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028673048706054697,
+        0.07008424892152795,
+        -0.012345627723448164
+      ]
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1_surface2": {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-3-1-1-surface2",
+      "title": "RMD X8 Pro MIR8 MIR1 · surface 2",
+      "description": "RMD X8 Pro MIR8 MIR1 · surface 2. Source link LH_RMD-X8-Pro_MIR8_MIR1__3__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028673048706054697,
+        0.07008424892152795,
+        -0.012345627723448164
+      ]
+    },
+    "Db_lh-bicep-rotational-cuff-second-motor-bracket-1_1": {
+      "id": "db-lh-bicep-rotational-cuff-second-motor-bracket-1-1",
+      "title": "Bicep Rotational Cuff Second Motor Bracket",
+      "description": "Bicep Rotational Cuff Second Motor Bracket. Source link LH_bicep-rotational-cuff-second-motor-bracket_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028724391250610357,
+        0.05320894702527471,
+        -0.001690278028096509
+      ]
+    },
+    "Db_lh-arm-cuff-bicep-bracket-1_1": {
+      "id": "db-lh-arm-cuff-bicep-bracket-1-1",
+      "title": "Arm Cuff Bicep Bracket",
+      "description": "Arm Cuff Bicep Bracket. Source link LH_arm-cuff-bicep-bracket_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.02870887039184571,
+        0.0534774681450564,
+        -0.041446701579111636
+      ]
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1": {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-2-1-1",
+      "title": "RMD X8 Pro MIR8 MIR1",
+      "description": "RMD X8 Pro MIR8 MIR1. Source link LH_RMD-X8-Pro_MIR8_MIR1__2__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028774628295898445,
+        0.02862664354449438,
+        -0.02568890387207663
+      ]
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1_surface2": {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-2-1-1-surface2",
+      "title": "RMD X8 Pro MIR8 MIR1 · surface 2",
+      "description": "RMD X8 Pro MIR8 MIR1 · surface 2. Source link LH_RMD-X8-Pro_MIR8_MIR1__2__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028774628295898445,
+        0.02862664354449438,
+        -0.02568890387207663
+      ]
+    },
+    "Db_lh-elbow-hangar-1_1": {
+      "id": "db-lh-elbow-hangar-1-1",
+      "title": "Elbow Hangar",
+      "description": "Elbow Hangar. Source link LH_elbow-hangar_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.07678611988067627,
+        -0.04003925706909411,
+        -0.035292478437992804
+      ]
+    },
+    "Db_lh-elbow-hangar1-1_1": {
+      "id": "db-lh-elbow-hangar1-1-1",
+      "title": "Elbow Hangar1",
+      "description": "Elbow Hangar1. Source link LH_elbow-hangar1_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.07689261806488037,
+        -0.039986963676859055,
+        0.004483882813172671
+      ]
+    },
+    "Db_lh-power-mount-arm-1_1": {
+      "id": "db-lh-power-mount-arm-1-1",
+      "title": "Power Mount Arm",
+      "description": "Power Mount Arm. Source link LH_power-mount-arm_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.06453545021057129,
+        0.021236313712714148,
+        -0.0007291132440903928
+      ]
+    },
+    "Db_lh-power-mount-arm-1_1_surface2": {
+      "id": "db-lh-power-mount-arm-1-1-surface2",
+      "title": "Power Mount Arm · surface 2",
+      "description": "Power Mount Arm · surface 2. Source link LH_power-mount-arm_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.06453545021057129,
+        0.021236313712714148,
+        -0.0007291132440903928
+      ]
+    },
+    "Db_lh-fan-mount-1_1": {
+      "id": "db-lh-fan-mount-1-1",
+      "title": "Fan Mount",
+      "description": "Fan Mount. Source link LH_fan-mount_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.06992281486511231,
+        0.028601309222612684,
+        -0.014317356981257892
+      ]
+    },
+    "Db_lh-fan-mount-1_1_surface2": {
+      "id": "db-lh-fan-mount-1-1-surface2",
+      "title": "Fan Mount · surface 2",
+      "description": "Fan Mount · surface 2. Source link LH_fan-mount_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.06992281486511231,
+        0.028601309222612684,
+        -0.014317356981257892
+      ]
+    },
+    "Db_lh-bicep-motor-mate-1_1": {
+      "id": "db-lh-bicep-motor-mate-1-1",
+      "title": "Bicep Motor Mate",
+      "description": "Bicep Motor Mate. Source link LH_bicep-motor-mate_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.009705496788024908,
+        0.023705761536652267,
+        -0.0010966648544839031
+      ]
+    },
+    "Db_lh-6mm-bearing-1_1": {
+      "id": "db-lh-6mm-bearing-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.1217707266998291,
+        -0.025274752045909673,
+        -0.002818011160264018
+      ]
+    },
+    "Db_lh-bicep-1_1": {
+      "id": "db-lh-bicep-1-1",
+      "title": "Bicep",
+      "description": "Bicep. Source link LH_bicep_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.016520572052001945,
+        -0.000578145397210601,
+        -0.008928893558615857
+      ]
+    },
+    "Db_lh-6mm-bearing-9-1_1": {
+      "id": "db-lh-6mm-bearing-9-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__9__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.11592575553894043,
+        -0.05205589614991317,
+        -0.002818018633613681
+      ]
+    },
+    "Db_lh-straight-tendon-1_1": {
+      "id": "db-lh-straight-tendon-1-1",
+      "title": "Straight Tendon",
+      "description": "Straight Tendon. Source link LH_straight-tendon_1; display finish and separated positions are illustrative.",
+      "finishFamily": "machined",
+      "explode": [
+        0.08594189990997314,
+        -0.05598342744752573,
+        -0.015433019729601961
+      ]
+    },
+    "Db_lh-6mm-bearing-1-1_1": {
+      "id": "db-lh-6mm-bearing-1-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.09937962867736816,
+        -0.04269096881593937,
+        -0.02804801602030612
+      ]
+    },
+    "Db_lh-6mm-bearing-5-1_1": {
+      "id": "db-lh-6mm-bearing-5-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__5__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.09946133823394776,
+        -0.04269092208985471,
+        -0.002818016020292721
+      ]
+    },
+    "Db_lh-6mm-bearing-2-1_1": {
+      "id": "db-lh-6mm-bearing-2-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__2__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.07485242837905884,
+        -0.05013071796144706,
+        -0.028048018096387982
+      ]
+    },
+    "Db_lh-elbow-bridge-rear-1-1_1": {
+      "id": "db-lh-elbow-bridge-rear-1-1-1",
+      "title": "Elbow Bridge Rear",
+      "description": "Elbow Bridge Rear. Source link LH_elbow-bridge-rear__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.07478694553375244,
+        -0.05013062044068989,
+        -0.015433018096360588
+      ]
+    },
+    "Db_lh-6mm-bearing-6-1_1": {
+      "id": "db-lh-6mm-bearing-6-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__6__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.0749341388130188,
+        -0.050130671235362405,
+        -0.0028180180963745336
+      ]
+    },
+    "Db_lh-elbow-rear-hanger-1-1_1": {
+      "id": "db-lh-elbow-rear-hanger-1-1-1",
+      "title": "Elbow Rear Hanger",
+      "description": "Elbow Rear Hanger. Source link LH_elbow-rear-hanger__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.07801034582138063,
+        -0.06603188722914548,
+        -0.02675246780037528
+      ]
+    },
+    "Db_lh-elbow-rear-hanger-1_1": {
+      "id": "db-lh-elbow-rear-hanger-1-1",
+      "title": "Elbow Rear Hanger",
+      "description": "Elbow Rear Hanger. Source link LH_elbow-rear-hanger_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.07807431386947632,
+        -0.06603086793446036,
+        -0.004113577266643211
+      ]
+    },
+    "Db_lh-6mm-bearing-7-1_1": {
+      "id": "db-lh-6mm-bearing-7-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__7__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.05595813114166259,
+        -0.0691345991528426,
+        -0.002818023399471288
+      ]
+    },
+    "Db_lh-6mm-bearing-4-1_1": {
+      "id": "db-lh-6mm-bearing-4-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__4__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.05595813114166259,
+        -0.06913459644045068,
+        -0.028048023399470923
+      ]
+    },
+    "Db_lh-forearm-elbow-motor-bracket-inner2-1_1": {
+      "id": "db-lh-forearm-elbow-motor-bracket-inner2-1-1",
+      "title": "Forearm Elbow Motor Bracket Inner2",
+      "description": "Forearm Elbow Motor Bracket Inner2. Source link LH_forearm-elbow-motor-bracket-inner2_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07179342460632322,
+        -0.07553346712883058,
+        -0.03522508046768573
+      ]
+    },
+    "Db_lh-6mm-bearing-3-1_1": {
+      "id": "db-lh-6mm-bearing-3-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__3__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.08561629177093505,
+        -0.08192208087648564,
+        -0.028048026967852566
+      ]
+    },
+    "Db_lh-elbow-bridge-rear-1_1": {
+      "id": "db-lh-elbow-bridge-rear-1-1",
+      "title": "Elbow Bridge Rear",
+      "description": "Elbow Bridge Rear. Source link LH_elbow-bridge-rear_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        0.0856138467311859,
+        -0.0819332635681308,
+        -0.01543302697097295
+      ]
+    },
+    "Db_lh-second-forearm-motor-strap-1_1": {
+      "id": "db-lh-second-forearm-motor-strap-1-1",
+      "title": "Second Forearm Motor Strap",
+      "description": "Second Forearm Motor Strap. Source link LH_second-forearm-motor-strap_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.030531092910766618,
+        -0.04782045772382696,
+        -0.047160512195200864
+      ]
+    },
+    "Db_lh-second-forearm-motor-strap-1_1_surface2": {
+      "id": "db-lh-second-forearm-motor-strap-1-1-surface2",
+      "title": "Second Forearm Motor Strap · surface 2",
+      "description": "Second Forearm Motor Strap · surface 2. Source link LH_second-forearm-motor-strap_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.030531092910766618,
+        -0.04782045772382696,
+        -0.047160512195200864
+      ]
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1": {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-4-1-1",
+      "title": "RMD X8 Pro MIR8 MIR1",
+      "description": "RMD X8 Pro MIR8 MIR1. Source link LH_RMD-X8-Pro_MIR8_MIR1__4__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028788854141235366,
+        -0.0640936963299344,
+        -0.012345668484948231
+      ]
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1_surface2": {
+      "id": "db-lh-rmd-x8-pro-mir8-mir1-4-1-1-surface2",
+      "title": "RMD X8 Pro MIR8 MIR1 · surface 2",
+      "description": "RMD X8 Pro MIR8 MIR1 · surface 2. Source link LH_RMD-X8-Pro_MIR8_MIR1__4__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028788854141235366,
+        -0.0640936963299344,
+        -0.012345668484948231
+      ]
+    },
+    "Db_lh-fore-arm-bicep-motor-attatch-1_1": {
+      "id": "db-lh-fore-arm-bicep-motor-attatch-1-1",
+      "title": "Fore Arm Bicep Motor Attatch",
+      "description": "Fore Arm Bicep Motor Attatch. Source link LH_fore-arm-bicep-motor-attatch_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.02872151344299317,
+        -0.047825053275259266,
+        0.008769609816609583
+      ]
+    },
+    "Db_lh-forearm-elbow-motor-bracket-inner-1_1": {
+      "id": "db-lh-forearm-elbow-motor-bracket-inner-1-1",
+      "title": "Forearm Elbow Motor Bracket Inner",
+      "description": "Forearm Elbow Motor Bracket Inner. Source link LH_forearm-elbow-motor-bracket-inner_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        0.07179659194946289,
+        -0.07552421814954319,
+        0.0043592358648518355
+      ]
+    },
+    "Db_lh-6mm-bearing-8-1_1": {
+      "id": "db-lh-6mm-bearing-8-1-1",
+      "title": "6mm Bearing",
+      "description": "6mm Bearing. Source link LH_6mm-bearing__8__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polished",
+      "explode": [
+        0.08561558482170104,
+        -0.08191882888917047,
+        -0.002818026966944727
+      ]
+    },
+    "Db_lh-shoulder-ex-al-interface-1_1": {
+      "id": "db-lh-shoulder-ex-al-interface-1-1",
+      "title": "Shoulder Ex Al Interface",
+      "description": "Shoulder Ex Al Interface. Source link LH_shoulder-ex-al-interface_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028354914703369156,
+        -0.10413219165042448,
+        -0.018525735759634752
+      ]
+    },
+    "Db_lh-shoulder-roll-al-mot-mir1-3-1_1": {
+      "id": "db-lh-shoulder-roll-al-mot-mir1-3-1-1",
+      "title": "Shoulder Roll Al Mot MIR1",
+      "description": "Shoulder Roll Al Mot MIR1. Source link LH_shoulder-roll-al-mot_MIR1__3__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028392104225158706,
+        -0.11708647475252833,
+        -0.004704328909321348
+      ]
+    },
+    "Db_lh-shoulder-roll-al-mot-mir1-1_1": {
+      "id": "db-lh-shoulder-roll-al-mot-mir1-1-1",
+      "title": "Shoulder Roll Al Mot MIR1",
+      "description": "Shoulder Roll Al Mot MIR1. Source link LH_shoulder-roll-al-mot_MIR1_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028331596565246593,
+        -0.11708669425131052,
+        -0.03237111313866155
+      ]
+    },
+    "Db_lh-2020-100mm-10-1_1": {
+      "id": "db-lh-2020-100mm-10-1-1",
+      "title": "2020 100mm",
+      "description": "2020 100mm. Source link LH_2020_100mm__10__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028757532100677503,
+        -0.11364949039051749,
+        -0.01240892511147633
+      ]
+    },
+    "Db_lh-top-bracket-servo-strap-1_1": {
+      "id": "db-lh-top-bracket-servo-strap-1-1",
+      "title": "Top Bracket Servo Strap",
+      "description": "Top Bracket Servo Strap. Source link LH_top-bracket-servo-strap_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028750153770446794,
+        -0.10601388245799209,
+        -0.012616995967342361
+      ]
+    },
+    "Db_lh-top-bracket-servo-strap-1_1_surface2": {
+      "id": "db-lh-top-bracket-servo-strap-1-1-surface2",
+      "title": "Top Bracket Servo Strap · surface 2",
+      "description": "Top Bracket Servo Strap · surface 2. Source link LH_top-bracket-servo-strap_1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028750153770446794,
+        -0.10601388245799209,
+        -0.012616995967342361
+      ]
+    },
+    "Db_lh-mg995-1_1": {
+      "id": "db-lh-mg995-1-1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.01644707523345948,
+        -0.11920714332520777,
+        0.0050102675400691635
+      ]
+    },
+    "Db_lh-mg995-1_1_surface2": {
+      "id": "db-lh-mg995-1-1-surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.01644707523345948,
+        -0.11920714332520777,
+        0.0050102675400691635
+      ]
+    },
+    "Db_lh-mg995-4-1_1": {
+      "id": "db-lh-mg995-4-1-1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__4__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04717795532226564,
+        -0.11920233893263012,
+        -0.0007624465012538179
+      ]
+    },
+    "Db_lh-mg995-4-1_1_surface2": {
+      "id": "db-lh-mg995-4-1-1-surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__4__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04717795532226564,
+        -0.11920233893263012,
+        -0.0007624465012538179
+      ]
+    },
+    "Db_lh-mg995-3-1_1": {
+      "id": "db-lh-mg995-3-1-1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__3__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04107249914169313,
+        -0.11920377776344447,
+        -0.029828119204445072
+      ]
+    },
+    "Db_lh-mg995-3-1_1_surface2": {
+      "id": "db-lh-mg995-3-1-1-surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__3__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04107249914169313,
+        -0.11920377776344447,
+        -0.029828119204445072
+      ]
+    },
+    "Db_lh-mg995-5-1_1": {
+      "id": "db-lh-mg995-5-1-1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__5__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.010337365951538101,
+        -0.11920844208033875,
+        -0.024055401844296387
+      ]
+    },
+    "Db_lh-mg995-5-1_1_surface2": {
+      "id": "db-lh-mg995-5-1-1-surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__5__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.010337365951538101,
+        -0.11920844208033875,
+        -0.024055401844296387
+      ]
+    },
+    "Db_lh-2020-100mm-11-1_1": {
+      "id": "db-lh-2020-100mm-11-1-1",
+      "title": "2020 100mm",
+      "description": "2020 100mm. Source link LH_2020_100mm__11__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028774760341644307,
+        -0.1406413907201069,
+        -0.012408932643638095
+      ]
+    },
+    "Db_lh-top-bracket-servo-strap-1-1_1": {
+      "id": "db-lh-top-bracket-servo-strap-1-1-1",
+      "title": "Top Bracket Servo Strap",
+      "description": "Top Bracket Servo Strap. Source link LH_top-bracket-servo-strap__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028785741195678727,
+        -0.16230978887480002,
+        -0.012200865703659587
+      ]
+    },
+    "Db_lh-top-bracket-servo-strap-1-1_1_surface2": {
+      "id": "db-lh-top-bracket-servo-strap-1-1-1-surface2",
+      "title": "Top Bracket Servo Strap · surface 2",
+      "description": "Top Bracket Servo Strap · surface 2. Source link LH_top-bracket-servo-strap__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "polymer",
+      "explode": [
+        -0.028785741195678727,
+        -0.16230978887480002,
+        -0.012200865703659587
+      ]
+    },
+    "Db_lh-mg995-2-1_1": {
+      "id": "db-lh-mg995-2-1-1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__2__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.01036329648971559,
+        -0.14911991766639793,
+        -0.0007771819654650435
+      ]
+    },
+    "Db_lh-mg995-2-1_1_surface2": {
+      "id": "db-lh-mg995-2-1-1-surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__2__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.01036329648971559,
+        -0.14911991766639793,
+        -0.0007771819654650435
+      ]
+    },
+    "Db_lh-mg995-6-1_1": {
+      "id": "db-lh-mg995-6-1-1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__6__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04107855043411256,
+        -0.14911508979737484,
+        0.005010255875390322
+      ]
+    },
+    "Db_lh-mg995-6-1_1_surface2": {
+      "id": "db-lh-mg995-6-1-1-surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__6__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04107855043411256,
+        -0.14911508979737484,
+        0.005010255875390322
+      ]
+    },
+    "Db_lh-mg995-1-1_1": {
+      "id": "db-lh-mg995-1-1-1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04720387928009035,
+        -0.14911379303248642,
+        -0.024055413508250904
+      ]
+    },
+    "Db_lh-mg995-1-1_1_surface2": {
+      "id": "db-lh-mg995-1-1-1-surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__1__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.04720387928009035,
+        -0.14911379303248642,
+        -0.024055413508250904
+      ]
+    },
+    "Db_lh-mg995-7-1_1": {
+      "id": "db-lh-mg995-7-1-1",
+      "title": "MG995",
+      "description": "MG995. Source link LH_MG995__7__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.016468746967315685,
+        -0.14911847258766303,
+        -0.029828124233433825
+      ]
+    },
+    "Db_lh-mg995-7-1_1_surface2": {
+      "id": "db-lh-mg995-7-1-1-surface2",
+      "title": "MG995 · surface 2",
+      "description": "MG995 · surface 2. Source link LH_MG995__7__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.016468746967315685,
+        -0.14911847258766303,
+        -0.029828124233433825
+      ]
+    },
+    "Db_lh-multiplex-stack-flat-1_1": {
+      "id": "db-lh-multiplex-stack-flat-1-1",
+      "title": "Multiplex Stack Flat",
+      "description": "Multiplex Stack Flat. Source link LH_multiplex-stack-flat_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.02997057670593262,
+        0.1034370217032711,
+        -0.03747130231519407
+      ]
+    },
+    "Db_lh-multiplex-stack-flat-1_1_surface2": {
+      "id": "db-lh-multiplex-stack-flat-1-1-surface2",
+      "title": "Multiplex Stack Flat · surface 2",
+      "description": "Multiplex Stack Flat · surface 2. Source link LH_multiplex-stack-flat_1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.02997057670593262,
+        0.1034370217032711,
+        -0.03747130231519407
+      ]
+    },
+    "Db_lh-2020-100mm-9-1_1": {
+      "id": "db-lh-2020-100mm-9-1-1",
+      "title": "2020 100mm",
+      "description": "2020 100mm. Source link LH_2020_100mm__9__1; display finish and separated positions are illustrative.",
+      "finishFamily": "structure",
+      "explode": [
+        -0.028707756118774404,
+        0.14123701769946204,
+        -0.00022885398471625103
+      ]
+    }
+  },
+  "operation": {
+    "clipName": "DropbearArmSwivel",
+    "duration": 2.5,
+    "stages": [
+      {
+        "at": 0,
+        "title": "Arm at rest",
+        "description": "All internal source joints are held at their imported pose.",
+        "nodeId": "dropbear-arm"
+      },
+      {
+        "at": 0.4,
+        "title": "Shoulder swivel",
+        "description": "The whole shoulder subtree turns together; internal tendon relationships stay fixed.",
+        "nodeId": "dropbear-arm"
+      },
+      {
+        "at": 0.99,
+        "title": "Back at rest",
+        "description": "The original rigid transforms are restored.",
+        "nodeId": "dropbear-arm"
+      }
+    ]
+  },
+  "presentationPolicy": {
+    "actionDuration": 2.5,
+    "explosion": {
+      "separationProfiles": {
+        "dropbear-arm-shoulder": [
+          0.12,
+          0.72
+        ],
+        "dropbear-arm-structure": [
+          0.16499999999999998,
+          0.755
+        ],
+        "dropbear-arm-linkages": [
+          0.21,
+          0.79
+        ]
+      }
+    }
+  }
+}

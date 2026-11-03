@@ -1,0 +1,1057 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "model.glb",
+    "sha256": "0935ee426eb2bb198d50ca008a8478fcd7548b4f3f7290ccd6e86ef2c682b9c1"
+  },
+  "contours": {
+    "file": "silhouettes.bin",
+    "compressedFile": "silhouettes.bin.gz",
+    "format": "uint32-oct16-le",
+    "coordinates": "original-mesh-local",
+    "bytesPerSegment": 16,
+    "sha256": "2adecfd7a1f4d90d690ef4b2fe8b4c80177910f6c3518a0abd297386a38e3bed"
+  },
+  "stats": {
+    "meshCount": 86,
+    "uniqueGeometryCount": 86,
+    "bytes": 1355648,
+    "uniqueSegments": 84728
+  },
+  "geometries": [
+    {
+      "byteOffset": 0,
+      "segmentCount": 1838,
+      "geometryId": 0,
+      "sourceGeometrySha256": "b542354698713f7b55003eecf475374a39dca4feb17614c2e2a9799c29350cb7",
+      "sha256": "9f3f6f7804fbb9664326c0080d97adb6e77ee9432fc5c547a0df4b6f0276780f"
+    },
+    {
+      "byteOffset": 29408,
+      "segmentCount": 1805,
+      "geometryId": 1,
+      "sourceGeometrySha256": "04cda4501a090ce007f4a654edf660efee23a4f2334d51691a77beaf2e01ec1d",
+      "sha256": "3479737e8e3e340698af55f75ef87d1542a2791371a6c46e93a02e04480a1d9f"
+    },
+    {
+      "byteOffset": 58288,
+      "segmentCount": 1805,
+      "geometryId": 2,
+      "sourceGeometrySha256": "0086272fedb3de489493a22b03f3d2778c739c032aa95652318e9bf7c9b274a9",
+      "sha256": "4ccdd222eb0c1eace5baa47f6c992202c326b029b874d7eedfa5b1185c9eb3ba"
+    },
+    {
+      "byteOffset": 87168,
+      "segmentCount": 515,
+      "geometryId": 3,
+      "sourceGeometrySha256": "415e4b012fd9b50c8455526858c071d9963d5ee7b13adcd6df90a12349599290",
+      "sha256": "e0afef0a6b2efc3a26e88fcef55113883699e529d97ae48f11919119f669f0f7"
+    },
+    {
+      "byteOffset": 95408,
+      "segmentCount": 1705,
+      "geometryId": 4,
+      "sourceGeometrySha256": "7a15c668bcf6d1265fa2be57bc770a6f82af90e648f9a7b106c694e0422e0442",
+      "sha256": "486b019484ff168bedecd6b36568c4d2c2b7a0a2c74e7edb3e9a6202115a7e47"
+    },
+    {
+      "byteOffset": 122688,
+      "segmentCount": 1402,
+      "geometryId": 5,
+      "sourceGeometrySha256": "4a3cbdae20306576c7214fcec6b6c6ae08d5b342db3381bc2f3c66c10b38a1bf",
+      "sha256": "84783db2659e2d749e289a69a68dc287bf9cbc60a9f290dbf511a8456f5c6c51"
+    },
+    {
+      "byteOffset": 145120,
+      "segmentCount": 1369,
+      "geometryId": 6,
+      "sourceGeometrySha256": "1ba0c0ce23069d03e55870e61f58439d6d57c54205c2fe7cb2463b739329d102",
+      "sha256": "3c126bac6e347e39fe91e6803807cc9fcf9b381e3c6bd62eb084a85447c391fb"
+    },
+    {
+      "byteOffset": 167024,
+      "segmentCount": 2054,
+      "geometryId": 7,
+      "sourceGeometrySha256": "59a6bbe34cfa9da0f3a57d9b74e7b38325cb29696b8466ab14e1c280ad1fe683",
+      "sha256": "48c01b11d7f55128132fcbbefbd07d52a02cddd1135ecabc5461d5b33d7d0dba"
+    },
+    {
+      "byteOffset": 199888,
+      "segmentCount": 288,
+      "geometryId": 8,
+      "sourceGeometrySha256": "d6d928eac5a32e915a790b193519014db5335ad53a951b131945d0923aee02a1",
+      "sha256": "17f8becbfd1d107921ea15aa7c5de35810b86c6e7d9dfd9c0814c4557f0a9f2b"
+    },
+    {
+      "byteOffset": 204496,
+      "segmentCount": 1182,
+      "geometryId": 9,
+      "sourceGeometrySha256": "4330682bb16d0c70599fbac1ab4e19d64cebfa6e02953191dcb0f775b5155575",
+      "sha256": "0b30867e02b0536381fdfa89b7ffb5d6581d29a2a2bee8ddac3b3959b74ff450"
+    },
+    {
+      "byteOffset": 223408,
+      "segmentCount": 1513,
+      "geometryId": 10,
+      "sourceGeometrySha256": "c3fa3d9a3c1c271d276f4a008365c089ea1df6f2c493bcfd3c9591b7723240f2",
+      "sha256": "99229a34908913066250c87060a0b34f4f12db1c13b61a963eb52c61d6de9561"
+    },
+    {
+      "byteOffset": 247616,
+      "segmentCount": 935,
+      "geometryId": 11,
+      "sourceGeometrySha256": "f8fff362d7cb0d4fedd1f857e86e5f70921cc792ed09892dcbbcca097481a959",
+      "sha256": "ddaee8695ec67d13e76b16f86988a2818fc205b7cf219ea87f9c3d54363a6243"
+    },
+    {
+      "byteOffset": 262576,
+      "segmentCount": 935,
+      "geometryId": 12,
+      "sourceGeometrySha256": "03504aa9fe2516b92b146c00177cea45c82e45c5116181788e009590c73bd269",
+      "sha256": "ddaee8695ec67d13e76b16f86988a2818fc205b7cf219ea87f9c3d54363a6243"
+    },
+    {
+      "byteOffset": 277536,
+      "segmentCount": 2070,
+      "geometryId": 13,
+      "sourceGeometrySha256": "9a8cb49c579c3345943ee7a4afdbdc2d6df7fa09a08415b211fe8500f10654de",
+      "sha256": "b7cb7fbe7ab0e3f3cb9d1d1d768c8b0081e105e2e18920a7731c4a23b91787cb"
+    },
+    {
+      "byteOffset": 310656,
+      "segmentCount": 1711,
+      "geometryId": 14,
+      "sourceGeometrySha256": "af9b05d8c42d8eee9d41438e4a8471e4a00cdccd6310b858d2116b916cafaf11",
+      "sha256": "91eb4742c7289b5f757c32080d71c417fedf002db10abdd66767ae122a0d7c3a"
+    },
+    {
+      "byteOffset": 338032,
+      "segmentCount": 935,
+      "geometryId": 15,
+      "sourceGeometrySha256": "8b48c92fb398e101f7de5ce5e45ad669f65a0ca29586429d67652125fdbd0cf7",
+      "sha256": "ddaee8695ec67d13e76b16f86988a2818fc205b7cf219ea87f9c3d54363a6243"
+    },
+    {
+      "byteOffset": 352992,
+      "segmentCount": 1584,
+      "geometryId": 16,
+      "sourceGeometrySha256": "534aaa05b3381aeb8eb081d159a51aadc7b8d727f0ba5625b7d6dcb6949b9e1b",
+      "sha256": "3e7b0f4320dc2fb4fa39ad2ced9a43b133be81b5964bd1434ca767b015c304d1"
+    },
+    {
+      "byteOffset": 378336,
+      "segmentCount": 935,
+      "geometryId": 17,
+      "sourceGeometrySha256": "bed745602362fc198c197d9beb728a7ba56b4d6ea3c6a0d34dbdf6c570c6e0fe",
+      "sha256": "ddaee8695ec67d13e76b16f86988a2818fc205b7cf219ea87f9c3d54363a6243"
+    },
+    {
+      "byteOffset": 393296,
+      "segmentCount": 1275,
+      "geometryId": 18,
+      "sourceGeometrySha256": "016123f3047fab2ae96fd90538b21a1b233aab8cdf1cdf7cd837ee47bdc808d9",
+      "sha256": "c7c8c6a2362544edb243d832426c6e54d2dedfab12693600e06b0f17f6c9ccc6"
+    },
+    {
+      "byteOffset": 413696,
+      "segmentCount": 1631,
+      "geometryId": 19,
+      "sourceGeometrySha256": "8504185d944829fae30a0737b922c2a780b715be864f519d4f45b30a2fc99173",
+      "sha256": "78583dda6d8f9eda7b4b199e2b3aecae6c64f3180251b15033c06521c8b8344b"
+    },
+    {
+      "byteOffset": 439792,
+      "segmentCount": 501,
+      "geometryId": 20,
+      "sourceGeometrySha256": "48d61d4816acaa26c5341ae12c78bbd014e3920916e8157e0dc7d75126376012",
+      "sha256": "f7ab2eb03a2b7fce36320af83da852a27c76bff54abb7c036603758353793a29"
+    },
+    {
+      "byteOffset": 447808,
+      "segmentCount": 1369,
+      "geometryId": 21,
+      "sourceGeometrySha256": "babf6cb02dd16a624aef491aeb4f619304e441fbf8ff3de93457ac67e46fb2de",
+      "sha256": "3459515d23986d6b7481259779596f9fe8beea7bcad114dfac0a6db8d413b5de"
+    },
+    {
+      "byteOffset": 469712,
+      "segmentCount": 2054,
+      "geometryId": 22,
+      "sourceGeometrySha256": "612d585e3079b021badfe4f091ae269940b95138e67c75c91f681069aeda82fa",
+      "sha256": "4d10fb2bb7c34022052ba38589fce634c473822c084d33af5ff68e20a4c6f080"
+    },
+    {
+      "byteOffset": 502576,
+      "segmentCount": 288,
+      "geometryId": 23,
+      "sourceGeometrySha256": "52a6d72f75e3d97c92f805060d0a7ff69854a92de24d9e3ec1b84f1c04751210",
+      "sha256": "5e0e609fe3984873d055080b645a5c683c0157e96786c667b28a6b7aa9e9eba9"
+    },
+    {
+      "byteOffset": 507184,
+      "segmentCount": 1916,
+      "geometryId": 24,
+      "sourceGeometrySha256": "20beb78ff9e2c8aa4a686fb30fac2befd02da6d685a1ccef28fcd9c39868f2bf",
+      "sha256": "613031f75a4329b96b9165b928d636554cd2b7a05247e87dffd627ecce0e9033"
+    },
+    {
+      "byteOffset": 537840,
+      "segmentCount": 1757,
+      "geometryId": 25,
+      "sourceGeometrySha256": "0702aa857f5df1e2d60889366d10e95584f9a1705ffe0d116b6e1f25e9a09429",
+      "sha256": "65e52e4df7f894b3dae646b246b9e7035db727c4744cb3baacb62a993d5ec058"
+    },
+    {
+      "byteOffset": 565952,
+      "segmentCount": 2056,
+      "geometryId": 26,
+      "sourceGeometrySha256": "ec0eabcb7da5933001711f01ac67c231afa11534639371223cdec278478d8ab5",
+      "sha256": "d8f79d92d4427b15fe72dd6bcecabb09acc729a7df0063819fb839f94c5dbee4"
+    },
+    {
+      "byteOffset": 598848,
+      "segmentCount": 289,
+      "geometryId": 27,
+      "sourceGeometrySha256": "f9f8d2559228b52b83c9f667f3446a74b60f2d4e4cc60ae63a34f86bec8108a6",
+      "sha256": "19b0fb3ea2f7af9985e6fb4c39540a47d7a0f9cf5788fcafc77a5307158c4d55"
+    },
+    {
+      "byteOffset": 603472,
+      "segmentCount": 535,
+      "geometryId": 28,
+      "sourceGeometrySha256": "79944135ce5cd158f284b611a5f8ffdf23f200cc752ef68aedc956861703e0e0",
+      "sha256": "56ca7dd2c741c74a9ebfe439f33a3a34f726f6e6acb275ff8d40aadc59948ea4"
+    },
+    {
+      "byteOffset": 612032,
+      "segmentCount": 526,
+      "geometryId": 29,
+      "sourceGeometrySha256": "fa639d4bfb859a60301c09c28c4096775183a13dcdc8f1ab58bd6861f302d234",
+      "sha256": "d5ca3071a162e15651470d86f598dac69eb580050468b794c651faae81d6fbcb"
+    },
+    {
+      "byteOffset": 620448,
+      "segmentCount": 501,
+      "geometryId": 30,
+      "sourceGeometrySha256": "9859ddb2d1cb999116d7a2ad399e944af7c584500011d76da82a95b9f62ce40f",
+      "sha256": "beac23a2cfedfe00cc34b5a98489df49ddc8781faa83fab06e5137f9df65e5fc"
+    },
+    {
+      "byteOffset": 628464,
+      "segmentCount": 8,
+      "geometryId": 31,
+      "sourceGeometrySha256": "4957740db53022043ac5ec80795f6fc3a8a3e0878f207fbbb18468e8102a3e77",
+      "sha256": "9320e3ed83b5cd4d251b72240f157f6195f47dc49b46f21ac5fd8e067aa66fd2"
+    },
+    {
+      "byteOffset": 628592,
+      "segmentCount": 910,
+      "geometryId": 32,
+      "sourceGeometrySha256": "e246ff10017f92003f927114234f7bd09fd4267140231f4132da3b99b3a9aa00",
+      "sha256": "81af0c01f584449c471fecab15b8baaeeecde31424ae640f3c56cc9b1a9fa63d"
+    },
+    {
+      "byteOffset": 643152,
+      "segmentCount": 35,
+      "geometryId": 33,
+      "sourceGeometrySha256": "e09eb2364347025636a66ccd4afa9b1aa949de32da33ea1de0e54a9c39357c55",
+      "sha256": "97536f9eb7a4c95dce3bf2e61d6c2ccc4ec35896be3175bb7084f03f589349e2"
+    },
+    {
+      "byteOffset": 643712,
+      "segmentCount": 1758,
+      "geometryId": 34,
+      "sourceGeometrySha256": "b1d11f93d84670d3629a62722ba39bd532c86da9073b86e8063bf66e5c323514",
+      "sha256": "4f23b1df15de3554363dc47b8c7a4067ee107f110693d89fcedb97da33214428"
+    },
+    {
+      "byteOffset": 671840,
+      "segmentCount": 510,
+      "geometryId": 35,
+      "sourceGeometrySha256": "7b8ace05afd791f8b5b18ea4434aee6de9980c0c77e8c88e95557a8ca5e882b5",
+      "sha256": "d8e30e464bc1a1421be156139f5ea4ed6ee590c355472642d0c979a087120e22"
+    },
+    {
+      "byteOffset": 680000,
+      "segmentCount": 1960,
+      "geometryId": 36,
+      "sourceGeometrySha256": "398fe94ef837653b7bfcad5e2cadd0219abd7b0ae7a283eed96b0e31cc4d3367",
+      "sha256": "c638e9fcf7264d98dd03bd8657b1de287d27e87c0094cb48897b530ef75a1292"
+    },
+    {
+      "byteOffset": 711360,
+      "segmentCount": 510,
+      "geometryId": 37,
+      "sourceGeometrySha256": "5b9e9c863b16b389380bed7ca42f68cea2676306f5fb12e4b39151e4e88e1df5",
+      "sha256": "583fbdcc24b59cb97f71749c767ef33b77a51c51033e00480cdceefdc9c44a8b"
+    },
+    {
+      "byteOffset": 719520,
+      "segmentCount": 1959,
+      "geometryId": 38,
+      "sourceGeometrySha256": "3df433b929ed69e1bd7253f4b457a92f55a2750c994aacb1022ba3536556ae8c",
+      "sha256": "87b045f164c9b287df8db1674a14fa18767eb79e1c7621842a3c9e53480efbcd"
+    },
+    {
+      "byteOffset": 750864,
+      "segmentCount": 510,
+      "geometryId": 39,
+      "sourceGeometrySha256": "fe69872cb88a4e08b622fd61f2d712c8c7bfc1ffa99300874c4eb730c8509aa4",
+      "sha256": "283fc8665cc1b0240a811115bd7cfcc75aeb677f1657a02271fa27b506785f95"
+    },
+    {
+      "byteOffset": 759024,
+      "segmentCount": 510,
+      "geometryId": 40,
+      "sourceGeometrySha256": "b5d9b7fa463aa9fb2ff056f9e5c4898f8bd82f86b5b6695457519b8942c2b9ce",
+      "sha256": "44fedee7bc4dd827b4a2759f30f41a8308dcf3f03f7f3958740cc55b85b733ce"
+    },
+    {
+      "byteOffset": 767184,
+      "segmentCount": 510,
+      "geometryId": 41,
+      "sourceGeometrySha256": "45a74bf680d4826bef19198fdaa4eec8b9fbc65bda73a98a8b8cb6e656f21cc4",
+      "sha256": "b2aef390d57a97d28961cf410658b6f0692d2b85e7b89d2f50bb5189a3815116"
+    },
+    {
+      "byteOffset": 775344,
+      "segmentCount": 550,
+      "geometryId": 42,
+      "sourceGeometrySha256": "075d9876c2182038d3e530f9beae65697b82b700e6cac893861aa928ef7b91c3",
+      "sha256": "fa22f227a49584362fad728f29f87cf379365d12b617006e09f49a035ddf4dca"
+    },
+    {
+      "byteOffset": 784144,
+      "segmentCount": 510,
+      "geometryId": 43,
+      "sourceGeometrySha256": "ad6ce098ab0cfdafc796caf38b245b589308664c9f60a95014a9d2c425fe22a4",
+      "sha256": "dc47ce01c0f9c802ef0cf4d4ba0935f4300fbabd07b1c4f472305aaeb6034f78"
+    },
+    {
+      "byteOffset": 792304,
+      "segmentCount": 1922,
+      "geometryId": 44,
+      "sourceGeometrySha256": "9d1a42d890d05cc52111d9a5d9a81b345bf40cc0489f5109da2121b71b1698a6",
+      "sha256": "6c75749c1d91337edd33cca606a195a14ccad35f6dec14624daef6cd7aacea81"
+    },
+    {
+      "byteOffset": 823056,
+      "segmentCount": 1924,
+      "geometryId": 45,
+      "sourceGeometrySha256": "5749e40a010303c766c2a9f591cff16558c1e80df6eeb5fc25ae4d372831569f",
+      "sha256": "28b76284dd4ca0a94c1f7fdc962c9b5fca08528a986e6bfa763416db5149b7df"
+    },
+    {
+      "byteOffset": 853840,
+      "segmentCount": 510,
+      "geometryId": 46,
+      "sourceGeometrySha256": "411e6807740f4f184c5b31626a254c2aff1bcde8afa3d5bbe155fa24c592243f",
+      "sha256": "2dd9e6e137520a044be62d2e05682c9e44a7d7df7dce514bf97425b5de15a6dd"
+    },
+    {
+      "byteOffset": 862000,
+      "segmentCount": 510,
+      "geometryId": 47,
+      "sourceGeometrySha256": "581220cabb9ca8ed7913b562e569e6898e76ac556ea8a974287a6ce55e9aa431",
+      "sha256": "3569ec39e005379352a5d275edff1052f31bcc617ceda4a08bf3f9ba2d35316e"
+    },
+    {
+      "byteOffset": 870160,
+      "segmentCount": 1742,
+      "geometryId": 48,
+      "sourceGeometrySha256": "6ff607a35214f2d86d87e58ac56a1cf10e0de7147717f7c0934f1a8be22c7023",
+      "sha256": "771de9bc445d5e760c36ebab2b8417373e4e6279af429597087ebad1f340105f"
+    },
+    {
+      "byteOffset": 898032,
+      "segmentCount": 510,
+      "geometryId": 49,
+      "sourceGeometrySha256": "79cfc18cd4ad3c4f4d1bb93afed19861ead379fd531fa9e4e11c780f95134be9",
+      "sha256": "8c16828dbe263334ebe61bdc27bbfef6ed958dafda92cbf45121745b6c183d23"
+    },
+    {
+      "byteOffset": 906192,
+      "segmentCount": 545,
+      "geometryId": 50,
+      "sourceGeometrySha256": "89c3f23731d549c4d47aeab3c321f62c0cacee8aaf31d66cae6d494ed37ab1a5",
+      "sha256": "66935a39757f02631e05a6fb64d72c383fdf1ffce56ce79778abd5b17f4f3a61"
+    },
+    {
+      "byteOffset": 914912,
+      "segmentCount": 1678,
+      "geometryId": 51,
+      "sourceGeometrySha256": "227c5c7a9e3a3b7c3dbde7752f23802d6559ca5a7200d2be3d88aee98738a8fd",
+      "sha256": "e7b3773f951988095f3970a4c00614ac82ea074e7bc6ff5e2b359c8aa19c6f1e"
+    },
+    {
+      "byteOffset": 941760,
+      "segmentCount": 52,
+      "geometryId": 52,
+      "sourceGeometrySha256": "0c1a03e940c815fa71340c7c55d740cfebed95616c13bc0fb99db95f866295d5",
+      "sha256": "a637a22f950e7ad2b48dd95aa10904857c150eafa88770dba0d475339cefc666"
+    },
+    {
+      "byteOffset": 942592,
+      "segmentCount": 2057,
+      "geometryId": 53,
+      "sourceGeometrySha256": "8e59fd8fdab5b70d1601e48e13d77a6bf9db0a6c8e43ea72fe3e9ad1fd34d9bd",
+      "sha256": "c8a2613a337d2a9c5edb5f2836b7c0b92fdcab50dd5e39fba90d901c370bebbe"
+    },
+    {
+      "byteOffset": 975504,
+      "segmentCount": 286,
+      "geometryId": 54,
+      "sourceGeometrySha256": "c0f4aaee704d0c09ef048792955597be52a032c84ce46853bd49bff97fd4c49e",
+      "sha256": "3b89baa801a50d873b992686593638fa09b708e3456e01af57bff796dff77a04"
+    },
+    {
+      "byteOffset": 980080,
+      "segmentCount": 1616,
+      "geometryId": 55,
+      "sourceGeometrySha256": "5635026d531163997896c75d3d95d57c5d76248174e778eb5fdb5226caf49660",
+      "sha256": "a2d9ade69f0b3ea4d1b70137a08df92c3b84b04251da243b1f1ac80a9cf3e71e"
+    },
+    {
+      "byteOffset": 1005936,
+      "segmentCount": 1742,
+      "geometryId": 56,
+      "sourceGeometrySha256": "3ae68e47df6db6aa5dcacec8cde4b6d79eeb0d0723732df329c70dcd50a61fec",
+      "sha256": "4732833b54bbd5a256d572bb97b00ba1d63b6f96c97857c72c76a488af4384db"
+    },
+    {
+      "byteOffset": 1033808,
+      "segmentCount": 510,
+      "geometryId": 57,
+      "sourceGeometrySha256": "e79fd31e9d6e7e3683a210a2695b6a4ad9af6f032f94e8e1c33ce5a7cf4f21da",
+      "sha256": "47268563f9a215fca141ffc6dbe759635f43f1d8d5531453b1a5ec5a21865a02"
+    },
+    {
+      "byteOffset": 1041968,
+      "segmentCount": 1357,
+      "geometryId": 58,
+      "sourceGeometrySha256": "11c3dea2970b233629df38225707fe77edc5bb7b08f8dbb02a45ee20db9442c9",
+      "sha256": "7771b2a78ba67b7c4657fac3e53228cb10981e668fce7a29ed5594eaa2bf1965"
+    },
+    {
+      "byteOffset": 1063680,
+      "segmentCount": 1790,
+      "geometryId": 59,
+      "sourceGeometrySha256": "9ecd9094f9062da43b71c230103f178d50d3d176391e321b9f586ddab9857aaf",
+      "sha256": "cc26652c921cb271a642fdfc351d1751ff647f372aa276f61d240ca0f62c15d5"
+    },
+    {
+      "byteOffset": 1092320,
+      "segmentCount": 1795,
+      "geometryId": 60,
+      "sourceGeometrySha256": "8834e5a1e3bf4e013a3757c941753d6893908dbb501d17d29f4bd4d8647bbaab",
+      "sha256": "d709f585b91aa05ff93abc4f9a1cffb30124faba1691da8e7ae989ad7eebbb63"
+    },
+    {
+      "byteOffset": 1121040,
+      "segmentCount": 2674,
+      "geometryId": 61,
+      "sourceGeometrySha256": "6baa2677eb015ecf3231210a5528c6696e36981011eb558a4c97264d5ab612dc",
+      "sha256": "e88f5e651684ce0877091a9f860bd3fd50fdc1dcc547370df1b5f3db2c0986ea"
+    },
+    {
+      "byteOffset": 1163824,
+      "segmentCount": 1005,
+      "geometryId": 62,
+      "sourceGeometrySha256": "3ffd4e5a7b2d597219e4bdbe698035917fb18af8899192ab598604322eaca918",
+      "sha256": "ef7436aa2cd5c3d1e1440bcbef06833cee1401aaee553d578577ded69a0db845"
+    },
+    {
+      "byteOffset": 1179904,
+      "segmentCount": 32,
+      "geometryId": 63,
+      "sourceGeometrySha256": "4985e248cab792dcc9f486258edd086575b760938170ff6e1fd37fa937befa4b",
+      "sha256": "f5da998528aa578daae4e3bb332bd13d7da01032f8ba996506c8073ac2e2a217"
+    },
+    {
+      "byteOffset": 1180416,
+      "segmentCount": 515,
+      "geometryId": 64,
+      "sourceGeometrySha256": "ee3fa161687b28af3b7bcd60e0de05ddcd9b0b374318b11eb7d99cd21a550136",
+      "sha256": "6b40b305dac89c525c74f1608843b384aacb8ba2a454844bb95aa7d035cac26e"
+    },
+    {
+      "byteOffset": 1188656,
+      "segmentCount": 30,
+      "geometryId": 65,
+      "sourceGeometrySha256": "a1511eabcbb1f5edb0aec97272cc833b1facc8ff61c1a87530b8039584d8180e",
+      "sha256": "f68fa8fd7d258d3a7d679d0b0c3ef82126cbdab12e7f2758761cbd0b6c23e11f"
+    },
+    {
+      "byteOffset": 1189136,
+      "segmentCount": 516,
+      "geometryId": 66,
+      "sourceGeometrySha256": "c3cb72fa533ae94e5d6b40a017f1bb243aca7334565b393a2532ace6d8a888f6",
+      "sha256": "881cb89e1979e1c288f7c6f4bb84f52eb466f3ca00e412dcc8b43bce58e531f8"
+    },
+    {
+      "byteOffset": 1197392,
+      "segmentCount": 27,
+      "geometryId": 67,
+      "sourceGeometrySha256": "7820d5a231f128f2773cf2aec347afd804c0c10122af862a381f23d6813178ce",
+      "sha256": "8ab86afc50aa7528c2918dfc91bae680479dba362c606ea17031b27e4c6e6683"
+    },
+    {
+      "byteOffset": 1197824,
+      "segmentCount": 515,
+      "geometryId": 68,
+      "sourceGeometrySha256": "7153df36c0dfd3db1d490c6f8d044e32910f10cf6635b63274b2a93054a54fe5",
+      "sha256": "42182cc53bdc268306100d2461985bccb7c5716dfdf0e65724faf379f8c13886"
+    },
+    {
+      "byteOffset": 1206064,
+      "segmentCount": 30,
+      "geometryId": 69,
+      "sourceGeometrySha256": "2ecb883bac432fa268cb05c8ced38b18f214f76c6247529a2aa868ea958090aa",
+      "sha256": "f1a6f441df43cef619e061e60d59ae4e8572f2566392688693e16f456cc2f479"
+    },
+    {
+      "byteOffset": 1206544,
+      "segmentCount": 515,
+      "geometryId": 70,
+      "sourceGeometrySha256": "c3c76f99bb057fc630e00b97cb7355fdd12bab34fe35617331de02156f255e3b",
+      "sha256": "38fd9132a366b5c4f6504d824a03d8627ba3ef8367e869164ea29d42ebd0302f"
+    },
+    {
+      "byteOffset": 1214784,
+      "segmentCount": 30,
+      "geometryId": 71,
+      "sourceGeometrySha256": "7ba051d7cb7ff2fc4053c3f35dc2b19f4faab7e1b6780dd74c1a5493db02b955",
+      "sha256": "61f6816a6263d850375e013f06f7f4291e776934ed2ef29e734ff5d776330f33"
+    },
+    {
+      "byteOffset": 1215264,
+      "segmentCount": 2673,
+      "geometryId": 72,
+      "sourceGeometrySha256": "33a3e4e118a3a1139f050389735216f3962cb1294318c62b1f25dfd48b989bd6",
+      "sha256": "edb78f25eaceecd8d3e000aefd5586baf2f7576ea3dc89973da6cb4eb779887b"
+    },
+    {
+      "byteOffset": 1258032,
+      "segmentCount": 1001,
+      "geometryId": 73,
+      "sourceGeometrySha256": "e3e22af4a8c4061eb49e4b5cac4ea5d0e732f382914975409d5c3370d2fcca17",
+      "sha256": "7722bc439f626edf77451cebc8d9cad2f167f3daae8b9bfa8117427f13a7c970"
+    },
+    {
+      "byteOffset": 1274048,
+      "segmentCount": 25,
+      "geometryId": 74,
+      "sourceGeometrySha256": "28bbad60cbca62f8b85e6ceb4c09cf3715fc8ade0ac45b6617a115effce5eb4a",
+      "sha256": "af77f7cadf63e67ae483445f9b618b3e63e8ab2fde6a3393c074d7705ac60554"
+    },
+    {
+      "byteOffset": 1274448,
+      "segmentCount": 516,
+      "geometryId": 75,
+      "sourceGeometrySha256": "7f4286e5535a60f60c223b30f2f6447dd2306f114342808eab13ff221e8b843c",
+      "sha256": "0eec0e24ad8aa51bf52d6a4dc44307101ae211a3850bd380edf711df0229c07e"
+    },
+    {
+      "byteOffset": 1282704,
+      "segmentCount": 24,
+      "geometryId": 76,
+      "sourceGeometrySha256": "3167a6409af6a15928f791b811d16a04ea5c42fbac5b8352cf4692327259b63d",
+      "sha256": "3d24771a57ff5eb0cafb2eb9da78225147d062fd5c5cbbdb8837ffbcd4cc0e6c"
+    },
+    {
+      "byteOffset": 1283088,
+      "segmentCount": 516,
+      "geometryId": 77,
+      "sourceGeometrySha256": "2051426b3197d928416212bf0ade8ea18679945f33bb817547da9e92a485b0da",
+      "sha256": "949bd828f72b3375c14cf230131160749635b37346d206f95f953368ac4bc502"
+    },
+    {
+      "byteOffset": 1291344,
+      "segmentCount": 24,
+      "geometryId": 78,
+      "sourceGeometrySha256": "2b5aa3a5413d7d17ea4737bf5fa722747574410ec3a03f9dec71ce887112c33b",
+      "sha256": "9128a3d14d78dff9af445808a614e64d28a729951987a06a8282468b21142ed6"
+    },
+    {
+      "byteOffset": 1291728,
+      "segmentCount": 515,
+      "geometryId": 79,
+      "sourceGeometrySha256": "8e98dc6a91f5f21c544d57928796e2b2b0ffff0b9d54169679287c58c43dbcf9",
+      "sha256": "6c35557ee511265bb06cc1e4639fbc82a03db7dc8f7d726ebc0092a5f7474595"
+    },
+    {
+      "byteOffset": 1299968,
+      "segmentCount": 30,
+      "geometryId": 80,
+      "sourceGeometrySha256": "9a2aad7e4fc046a1ae96701aa04bcb8d7fb68cd0b3aab3a8f23469f8927dc1df",
+      "sha256": "4f095e029b49750f609f7fa1b7d24f2d2dea795ce376cec6f4912611bb70061f"
+    },
+    {
+      "byteOffset": 1300448,
+      "segmentCount": 516,
+      "geometryId": 81,
+      "sourceGeometrySha256": "12dcb99fb7d1d40bfcaec7c848c8c56b0bfc670622a4f0d6c2fc9e069cf4c43b",
+      "sha256": "62893d0ca57c7f6352c42e20489ce3ba621b7d63109a64ef4580bf035abd6fa3"
+    },
+    {
+      "byteOffset": 1308704,
+      "segmentCount": 27,
+      "geometryId": 82,
+      "sourceGeometrySha256": "09962e9989db3e92ef666d4de986c73ef8dc347fd6f8763f866f5e9a1280586c",
+      "sha256": "a5789c81d05b7351dba9d95c16d2929b58ba5faeaec3a0cf9cc52d86e0930e17"
+    },
+    {
+      "byteOffset": 1309136,
+      "segmentCount": 702,
+      "geometryId": 83,
+      "sourceGeometrySha256": "dd098f9cbc9dc2adf343b18db3044321290f6e069175b06f8837978a5feb38ab",
+      "sha256": "4ea34b142c16678b1c1cd98b2ebd1f85f31faa861ad484cc684958971a3d060b"
+    },
+    {
+      "byteOffset": 1320368,
+      "segmentCount": 37,
+      "geometryId": 84,
+      "sourceGeometrySha256": "b72a324950828734e2d8507e44402a3ddd9de7b3c04d98b34fa076a940f748cf",
+      "sha256": "933ffa7cc75e9440e13bd62af34cea92a4247f6f44b5d808e6a2b0b2288eb9d0"
+    },
+    {
+      "byteOffset": 1320960,
+      "segmentCount": 2168,
+      "geometryId": 85,
+      "sourceGeometrySha256": "b7cc6f4785da6a6be01f490bcc0d4351933fbf3560c1795e0901376b49d7940d",
+      "sha256": "c9a5a136104e40d994a400d7a776e738bb31732967274adab2b1c828ceecbb5b"
+    }
+  ],
+  "meshes": {
+    "Db_torso-rmd-x10-1-rotor-1_1": {
+      "byteOffset": 0,
+      "segmentCount": 1838,
+      "geometryId": 0
+    },
+    "Db_lh-shoulder-roll-al-mot-mir1-1-1_1": {
+      "byteOffset": 29408,
+      "segmentCount": 1805,
+      "geometryId": 1
+    },
+    "Db_lh-shoulder-roll-al-mot-mir1-2-1_1": {
+      "byteOffset": 58288,
+      "segmentCount": 1805,
+      "geometryId": 2
+    },
+    "Db_lh-yaw-cap-1_1": {
+      "byteOffset": 87168,
+      "segmentCount": 515,
+      "geometryId": 3
+    },
+    "Db_lh-yaw-waist-adapter-motor-exal-mir1-1_1": {
+      "byteOffset": 95408,
+      "segmentCount": 1705,
+      "geometryId": 4
+    },
+    "Db_lh-front-bearing-adapter-shoulder-1_1": {
+      "byteOffset": 122688,
+      "segmentCount": 1402,
+      "geometryId": 5
+    },
+    "Db_lh-shoulder-ex-al-interface-2-1_1": {
+      "byteOffset": 145120,
+      "segmentCount": 1369,
+      "geometryId": 6
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1": {
+      "byteOffset": 167024,
+      "segmentCount": 2054,
+      "geometryId": 7
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-1-1_1_surface2": {
+      "byteOffset": 199888,
+      "segmentCount": 288,
+      "geometryId": 8
+    },
+    "Db_lh-shoulder-motor-bicep-rotor-bracket-1_1": {
+      "byteOffset": 204496,
+      "segmentCount": 1182,
+      "geometryId": 9
+    },
+    "Db_lh-bicep-rear-motor-adapter-1_1": {
+      "byteOffset": 223408,
+      "segmentCount": 1513,
+      "geometryId": 10
+    },
+    "Db_lh-bicep-shoulder-bracket-exal-1-1_1": {
+      "byteOffset": 247616,
+      "segmentCount": 935,
+      "geometryId": 11
+    },
+    "Db_lh-bicep-shoulder-bracket-exal-2-1_1": {
+      "byteOffset": 262576,
+      "segmentCount": 935,
+      "geometryId": 12
+    },
+    "Db_lh-2020-100mm-8-1-1_1": {
+      "byteOffset": 277536,
+      "segmentCount": 2070,
+      "geometryId": 13
+    },
+    "Db_lh-yaw-waist-adapter-motor-exal-mir1-5-1_1": {
+      "byteOffset": 310656,
+      "segmentCount": 1711,
+      "geometryId": 14
+    },
+    "Db_lh-bicep-shoulder-bracket-exal-1_1": {
+      "byteOffset": 338032,
+      "segmentCount": 935,
+      "geometryId": 15
+    },
+    "Db_lh-shoulder-front-1_1": {
+      "byteOffset": 352992,
+      "segmentCount": 1584,
+      "geometryId": 16
+    },
+    "Db_lh-bicep-shoulder-bracket-exal-3-1_1": {
+      "byteOffset": 378336,
+      "segmentCount": 935,
+      "geometryId": 17
+    },
+    "Db_lh-shoulder-cap-1_1": {
+      "byteOffset": 393296,
+      "segmentCount": 1275,
+      "geometryId": 18
+    },
+    "Db_lh-shoulder-front-bearing-adapter-1_1": {
+      "byteOffset": 413696,
+      "segmentCount": 1631,
+      "geometryId": 19
+    },
+    "Db_lh-skateboard-bearing-7-1_1": {
+      "byteOffset": 439792,
+      "segmentCount": 501,
+      "geometryId": 20
+    },
+    "Db_lh-shoulder-ex-al-interface-1-1_1": {
+      "byteOffset": 447808,
+      "segmentCount": 1369,
+      "geometryId": 21
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1": {
+      "byteOffset": 469712,
+      "segmentCount": 2054,
+      "geometryId": 22
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-3-1_1_surface2": {
+      "byteOffset": 502576,
+      "segmentCount": 288,
+      "geometryId": 23
+    },
+    "Db_lh-bicep-rotational-cuff-second-motor-bracket-1_1": {
+      "byteOffset": 507184,
+      "segmentCount": 1916,
+      "geometryId": 24
+    },
+    "Db_lh-arm-cuff-bicep-bracket-1_1": {
+      "byteOffset": 537840,
+      "segmentCount": 1757,
+      "geometryId": 25
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1": {
+      "byteOffset": 565952,
+      "segmentCount": 2056,
+      "geometryId": 26
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-2-1_1_surface2": {
+      "byteOffset": 598848,
+      "segmentCount": 289,
+      "geometryId": 27
+    },
+    "Db_lh-elbow-hangar-1_1": {
+      "byteOffset": 603472,
+      "segmentCount": 535,
+      "geometryId": 28
+    },
+    "Db_lh-elbow-hangar1-1_1": {
+      "byteOffset": 612032,
+      "segmentCount": 526,
+      "geometryId": 29
+    },
+    "Db_lh-power-mount-arm-1_1": {
+      "byteOffset": 620448,
+      "segmentCount": 501,
+      "geometryId": 30
+    },
+    "Db_lh-power-mount-arm-1_1_surface2": {
+      "byteOffset": 628464,
+      "segmentCount": 8,
+      "geometryId": 31
+    },
+    "Db_lh-fan-mount-1_1": {
+      "byteOffset": 628592,
+      "segmentCount": 910,
+      "geometryId": 32
+    },
+    "Db_lh-fan-mount-1_1_surface2": {
+      "byteOffset": 643152,
+      "segmentCount": 35,
+      "geometryId": 33
+    },
+    "Db_lh-bicep-motor-mate-1_1": {
+      "byteOffset": 643712,
+      "segmentCount": 1758,
+      "geometryId": 34
+    },
+    "Db_lh-6mm-bearing-1_1": {
+      "byteOffset": 671840,
+      "segmentCount": 510,
+      "geometryId": 35
+    },
+    "Db_lh-bicep-1_1": {
+      "byteOffset": 680000,
+      "segmentCount": 1960,
+      "geometryId": 36
+    },
+    "Db_lh-6mm-bearing-9-1_1": {
+      "byteOffset": 711360,
+      "segmentCount": 510,
+      "geometryId": 37
+    },
+    "Db_lh-straight-tendon-1_1": {
+      "byteOffset": 719520,
+      "segmentCount": 1959,
+      "geometryId": 38
+    },
+    "Db_lh-6mm-bearing-1-1_1": {
+      "byteOffset": 750864,
+      "segmentCount": 510,
+      "geometryId": 39
+    },
+    "Db_lh-6mm-bearing-5-1_1": {
+      "byteOffset": 759024,
+      "segmentCount": 510,
+      "geometryId": 40
+    },
+    "Db_lh-6mm-bearing-2-1_1": {
+      "byteOffset": 767184,
+      "segmentCount": 510,
+      "geometryId": 41
+    },
+    "Db_lh-elbow-bridge-rear-1-1_1": {
+      "byteOffset": 775344,
+      "segmentCount": 550,
+      "geometryId": 42
+    },
+    "Db_lh-6mm-bearing-6-1_1": {
+      "byteOffset": 784144,
+      "segmentCount": 510,
+      "geometryId": 43
+    },
+    "Db_lh-elbow-rear-hanger-1-1_1": {
+      "byteOffset": 792304,
+      "segmentCount": 1922,
+      "geometryId": 44
+    },
+    "Db_lh-elbow-rear-hanger-1_1": {
+      "byteOffset": 823056,
+      "segmentCount": 1924,
+      "geometryId": 45
+    },
+    "Db_lh-6mm-bearing-7-1_1": {
+      "byteOffset": 853840,
+      "segmentCount": 510,
+      "geometryId": 46
+    },
+    "Db_lh-6mm-bearing-4-1_1": {
+      "byteOffset": 862000,
+      "segmentCount": 510,
+      "geometryId": 47
+    },
+    "Db_lh-forearm-elbow-motor-bracket-inner2-1_1": {
+      "byteOffset": 870160,
+      "segmentCount": 1742,
+      "geometryId": 48
+    },
+    "Db_lh-6mm-bearing-3-1_1": {
+      "byteOffset": 898032,
+      "segmentCount": 510,
+      "geometryId": 49
+    },
+    "Db_lh-elbow-bridge-rear-1_1": {
+      "byteOffset": 906192,
+      "segmentCount": 545,
+      "geometryId": 50
+    },
+    "Db_lh-second-forearm-motor-strap-1_1": {
+      "byteOffset": 914912,
+      "segmentCount": 1678,
+      "geometryId": 51
+    },
+    "Db_lh-second-forearm-motor-strap-1_1_surface2": {
+      "byteOffset": 941760,
+      "segmentCount": 52,
+      "geometryId": 52
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1": {
+      "byteOffset": 942592,
+      "segmentCount": 2057,
+      "geometryId": 53
+    },
+    "Db_lh-rmd-x8-pro-mir8-mir1-4-1_1_surface2": {
+      "byteOffset": 975504,
+      "segmentCount": 286,
+      "geometryId": 54
+    },
+    "Db_lh-fore-arm-bicep-motor-attatch-1_1": {
+      "byteOffset": 980080,
+      "segmentCount": 1616,
+      "geometryId": 55
+    },
+    "Db_lh-forearm-elbow-motor-bracket-inner-1_1": {
+      "byteOffset": 1005936,
+      "segmentCount": 1742,
+      "geometryId": 56
+    },
+    "Db_lh-6mm-bearing-8-1_1": {
+      "byteOffset": 1033808,
+      "segmentCount": 510,
+      "geometryId": 57
+    },
+    "Db_lh-shoulder-ex-al-interface-1_1": {
+      "byteOffset": 1041968,
+      "segmentCount": 1357,
+      "geometryId": 58
+    },
+    "Db_lh-shoulder-roll-al-mot-mir1-3-1_1": {
+      "byteOffset": 1063680,
+      "segmentCount": 1790,
+      "geometryId": 59
+    },
+    "Db_lh-shoulder-roll-al-mot-mir1-1_1": {
+      "byteOffset": 1092320,
+      "segmentCount": 1795,
+      "geometryId": 60
+    },
+    "Db_lh-2020-100mm-10-1_1": {
+      "byteOffset": 1121040,
+      "segmentCount": 2674,
+      "geometryId": 61
+    },
+    "Db_lh-top-bracket-servo-strap-1_1": {
+      "byteOffset": 1163824,
+      "segmentCount": 1005,
+      "geometryId": 62
+    },
+    "Db_lh-top-bracket-servo-strap-1_1_surface2": {
+      "byteOffset": 1179904,
+      "segmentCount": 32,
+      "geometryId": 63
+    },
+    "Db_lh-mg995-1_1": {
+      "byteOffset": 1180416,
+      "segmentCount": 515,
+      "geometryId": 64
+    },
+    "Db_lh-mg995-1_1_surface2": {
+      "byteOffset": 1188656,
+      "segmentCount": 30,
+      "geometryId": 65
+    },
+    "Db_lh-mg995-4-1_1": {
+      "byteOffset": 1189136,
+      "segmentCount": 516,
+      "geometryId": 66
+    },
+    "Db_lh-mg995-4-1_1_surface2": {
+      "byteOffset": 1197392,
+      "segmentCount": 27,
+      "geometryId": 67
+    },
+    "Db_lh-mg995-3-1_1": {
+      "byteOffset": 1197824,
+      "segmentCount": 515,
+      "geometryId": 68
+    },
+    "Db_lh-mg995-3-1_1_surface2": {
+      "byteOffset": 1206064,
+      "segmentCount": 30,
+      "geometryId": 69
+    },
+    "Db_lh-mg995-5-1_1": {
+      "byteOffset": 1206544,
+      "segmentCount": 515,
+      "geometryId": 70
+    },
+    "Db_lh-mg995-5-1_1_surface2": {
+      "byteOffset": 1214784,
+      "segmentCount": 30,
+      "geometryId": 71
+    },
+    "Db_lh-2020-100mm-11-1_1": {
+      "byteOffset": 1215264,
+      "segmentCount": 2673,
+      "geometryId": 72
+    },
+    "Db_lh-top-bracket-servo-strap-1-1_1": {
+      "byteOffset": 1258032,
+      "segmentCount": 1001,
+      "geometryId": 73
+    },
+    "Db_lh-top-bracket-servo-strap-1-1_1_surface2": {
+      "byteOffset": 1274048,
+      "segmentCount": 25,
+      "geometryId": 74
+    },
+    "Db_lh-mg995-2-1_1": {
+      "byteOffset": 1274448,
+      "segmentCount": 516,
+      "geometryId": 75
+    },
+    "Db_lh-mg995-2-1_1_surface2": {
+      "byteOffset": 1282704,
+      "segmentCount": 24,
+      "geometryId": 76
+    },
+    "Db_lh-mg995-6-1_1": {
+      "byteOffset": 1283088,
+      "segmentCount": 516,
+      "geometryId": 77
+    },
+    "Db_lh-mg995-6-1_1_surface2": {
+      "byteOffset": 1291344,
+      "segmentCount": 24,
+      "geometryId": 78
+    },
+    "Db_lh-mg995-1-1_1": {
+      "byteOffset": 1291728,
+      "segmentCount": 515,
+      "geometryId": 79
+    },
+    "Db_lh-mg995-1-1_1_surface2": {
+      "byteOffset": 1299968,
+      "segmentCount": 30,
+      "geometryId": 80
+    },
+    "Db_lh-mg995-7-1_1": {
+      "byteOffset": 1300448,
+      "segmentCount": 516,
+      "geometryId": 81
+    },
+    "Db_lh-mg995-7-1_1_surface2": {
+      "byteOffset": 1308704,
+      "segmentCount": 27,
+      "geometryId": 82
+    },
+    "Db_lh-multiplex-stack-flat-1_1": {
+      "byteOffset": 1309136,
+      "segmentCount": 702,
+      "geometryId": 83
+    },
+    "Db_lh-multiplex-stack-flat-1_1_surface2": {
+      "byteOffset": 1320368,
+      "segmentCount": 37,
+      "geometryId": 84
+    },
+    "Db_lh-2020-100mm-9-1_1": {
+      "byteOffset": 1320960,
+      "segmentCount": 2168,
+      "geometryId": 85
+    }
+  }
+}

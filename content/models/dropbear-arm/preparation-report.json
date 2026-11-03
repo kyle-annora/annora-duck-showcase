@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "modelId": "dropbear-arm",
+  "sourceSha256": "0935ee426eb2bb198d50ca008a8478fcd7548b4f3f7290ccd6e86ef2c682b9c1",
+  "preservedSource": true,
+  "limits": {
+    "sourceBytes": 67108864,
+    "jsonBytes": 2097152,
+    "meshes": 2000,
+    "nodes": 10000,
+    "triangles": 1000000,
+    "trianglesPerGeometry": 250000,
+    "vertices": 3000000,
+    "animationKeys": 100000,
+    "clipSeconds": 120,
+    "outputBytes": 201326592
+  },
+  "counts": {
+    "meshes": 86,
+    "nodes": 88,
+    "triangles": 79779,
+    "vertices": 239337,
+    "uniqueGeometries": 86,
+    "sourceAnimationClips": 1
+  },
+  "bytes": {
+    "source": 5817680,
+    "compressedModel": 1222767,
+    "creases": 766248,
+    "contours": 1355648,
+    "total": 10233367
+  },
+  "operation": "DropbearArmSwivel",
+  "tour": "tour.json",
+  "warnings": [],
+  "assets": {
+    "model.glb": {
+      "bytes": 5817680,
+      "sha256": "0935ee426eb2bb198d50ca008a8478fcd7548b4f3f7290ccd6e86ef2c682b9c1"
+    },
+    "model.glb.gz": {
+      "bytes": 1222767,
+      "sha256": "d785d060176627dcfbae92e0683fd48a52dc508261a164461ae4ed71fed0c2f6"
+    },
+    "metadata.json": {
+      "bytes": 136398,
+      "sha256": "a204c288c68084e078aa2af761b73d8e776af1ea7ca2abe8d30e8bf09d7c3e6b"
+    },
+    "edges.bin": {
+      "bytes": 766248,
+      "sha256": "522c594eaa53244b06c18d63d7220139d2d49c7cf10afaabcf1a5920aefdcd50"
+    },
+    "edges.bin.gz": {
+      "bytes": 243572,
+      "sha256": "b53a7ac14203c9799e91e621a698c59b079bf09c05fd858ecdcaa2887b1bca16"
+    },
+    "edge-metadata.json": {
+      "bytes": 58833,
+      "sha256": "56ca95b0e1c2c990b42edc681e7be21cc71a6de613487b45cc5da2bddc806018"
+    },
+    "silhouettes.bin": {
+      "bytes": 1355648,
+      "sha256": "2adecfd7a1f4d90d690ef4b2fe8b4c80177910f6c3518a0abd297386a38e3bed"
+    },
+    "silhouettes.bin.gz": {
+      "bytes": 586717,
+      "sha256": "bef7b92a095078665abf8b31c36f4e3525e648a6eda0b021ccc3fa02ed23423a"
+    },
+    "silhouette-metadata.json": {
+      "bytes": 34870,
+      "sha256": "07f0650fd982cdf6f446a080e45c1590751caf52410238e087174038b9818da1"
+    },
+    "LICENSE.txt": {
+      "bytes": 1342,
+      "sha256": "643e007b287a9366775d876fd38f5bcaf7e992faf9b7d9a069e1735002aef93e"
+    },
+    "tour.json": {
+      "bytes": 7335,
+      "sha256": "2571cbceeba38ee663542fb090480502ab50ebb7a14b8bd976abded359b6edfe"
+    },
+    "manifest.json": {
+      "bytes": 1966,
+      "sha256": "dfeb4ac7c1dce326dbfd32dfb83e9f69dcf50c120e059ceb89ceea99028b6882"
+    }
+  }
+}

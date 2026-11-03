@@ -1,0 +1,76 @@
+{
+  "repository": "https://github.com/ggldnl/Hexapod-Hardware",
+  "revision": "f8ee8084d48470283d5ca23394d5a4b9590ad9e8",
+  "files": [
+    {
+      "file": "CAD/stl/hardware/MG996R.stl",
+      "bytes": 907984,
+      "sha256": "089f88404eab0fd3e301e8e0e5180fcd7d8d3220ebead09939fba9251f7f17fb"
+    },
+    {
+      "file": "CAD/stl/hardware/battery.stl",
+      "bytes": 80684,
+      "sha256": "87faf771e49f441d5c2b4a5004b542db015b74e288520178fca3bafb28acccf2"
+    },
+    {
+      "file": "CAD/stl/hardware/electronics.stl",
+      "bytes": 4844284,
+      "sha256": "07b45bafae5b076fc9e8f263cd2044ab66c0cbc37a7ceb8cf9385987790be5e4"
+    },
+    {
+      "file": "CAD/stl/parts/base.stl",
+      "bytes": 218684,
+      "sha256": "55cfcb7d1ae2665c8fccbedb58d84e6d64a58a019482cbfc3c52aac2687da510"
+    },
+    {
+      "file": "CAD/stl/parts/battery_mount.stl",
+      "bytes": 67884,
+      "sha256": "408e5d845c496afd45c72a8b60c6c50260fdea12aa722a2612a0bd747e286442"
+    },
+    {
+      "file": "CAD/stl/parts/bottom_stiffeners.stl",
+      "bytes": 329884,
+      "sha256": "f5097eb122a6d23e04bef6b0d07d9d32964f7b18cdc1f31caf8d45fd4d32a444"
+    },
+    {
+      "file": "CAD/stl/parts/bracket_A.stl",
+      "bytes": 88284,
+      "sha256": "70a74e910ab5ac45b42a248aa53bd59055077c664d75be09e8b60ef1d8c811be"
+    },
+    {
+      "file": "CAD/stl/parts/bracket_B.stl",
+      "bytes": 71084,
+      "sha256": "83cf44c475deb208805243f773cb74c5d904ae3ec69633b4d3846833911c3a4e"
+    },
+    {
+      "file": "CAD/stl/parts/femur.stl",
+      "bytes": 71484,
+      "sha256": "1d7ff962b445907b3485086f5995b82485b2b4977bbfe22d9a33e10dcba2dab7"
+    },
+    {
+      "file": "CAD/stl/parts/tibia.stl",
+      "bytes": 76984,
+      "sha256": "4c6e93a44b892200daafaf5ace3795b6ac3af3819d4232b272e0b3a73a7ea10d"
+    },
+    {
+      "file": "CAD/stl/parts/top_stiffeners.stl",
+      "bytes": 222984,
+      "sha256": "6c5d0b5cbba23d8e5505ad3d4928f9d67207aa170feb3ec6cd73d844856fbe30"
+    },
+    {
+      "file": "LICENSE.md",
+      "bytes": 14392,
+      "sha256": "e258a9c6833bfd17fb90252df8c33e29d13fabc2768508248927824c17878db7"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8237,
+      "sha256": "b375757e8c3f92e77d3d053c9ebbcb1f5cda89d76f71968d9acc5f78bf923b15"
+    },
+    {
+      "file": "hexapod.urdf",
+      "bytes": 113767,
+      "sha256": "93130c2cec1ec6349a1fef04cdb16ac5a96b1e7ff05737de432b483e816f03f2"
+    }
+  ]
+}

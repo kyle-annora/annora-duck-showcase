@@ -38,6 +38,15 @@ const project = {
     },
     {
       "manifest": "content/models/open-duck/manifest.json"
+    },
+    {
+      "manifest": "content/models/hexapod/manifest.json"
+    },
+    {
+      "manifest": "content/models/dropbear-arm/manifest.json"
+    },
+    {
+      "manifest": "content/models/dropbear/manifest.json"
     }
   ]
 };

@@ -1,8 +1,9 @@
-# Annora · Open Duck Showcase
+# Annora · Robot Showcase
 
 An independent assembly presentation built on the existing Annora Explorer.
-Open Duck Mini v2 is the subject: a compact, open-hardware robot with source-linked
-parts, sixteen revolute joints, a staggered exploded view and a 20-second tour.
+Open Duck Mini v2, Hexapod and Dropbear share one compact host, source-linked
+parts, staggered exploded views and individual 20-second presentations.
+The existing bare showcase URL continues to open Open Duck.
 
 **[Open the live showcase](https://kyle-annora.github.io/annora-duck-showcase/showcase/)** ·
 **[Open the full Explorer](https://kyle-annora.github.io/annora-duck-showcase/?model=open-duck)**
@@ -56,8 +57,8 @@ assets work under a repository subpath. See [deployment](docs/deployment.md).
 | Location | Responsibility |
 | --- | --- |
 | `showcase/`, `src/showcase/` | Compact presentation host; public JSON controller only |
-| `content/models/open-duck/` | Prepared model, semantic hierarchy, line data and authored tour |
-| `examples/open-duck/` | Pinned raw source, offline conversion, mappings and provenance reports |
+| `content/showcases/`, `content/models/` | Showcase registry and prepared models, hierarchy, lines and authored tours |
+| `examples/open-duck/`, `examples/hexapod/`, `examples/dropbear/` | Pinned raw sources, offline conversion, mappings and provenance |
 | `src/explorer/` | Shared renderer, animation and host controller |
 | `export/`, `src/showcase-export/` | Offline, fixed-frame media authoring using the same scene and tour |
 | `docs/open-duck-showcase-plan.md` | Approved reference lock, scope and acceptance gates |
@@ -73,11 +74,30 @@ renders at a fixed 30 fps. Keep that tab visible during capture. It exports PNGs
 and a silent VP8/WebM film through the browser; it is an authoring utility, not a
 second production player.
 
-## Planned robot expansion
+## Three robot studies
 
-The [Hexapod and Dropbear expansion plan](docs/robot-showcase-expansion-plan.md)
-sets the next model sequence, shared-host changes, mechanical constraints and
-acceptance gates. These robots are planned; the live showcase remains Open Duck.
+| Study | Interactive presentation | Source preparation |
+| --- | --- | --- |
+| Open Duck Mini v2 | [Open Duck](https://kyle-annora.github.io/annora-duck-showcase/showcase/?model=open-duck) | [Source package](examples/open-duck/) |
+| Hexapod | [Hexapod](https://kyle-annora.github.io/annora-duck-showcase/showcase/?model=hexapod) | [Source package](examples/hexapod/) |
+| Dropbear | [Dropbear](https://kyle-annora.github.io/annora-duck-showcase/showcase/?model=dropbear) | [Source package](examples/dropbear/) |
+
+The compact identity selector switches robots without mixing scene state. Viewer
+preferences carry across; selection, isolation, operation and tour state reset.
+Unknown model IDs show an explicit error. Film, GIF, keyframes and offline export
+use the same registry and an explicit matching model/tour pair.
+
+`content/showcases/registry.json` owns presentation identity and media paths.
+Prepared packages own hierarchy, motion and tour cameras. The shared controller
+exposes authored chapter titles and captions without exposing scene internals.
+Run `node scripts/check-showcases.mjs --release` to require matching media before
+publication. [Expansion plan](docs/robot-showcase-expansion-plan.md) ·
+[Expansion delivery and checks](docs/robot-showcase-expansion-delivery.md).
+
+Hexapod performs one illustrative leg reach and return. Dropbear only swivels the
+whole left-shoulder subtree, holding internal joints fixed; recorded loop closures
+are preserved as source evidence, not solved dynamically. No walking, balance,
+force, rated-speed or validated collision simulation is claimed.
 
 ## Reuse and source
 
