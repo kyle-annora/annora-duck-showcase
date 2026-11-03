@@ -297,6 +297,8 @@ async function choose(search, { historyMode } = {}) {
   catch (error) {
     await sessions.close(); if (version !== selectionVersion) return; $('explorer-mount').replaceChildren(); resetShell(SHOWCASES.find(item => item.id === SHOWCASE_REGISTRY.defaultShowcaseId));
     $('showcase-title').textContent = 'Choose a robot'; $('showcase-version').textContent = ''; $('showcase-select').value = ''; $('selected-title').textContent = 'No robot selected'; $('selected-description').textContent = 'Choose a robot from the model selector.';
+    $('study-label').textContent = 'ASSEMBLY STUDY / —'; $('transport-label').textContent = 'SHOWCASE'; $('transport-state').textContent = 'Choose a robot';
+    $('model-stage').setAttribute('aria-label', 'Assembly unavailable');
     $('connection-message').textContent = error.message; $('retry').hidden = true; $('source-link').hidden = true; $('media-link').hidden = true; $('view-status').textContent = 'Choose a robot'; $('beat-title').textContent = 'Choose a robot.'; $('beat-description').textContent = 'Select an available assembly to begin exploring.'; document.title = 'Choose a robot · Annora Showcase'; message(error.message,true); drawControls(); return;
   }
   if (historyMode) { const url = new URL(location.href); url.searchParams.set('model',showcase.id); history[historyMode === 'push' ? 'pushState' : 'replaceState'](null,'',url); }
